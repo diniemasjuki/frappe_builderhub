@@ -2,7 +2,6 @@
  "authenticated_access": 0,
  "blocks": [
   {
-   "attributes": {},
    "baseStyles": {
     "alignItems": "center",
     "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
@@ -18,255 +17,83 @@
    "blockName": "Page",
    "children": [
     {
-     "attributes": {},
-     "baseStyles": {},
-     "blockId": "4daf28decc",
+     "blockId": "0d7f4bc845",
      "blockName": "Navbar",
      "children": [
       {
-       "attributes": {},
-       "baseStyles": {},
-       "blockId": "323f21d186",
-       "blockName": "Header Container",
+       "blockId": "ed809b6fd7",
        "children": [
         {
-         "attributes": {},
-         "baseStyles": {},
-         "blockId": "bc367fc49f",
-         "blockName": "Header Row",
+         "blockId": "23aafe8818",
          "children": [
           {
-           "attributes": {},
-           "baseStyles": {},
-           "blockId": "a43b9d69fa",
-           "blockName": "Brand",
+           "blockId": "13dcadb70d",
            "children": [
             {
-             "attributes": {},
-             "baseStyles": {},
-             "blockId": "dec9c374a8",
-             "blockName": "Brand Mark",
+             "blockId": "a57e624500",
              "children": [
               {
-               "attributes": {},
-               "baseStyles": {},
-               "blockId": "e977cde1ed",
-               "blockName": "Mark Icon",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
+               "blockId": "36d12d0807",
                "isChildOfComponent": "commit_navbar",
-               "mobileStyles": {},
-               "originalElement": "__raw_html__",
-               "rawStyles": {},
-               "referenceBlockId": "0fc1f42b82",
-               "tabletStyles": {}
+               "referenceBlockId": "e5e473367f"
               }
              ],
-             "classes": [],
-             "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "eb90bb710c",
-             "tabletStyles": {}
+             "referenceBlockId": "f169dca8c9"
             },
             {
-             "attributes": {},
-             "baseStyles": {},
-             "blockId": "89d1b6425c",
-             "blockName": "Wordmark",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
+             "blockId": "f4e54f1d8b",
              "isChildOfComponent": "commit_navbar",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "38521d2ef7",
-             "tabletStyles": {}
+             "referenceBlockId": "3e3d06df5e"
             }
            ],
-           "classes": [],
-           "customAttributes": {},
            "isChildOfComponent": "commit_navbar",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "referenceBlockId": "3bcb49ebe0",
-           "tabletStyles": {}
+           "referenceBlockId": "916f28c31b"
           },
           {
-           "attributes": {},
-           "baseStyles": {},
-           "blockId": "a1cb051ef2",
-           "blockName": "Primary Nav",
+           "blockId": "f3da127e4f",
            "children": [
             {
-             "attributes": {},
-             "baseStyles": {},
-             "blockId": "f5f7e480a2",
-             "blockName": "Nav · Home",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
+             "blockId": "cf2211b5bf",
              "isChildOfComponent": "commit_navbar",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "74d23c3c27",
-             "tabletStyles": {}
+             "referenceBlockId": "279649472c"
             },
             {
-             "attributes": {},
-             "baseStyles": {},
-             "blockId": "0b74f8cf7c",
-             "blockName": "Nav · Speakers",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
+             "blockId": "7e1168f2f8",
              "isChildOfComponent": "commit_navbar",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "ef2fb8616b",
-             "tabletStyles": {}
+             "referenceBlockId": "cb5dfa5da0"
             },
             {
-             "attributes": {},
-             "baseStyles": {},
-             "blockId": "0d77935928",
-             "blockName": "Nav · Schedule",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
+             "blockId": "2cbaed9aaf",
              "isChildOfComponent": "commit_navbar",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "3f56a9ff5e",
-             "tabletStyles": {}
+             "referenceBlockId": "ee7c5c5a76"
             },
             {
-             "attributes": {},
-             "baseStyles": {},
-             "blockId": "57ccb4908b",
-             "blockName": "Nav · Tickets",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
+             "blockId": "2f72c45b47",
              "isChildOfComponent": "commit_navbar",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "664311d0b6",
-             "tabletStyles": {}
+             "referenceBlockId": "cbdab10222"
             }
            ],
-           "classes": [],
-           "customAttributes": {},
            "isChildOfComponent": "commit_navbar",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "referenceBlockId": "99893715eb",
-           "tabletStyles": {}
+           "referenceBlockId": "0055c13860"
           },
           {
-           "attributes": {},
-           "baseStyles": {},
-           "blockId": "2f53594107",
-           "blockName": "Nav Actions",
-           "children": [
-            {
-             "attributes": {},
-             "baseStyles": {},
-             "blockId": "aec334aa6d",
-             "blockName": "Theme Toggle",
-             "children": [
-              {
-               "attributes": {},
-               "baseStyles": {},
-               "blockId": "f449166a2a",
-               "blockName": "Theme · Sun",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
-               "isChildOfComponent": "commit_navbar",
-               "mobileStyles": {},
-               "originalElement": "__raw_html__",
-               "rawStyles": {},
-               "referenceBlockId": "cb76491718",
-               "tabletStyles": {}
-              },
-              {
-               "attributes": {},
-               "baseStyles": {},
-               "blockId": "e0761cec05",
-               "blockName": "Theme · Moon",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
-               "isChildOfComponent": "commit_navbar",
-               "mobileStyles": {},
-               "originalElement": "__raw_html__",
-               "rawStyles": {},
-               "referenceBlockId": "c4f4ba9b2d",
-               "tabletStyles": {}
-              }
-             ],
-             "classes": [],
-             "customAttributes": {},
-             "isChildOfComponent": "commit_navbar",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "c3fda509ec",
-             "tabletStyles": {}
-            },
-            {
-             "attributes": {},
-             "baseStyles": {},
-             "blockId": "58f04fbf0b",
-             "blockName": "Nav CTA",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "isChildOfComponent": "commit_navbar",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "14a3dec2d9",
-             "tabletStyles": {}
-            }
-           ],
-           "classes": [],
-           "customAttributes": {},
+           "blockId": "b9918c9ed0",
            "isChildOfComponent": "commit_navbar",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "referenceBlockId": "c8c9b874f4",
-           "tabletStyles": {}
+           "referenceBlockId": "7bbcaacad9"
           }
          ],
-         "classes": [],
-         "customAttributes": {},
          "isChildOfComponent": "commit_navbar",
-         "mobileStyles": {},
-         "rawStyles": {},
-         "referenceBlockId": "15230846ee",
-         "tabletStyles": {}
+         "referenceBlockId": "e7d0d091fb"
         }
        ],
-       "classes": [],
-       "customAttributes": {},
        "isChildOfComponent": "commit_navbar",
-       "mobileStyles": {},
-       "rawStyles": {},
-       "referenceBlockId": "cd0ed5ccde",
-       "tabletStyles": {}
+       "referenceBlockId": "a7cabf9f08"
       }
      ],
-     "classes": [],
-     "customAttributes": {},
-     "extendedFromComponent": "commit_navbar",
-     "mobileStyles": {},
-     "rawStyles": {},
-     "tabletStyles": {}
+     "extendedFromComponent": "commit_navbar"
     },
     {
-     "attributes": {},
      "baseStyles": {
       "alignItems": "center",
       "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
@@ -279,11 +106,10 @@
       "position": "relative",
       "width": "100%"
      },
-     "blockId": "0f4165d155",
+     "blockId": "c9eb683379",
      "blockName": "Section · Hero",
      "children": [
       {
-       "attributes": {},
        "baseStyles": {
         "display": "flex",
         "flexDirection": "column",
@@ -297,19 +123,12 @@
         "top": "0px",
         "width": "100%"
        },
-       "blockId": "e0cd3352ed",
+       "blockId": "8032f1d201",
        "blockName": "Hero Blobs",
-       "children": [],
-       "classes": [],
-       "customAttributes": {},
        "element": "div",
-       "innerHTML": "<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 1200 640\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\"><defs><radialGradient id=\"cb1\"><stop offset=\"0%\" stop-color=\"#7C3AED\" stop-opacity=\"0.30\"/><stop offset=\"100%\" stop-color=\"#7C3AED\" stop-opacity=\"0\"/></radialGradient><radialGradient id=\"cb2\"><stop offset=\"0%\" stop-color=\"#EC4899\" stop-opacity=\"0.26\"/><stop offset=\"100%\" stop-color=\"#EC4899\" stop-opacity=\"0\"/></radialGradient><radialGradient id=\"cb3\"><stop offset=\"0%\" stop-color=\"#F59E0B\" stop-opacity=\"0.24\"/><stop offset=\"100%\" stop-color=\"#F59E0B\" stop-opacity=\"0\"/></radialGradient></defs><circle class=\"commit-blob\" cx=\"250\" cy=\"210\" r=\"300\" fill=\"url(#cb1)\"/><circle class=\"commit-blob-slow\" cx=\"950\" cy=\"170\" r=\"280\" fill=\"url(#cb2)\"/><circle class=\"commit-blob\" cx=\"640\" cy=\"470\" r=\"320\" fill=\"url(#cb3)\"/></svg>",
-       "mobileStyles": {},
-       "rawStyles": {},
-       "tabletStyles": {}
+       "innerHTML": "<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 1200 640\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\"><defs><radialGradient id=\"cb1\"><stop offset=\"0%\" stop-color=\"#7C3AED\" stop-opacity=\"0.30\"/><stop offset=\"100%\" stop-color=\"#7C3AED\" stop-opacity=\"0\"/></radialGradient><radialGradient id=\"cb2\"><stop offset=\"0%\" stop-color=\"#EC4899\" stop-opacity=\"0.26\"/><stop offset=\"100%\" stop-color=\"#EC4899\" stop-opacity=\"0\"/></radialGradient><radialGradient id=\"cb3\"><stop offset=\"0%\" stop-color=\"#F59E0B\" stop-opacity=\"0.24\"/><stop offset=\"100%\" stop-color=\"#F59E0B\" stop-opacity=\"0\"/></radialGradient></defs><circle class=\"commit-blob\" cx=\"250\" cy=\"210\" r=\"300\" fill=\"url(#cb1)\"/><circle class=\"commit-blob-slow\" cx=\"950\" cy=\"170\" r=\"280\" fill=\"url(#cb2)\"/><circle class=\"commit-blob\" cx=\"640\" cy=\"470\" r=\"320\" fill=\"url(#cb3)\"/></svg>"
       },
       {
-       "attributes": {},
        "baseStyles": {
         "display": "flex",
         "flexDirection": "column",
@@ -324,11 +143,10 @@
         "width": "100%",
         "zIndex": "1"
        },
-       "blockId": "636e72358f",
+       "blockId": "dcb814dd09",
        "blockName": "Hero Container",
        "children": [
         {
-         "attributes": {},
          "baseStyles": {
           "alignItems": "center",
           "display": "flex",
@@ -340,11 +158,10 @@
           "width": "100%",
           "zIndex": "1"
          },
-         "blockId": "cdf790bd06",
+         "blockId": "98989eabc2",
          "blockName": "Hero Stack",
          "children": [
           {
-           "attributes": {},
            "baseStyles": {
             "alignItems": "center",
             "backgroundColor": "var(--c27ad2fa-eafc-4b58-aa00-73bc26490da3, #F3EEFF)",
@@ -360,11 +177,10 @@
             "paddingTop": "7px",
             "width": "fit-content"
            },
-           "blockId": "2198073936",
+           "blockId": "6c95500889",
            "blockName": "Badge",
            "children": [
             {
-             "attributes": {},
              "baseStyles": {
               "display": "flex",
               "flexDirection": "column",
@@ -372,19 +188,12 @@
               "lineHeight": "0",
               "overflow": "hidden"
              },
-             "blockId": "1718958829",
+             "blockId": "d08973a794",
              "blockName": "Badge Sparkle",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "div",
-             "innerHTML": "<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "innerHTML": "<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
             },
             {
-             "attributes": {},
              "baseStyles": {
               "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
               "fontFamily": "Inter",
@@ -395,27 +204,15 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "d5ee6dcf9f",
+             "blockId": "54d2325ddc",
              "blockName": "Badge Text",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "span",
-             "innerHTML": "Oct 15-16, 2026 · Lisbon + online",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "innerHTML": "Oct 15–16, 2026 · Lisbon + online"
             }
            ],
-           "classes": [],
-           "customAttributes": {},
-           "element": "div",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "element": "div"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "alignItems": "center",
             "display": "flex",
@@ -424,11 +221,10 @@
             "gap": "2px",
             "overflow": "hidden"
            },
-           "blockId": "1f0402ac22",
+           "blockId": "34564a905c",
            "blockName": "Hero Headline",
            "children": [
             {
-             "attributes": {},
              "baseStyles": {
               "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
               "fontFamily": "Bricolage Grotesque",
@@ -441,21 +237,15 @@
               "textAlign": "center",
               "width": "fit-content"
              },
-             "blockId": "ec0d105166",
+             "blockId": "811943ec24",
              "blockName": "Hero Title 1",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "h1",
              "innerHTML": "Two days of code,",
              "mobileStyles": {
               "fontSize": "40px"
-             },
-             "rawStyles": {},
-             "tabletStyles": {}
+             }
             },
             {
-             "attributes": {},
              "baseStyles": {
               "WebkitBackgroundClip": "text",
               "WebkitTextFillColor": "transparent",
@@ -472,29 +262,18 @@
               "textAlign": "center",
               "width": "fit-content"
              },
-             "blockId": "8eda24d831",
+             "blockId": "831eb21b8e",
              "blockName": "Hero Title 2",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "h1",
              "innerHTML": "craft &amp; caffeine.",
              "mobileStyles": {
               "fontSize": "40px"
-             },
-             "rawStyles": {},
-             "tabletStyles": {}
+             }
             }
            ],
-           "classes": [],
-           "customAttributes": {},
-           "element": "div",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "element": "div"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
             "fontFamily": "Inter",
@@ -506,19 +285,12 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "ea90634104",
+           "blockId": "d50966aee2",
            "blockName": "Hero Subtitle",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "p",
-           "innerHTML": "Commit is a single-track conference for people who build for the web - 30 talks, 8 workshops, and one legendary afterparty.",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "Commit is a single-track conference for people who build for the web — 30 talks, 8 workshops, and one legendary afterparty."
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "row",
@@ -529,12 +301,12 @@
             "marginTop": "8px",
             "overflow": "hidden"
            },
-           "blockId": "89749933d9",
+           "blockId": "974f7799e9",
            "blockName": "Hero Actions",
            "children": [
             {
              "attributes": {
-              "href": "tickets"
+              "href": "/tickets"
              },
              "baseStyles": {
               "alignItems": "center",
@@ -557,23 +329,18 @@
               "textDecoration": "none",
               "width": "fit-content"
              },
-             "blockId": "03d4fd5485",
+             "blockId": "cbaddfd201",
              "blockName": "Hero CTA",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "a",
              "innerHTML": "Get tickets",
-             "mobileStyles": {},
              "rawStyles": {
               "hover:opacity": "0.88",
               "transition": "opacity 0.15s ease-out"
-             },
-             "tabletStyles": {}
+             }
             },
             {
              "attributes": {
-              "href": "schedule"
+              "href": "/schedule"
              },
              "baseStyles": {
               "alignItems": "center",
@@ -599,30 +366,19 @@
               "textDecoration": "none",
               "width": "fit-content"
              },
-             "blockId": "eeba70e0cf",
+             "blockId": "b956c74497",
              "blockName": "Hero Secondary",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "a",
              "innerHTML": "See the schedule",
-             "mobileStyles": {},
              "rawStyles": {
               "hover:borderColor": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
               "transition": "border-color 0.15s ease-out"
-             },
-             "tabletStyles": {}
+             }
             }
            ],
-           "classes": [],
-           "customAttributes": {},
-           "element": "div",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "element": "div"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "row",
@@ -633,11 +389,10 @@
             "marginTop": "26px",
             "overflow": "hidden"
            },
-           "blockId": "e4bdd1830e",
+           "blockId": "a90ecbf681",
            "blockName": "Countdown",
            "children": [
             {
-             "attributes": {},
              "baseStyles": {
               "alignItems": "center",
               "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
@@ -655,11 +410,10 @@
               "paddingBottom": "14px",
               "paddingTop": "16px"
              },
-             "blockId": "f7031be9c7",
+             "blockId": "a38fe96bd7",
              "blockName": "Tile · days",
              "children": [
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
                 "fontFamily": "Bricolage Grotesque",
@@ -670,21 +424,15 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "184073f13b",
+               "blockId": "0af82453f7",
                "blockName": "Value · days",
-               "children": [],
-               "classes": [],
                "customAttributes": {
                 "data-unit": "days"
                },
                "element": "span",
-               "innerHTML": "00",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "00"
               },
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
                 "fontFamily": "Inter",
@@ -697,27 +445,15 @@
                 "textTransform": "uppercase",
                 "width": "fit-content"
                },
-               "blockId": "f04f02f014",
+               "blockId": "15cf897806",
                "blockName": "Label · days",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "span",
-               "innerHTML": "days",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "days"
               }
              ],
-             "classes": [],
-             "customAttributes": {},
-             "element": "div",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "element": "div"
             },
             {
-             "attributes": {},
              "baseStyles": {
               "alignItems": "center",
               "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
@@ -735,11 +471,10 @@
               "paddingBottom": "14px",
               "paddingTop": "16px"
              },
-             "blockId": "9fe7b79841",
+             "blockId": "2922e130c2",
              "blockName": "Tile · hours",
              "children": [
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
                 "fontFamily": "Bricolage Grotesque",
@@ -750,21 +485,15 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "2d73a48115",
+               "blockId": "396deae178",
                "blockName": "Value · hours",
-               "children": [],
-               "classes": [],
                "customAttributes": {
                 "data-unit": "hours"
                },
                "element": "span",
-               "innerHTML": "00",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "00"
               },
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
                 "fontFamily": "Inter",
@@ -777,27 +506,15 @@
                 "textTransform": "uppercase",
                 "width": "fit-content"
                },
-               "blockId": "09ecd4fe06",
+               "blockId": "2a00ef8ead",
                "blockName": "Label · hours",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "span",
-               "innerHTML": "hours",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "hours"
               }
              ],
-             "classes": [],
-             "customAttributes": {},
-             "element": "div",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "element": "div"
             },
             {
-             "attributes": {},
              "baseStyles": {
               "alignItems": "center",
               "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
@@ -815,11 +532,10 @@
               "paddingBottom": "14px",
               "paddingTop": "16px"
              },
-             "blockId": "024ddbe059",
+             "blockId": "2f36b756c9",
              "blockName": "Tile · minutes",
              "children": [
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
                 "fontFamily": "Bricolage Grotesque",
@@ -830,21 +546,15 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "deba792596",
+               "blockId": "5194e0b976",
                "blockName": "Value · minutes",
-               "children": [],
-               "classes": [],
                "customAttributes": {
                 "data-unit": "minutes"
                },
                "element": "span",
-               "innerHTML": "00",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "00"
               },
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
                 "fontFamily": "Inter",
@@ -857,27 +567,15 @@
                 "textTransform": "uppercase",
                 "width": "fit-content"
                },
-               "blockId": "c312e21043",
+               "blockId": "3e276e0bf9",
                "blockName": "Label · minutes",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "span",
-               "innerHTML": "minutes",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "minutes"
               }
              ],
-             "classes": [],
-             "customAttributes": {},
-             "element": "div",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "element": "div"
             },
             {
-             "attributes": {},
              "baseStyles": {
               "alignItems": "center",
               "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
@@ -895,11 +593,10 @@
               "paddingBottom": "14px",
               "paddingTop": "16px"
              },
-             "blockId": "ee09fc4334",
+             "blockId": "9e279e3233",
              "blockName": "Tile · seconds",
              "children": [
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
                 "fontFamily": "Bricolage Grotesque",
@@ -910,21 +607,15 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "3b53b52154",
+               "blockId": "80aae8f482",
                "blockName": "Value · seconds",
-               "children": [],
-               "classes": [],
                "customAttributes": {
                 "data-unit": "seconds"
                },
                "element": "span",
-               "innerHTML": "00",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "00"
               },
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
                 "fontFamily": "Inter",
@@ -937,61 +628,30 @@
                 "textTransform": "uppercase",
                 "width": "fit-content"
                },
-               "blockId": "915cbf2c39",
+               "blockId": "16411a150b",
                "blockName": "Label · seconds",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "span",
-               "innerHTML": "seconds",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "seconds"
               }
              ],
-             "classes": [],
-             "customAttributes": {},
-             "element": "div",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "element": "div"
             }
            ],
-           "classes": [],
            "customAttributes": {
             "data-countdown": "2026-10-15T09:00:00"
            },
-           "element": "div",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "element": "div"
           }
          ],
-         "classes": [],
-         "customAttributes": {},
-         "element": "div",
-         "mobileStyles": {},
-         "rawStyles": {},
-         "tabletStyles": {}
+         "element": "div"
         }
        ],
-       "classes": [],
-       "customAttributes": {},
-       "element": "div",
-       "mobileStyles": {},
-       "rawStyles": {},
-       "tabletStyles": {}
+       "element": "div"
       }
      ],
-     "classes": [],
-     "customAttributes": {},
-     "element": "div",
-     "mobileStyles": {},
-     "rawStyles": {},
-     "tabletStyles": {}
+     "element": "div"
     },
     {
-     "attributes": {},
      "baseStyles": {
       "alignItems": "center",
       "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
@@ -1002,11 +662,10 @@
       "paddingBottom": "72px",
       "width": "100%"
      },
-     "blockId": "7e8ba1d07c",
+     "blockId": "38018f885f",
      "blockName": "Section · Marquee",
      "children": [
       {
-       "attributes": {},
        "baseStyles": {
         "display": "flex",
         "flexDirection": "row",
@@ -1014,11 +673,10 @@
         "overflow": "hidden",
         "width": "100%"
        },
-       "blockId": "40ee116143",
+       "blockId": "c34c00db2c",
        "blockName": "Marquee Clip",
        "children": [
         {
-         "attributes": {},
          "baseStyles": {
           "alignItems": "center",
           "display": "flex",
@@ -1028,11 +686,10 @@
           "overflow": "hidden",
           "width": "fit-content"
          },
-         "blockId": "73eef19ba2",
+         "blockId": "287afc2ad2",
          "blockName": "Marquee Track",
          "children": [
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
             "fontFamily": "Bricolage Grotesque",
@@ -1044,19 +701,12 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "605a625c62",
+           "blockId": "85f520d575",
            "blockName": "Sponsor · Vercel",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "span",
-           "innerHTML": "Vercel",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "Vercel"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "column",
@@ -1065,19 +715,12 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "fef1ee346f",
+           "blockId": "f0e082b24d",
            "blockName": "Star · Vercel",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "div",
-           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
             "fontFamily": "Bricolage Grotesque",
@@ -1089,19 +732,12 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "9c0c9b0cff",
+           "blockId": "d84c8bd395",
            "blockName": "Sponsor · Supabase",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "span",
-           "innerHTML": "Supabase",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "Supabase"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "column",
@@ -1110,19 +746,12 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "efa5ac22db",
+           "blockId": "5437342d53",
            "blockName": "Star · Supabase",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "div",
-           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
             "fontFamily": "Bricolage Grotesque",
@@ -1134,19 +763,12 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "7549935caf",
+           "blockId": "8a4513d63a",
            "blockName": "Sponsor · Railway",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "span",
-           "innerHTML": "Railway",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "Railway"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "column",
@@ -1155,19 +777,12 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "a0f95b59b8",
+           "blockId": "412176cf59",
            "blockName": "Star · Railway",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "div",
-           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
             "fontFamily": "Bricolage Grotesque",
@@ -1179,19 +794,12 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "e7bd2f98e9",
+           "blockId": "cb082801f2",
            "blockName": "Sponsor · Frappe",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "span",
-           "innerHTML": "Frappe",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "Frappe"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "column",
@@ -1200,19 +808,12 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "a37bbd0d8b",
+           "blockId": "e09b60d8b7",
            "blockName": "Star · Frappe",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "div",
-           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
             "fontFamily": "Bricolage Grotesque",
@@ -1224,19 +825,12 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "fef69fdddf",
+           "blockId": "39efa74bb1",
            "blockName": "Sponsor · Posthog",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "span",
-           "innerHTML": "Posthog",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "Posthog"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "column",
@@ -1245,19 +839,12 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "8dbb6c62bb",
+           "blockId": "74581c14d6",
            "blockName": "Star · Posthog",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "div",
-           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
             "fontFamily": "Bricolage Grotesque",
@@ -1269,19 +856,12 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "dd32faf66e",
+           "blockId": "b92f4bd41e",
            "blockName": "Sponsor · Sentry",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "span",
-           "innerHTML": "Sentry",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "Sentry"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "column",
@@ -1290,19 +870,12 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "359cf56d19",
+           "blockId": "81e1779304",
            "blockName": "Star · Sentry",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "div",
-           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
             "fontFamily": "Bricolage Grotesque",
@@ -1314,19 +887,12 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "9cd2aeeb30",
+           "blockId": "57f4d79678",
            "blockName": "Sponsor · Resend",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "span",
-           "innerHTML": "Resend",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "Resend"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "column",
@@ -1335,19 +901,12 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "308cb4aa38",
+           "blockId": "61dc2ecbe9",
            "blockName": "Star · Resend",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "div",
-           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
             "fontFamily": "Bricolage Grotesque",
@@ -1359,19 +918,12 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "7fee058ddf",
+           "blockId": "20bc690df3",
            "blockName": "Sponsor · Linear",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "span",
-           "innerHTML": "Linear",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "Linear"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "column",
@@ -1380,19 +932,12 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "56998fc3df",
+           "blockId": "bdf4f681be",
            "blockName": "Star · Linear",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "div",
-           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
             "fontFamily": "Bricolage Grotesque",
@@ -1404,19 +949,12 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "69f8f4153d",
+           "blockId": "61b2c3fa2a",
            "blockName": "Sponsor · Vercel",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "span",
-           "innerHTML": "Vercel",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "Vercel"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "column",
@@ -1425,19 +963,12 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "857ea9406e",
+           "blockId": "21177eedc0",
            "blockName": "Star · Vercel",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "div",
-           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
             "fontFamily": "Bricolage Grotesque",
@@ -1449,19 +980,12 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "aca7776555",
+           "blockId": "4601e0ca5d",
            "blockName": "Sponsor · Supabase",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "span",
-           "innerHTML": "Supabase",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "Supabase"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "column",
@@ -1470,19 +994,12 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "9859177e07",
+           "blockId": "bb213a214b",
            "blockName": "Star · Supabase",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "div",
-           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
             "fontFamily": "Bricolage Grotesque",
@@ -1494,19 +1011,12 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "f3706cb335",
+           "blockId": "adda991048",
            "blockName": "Sponsor · Railway",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "span",
-           "innerHTML": "Railway",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "Railway"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "column",
@@ -1515,19 +1025,12 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "6ac7f5b371",
+           "blockId": "e262b0c43b",
            "blockName": "Star · Railway",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "div",
-           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
             "fontFamily": "Bricolage Grotesque",
@@ -1539,19 +1042,12 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "18f0a8616a",
+           "blockId": "aae1eccef4",
            "blockName": "Sponsor · Frappe",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "span",
-           "innerHTML": "Frappe",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "Frappe"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "column",
@@ -1560,19 +1056,12 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "8409be97da",
+           "blockId": "3a9c67938e",
            "blockName": "Star · Frappe",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "div",
-           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
             "fontFamily": "Bricolage Grotesque",
@@ -1584,19 +1073,12 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "89a714991a",
+           "blockId": "a41bc9306c",
            "blockName": "Sponsor · Posthog",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "span",
-           "innerHTML": "Posthog",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "Posthog"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "column",
@@ -1605,19 +1087,12 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "3468f0c0a0",
+           "blockId": "faac29f94e",
            "blockName": "Star · Posthog",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "div",
-           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
             "fontFamily": "Bricolage Grotesque",
@@ -1629,19 +1104,12 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "482f3306d7",
+           "blockId": "d964c9ea9f",
            "blockName": "Sponsor · Sentry",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "span",
-           "innerHTML": "Sentry",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "Sentry"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "column",
@@ -1650,19 +1118,12 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "b7b2c29951",
+           "blockId": "6d03c10d48",
            "blockName": "Star · Sentry",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "div",
-           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
             "fontFamily": "Bricolage Grotesque",
@@ -1674,19 +1135,12 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "1ffdb3f6d5",
+           "blockId": "4200d836b3",
            "blockName": "Sponsor · Resend",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "span",
-           "innerHTML": "Resend",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "Resend"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "column",
@@ -1695,19 +1149,12 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "0afc8e922a",
+           "blockId": "7110f7eeed",
            "blockName": "Star · Resend",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "div",
-           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
             "fontFamily": "Bricolage Grotesque",
@@ -1719,19 +1166,12 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "7817864cb1",
+           "blockId": "025d496f4a",
            "blockName": "Sponsor · Linear",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "span",
-           "innerHTML": "Linear",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "Linear"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexDirection": "column",
@@ -1740,45 +1180,24 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "74b564b8bb",
+           "blockId": "50b32fc279",
            "blockName": "Star · Linear",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "div",
-           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "innerHTML": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
           }
          ],
          "classes": [
           "commit-marquee-track"
          ],
-         "customAttributes": {},
-         "element": "div",
-         "mobileStyles": {},
-         "rawStyles": {},
-         "tabletStyles": {}
+         "element": "div"
         }
        ],
-       "classes": [],
-       "customAttributes": {},
-       "element": "div",
-       "mobileStyles": {},
-       "rawStyles": {},
-       "tabletStyles": {}
+       "element": "div"
       }
      ],
-     "classes": [],
-     "customAttributes": {},
-     "element": "div",
-     "mobileStyles": {},
-     "rawStyles": {},
-     "tabletStyles": {}
+     "element": "div"
     },
     {
-     "attributes": {},
      "baseStyles": {
       "alignItems": "center",
       "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)",
@@ -1790,11 +1209,10 @@
       "paddingTop": "88px",
       "width": "100%"
      },
-     "blockId": "3f2493ce84",
+     "blockId": "656dd5e35d",
      "blockName": "Section · Highlights",
      "children": [
       {
-       "attributes": {},
        "baseStyles": {
         "display": "flex",
         "flexDirection": "column",
@@ -1807,11 +1225,10 @@
         "paddingRight": "28px",
         "width": "100%"
        },
-       "blockId": "1e8149f22b",
+       "blockId": "6d4b277814",
        "blockName": "Highlights Container",
        "children": [
         {
-         "attributes": {},
          "baseStyles": {
           "alignItems": "center",
           "display": "flex",
@@ -1824,11 +1241,10 @@
           "maxWidth": "680px",
           "overflow": "hidden"
          },
-         "blockId": "cd6fcc6d29",
+         "blockId": "7ec63af400",
          "blockName": "Section Head",
          "children": [
           {
-           "attributes": {},
            "baseStyles": {
             "alignItems": "center",
             "backgroundColor": "var(--c27ad2fa-eafc-4b58-aa00-73bc26490da3, #F3EEFF)",
@@ -1845,11 +1261,10 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "03ce9eb295",
+           "blockId": "8812bf8160",
            "blockName": "Badge",
            "children": [
             {
-             "attributes": {},
              "baseStyles": {
               "display": "flex",
               "flexDirection": "column",
@@ -1857,19 +1272,12 @@
               "lineHeight": "0",
               "overflow": "hidden"
              },
-             "blockId": "d18a6b5006",
+             "blockId": "bfb9fd9b08",
              "blockName": "Badge Sparkle",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "div",
-             "innerHTML": "<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "innerHTML": "<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
             },
             {
-             "attributes": {},
              "baseStyles": {
               "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
               "fontFamily": "Inter",
@@ -1880,27 +1288,15 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "1142e29f84",
+             "blockId": "2fa829bcb7",
              "blockName": "Badge Text",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "span",
-             "innerHTML": "Why Commit",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "innerHTML": "Why Commit"
             }
            ],
-           "classes": [],
-           "customAttributes": {},
-           "element": "div",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "element": "div"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
             "fontFamily": "Bricolage Grotesque",
@@ -1913,29 +1309,18 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "6887e2c6a5",
+           "blockId": "7ab98185ee",
            "blockName": "Section Title",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "h2",
            "innerHTML": "A conference that<br>respects your time.",
            "mobileStyles": {
             "fontSize": "30px"
-           },
-           "rawStyles": {},
-           "tabletStyles": {}
+           }
           }
          ],
-         "classes": [],
-         "customAttributes": {},
-         "element": "div",
-         "mobileStyles": {},
-         "rawStyles": {},
-         "tabletStyles": {}
+         "element": "div"
         },
         {
-         "attributes": {},
          "baseStyles": {
           "display": "grid",
           "flexDirection": "column",
@@ -1945,11 +1330,10 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "69c007af85",
+         "blockId": "b78fe44588",
          "blockName": "Highlights Grid",
          "children": [
           {
-           "attributes": {},
            "baseStyles": {
             "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
             "borderColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
@@ -1964,11 +1348,10 @@
             "padding": "28px",
             "width": "100%"
            },
-           "blockId": "9f249e3319",
+           "blockId": "553ca2a4f8",
            "blockName": "Highlight · 30 talks, one track",
            "children": [
             {
-             "attributes": {},
              "baseStyles": {
               "alignItems": "center",
               "backgroundImage": "linear-gradient(135deg, var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED), var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899) 55%, var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B))",
@@ -1981,11 +1364,10 @@
               "overflow": "hidden",
               "width": "44px"
              },
-             "blockId": "c66cf837be",
+             "blockId": "91fcf951bc",
              "blockName": "Highlight Icon",
              "children": [
               {
-               "attributes": {},
                "baseStyles": {
                 "alignItems": "center",
                 "color": "#FFFFFF",
@@ -1998,27 +1380,14 @@
                 "minWidth": "0px",
                 "width": "fit-content"
                },
-               "blockId": "a6505b58ad",
+               "blockId": "d438d02609",
                "blockName": "Icon · mic",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
-               "element": "span",
-               "innerHTML": "<svg\n  class=\"lucide lucide-mic\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M12 19v3\" />\n  <path d=\"M19 10v2a7 7 0 0 1-14 0v-2\" />\n  <rect x=\"9\" y=\"2\" width=\"6\" height=\"13\" rx=\"3\" />\n</svg>\n",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "element": "span"
               }
              ],
-             "classes": [],
-             "customAttributes": {},
-             "element": "div",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "element": "div"
             },
             {
-             "attributes": {},
              "baseStyles": {
               "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
               "fontFamily": "Bricolage Grotesque",
@@ -2030,19 +1399,12 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "243fa3a5f1",
+             "blockId": "53816a3460",
              "blockName": "Highlight Title",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "h3",
-             "innerHTML": "30 talks, one track",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "innerHTML": "30 talks, one track"
             },
             {
-             "attributes": {},
              "baseStyles": {
               "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
               "fontFamily": "Inter",
@@ -2052,29 +1414,18 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "e09f7c92da",
+             "blockId": "20e614be27",
              "blockName": "Highlight Desc",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "p",
-             "innerHTML": "No FOMO, no room-hopping. Every talk is the main event - 25 minutes, zero sales pitches.",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "innerHTML": "No FOMO, no room-hopping. Every talk is the main event — 25 minutes, zero sales pitches."
             }
            ],
-           "classes": [],
            "customAttributes": {
             "data-reveal": ""
            },
-           "element": "div",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "element": "div"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
             "borderColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
@@ -2089,11 +1440,10 @@
             "padding": "28px",
             "width": "100%"
            },
-           "blockId": "d5f2b8980c",
+           "blockId": "1a114de046",
            "blockName": "Highlight · 8 hands-on workshops",
            "children": [
             {
-             "attributes": {},
              "baseStyles": {
               "alignItems": "center",
               "backgroundImage": "linear-gradient(135deg, var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED), var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899) 55%, var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B))",
@@ -2106,11 +1456,10 @@
               "overflow": "hidden",
               "width": "44px"
              },
-             "blockId": "05df59b445",
+             "blockId": "8a36ac7371",
              "blockName": "Highlight Icon",
              "children": [
               {
-               "attributes": {},
                "baseStyles": {
                 "alignItems": "center",
                 "color": "#FFFFFF",
@@ -2123,27 +1472,15 @@
                 "minWidth": "0px",
                 "width": "fit-content"
                },
-               "blockId": "a588cc6b23",
+               "blockId": "43da969320",
                "blockName": "Icon · wrench",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "span",
-               "innerHTML": "<svg\n  class=\"lucide lucide-wrench\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z\" />\n</svg>\n",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-wrench\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z\" />\n</svg>\n"
               }
              ],
-             "classes": [],
-             "customAttributes": {},
-             "element": "div",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "element": "div"
             },
             {
-             "attributes": {},
              "baseStyles": {
               "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
               "fontFamily": "Bricolage Grotesque",
@@ -2155,19 +1492,12 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "7634f0b2cb",
+             "blockId": "3dad12c645",
              "blockName": "Highlight Title",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "h3",
-             "innerHTML": "8 hands-on workshops",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "innerHTML": "8 hands-on workshops"
             },
             {
-             "attributes": {},
              "baseStyles": {
               "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
               "fontFamily": "Inter",
@@ -2177,29 +1507,18 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "77f3e60c67",
+             "blockId": "99427f41ff",
              "blockName": "Highlight Desc",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "p",
-             "innerHTML": "Half-day deep dives on day two: AI agents, design systems, performance, and more.",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "innerHTML": "Half-day deep dives on day two: AI agents, design systems, performance, and more."
             }
            ],
-           "classes": [],
            "customAttributes": {
             "data-reveal": ""
            },
-           "element": "div",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "element": "div"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
             "borderColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
@@ -2214,11 +1533,10 @@
             "padding": "28px",
             "width": "100%"
            },
-           "blockId": "fc9618a459",
+           "blockId": "d4b02e0902",
            "blockName": "Highlight · One legendary afterparty",
            "children": [
             {
-             "attributes": {},
              "baseStyles": {
               "alignItems": "center",
               "backgroundImage": "linear-gradient(135deg, var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED), var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899) 55%, var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B))",
@@ -2231,11 +1549,10 @@
               "overflow": "hidden",
               "width": "44px"
              },
-             "blockId": "198d85df35",
+             "blockId": "2df869ff3a",
              "blockName": "Highlight Icon",
              "children": [
               {
-               "attributes": {},
                "baseStyles": {
                 "alignItems": "center",
                 "color": "#FFFFFF",
@@ -2248,27 +1565,15 @@
                 "minWidth": "0px",
                 "width": "fit-content"
                },
-               "blockId": "bc9ea1ba11",
+               "blockId": "4afcadb41b",
                "blockName": "Icon · party-popper",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "span",
-               "innerHTML": "<svg\n  class=\"lucide lucide-party-popper\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M5.8 11.3 2 22l10.7-3.79\" />\n  <path d=\"M4 3h.01\" />\n  <path d=\"M22 8h.01\" />\n  <path d=\"M15 2h.01\" />\n  <path d=\"M22 20h.01\" />\n  <path d=\"m22 2-2.24.75a2.9 2.9 0 0 0-1.96 3.12c.1.86-.57 1.63-1.45 1.63h-.38c-.86 0-1.6.6-1.76 1.44L14 10\" />\n  <path d=\"m22 13-.82-.33c-.86-.34-1.82.2-1.98 1.11c-.11.7-.72 1.22-1.43 1.22H17\" />\n  <path d=\"m11 2 .33.82c.34.86-.2 1.82-1.11 1.98C9.52 4.9 9 5.52 9 6.23V7\" />\n  <path d=\"M11 13c1.93 1.93 2.83 4.17 2 5-.83.83-3.07-.07-5-2-1.93-1.93-2.83-4.17-2-5 .83-.83 3.07.07 5 2Z\" />\n</svg>\n",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-party-popper\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M5.8 11.3 2 22l10.7-3.79\" />\n  <path d=\"M4 3h.01\" />\n  <path d=\"M22 8h.01\" />\n  <path d=\"M15 2h.01\" />\n  <path d=\"M22 20h.01\" />\n  <path d=\"m22 2-2.24.75a2.9 2.9 0 0 0-1.96 3.12c.1.86-.57 1.63-1.45 1.63h-.38c-.86 0-1.6.6-1.76 1.44L14 10\" />\n  <path d=\"m22 13-.82-.33c-.86-.34-1.82.2-1.98 1.11c-.11.7-.72 1.22-1.43 1.22H17\" />\n  <path d=\"m11 2 .33.82c.34.86-.2 1.82-1.11 1.98C9.52 4.9 9 5.52 9 6.23V7\" />\n  <path d=\"M11 13c1.93 1.93 2.83 4.17 2 5-.83.83-3.07-.07-5-2-1.93-1.93-2.83-4.17-2-5 .83-.83 3.07.07 5 2Z\" />\n</svg>\n"
               }
              ],
-             "classes": [],
-             "customAttributes": {},
-             "element": "div",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "element": "div"
             },
             {
-             "attributes": {},
              "baseStyles": {
               "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
               "fontFamily": "Bricolage Grotesque",
@@ -2280,19 +1585,12 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "74803b90fa",
+             "blockId": "6f88a4ce1b",
              "blockName": "Highlight Title",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "h3",
-             "innerHTML": "One legendary afterparty",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "innerHTML": "One legendary afterparty"
             },
             {
-             "attributes": {},
              "baseStyles": {
               "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
               "fontFamily": "Inter",
@@ -2302,55 +1600,30 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "09ae1e2043",
+             "blockId": "226b3f40f0",
              "blockName": "Highlight Desc",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "p",
-             "innerHTML": "A converted factory by the river, live synthwave, and the best pastel de nata in town.",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "innerHTML": "A converted factory by the river, live synthwave, and the best pastel de nata in town."
             }
            ],
-           "classes": [],
            "customAttributes": {
             "data-reveal": ""
            },
-           "element": "div",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "element": "div"
           }
          ],
-         "classes": [],
-         "customAttributes": {},
          "element": "div",
          "mobileStyles": {
           "gridTemplateColumns": "1fr"
-         },
-         "rawStyles": {},
-         "tabletStyles": {}
+         }
         }
        ],
-       "classes": [],
-       "customAttributes": {},
-       "element": "div",
-       "mobileStyles": {},
-       "rawStyles": {},
-       "tabletStyles": {}
+       "element": "div"
       }
      ],
-     "classes": [],
-     "customAttributes": {},
-     "element": "div",
-     "mobileStyles": {},
-     "rawStyles": {},
-     "tabletStyles": {}
+     "element": "div"
     },
     {
-     "attributes": {},
      "baseStyles": {
       "alignItems": "center",
       "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
@@ -2362,11 +1635,10 @@
       "paddingTop": "88px",
       "width": "100%"
      },
-     "blockId": "525f54921b",
+     "blockId": "4ed84d254a",
      "blockName": "Section · Speakers",
      "children": [
       {
-       "attributes": {},
        "baseStyles": {
         "display": "flex",
         "flexDirection": "column",
@@ -2379,11 +1651,10 @@
         "paddingRight": "28px",
         "width": "100%"
        },
-       "blockId": "525a9774a4",
+       "blockId": "06792ea026",
        "blockName": "Speakers Container",
        "children": [
         {
-         "attributes": {},
          "baseStyles": {
           "alignItems": "center",
           "display": "flex",
@@ -2396,11 +1667,10 @@
           "maxWidth": "680px",
           "overflow": "hidden"
          },
-         "blockId": "7bade0a372",
+         "blockId": "fc60f16ff9",
          "blockName": "Section Head",
          "children": [
           {
-           "attributes": {},
            "baseStyles": {
             "alignItems": "center",
             "backgroundColor": "var(--c27ad2fa-eafc-4b58-aa00-73bc26490da3, #F3EEFF)",
@@ -2417,11 +1687,10 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "1cb462b882",
+           "blockId": "67e7f3be6f",
            "blockName": "Badge",
            "children": [
             {
-             "attributes": {},
              "baseStyles": {
               "display": "flex",
               "flexDirection": "column",
@@ -2429,19 +1698,12 @@
               "lineHeight": "0",
               "overflow": "hidden"
              },
-             "blockId": "97f8310c33",
+             "blockId": "70e85eb3f8",
              "blockName": "Badge Sparkle",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "div",
-             "innerHTML": "<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "innerHTML": "<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
             },
             {
-             "attributes": {},
              "baseStyles": {
               "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
               "fontFamily": "Inter",
@@ -2452,27 +1714,15 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "e7c1b402cd",
+             "blockId": "73b8c92ef2",
              "blockName": "Badge Text",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "span",
-             "innerHTML": "Lineup",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "innerHTML": "Lineup"
             }
            ],
-           "classes": [],
-           "customAttributes": {},
-           "element": "div",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "element": "div"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
             "fontFamily": "Bricolage Grotesque",
@@ -2485,29 +1735,18 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "ab2d326733",
+           "blockId": "083cd93dfe",
            "blockName": "Section Title",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "h2",
            "innerHTML": "First speakers,<br>now boarding.",
            "mobileStyles": {
             "fontSize": "30px"
-           },
-           "rawStyles": {},
-           "tabletStyles": {}
+           }
           }
          ],
-         "classes": [],
-         "customAttributes": {},
-         "element": "div",
-         "mobileStyles": {},
-         "rawStyles": {},
-         "tabletStyles": {}
+         "element": "div"
         },
         {
-         "attributes": {},
          "baseStyles": {
           "display": "grid",
           "flexDirection": "column",
@@ -2517,11 +1756,10 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "57784b4183",
+         "blockId": "a63a254dc5",
          "blockName": "Speakers Grid",
          "children": [
           {
-           "attributes": {},
            "baseStyles": {
             "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
             "borderColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
@@ -2536,7 +1774,7 @@
             "padding": "14px",
             "width": "100%"
            },
-           "blockId": "1a73d72922",
+           "blockId": "25856675e7",
            "blockName": "Speaker · Amara Chen",
            "children": [
             {
@@ -2551,18 +1789,11 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "2ee20b61b7",
+             "blockId": "c568350540",
              "blockName": "Speaker Photo",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "element": "img",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "element": "img"
             },
             {
-             "attributes": {},
              "baseStyles": {
               "display": "flex",
               "flexDirection": "column",
@@ -2573,11 +1804,10 @@
               "paddingLeft": "6px",
               "paddingRight": "6px"
              },
-             "blockId": "339cd255b3",
+             "blockId": "58fd02041d",
              "blockName": "Speaker Copy",
              "children": [
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
                 "fontFamily": "Bricolage Grotesque",
@@ -2589,19 +1819,12 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "c6e096bcc6",
+               "blockId": "493a203c82",
                "blockName": "Speaker Name",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "h3",
-               "innerHTML": "Amara Chen",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "Amara Chen"
               },
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
                 "fontFamily": "Inter",
@@ -2611,19 +1834,12 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "f3fd44b818",
+               "blockId": "0fa3dbb177",
                "blockName": "Speaker Role",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "p",
-               "innerHTML": "Staff Engineer, Vercel",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "Staff Engineer, Vercel"
               },
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
                 "fontFamily": "Inter",
@@ -2633,37 +1849,21 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "7324fe0570",
+               "blockId": "5507f10175",
                "blockName": "Speaker Talk",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "p",
-               "innerHTML": "&ldquo;The edge is a lie (a useful one)&rdquo;",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "&ldquo;The edge is a lie (a useful one)&rdquo;"
               }
              ],
-             "classes": [],
-             "customAttributes": {},
-             "element": "div",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "element": "div"
             }
            ],
-           "classes": [],
            "customAttributes": {
             "data-reveal": ""
            },
-           "element": "div",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "element": "div"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
             "borderColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
@@ -2678,7 +1878,7 @@
             "padding": "14px",
             "width": "100%"
            },
-           "blockId": "c40ca66ff2",
+           "blockId": "2cc710e781",
            "blockName": "Speaker · Diego Ferreira",
            "children": [
             {
@@ -2693,18 +1893,11 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "5420e5efaa",
+             "blockId": "c80ab9d02b",
              "blockName": "Speaker Photo",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "element": "img",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "element": "img"
             },
             {
-             "attributes": {},
              "baseStyles": {
               "display": "flex",
               "flexDirection": "column",
@@ -2715,11 +1908,10 @@
               "paddingLeft": "6px",
               "paddingRight": "6px"
              },
-             "blockId": "05b6f65b2e",
+             "blockId": "e3bdc61e86",
              "blockName": "Speaker Copy",
              "children": [
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
                 "fontFamily": "Bricolage Grotesque",
@@ -2731,19 +1923,12 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "21749b55f2",
+               "blockId": "1f2308c227",
                "blockName": "Speaker Name",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "h3",
-               "innerHTML": "Diego Ferreira",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "Diego Ferreira"
               },
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
                 "fontFamily": "Inter",
@@ -2753,19 +1938,12 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "31117227c0",
+               "blockId": "e275e35cba",
                "blockName": "Speaker Role",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "p",
-               "innerHTML": "Design Engineer, Linear",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "Design Engineer, Linear"
               },
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
                 "fontFamily": "Inter",
@@ -2775,37 +1953,21 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "9c7d2663c4",
+               "blockId": "487d5235f3",
                "blockName": "Speaker Talk",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "p",
-               "innerHTML": "&ldquo;Animating like you mean it&rdquo;",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "&ldquo;Animating like you mean it&rdquo;"
               }
              ],
-             "classes": [],
-             "customAttributes": {},
-             "element": "div",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "element": "div"
             }
            ],
-           "classes": [],
            "customAttributes": {
             "data-reveal": ""
            },
-           "element": "div",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "element": "div"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
             "borderColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
@@ -2820,7 +1982,7 @@
             "padding": "14px",
             "width": "100%"
            },
-           "blockId": "c0d8930e41",
+           "blockId": "6d7d577615",
            "blockName": "Speaker · Priya Raman",
            "children": [
             {
@@ -2835,18 +1997,11 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "6f7a35f618",
+             "blockId": "d2e950944e",
              "blockName": "Speaker Photo",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "element": "img",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "element": "img"
             },
             {
-             "attributes": {},
              "baseStyles": {
               "display": "flex",
               "flexDirection": "column",
@@ -2857,11 +2012,10 @@
               "paddingLeft": "6px",
               "paddingRight": "6px"
              },
-             "blockId": "5a6042e18c",
+             "blockId": "5650e31527",
              "blockName": "Speaker Copy",
              "children": [
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
                 "fontFamily": "Bricolage Grotesque",
@@ -2873,19 +2027,12 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "c6476a7c4d",
+               "blockId": "ec2f6caa75",
                "blockName": "Speaker Name",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "h3",
-               "innerHTML": "Priya Raman",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "Priya Raman"
               },
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
                 "fontFamily": "Inter",
@@ -2895,19 +2042,12 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "45b81bf7d6",
+               "blockId": "16169a108c",
                "blockName": "Speaker Role",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "p",
-               "innerHTML": "VP Engineering, Northwind",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "VP Engineering, Northwind"
               },
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
                 "fontFamily": "Inter",
@@ -2917,37 +2057,21 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "828230d43e",
+               "blockId": "037c17cc9b",
                "blockName": "Speaker Talk",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "p",
-               "innerHTML": "&ldquo;Shipping without standups&rdquo;",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "&ldquo;Shipping without standups&rdquo;"
               }
              ],
-             "classes": [],
-             "customAttributes": {},
-             "element": "div",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "element": "div"
             }
            ],
-           "classes": [],
            "customAttributes": {
             "data-reveal": ""
            },
-           "element": "div",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "element": "div"
           },
           {
-           "attributes": {},
            "baseStyles": {
             "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
             "borderColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
@@ -2962,7 +2086,7 @@
             "padding": "14px",
             "width": "100%"
            },
-           "blockId": "9f9b43ea76",
+           "blockId": "e3f2c5197a",
            "blockName": "Speaker · Tom Okafor",
            "children": [
             {
@@ -2977,18 +2101,11 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "3aae6a72e6",
+             "blockId": "66e8b61fdf",
              "blockName": "Speaker Photo",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "element": "img",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "element": "img"
             },
             {
-             "attributes": {},
              "baseStyles": {
               "display": "flex",
               "flexDirection": "column",
@@ -2999,11 +2116,10 @@
               "paddingLeft": "6px",
               "paddingRight": "6px"
              },
-             "blockId": "0dd36b7bbd",
+             "blockId": "d680fcd970",
              "blockName": "Speaker Copy",
              "children": [
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
                 "fontFamily": "Bricolage Grotesque",
@@ -3015,19 +2131,12 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "1675a6ec4b",
+               "blockId": "cc293694a9",
                "blockName": "Speaker Name",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "h3",
-               "innerHTML": "Tom Okafor",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "Tom Okafor"
               },
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
                 "fontFamily": "Inter",
@@ -3037,19 +2146,12 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "77e688a71d",
+               "blockId": "510c340390",
                "blockName": "Speaker Role",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "p",
-               "innerHTML": "Creator, htmx-ish",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "Creator, htmx-ish"
               },
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
                 "fontFamily": "Inter",
@@ -3059,47 +2161,27 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "6fb22118a7",
+               "blockId": "395c6dd1b9",
                "blockName": "Speaker Talk",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "p",
-               "innerHTML": "&ldquo;Hypermedia strikes back&rdquo;",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "&ldquo;Hypermedia strikes back&rdquo;"
               }
              ],
-             "classes": [],
-             "customAttributes": {},
-             "element": "div",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "element": "div"
             }
            ],
-           "classes": [],
            "customAttributes": {
             "data-reveal": ""
            },
-           "element": "div",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "element": "div"
           }
          ],
-         "classes": [],
-         "customAttributes": {},
          "element": "div",
          "mobileStyles": {
           "gridTemplateColumns": "1fr 1fr"
-         },
-         "rawStyles": {},
-         "tabletStyles": {}
+         }
         },
         {
-         "attributes": {},
          "baseStyles": {
           "alignItems": "center",
           "display": "flex",
@@ -3109,12 +2191,12 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "6d32f8caa4",
+         "blockId": "82591a54a7",
          "blockName": "Speakers More",
          "children": [
           {
            "attributes": {
-            "href": "speakers"
+            "href": "/speakers"
            },
            "baseStyles": {
             "alignItems": "center",
@@ -3140,46 +2222,25 @@
             "textDecoration": "none",
             "width": "fit-content"
            },
-           "blockId": "77d5d3e9fb",
+           "blockId": "6fe932a3aa",
            "blockName": "Speakers Link",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "a",
            "innerHTML": "All 24 speakers",
-           "mobileStyles": {},
            "rawStyles": {
             "hover:borderColor": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
             "transition": "border-color 0.15s ease-out"
-           },
-           "tabletStyles": {}
+           }
           }
          ],
-         "classes": [],
-         "customAttributes": {},
-         "element": "div",
-         "mobileStyles": {},
-         "rawStyles": {},
-         "tabletStyles": {}
+         "element": "div"
         }
        ],
-       "classes": [],
-       "customAttributes": {},
-       "element": "div",
-       "mobileStyles": {},
-       "rawStyles": {},
-       "tabletStyles": {}
+       "element": "div"
       }
      ],
-     "classes": [],
-     "customAttributes": {},
-     "element": "div",
-     "mobileStyles": {},
-     "rawStyles": {},
-     "tabletStyles": {}
+     "element": "div"
     },
     {
-     "attributes": {},
      "baseStyles": {
       "alignItems": "center",
       "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)",
@@ -3191,11 +2252,10 @@
       "paddingTop": "88px",
       "width": "100%"
      },
-     "blockId": "b0d91d2072",
+     "blockId": "2de8f10d6c",
      "blockName": "Section · Venue",
      "children": [
       {
-       "attributes": {},
        "baseStyles": {
         "display": "flex",
         "flexDirection": "column",
@@ -3208,11 +2268,10 @@
         "paddingRight": "28px",
         "width": "100%"
        },
-       "blockId": "5b3b5dd5de",
+       "blockId": "82a16bc402",
        "blockName": "Venue Container",
        "children": [
         {
-         "attributes": {},
          "baseStyles": {
           "alignItems": "center",
           "display": "flex",
@@ -3222,11 +2281,10 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "8b69a85465",
+         "blockId": "e8f2ab403c",
          "blockName": "Venue Split",
          "children": [
           {
-           "attributes": {},
            "baseStyles": {
             "display": "flex",
             "flexBasis": "0px",
@@ -3237,11 +2295,10 @@
             "minWidth": "0px",
             "overflow": "hidden"
            },
-           "blockId": "bcfce98c3e",
+           "blockId": "9bf586b91e",
            "blockName": "Venue Copy",
            "children": [
             {
-             "attributes": {},
              "baseStyles": {
               "alignItems": "center",
               "backgroundColor": "var(--c27ad2fa-eafc-4b58-aa00-73bc26490da3, #F3EEFF)",
@@ -3257,11 +2314,10 @@
               "paddingTop": "7px",
               "width": "fit-content"
              },
-             "blockId": "d132799ba1",
+             "blockId": "9757aa8ed0",
              "blockName": "Badge",
              "children": [
               {
-               "attributes": {},
                "baseStyles": {
                 "display": "flex",
                 "flexDirection": "column",
@@ -3269,19 +2325,12 @@
                 "lineHeight": "0",
                 "overflow": "hidden"
                },
-               "blockId": "96c5727532",
+               "blockId": "5fe5a74fc8",
                "blockName": "Badge Sparkle",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "div",
-               "innerHTML": "<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>"
               },
               {
-               "attributes": {},
                "baseStyles": {
                 "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
                 "fontFamily": "Inter",
@@ -3292,27 +2341,15 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "2bbd1f1551",
+               "blockId": "b8884c19b3",
                "blockName": "Badge Text",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
                "element": "span",
-               "innerHTML": "The venue",
-               "mobileStyles": {},
-               "rawStyles": {},
-               "tabletStyles": {}
+               "innerHTML": "The venue"
               }
              ],
-             "classes": [],
-             "customAttributes": {},
-             "element": "div",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "element": "div"
             },
             {
-             "attributes": {},
              "baseStyles": {
               "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
               "fontFamily": "Bricolage Grotesque",
@@ -3324,21 +2361,15 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "7839fa8b5c",
+             "blockId": "62bfdcd51d",
              "blockName": "Venue Title",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "h2",
              "innerHTML": "A factory built<br>for shipping.",
              "mobileStyles": {
               "fontSize": "30px"
-             },
-             "rawStyles": {},
-             "tabletStyles": {}
+             }
             },
             {
-             "attributes": {},
              "baseStyles": {
               "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
               "fontFamily": "Inter",
@@ -3349,19 +2380,12 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "4d8ed50611",
+             "blockId": "14373d7b06",
              "blockName": "Venue Text",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "p",
-             "innerHTML": "Fábrica Braço de Prata - a 19th-century munitions factory turned culture house on Lisbon's riverfront. Twenty minutes from the airport, five from the best seafood of your life.",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "innerHTML": "Fábrica Braço de Prata — a 19th-century munitions factory turned culture house on Lisbon's riverfront. Twenty minutes from the airport, five from the best seafood of your life."
             },
             {
-             "attributes": {},
              "baseStyles": {
               "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
               "fontFamily": "Inter",
@@ -3372,24 +2396,13 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "6e3672c69f",
+             "blockId": "ebff338fbb",
              "blockName": "Venue Text 2",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
              "element": "p",
-             "innerHTML": "Can't make it? Every talk streams live and lands on YouTube the same week.",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "tabletStyles": {}
+             "innerHTML": "Can't make it? Every talk streams live and lands on YouTube the same week."
             }
            ],
-           "classes": [],
-           "customAttributes": {},
-           "element": "div",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "tabletStyles": {}
+           "element": "div"
           },
           {
            "attributes": {
@@ -3405,21 +2418,15 @@
             "objectFit": "cover",
             "width": "100%"
            },
-           "blockId": "9882ebb839",
+           "blockId": "f377e6468c",
            "blockName": "Venue Image",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
            "element": "img",
            "mobileStyles": {
             "height": "260px",
             "maxWidth": "100%"
-           },
-           "rawStyles": {},
-           "tabletStyles": {}
+           }
           }
          ],
-         "classes": [],
          "customAttributes": {
           "data-reveal": ""
          },
@@ -3427,308 +2434,127 @@
          "mobileStyles": {
           "flexDirection": "column",
           "gap": "32px"
-         },
-         "rawStyles": {},
-         "tabletStyles": {}
+         }
         }
        ],
-       "classes": [],
-       "customAttributes": {},
-       "element": "div",
-       "mobileStyles": {},
-       "rawStyles": {},
-       "tabletStyles": {}
+       "element": "div"
       }
      ],
-     "classes": [],
-     "customAttributes": {},
-     "element": "div",
-     "mobileStyles": {},
-     "rawStyles": {},
-     "tabletStyles": {}
+     "element": "div"
     },
     {
-     "attributes": {},
-     "baseStyles": {},
-     "blockId": "8ae1a5391b",
+     "blockId": "72a037e5c7",
      "blockName": "Footer",
      "children": [
       {
-       "attributes": {},
-       "baseStyles": {},
-       "blockId": "377536efc6",
-       "blockName": "Footer Dots",
-       "children": [],
-       "classes": [],
-       "customAttributes": {},
+       "blockId": "f37cde8576",
        "isChildOfComponent": "commit_footer",
-       "mobileStyles": {},
-       "originalElement": "__raw_html__",
-       "rawStyles": {},
-       "referenceBlockId": "e648049013",
-       "tabletStyles": {}
+       "referenceBlockId": "75e8bb7c09"
       },
       {
-       "attributes": {},
-       "baseStyles": {},
-       "blockId": "9f90ae0aad",
-       "blockName": "Footer Container",
+       "blockId": "d71ca2919b",
        "children": [
         {
-         "attributes": {},
-         "baseStyles": {},
-         "blockId": "9f8be78df0",
-         "blockName": "Footer CTA",
+         "blockId": "62b0025912",
          "children": [
           {
-           "attributes": {},
-           "baseStyles": {},
-           "blockId": "c1d5bd4744",
-           "blockName": "Footer Headline",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
+           "blockId": "d24653c7bf",
            "isChildOfComponent": "commit_footer",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "referenceBlockId": "cae287cea7",
-           "tabletStyles": {}
+           "referenceBlockId": "966c942ae3"
           },
           {
-           "attributes": {},
-           "baseStyles": {},
-           "blockId": "e9e6a5542b",
-           "blockName": "Footer Sub",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
+           "blockId": "b139957a3a",
            "isChildOfComponent": "commit_footer",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "referenceBlockId": "540844ef4d",
-           "tabletStyles": {}
+           "referenceBlockId": "fa5b292535"
           },
           {
-           "attributes": {},
-           "baseStyles": {},
-           "blockId": "af6e8b4c00",
-           "blockName": "Footer CTA Button",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
+           "blockId": "36869bd59a",
            "isChildOfComponent": "commit_footer",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "referenceBlockId": "fa53f52374",
-           "tabletStyles": {}
+           "referenceBlockId": "267d75fb02"
           }
          ],
-         "classes": [],
-         "customAttributes": {},
          "isChildOfComponent": "commit_footer",
-         "mobileStyles": {},
-         "rawStyles": {},
-         "referenceBlockId": "3a80a6694f",
-         "tabletStyles": {}
+         "referenceBlockId": "e9d26e37dc"
         },
         {
-         "attributes": {},
-         "baseStyles": {},
-         "blockId": "ebd87d714c",
-         "blockName": "Footer Links",
+         "blockId": "2108bd7312",
          "children": [
           {
-           "attributes": {},
-           "baseStyles": {},
-           "blockId": "ecca56a436",
-           "blockName": "Footer · Speakers",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
+           "blockId": "3a0c558ea5",
            "isChildOfComponent": "commit_footer",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "referenceBlockId": "2ef5b11a01",
-           "tabletStyles": {}
+           "referenceBlockId": "789c249d64"
           },
           {
-           "attributes": {},
-           "baseStyles": {},
-           "blockId": "b1c27e0ce5",
-           "blockName": "Footer · Schedule",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
+           "blockId": "02ff918387",
            "isChildOfComponent": "commit_footer",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "referenceBlockId": "85dc0c35b4",
-           "tabletStyles": {}
+           "referenceBlockId": "be9a014c3d"
           },
           {
-           "attributes": {},
-           "baseStyles": {},
-           "blockId": "a5414f3ab1",
-           "blockName": "Footer · Tickets",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
+           "blockId": "bb890e9529",
            "isChildOfComponent": "commit_footer",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "referenceBlockId": "0c169e8313",
-           "tabletStyles": {}
+           "referenceBlockId": "1a595af279"
           },
           {
-           "attributes": {},
-           "baseStyles": {},
-           "blockId": "d8ef5945ab",
-           "blockName": "Footer · Code of conduct",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
+           "blockId": "44775c93f4",
            "isChildOfComponent": "commit_footer",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "referenceBlockId": "111019d313",
-           "tabletStyles": {}
+           "referenceBlockId": "ffffcfcf06"
           },
           {
-           "attributes": {},
-           "baseStyles": {},
-           "blockId": "0a98bdd77f",
-           "blockName": "Footer · Past editions",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
+           "blockId": "06e26e2e09",
            "isChildOfComponent": "commit_footer",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "referenceBlockId": "f2d8ab032e",
-           "tabletStyles": {}
+           "referenceBlockId": "9998062e4b"
           }
          ],
-         "classes": [],
-         "customAttributes": {},
          "isChildOfComponent": "commit_footer",
-         "mobileStyles": {},
-         "rawStyles": {},
-         "referenceBlockId": "ac46635ca3",
-         "tabletStyles": {}
+         "referenceBlockId": "2ee25ab6e7"
         },
         {
-         "attributes": {},
-         "baseStyles": {},
-         "blockId": "d6263d83f0",
-         "blockName": "Footer Bottom",
+         "blockId": "866b8fd935",
          "children": [
           {
-           "attributes": {},
-           "baseStyles": {},
-           "blockId": "1ed03c0a86",
-           "blockName": "Footer Brand",
+           "blockId": "22cd857a93",
            "children": [
             {
-             "attributes": {},
-             "baseStyles": {},
-             "blockId": "5bbeb0c37a",
-             "blockName": "Brand Mark",
+             "blockId": "7d2bad53bf",
              "children": [
               {
-               "attributes": {},
-               "baseStyles": {},
-               "blockId": "a4c9d02d70",
-               "blockName": "Mark Icon",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
+               "blockId": "101c2fab79",
                "isChildOfComponent": "commit_footer",
-               "mobileStyles": {},
-               "originalElement": "__raw_html__",
-               "rawStyles": {},
-               "referenceBlockId": "d4e61ee738",
-               "tabletStyles": {}
+               "referenceBlockId": "30dcafc831"
               }
              ],
-             "classes": [],
-             "customAttributes": {},
              "isChildOfComponent": "commit_footer",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "4065b1ef08",
-             "tabletStyles": {}
+             "referenceBlockId": "4cdb5633c3"
             },
             {
-             "attributes": {},
-             "baseStyles": {},
-             "blockId": "1af2f67cc7",
-             "blockName": "Wordmark",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
+             "blockId": "cfdf03a167",
              "isChildOfComponent": "commit_footer",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "c38e38b517",
-             "tabletStyles": {}
+             "referenceBlockId": "9e47fd5d5e"
             }
            ],
-           "classes": [],
-           "customAttributes": {},
            "isChildOfComponent": "commit_footer",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "referenceBlockId": "c910c17fc3",
-           "tabletStyles": {}
+           "referenceBlockId": "ea8569b2a4"
           },
           {
-           "attributes": {},
-           "baseStyles": {},
-           "blockId": "7adec24990",
-           "blockName": "Copyright",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
+           "blockId": "7e84258d65",
            "isChildOfComponent": "commit_footer",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "referenceBlockId": "389c0acabe",
-           "tabletStyles": {}
+           "referenceBlockId": "e7495c1ee0"
           }
          ],
-         "classes": [],
-         "customAttributes": {},
          "isChildOfComponent": "commit_footer",
-         "mobileStyles": {},
-         "rawStyles": {},
-         "referenceBlockId": "f39bc3dab0",
-         "tabletStyles": {}
+         "referenceBlockId": "df5597a298"
         }
        ],
-       "classes": [],
-       "customAttributes": {},
        "isChildOfComponent": "commit_footer",
-       "mobileStyles": {},
-       "rawStyles": {},
-       "referenceBlockId": "7c743e3526",
-       "tabletStyles": {}
+       "referenceBlockId": "8b2ebf5124"
       }
      ],
-     "classes": [],
-     "customAttributes": {},
-     "extendedFromComponent": "commit_footer",
-     "mobileStyles": {},
-     "rawStyles": {},
-     "tabletStyles": {}
+     "extendedFromComponent": "commit_footer"
     }
    ],
-   "classes": [],
-   "customAttributes": {},
+   "draggable": false,
    "element": "div",
-   "mobileStyles": {},
-   "originalElement": "body",
-   "rawStyles": {},
-   "tabletStyles": {}
+   "originalElement": "body"
   }
  ],
  "client_scripts": [
@@ -3740,15 +2566,9 @@
   },
   {
    "builder_script": "commit-countdown"
-  },
-  {
-   "builder_script": "builder_theme_toggle_css"
-  },
-  {
-   "builder_script": "builder_theme_toggle"
   }
  ],
- "creation": "2026-06-07 23:31:07.639566",
+ "creation": "2026-06-05 01:55:07.443003",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -3757,8 +2577,8 @@
  "idx": 0,
  "is_standard": 0,
  "is_template": 1,
- "meta_description": "Commit '26 - two days of code, craft & caffeine in Lisbon.",
- "modified": "2026-06-21 09:57:19.673509",
+ "meta_description": "Commit '26 — two days of code, craft & caffeine in Lisbon.",
+ "modified": "2026-06-29 17:13:14.552086",
  "modified_by": "Administrator",
  "name": "commit_home",
  "owner": "Administrator",

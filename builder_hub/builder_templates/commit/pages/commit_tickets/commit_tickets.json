@@ -20,46 +20,40 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "2fdbcc6129",
+     "blockId": "95e4ff1d18",
      "blockName": "Navbar",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "ae5994aa4f",
-       "blockName": "Header Container",
+       "blockId": "16cbb8e540",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "6c497f8d15",
-         "blockName": "Header Row",
+         "blockId": "395a935e87",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "09da059821",
-           "blockName": "Brand",
+           "blockId": "7ff9208e95",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "f200486b6c",
-             "blockName": "Brand Mark",
+             "blockId": "ca48d7a84b",
              "children": [
               {
                "attributes": {},
                "baseStyles": {},
-               "blockId": "b82cd82cac",
-               "blockName": "Mark Icon",
+               "blockId": "f73bfafb19",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "isChildOfComponent": "commit_navbar",
                "mobileStyles": {},
-               "originalElement": "__raw_html__",
                "rawStyles": {},
-               "referenceBlockId": "0fc1f42b82",
+               "referenceBlockId": "e5e473367f",
                "tabletStyles": {}
               }
              ],
@@ -68,21 +62,20 @@
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "eb90bb710c",
+             "referenceBlockId": "f169dca8c9",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "af5314af33",
-             "blockName": "Wordmark",
+             "blockId": "825f0a0048",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "38521d2ef7",
+             "referenceBlockId": "3e3d06df5e",
              "tabletStyles": {}
             }
            ],
@@ -91,69 +84,64 @@
            "isChildOfComponent": "commit_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "3bcb49ebe0",
+           "referenceBlockId": "916f28c31b",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "c38425625e",
-           "blockName": "Primary Nav",
+           "blockId": "2754edc57c",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "c5a1c7da15",
-             "blockName": "Nav · Home",
+             "blockId": "34594702ed",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "74d23c3c27",
+             "referenceBlockId": "279649472c",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "7f4262f525",
-             "blockName": "Nav · Speakers",
+             "blockId": "008e5cdc0b",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "ef2fb8616b",
+             "referenceBlockId": "cb5dfa5da0",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "8e0f66dab8",
-             "blockName": "Nav · Schedule",
+             "blockId": "cb807b014b",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "3f56a9ff5e",
+             "referenceBlockId": "ee7c5c5a76",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "a90fb1391f",
-             "blockName": "Nav · Tickets",
+             "blockId": "f539b67802",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "664311d0b6",
+             "referenceBlockId": "cbdab10222",
              "tabletStyles": {}
             }
            ],
@@ -162,81 +150,20 @@
            "isChildOfComponent": "commit_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "99893715eb",
+           "referenceBlockId": "0055c13860",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "fe044a2f49",
-           "blockName": "Nav Actions",
-           "children": [
-            {
-             "attributes": {},
-             "baseStyles": {},
-             "blockId": "0cb3babcab",
-             "blockName": "Theme Toggle",
-             "children": [
-              {
-               "attributes": {},
-               "baseStyles": {},
-               "blockId": "afc60bb311",
-               "blockName": "Theme · Sun",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
-               "isChildOfComponent": "commit_navbar",
-               "mobileStyles": {},
-               "originalElement": "__raw_html__",
-               "rawStyles": {},
-               "referenceBlockId": "cb76491718",
-               "tabletStyles": {}
-              },
-              {
-               "attributes": {},
-               "baseStyles": {},
-               "blockId": "e788b04ddf",
-               "blockName": "Theme · Moon",
-               "children": [],
-               "classes": [],
-               "customAttributes": {},
-               "isChildOfComponent": "commit_navbar",
-               "mobileStyles": {},
-               "originalElement": "__raw_html__",
-               "rawStyles": {},
-               "referenceBlockId": "c4f4ba9b2d",
-               "tabletStyles": {}
-              }
-             ],
-             "classes": [],
-             "customAttributes": {},
-             "isChildOfComponent": "commit_navbar",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "c3fda509ec",
-             "tabletStyles": {}
-            },
-            {
-             "attributes": {},
-             "baseStyles": {},
-             "blockId": "d4378c7950",
-             "blockName": "Nav CTA",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "isChildOfComponent": "commit_navbar",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "14a3dec2d9",
-             "tabletStyles": {}
-            }
-           ],
+           "blockId": "c13be91d66",
+           "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "c8c9b874f4",
+           "referenceBlockId": "7bbcaacad9",
            "tabletStyles": {}
           }
          ],
@@ -245,7 +172,7 @@
          "isChildOfComponent": "commit_navbar",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "15230846ee",
+         "referenceBlockId": "e7d0d091fb",
          "tabletStyles": {}
         }
        ],
@@ -254,7 +181,7 @@
        "isChildOfComponent": "commit_navbar",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "cd0ed5ccde",
+       "referenceBlockId": "a7cabf9f08",
        "tabletStyles": {}
       }
      ],
@@ -279,7 +206,7 @@
       "position": "relative",
       "width": "100%"
      },
-     "blockId": "ea486e4843",
+     "blockId": "bfd104364a",
      "blockName": "Section · Tickets Hero",
      "children": [
       {
@@ -297,7 +224,7 @@
         "top": "0px",
         "width": "100%"
        },
-       "blockId": "26a35608fd",
+       "blockId": "bf6531227f",
        "blockName": "Tickets Blobs",
        "children": [],
        "classes": [],
@@ -322,7 +249,7 @@
         "paddingRight": "28px",
         "width": "100%"
        },
-       "blockId": "dfd80b31ef",
+       "blockId": "b69e4f88a0",
        "blockName": "Tickets Hero Container",
        "children": [
         {
@@ -337,7 +264,7 @@
           "position": "relative",
           "zIndex": "1"
          },
-         "blockId": "94e5f82b99",
+         "blockId": "405dce313b",
          "blockName": "Tickets Hero Stack",
          "children": [
           {
@@ -357,7 +284,7 @@
             "paddingTop": "7px",
             "width": "fit-content"
            },
-           "blockId": "e7ad179211",
+           "blockId": "648fed576c",
            "blockName": "Badge",
            "children": [
             {
@@ -369,7 +296,7 @@
               "lineHeight": "0",
               "overflow": "hidden"
              },
-             "blockId": "44f91c8d7b",
+             "blockId": "058cf81db6",
              "blockName": "Badge Sparkle",
              "children": [],
              "classes": [],
@@ -392,7 +319,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "c504434d42",
+             "blockId": "cdfcd4c379",
              "blockName": "Badge Text",
              "children": [],
              "classes": [],
@@ -425,7 +352,7 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "3930dc9cec",
+           "blockId": "53e6b57565",
            "blockName": "Tickets Title",
            "children": [],
            "classes": [],
@@ -451,7 +378,7 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "4bc4a95fc9",
+           "blockId": "5c4e3f6d91",
            "blockName": "Tickets Subtitle",
            "children": [],
            "classes": [],
@@ -498,7 +425,7 @@
       "paddingBottom": "72px",
       "width": "100%"
      },
-     "blockId": "3be503e0b3",
+     "blockId": "25edc0391d",
      "blockName": "Section · Ticket Plans",
      "children": [
       {
@@ -515,7 +442,7 @@
         "paddingRight": "28px",
         "width": "100%"
        },
-       "blockId": "7952dbde9d",
+       "blockId": "c299f6a19e",
        "blockName": "Plans Container",
        "children": [
         {
@@ -529,7 +456,7 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "06cff81aa9",
+         "blockId": "ebfd9ee188",
          "blockName": "Tickets Grid",
          "children": [
           {
@@ -546,7 +473,7 @@
             "padding": "2px",
             "width": "100%"
            },
-           "blockId": "b8c4560334",
+           "blockId": "ebb3ff4b09",
            "blockName": "Ticket · Online",
            "children": [
             {
@@ -563,7 +490,7 @@
               "padding": "30px",
               "width": "100%"
              },
-             "blockId": "998ec1134a",
+             "blockId": "968555dd8d",
              "blockName": "Ticket Inner",
              "children": [
               {
@@ -575,7 +502,7 @@
                 "gap": "6px",
                 "overflow": "hidden"
                },
-               "blockId": "d0712d4d2b",
+               "blockId": "7d49f4db18",
                "blockName": "Ticket Head",
                "children": [
                 {
@@ -590,7 +517,7 @@
                   "minWidth": "10px",
                   "width": "fit-content"
                  },
-                 "blockId": "967c523ab9",
+                 "blockId": "ec20ab72d9",
                  "blockName": "Ticket Name",
                  "children": [],
                  "classes": [],
@@ -611,7 +538,7 @@
                   "gap": "6px",
                   "overflow": "hidden"
                  },
-                 "blockId": "b82c7a06dc",
+                 "blockId": "ba8151d1c7",
                  "blockName": "Ticket Price Row",
                  "children": [
                   {
@@ -627,7 +554,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "baedaabee7",
+                   "blockId": "c45e6c5206",
                    "blockName": "Ticket Price",
                    "children": [],
                    "classes": [],
@@ -649,7 +576,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "e28dc2a75a",
+                   "blockId": "af846a62ba",
                    "blockName": "Ticket Period",
                    "children": [],
                    "classes": [],
@@ -679,7 +606,7 @@
                   "minWidth": "10px",
                   "width": "fit-content"
                  },
-                 "blockId": "597786c0fe",
+                 "blockId": "346e81f434",
                  "blockName": "Ticket Blurb",
                  "children": [],
                  "classes": [],
@@ -728,7 +655,7 @@
                 "textDecoration": "none",
                 "width": "100%"
                },
-               "blockId": "feb853966f",
+               "blockId": "6c42c65772",
                "blockName": "Ticket CTA",
                "children": [],
                "classes": [],
@@ -752,7 +679,7 @@
                 "marginTop": "10px",
                 "overflow": "hidden"
                },
-               "blockId": "57fa803c13",
+               "blockId": "993ef6a606",
                "blockName": "Ticket Features",
                "children": [
                 {
@@ -765,7 +692,7 @@
                   "gap": "10px",
                   "overflow": "hidden"
                  },
-                 "blockId": "6ed141e57a",
+                 "blockId": "ee529392b0",
                  "blockName": "Feature · Live stream of all",
                  "children": [
                   {
@@ -782,13 +709,13 @@
                     "minWidth": "0px",
                     "width": "fit-content"
                    },
-                   "blockId": "3f55a6df41",
+                   "blockId": "8841c6d597",
                    "blockName": "Check",
                    "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "element": "span",
-                   "innerHTML": "<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
                    "mobileStyles": {},
                    "rawStyles": {},
                    "tabletStyles": {}
@@ -804,7 +731,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "a93d08d652",
+                   "blockId": "7ffd27182c",
                    "blockName": "Feature Text",
                    "children": [],
                    "classes": [],
@@ -833,7 +760,7 @@
                   "gap": "10px",
                   "overflow": "hidden"
                  },
-                 "blockId": "f8e3817beb",
+                 "blockId": "5217d7d220",
                  "blockName": "Feature · Recordings the sam",
                  "children": [
                   {
@@ -850,13 +777,13 @@
                     "minWidth": "0px",
                     "width": "fit-content"
                    },
-                   "blockId": "b539c40905",
+                   "blockId": "bad51de623",
                    "blockName": "Check",
                    "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "element": "span",
-                   "innerHTML": "<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
                    "mobileStyles": {},
                    "rawStyles": {},
                    "tabletStyles": {}
@@ -872,7 +799,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "3263cf525a",
+                   "blockId": "42febe2401",
                    "blockName": "Feature Text",
                    "children": [],
                    "classes": [],
@@ -901,7 +828,7 @@
                   "gap": "10px",
                   "overflow": "hidden"
                  },
-                 "blockId": "bdc2847e87",
+                 "blockId": "aec117c334",
                  "blockName": "Feature · Discord hallway tr",
                  "children": [
                   {
@@ -918,13 +845,13 @@
                     "minWidth": "0px",
                     "width": "fit-content"
                    },
-                   "blockId": "cd148d5fa4",
+                   "blockId": "b306d00bbb",
                    "blockName": "Check",
                    "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "element": "span",
-                   "innerHTML": "<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
                    "mobileStyles": {},
                    "rawStyles": {},
                    "tabletStyles": {}
@@ -940,7 +867,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "f91598c5cc",
+                   "blockId": "a734d796c4",
                    "blockName": "Feature Text",
                    "children": [],
                    "classes": [],
@@ -998,7 +925,7 @@
             "padding": "2px",
             "width": "100%"
            },
-           "blockId": "9f365159a2",
+           "blockId": "0e1097ce62",
            "blockName": "Ticket · Conference",
            "children": [
             {
@@ -1015,7 +942,7 @@
               "padding": "30px",
               "width": "100%"
              },
-             "blockId": "9b6371ae32",
+             "blockId": "36979ae7ce",
              "blockName": "Ticket Inner",
              "children": [
               {
@@ -1027,7 +954,7 @@
                 "gap": "6px",
                 "overflow": "hidden"
                },
-               "blockId": "c3f3fc6738",
+               "blockId": "83a3665586",
                "blockName": "Ticket Head",
                "children": [
                 {
@@ -1042,7 +969,7 @@
                   "minWidth": "10px",
                   "width": "fit-content"
                  },
-                 "blockId": "4718511943",
+                 "blockId": "832a74d5f5",
                  "blockName": "Ticket Name",
                  "children": [],
                  "classes": [],
@@ -1063,7 +990,7 @@
                   "gap": "6px",
                   "overflow": "hidden"
                  },
-                 "blockId": "14aaf4d4d6",
+                 "blockId": "6cd5d60bb9",
                  "blockName": "Ticket Price Row",
                  "children": [
                   {
@@ -1079,7 +1006,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "ffe5f57ee4",
+                   "blockId": "aa40fd343c",
                    "blockName": "Ticket Price",
                    "children": [],
                    "classes": [],
@@ -1101,7 +1028,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "b3a31ce9b7",
+                   "blockId": "1d5938181e",
                    "blockName": "Ticket Period",
                    "children": [],
                    "classes": [],
@@ -1131,7 +1058,7 @@
                   "minWidth": "10px",
                   "width": "fit-content"
                  },
-                 "blockId": "4f0cfdc79f",
+                 "blockId": "9fe1d62f60",
                  "blockName": "Ticket Blurb",
                  "children": [],
                  "classes": [],
@@ -1177,7 +1104,7 @@
                 "textDecoration": "none",
                 "width": "100%"
                },
-               "blockId": "3a0f4c4019",
+               "blockId": "5e69c44cd0",
                "blockName": "Ticket CTA",
                "children": [],
                "classes": [],
@@ -1201,7 +1128,7 @@
                 "marginTop": "10px",
                 "overflow": "hidden"
                },
-               "blockId": "cb5a9bed2a",
+               "blockId": "8877d02acb",
                "blockName": "Ticket Features",
                "children": [
                 {
@@ -1214,7 +1141,7 @@
                   "gap": "10px",
                   "overflow": "hidden"
                  },
-                 "blockId": "c4057e4458",
+                 "blockId": "b87350a052",
                  "blockName": "Feature · All talks, day one",
                  "children": [
                   {
@@ -1231,13 +1158,13 @@
                     "minWidth": "0px",
                     "width": "fit-content"
                    },
-                   "blockId": "47304dd3be",
+                   "blockId": "6f213778be",
                    "blockName": "Check",
                    "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "element": "span",
-                   "innerHTML": "<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
                    "mobileStyles": {},
                    "rawStyles": {},
                    "tabletStyles": {}
@@ -1253,7 +1180,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "2e007c93e0",
+                   "blockId": "db45b1c75c",
                    "blockName": "Feature Text",
                    "children": [],
                    "classes": [],
@@ -1282,7 +1209,7 @@
                   "gap": "10px",
                   "overflow": "hidden"
                  },
-                 "blockId": "767fb59f12",
+                 "blockId": "03fea1056d",
                  "blockName": "Feature · Workshops, day two",
                  "children": [
                   {
@@ -1299,13 +1226,13 @@
                     "minWidth": "0px",
                     "width": "fit-content"
                    },
-                   "blockId": "f68fa8f1fc",
+                   "blockId": "57e90e6bc3",
                    "blockName": "Check",
                    "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "element": "span",
-                   "innerHTML": "<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
                    "mobileStyles": {},
                    "rawStyles": {},
                    "tabletStyles": {}
@@ -1321,7 +1248,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "88db6a37e1",
+                   "blockId": "7abb0db3aa",
                    "blockName": "Feature Text",
                    "children": [],
                    "classes": [],
@@ -1350,7 +1277,7 @@
                   "gap": "10px",
                   "overflow": "hidden"
                  },
-                 "blockId": "9b13ea4202",
+                 "blockId": "26453e2950",
                  "blockName": "Feature · Lunches & coffee",
                  "children": [
                   {
@@ -1367,13 +1294,13 @@
                     "minWidth": "0px",
                     "width": "fit-content"
                    },
-                   "blockId": "bfb9e21c64",
+                   "blockId": "dcf400530b",
                    "blockName": "Check",
                    "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "element": "span",
-                   "innerHTML": "<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
                    "mobileStyles": {},
                    "rawStyles": {},
                    "tabletStyles": {}
@@ -1389,7 +1316,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "cd6b729893",
+                   "blockId": "ab4be125d6",
                    "blockName": "Feature Text",
                    "children": [],
                    "classes": [],
@@ -1418,7 +1345,7 @@
                   "gap": "10px",
                   "overflow": "hidden"
                  },
-                 "blockId": "75381119c6",
+                 "blockId": "dd43dd626c",
                  "blockName": "Feature · The afterparty",
                  "children": [
                   {
@@ -1435,13 +1362,13 @@
                     "minWidth": "0px",
                     "width": "fit-content"
                    },
-                   "blockId": "cadb4b9c8b",
+                   "blockId": "3ee0c3e6a8",
                    "blockName": "Check",
                    "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "element": "span",
-                   "innerHTML": "<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
                    "mobileStyles": {},
                    "rawStyles": {},
                    "tabletStyles": {}
@@ -1457,7 +1384,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "08ce26ca3f",
+                   "blockId": "0e8c754d66",
                    "blockName": "Feature Text",
                    "children": [],
                    "classes": [],
@@ -1516,7 +1443,7 @@
             "padding": "2px",
             "width": "100%"
            },
-           "blockId": "8c15b4ae9c",
+           "blockId": "37f96f59c3",
            "blockName": "Ticket · All-access",
            "children": [
             {
@@ -1533,7 +1460,7 @@
               "padding": "30px",
               "width": "100%"
              },
-             "blockId": "df0f1baaf2",
+             "blockId": "aa55f239ab",
              "blockName": "Ticket Inner",
              "children": [
               {
@@ -1545,7 +1472,7 @@
                 "gap": "6px",
                 "overflow": "hidden"
                },
-               "blockId": "d17f3f7e73",
+               "blockId": "0b5ad96714",
                "blockName": "Ticket Head",
                "children": [
                 {
@@ -1560,7 +1487,7 @@
                   "minWidth": "10px",
                   "width": "fit-content"
                  },
-                 "blockId": "3736bc8d59",
+                 "blockId": "79b46744dc",
                  "blockName": "Ticket Name",
                  "children": [],
                  "classes": [],
@@ -1581,7 +1508,7 @@
                   "gap": "6px",
                   "overflow": "hidden"
                  },
-                 "blockId": "4d742ab1f1",
+                 "blockId": "33547550a6",
                  "blockName": "Ticket Price Row",
                  "children": [
                   {
@@ -1597,7 +1524,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "d6870a1c23",
+                   "blockId": "9ad5a0b87b",
                    "blockName": "Ticket Price",
                    "children": [],
                    "classes": [],
@@ -1619,7 +1546,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "d2e4ad88e7",
+                   "blockId": "5cd76ecef2",
                    "blockName": "Ticket Period",
                    "children": [],
                    "classes": [],
@@ -1649,7 +1576,7 @@
                   "minWidth": "10px",
                   "width": "fit-content"
                  },
-                 "blockId": "773ba51003",
+                 "blockId": "b417a89a57",
                  "blockName": "Ticket Blurb",
                  "children": [],
                  "classes": [],
@@ -1698,7 +1625,7 @@
                 "textDecoration": "none",
                 "width": "100%"
                },
-               "blockId": "48a21b8d92",
+               "blockId": "86417ca439",
                "blockName": "Ticket CTA",
                "children": [],
                "classes": [],
@@ -1722,7 +1649,7 @@
                 "marginTop": "10px",
                 "overflow": "hidden"
                },
-               "blockId": "c273368cbd",
+               "blockId": "110a88e4b3",
                "blockName": "Ticket Features",
                "children": [
                 {
@@ -1735,7 +1662,7 @@
                   "gap": "10px",
                   "overflow": "hidden"
                  },
-                 "blockId": "58a511ff54",
+                 "blockId": "5ffca561fe",
                  "blockName": "Feature · Everything in Conf",
                  "children": [
                   {
@@ -1752,13 +1679,13 @@
                     "minWidth": "0px",
                     "width": "fit-content"
                    },
-                   "blockId": "8fa826edf0",
+                   "blockId": "b2b7e524d8",
                    "blockName": "Check",
                    "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "element": "span",
-                   "innerHTML": "<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
                    "mobileStyles": {},
                    "rawStyles": {},
                    "tabletStyles": {}
@@ -1774,7 +1701,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "6768ab011d",
+                   "blockId": "52c16b2606",
                    "blockName": "Feature Text",
                    "children": [],
                    "classes": [],
@@ -1803,7 +1730,7 @@
                   "gap": "10px",
                   "overflow": "hidden"
                  },
-                 "blockId": "09f60b7d35",
+                 "blockId": "3a66c19ce9",
                  "blockName": "Feature · Speaker dinner inv",
                  "children": [
                   {
@@ -1820,13 +1747,13 @@
                     "minWidth": "0px",
                     "width": "fit-content"
                    },
-                   "blockId": "ef48c604d2",
+                   "blockId": "e5cc210a15",
                    "blockName": "Check",
                    "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "element": "span",
-                   "innerHTML": "<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
                    "mobileStyles": {},
                    "rawStyles": {},
                    "tabletStyles": {}
@@ -1842,7 +1769,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "8a3277d5a8",
+                   "blockId": "0fc34f78cb",
                    "blockName": "Feature Text",
                    "children": [],
                    "classes": [],
@@ -1871,7 +1798,7 @@
                   "gap": "10px",
                   "overflow": "hidden"
                  },
-                 "blockId": "fe7aa8370d",
+                 "blockId": "8ebda16875",
                  "blockName": "Feature · Recorded workshop ",
                  "children": [
                   {
@@ -1888,13 +1815,13 @@
                     "minWidth": "0px",
                     "width": "fit-content"
                    },
-                   "blockId": "6b8fe90575",
+                   "blockId": "dc5c8ed0d9",
                    "blockName": "Check",
                    "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "element": "span",
-                   "innerHTML": "<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
                    "mobileStyles": {},
                    "rawStyles": {},
                    "tabletStyles": {}
@@ -1910,7 +1837,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "ee98ada7e0",
+                   "blockId": "67c7dff9da",
                    "blockName": "Feature Text",
                    "children": [],
                    "classes": [],
@@ -1939,7 +1866,7 @@
                   "gap": "10px",
                   "overflow": "hidden"
                  },
-                 "blockId": "7ebfe80c1d",
+                 "blockId": "6ec0ec3b54",
                  "blockName": "Feature · '27 priority + 20%",
                  "children": [
                   {
@@ -1956,13 +1883,13 @@
                     "minWidth": "0px",
                     "width": "fit-content"
                    },
-                   "blockId": "c1060b6663",
+                   "blockId": "fda6d5150e",
                    "blockName": "Check",
                    "children": [],
                    "classes": [],
                    "customAttributes": {},
                    "element": "span",
-                   "innerHTML": "<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
                    "mobileStyles": {},
                    "rawStyles": {},
                    "tabletStyles": {}
@@ -1978,7 +1905,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "55cef526ee",
+                   "blockId": "61f10762e4",
                    "blockName": "Feature Text",
                    "children": [],
                    "classes": [],
@@ -2062,7 +1989,7 @@
       "paddingTop": "72px",
       "width": "100%"
      },
-     "blockId": "aa480514b5",
+     "blockId": "8aa7a87183",
      "blockName": "Section · Tickets FAQ",
      "children": [
       {
@@ -2079,7 +2006,7 @@
         "paddingRight": "28px",
         "width": "100%"
        },
-       "blockId": "6604fcebcb",
+       "blockId": "eeb9425a49",
        "blockName": "FAQ Container",
        "children": [
         {
@@ -2096,7 +2023,7 @@
           "maxWidth": "680px",
           "overflow": "hidden"
          },
-         "blockId": "cd075b9953",
+         "blockId": "a72d2665d8",
          "blockName": "Section Head",
          "children": [
           {
@@ -2117,7 +2044,7 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "8b6a390cc1",
+           "blockId": "06ff1ce460",
            "blockName": "Badge",
            "children": [
             {
@@ -2129,7 +2056,7 @@
               "lineHeight": "0",
               "overflow": "hidden"
              },
-             "blockId": "252ae2825f",
+             "blockId": "5de171ac3f",
              "blockName": "Badge Sparkle",
              "children": [],
              "classes": [],
@@ -2152,7 +2079,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "e80528069d",
+             "blockId": "f536d2aa2a",
              "blockName": "Badge Text",
              "children": [],
              "classes": [],
@@ -2185,7 +2112,7 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "d1d44c2ecc",
+           "blockId": "5fb7e51767",
            "blockName": "Section Title",
            "children": [],
            "classes": [],
@@ -2218,7 +2145,7 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "1ba73a0147",
+         "blockId": "ad59eb6049",
          "blockName": "FAQ List",
          "children": [
           {
@@ -2235,7 +2162,7 @@
             "paddingBottom": "22px",
             "paddingTop": "22px"
            },
-           "blockId": "10bde42752",
+           "blockId": "d8c92dc67e",
            "blockName": "FAQ · Can my company pay by in",
            "children": [
             {
@@ -2251,7 +2178,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "e67df191f6",
+             "blockId": "6868119b34",
              "blockName": "FAQ Question",
              "children": [],
              "classes": [],
@@ -2274,13 +2201,13 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "63628a91e3",
+             "blockId": "3c5bfc895c",
              "blockName": "FAQ Answer",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "Yes - pick five or more passes and we'll send a proper invoice with all the boring fields your finance team loves.",
+             "innerHTML": "Yes — pick five or more passes and we'll send a proper invoice with all the boring fields your finance team loves.",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -2307,7 +2234,7 @@
             "paddingBottom": "22px",
             "paddingTop": "22px"
            },
-           "blockId": "bc5bcbb55c",
+           "blockId": "9a51cab5b0",
            "blockName": "FAQ · What's the refund policy",
            "children": [
             {
@@ -2323,7 +2250,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "7c73d317f7",
+             "blockId": "5e7eebf4ad",
              "blockName": "FAQ Question",
              "children": [],
              "classes": [],
@@ -2346,13 +2273,13 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "1995d89f6d",
+             "blockId": "1c0931ac56",
              "blockName": "FAQ Answer",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "Full refund until September 15, or transfer your ticket to a teammate anytime - even the morning of.",
+             "innerHTML": "Full refund until September 15, or transfer your ticket to a teammate anytime — even the morning of.",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -2379,7 +2306,7 @@
             "paddingBottom": "22px",
             "paddingTop": "22px"
            },
-           "blockId": "8dc8439de7",
+           "blockId": "701f426e4c",
            "blockName": "FAQ · Are workshops included?",
            "children": [
             {
@@ -2395,7 +2322,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "ddf40ef787",
+             "blockId": "a63a4f2ba4",
              "blockName": "FAQ Question",
              "children": [],
              "classes": [],
@@ -2418,7 +2345,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "459b437ce3",
+             "blockId": "0c0da3ddb2",
              "blockName": "FAQ Answer",
              "children": [],
              "classes": [],
@@ -2464,76 +2391,69 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "a1f333ca68",
+     "blockId": "1d04fa1495",
      "blockName": "Footer",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "da8180e96d",
-       "blockName": "Footer Dots",
+       "blockId": "c00c25c9cb",
        "children": [],
        "classes": [],
        "customAttributes": {},
        "isChildOfComponent": "commit_footer",
        "mobileStyles": {},
-       "originalElement": "__raw_html__",
        "rawStyles": {},
-       "referenceBlockId": "e648049013",
+       "referenceBlockId": "75e8bb7c09",
        "tabletStyles": {}
       },
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "c5ad91a5cd",
-       "blockName": "Footer Container",
+       "blockId": "3cd5838410",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "7e4a098556",
-         "blockName": "Footer CTA",
+         "blockId": "1bbdaa1114",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "23183ca595",
-           "blockName": "Footer Headline",
+           "blockId": "de291cb7b7",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "cae287cea7",
+           "referenceBlockId": "966c942ae3",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "4d60c03d70",
-           "blockName": "Footer Sub",
+           "blockId": "5d36bce3b5",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "540844ef4d",
+           "referenceBlockId": "fa5b292535",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "bae55eb9ec",
-           "blockName": "Footer CTA Button",
+           "blockId": "c32658d7e1",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "fa53f52374",
+           "referenceBlockId": "267d75fb02",
            "tabletStyles": {}
           }
          ],
@@ -2542,83 +2462,77 @@
          "isChildOfComponent": "commit_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "3a80a6694f",
+         "referenceBlockId": "e9d26e37dc",
          "tabletStyles": {}
         },
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "3ab40c926d",
-         "blockName": "Footer Links",
+         "blockId": "ae1c122b2e",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "9f75ef7d8c",
-           "blockName": "Footer · Speakers",
+           "blockId": "b0f1b3a7c4",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "2ef5b11a01",
+           "referenceBlockId": "789c249d64",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "3553f059bb",
-           "blockName": "Footer · Schedule",
+           "blockId": "b30245c9d9",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "85dc0c35b4",
+           "referenceBlockId": "be9a014c3d",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "316fa9dcbd",
-           "blockName": "Footer · Tickets",
+           "blockId": "5931d92fec",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "0c169e8313",
+           "referenceBlockId": "1a595af279",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "83a8960bda",
-           "blockName": "Footer · Code of conduct",
+           "blockId": "1ce7177391",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "111019d313",
+           "referenceBlockId": "ffffcfcf06",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "22358d78c6",
-           "blockName": "Footer · Past editions",
+           "blockId": "6c018e61be",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "f2d8ab032e",
+           "referenceBlockId": "9998062e4b",
            "tabletStyles": {}
           }
          ],
@@ -2627,40 +2541,35 @@
          "isChildOfComponent": "commit_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "ac46635ca3",
+         "referenceBlockId": "2ee25ab6e7",
          "tabletStyles": {}
         },
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "c6405f22a9",
-         "blockName": "Footer Bottom",
+         "blockId": "bf144a47fd",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "2dc1cd7efe",
-           "blockName": "Footer Brand",
+           "blockId": "99d1749afe",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "5c582fd35c",
-             "blockName": "Brand Mark",
+             "blockId": "7da8c78928",
              "children": [
               {
                "attributes": {},
                "baseStyles": {},
-               "blockId": "43308ce973",
-               "blockName": "Mark Icon",
+               "blockId": "c2648d1df7",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "isChildOfComponent": "commit_footer",
                "mobileStyles": {},
-               "originalElement": "__raw_html__",
                "rawStyles": {},
-               "referenceBlockId": "d4e61ee738",
+               "referenceBlockId": "30dcafc831",
                "tabletStyles": {}
               }
              ],
@@ -2669,21 +2578,20 @@
              "isChildOfComponent": "commit_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "4065b1ef08",
+             "referenceBlockId": "4cdb5633c3",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "9548626c5b",
-             "blockName": "Wordmark",
+             "blockId": "0ed0ebe8af",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "c38e38b517",
+             "referenceBlockId": "9e47fd5d5e",
              "tabletStyles": {}
             }
            ],
@@ -2692,21 +2600,20 @@
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "c910c17fc3",
+           "referenceBlockId": "ea8569b2a4",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "b76aa4ad3a",
-           "blockName": "Copyright",
+           "blockId": "e75b40ec40",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "389c0acabe",
+           "referenceBlockId": "e7495c1ee0",
            "tabletStyles": {}
           }
          ],
@@ -2715,7 +2622,7 @@
          "isChildOfComponent": "commit_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "f39bc3dab0",
+         "referenceBlockId": "df5597a298",
          "tabletStyles": {}
         }
        ],
@@ -2724,7 +2631,7 @@
        "isChildOfComponent": "commit_footer",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "7c743e3526",
+       "referenceBlockId": "8b2ebf5124",
        "tabletStyles": {}
       }
      ],
@@ -2751,15 +2658,9 @@
   },
   {
    "builder_script": "commit-reveal"
-  },
-  {
-   "builder_script": "builder_theme_toggle_css"
-  },
-  {
-   "builder_script": "builder_theme_toggle"
   }
  ],
- "creation": "2026-06-07 23:31:08.548875",
+ "creation": "2026-06-05 01:55:14.527829",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -2768,8 +2669,8 @@
  "idx": 0,
  "is_standard": 0,
  "is_template": 1,
- "meta_description": "Passes for Commit '26 - online, conference, and all-access.",
- "modified": "2026-06-21 09:57:19.704019",
+ "meta_description": "Passes for Commit '26 — online, conference, and all-access.",
+ "modified": "2026-06-05 01:55:16.161637",
  "modified_by": "Administrator",
  "name": "commit_tickets",
  "owner": "Administrator",
