@@ -1012,7 +1012,7 @@
               {
                "attributes": {
                 "alt": "Push to deploy.<br>Every time.",
-                "src": "https://images.unsplash.com/photo-1629654858857-2ef3ee2c37f8?auto=format&fit=crop&q=80&w=900"
+                "src": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=900"
                },
                "baseStyles": {
                 "flexShrink": 0,
@@ -4811,7 +4811,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Every Forge feature: deploy pipelines, secrets vault, edge network, observability, and more.",
- "modified": "2026-06-21 09:35:27.162268",
+ "modified": "2026-07-12 19:34:41.678994",
  "modified_by": "Administrator",
  "name": "forge_features",
  "owner": "Administrator",
