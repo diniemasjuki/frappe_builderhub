@@ -20,40 +20,46 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "5a900d9436",
+     "blockId": "99f21d4d0e",
      "blockName": "Navbar",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "774ebe8d8f",
+       "blockId": "2e4ed17f24",
+       "blockName": "Header Container",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "c7377bf09c",
+         "blockId": "fb2fe88631",
+         "blockName": "Header Row",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "f34d35b198",
+           "blockId": "10b9e875e3",
+           "blockName": "Brand",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "b87f4fb6f1",
+             "blockId": "aac0c016de",
+             "blockName": "Brand Mark",
              "children": [
               {
                "attributes": {},
                "baseStyles": {},
-               "blockId": "76a43aa5c7",
+               "blockId": "63fb5ad48c",
+               "blockName": "Mark Icon",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "isChildOfComponent": "commit_navbar",
                "mobileStyles": {},
+               "originalElement": "__raw_html__",
                "rawStyles": {},
-               "referenceBlockId": "e5e473367f",
+               "referenceBlockId": "0fc1f42b82",
                "tabletStyles": {}
               }
              ],
@@ -62,20 +68,21 @@
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "f169dca8c9",
+             "referenceBlockId": "eb90bb710c",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "9ab1d40eec",
+             "blockId": "dfed179e4b",
+             "blockName": "Wordmark",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "3e3d06df5e",
+             "referenceBlockId": "38521d2ef7",
              "tabletStyles": {}
             }
            ],
@@ -84,64 +91,69 @@
            "isChildOfComponent": "commit_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "916f28c31b",
+           "referenceBlockId": "3bcb49ebe0",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "f3daabd57a",
+           "blockId": "58364275f5",
+           "blockName": "Primary Nav",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "f86ef67729",
+             "blockId": "89246b0add",
+             "blockName": "Nav · Home",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "279649472c",
+             "referenceBlockId": "74d23c3c27",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "5e492f222f",
+             "blockId": "168e4a173f",
+             "blockName": "Nav · Speakers",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "cb5dfa5da0",
+             "referenceBlockId": "ef2fb8616b",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "38606f0ed0",
+             "blockId": "74568b3af4",
+             "blockName": "Nav · Schedule",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "ee7c5c5a76",
+             "referenceBlockId": "3f56a9ff5e",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "86865c080c",
+             "blockId": "ccacdb21de",
+             "blockName": "Nav · Tickets",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "cbdab10222",
+             "referenceBlockId": "664311d0b6",
              "tabletStyles": {}
             }
            ],
@@ -150,20 +162,81 @@
            "isChildOfComponent": "commit_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "0055c13860",
+           "referenceBlockId": "99893715eb",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "68c9c0d3b1",
-           "children": [],
+           "blockId": "bfc4e258cd",
+           "blockName": "Nav Actions",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "b4971ee93f",
+             "blockName": "Theme Toggle",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "4e51b65ef8",
+               "blockName": "Theme · Sun",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "commit_navbar",
+               "mobileStyles": {},
+               "originalElement": "__raw_html__",
+               "rawStyles": {},
+               "referenceBlockId": "cb76491718",
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "4271c4bf62",
+               "blockName": "Theme · Moon",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "commit_navbar",
+               "mobileStyles": {},
+               "originalElement": "__raw_html__",
+               "rawStyles": {},
+               "referenceBlockId": "c4f4ba9b2d",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "c3fda509ec",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "2e3930437a",
+             "blockName": "Nav CTA",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "14a3dec2d9",
+             "tabletStyles": {}
+            }
+           ],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "7bbcaacad9",
+           "referenceBlockId": "c8c9b874f4",
            "tabletStyles": {}
           }
          ],
@@ -172,7 +245,7 @@
          "isChildOfComponent": "commit_navbar",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "e7d0d091fb",
+         "referenceBlockId": "15230846ee",
          "tabletStyles": {}
         }
        ],
@@ -181,7 +254,7 @@
        "isChildOfComponent": "commit_navbar",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "a7cabf9f08",
+       "referenceBlockId": "cd0ed5ccde",
        "tabletStyles": {}
       }
      ],
@@ -205,7 +278,7 @@
       "paddingTop": "88px",
       "width": "100%"
      },
-     "blockId": "c08be9e3d4",
+     "blockId": "289016ba0c",
      "blockName": "Section · Schedule Hero",
      "children": [
       {
@@ -222,7 +295,7 @@
         "paddingRight": "28px",
         "width": "100%"
        },
-       "blockId": "29c5c8244b",
+       "blockId": "f36e75fdea",
        "blockName": "Schedule Hero Container",
        "children": [
         {
@@ -234,7 +307,7 @@
           "gap": "18px",
           "overflow": "hidden"
          },
-         "blockId": "8be60ec5f7",
+         "blockId": "0a3667a6b7",
          "blockName": "Schedule Hero Stack",
          "children": [
           {
@@ -254,7 +327,7 @@
             "paddingTop": "7px",
             "width": "fit-content"
            },
-           "blockId": "974446e565",
+           "blockId": "c5423f04d9",
            "blockName": "Badge",
            "children": [
             {
@@ -266,7 +339,7 @@
               "lineHeight": "0",
               "overflow": "hidden"
              },
-             "blockId": "aab8baa272",
+             "blockId": "b8b963b4a4",
              "blockName": "Badge Sparkle",
              "children": [],
              "classes": [],
@@ -289,7 +362,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "7c82e703e3",
+             "blockId": "6aefdaf496",
              "blockName": "Badge Text",
              "children": [],
              "classes": [],
@@ -321,7 +394,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "451251dac3",
+           "blockId": "c7e4c7d6da",
            "blockName": "Schedule Title",
            "children": [],
            "classes": [],
@@ -346,7 +419,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "f009f0f26d",
+           "blockId": "cfceedea38",
            "blockName": "Schedule Subtitle",
            "children": [],
            "classes": [],
@@ -393,7 +466,7 @@
       "paddingBottom": "80px",
       "width": "100%"
      },
-     "blockId": "6c9dfedead",
+     "blockId": "3efa206046",
      "blockName": "Section · Schedule",
      "children": [
       {
@@ -410,7 +483,7 @@
         "paddingRight": "28px",
         "width": "100%"
        },
-       "blockId": "0a06edc145",
+       "blockId": "9b7b9dd578",
        "blockName": "Schedule Container",
        "children": [
         {
@@ -424,7 +497,7 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "931b0ec576",
+         "blockId": "7c095989d3",
          "blockName": "Schedule · Day 1",
          "children": [
           {
@@ -439,7 +512,7 @@
             "overflow": "hidden",
             "width": "100%"
            },
-           "blockId": "1ea4fe09d6",
+           "blockId": "aaa32213dd",
            "blockName": "Day 1 Head",
            "children": [
             {
@@ -459,7 +532,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "7e7cdb9fba",
+             "blockId": "d60d1b1047",
              "blockName": "Day Title",
              "children": [],
              "classes": [],
@@ -481,13 +554,13 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "2e8852d044",
+             "blockId": "39adb14525",
              "blockName": "Day Date",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "Wednesday, Oct 15 — talks",
+             "innerHTML": "Wednesday, Oct 15 - talks",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -516,7 +589,7 @@
             "paddingTop": "18px",
             "width": "100%"
            },
-           "blockId": "45617e46a3",
+           "blockId": "7e7e21b832",
            "blockName": "Slot · Doors, coffee & pastéi",
            "children": [
             {
@@ -532,7 +605,7 @@
               "minWidth": "10px",
               "width": "84px"
              },
-             "blockId": "7573bdcf19",
+             "blockId": "0ee407f12d",
              "blockName": "Slot Time",
              "children": [],
              "classes": [],
@@ -555,7 +628,7 @@
               "minWidth": "200px",
               "overflow": "hidden"
              },
-             "blockId": "f6dbd6c4d0",
+             "blockId": "4e290b717a",
              "blockName": "Slot Copy",
              "children": [
               {
@@ -571,7 +644,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "d8ad489b6e",
+               "blockId": "3e33523b72",
                "blockName": "Slot Title",
                "children": [],
                "classes": [],
@@ -593,7 +666,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "b6fe1ca4b9",
+               "blockId": "9e91cec561",
                "blockName": "Slot Speaker",
                "children": [],
                "classes": [],
@@ -631,7 +704,7 @@
               "paddingTop": "4px",
               "width": "fit-content"
              },
-             "blockId": "139e9939dd",
+             "blockId": "e53c361b3e",
              "blockName": "Slot Tag",
              "children": [],
              "classes": [],
@@ -671,7 +744,7 @@
             "paddingTop": "18px",
             "width": "100%"
            },
-           "blockId": "0f213aed9d",
+           "blockId": "5366a7dfc3",
            "blockName": "Slot · The edge is a lie (a u",
            "children": [
             {
@@ -687,7 +760,7 @@
               "minWidth": "10px",
               "width": "84px"
              },
-             "blockId": "c922157605",
+             "blockId": "0585ed746a",
              "blockName": "Slot Time",
              "children": [],
              "classes": [],
@@ -710,7 +783,7 @@
               "minWidth": "200px",
               "overflow": "hidden"
              },
-             "blockId": "b47affbe00",
+             "blockId": "f0a7a87511",
              "blockName": "Slot Copy",
              "children": [
               {
@@ -726,7 +799,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "a028b62e43",
+               "blockId": "94c96c6e76",
                "blockName": "Slot Title",
                "children": [],
                "classes": [],
@@ -748,13 +821,13 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "4f6cbd503e",
+               "blockId": "9623feb893",
                "blockName": "Slot Speaker",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "element": "p",
-               "innerHTML": "Amara Chen — Vercel",
+               "innerHTML": "Amara Chen - Vercel",
                "mobileStyles": {},
                "rawStyles": {},
                "tabletStyles": {}
@@ -786,7 +859,7 @@
               "paddingTop": "4px",
               "width": "fit-content"
              },
-             "blockId": "fe86b8781d",
+             "blockId": "864802ec32",
              "blockName": "Slot Tag",
              "children": [],
              "classes": [],
@@ -826,7 +899,7 @@
             "paddingTop": "18px",
             "width": "100%"
            },
-           "blockId": "8393b93f4e",
+           "blockId": "ef362e6ff4",
            "blockName": "Slot · Hypermedia strikes bac",
            "children": [
             {
@@ -842,7 +915,7 @@
               "minWidth": "10px",
               "width": "84px"
              },
-             "blockId": "3aa19d710a",
+             "blockId": "4e18a4998c",
              "blockName": "Slot Time",
              "children": [],
              "classes": [],
@@ -865,7 +938,7 @@
               "minWidth": "200px",
               "overflow": "hidden"
              },
-             "blockId": "fc85c10278",
+             "blockId": "fa4033656f",
              "blockName": "Slot Copy",
              "children": [
               {
@@ -881,7 +954,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "c6f240688b",
+               "blockId": "a29160c97e",
                "blockName": "Slot Title",
                "children": [],
                "classes": [],
@@ -903,13 +976,13 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "51e6044820",
+               "blockId": "f803dcb7eb",
                "blockName": "Slot Speaker",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "element": "p",
-               "innerHTML": "Tom Okafor — htmx-ish",
+               "innerHTML": "Tom Okafor - htmx-ish",
                "mobileStyles": {},
                "rawStyles": {},
                "tabletStyles": {}
@@ -941,7 +1014,7 @@
               "paddingTop": "4px",
               "width": "fit-content"
              },
-             "blockId": "f12cb4eeec",
+             "blockId": "b80e3d1be5",
              "blockName": "Slot Tag",
              "children": [],
              "classes": [],
@@ -981,7 +1054,7 @@
             "paddingTop": "18px",
             "width": "100%"
            },
-           "blockId": "7424181012",
+           "blockId": "5093a918e8",
            "blockName": "Slot · Long lunch by the rive",
            "children": [
             {
@@ -997,7 +1070,7 @@
               "minWidth": "10px",
               "width": "84px"
              },
-             "blockId": "13971e24a6",
+             "blockId": "d26363c559",
              "blockName": "Slot Time",
              "children": [],
              "classes": [],
@@ -1020,7 +1093,7 @@
               "minWidth": "200px",
               "overflow": "hidden"
              },
-             "blockId": "ec8ec04917",
+             "blockId": "48f814c039",
              "blockName": "Slot Copy",
              "children": [
               {
@@ -1036,7 +1109,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "31d8af5097",
+               "blockId": "978b78d378",
                "blockName": "Slot Title",
                "children": [],
                "classes": [],
@@ -1058,7 +1131,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "59c0f0b5fa",
+               "blockId": "af31f0ab14",
                "blockName": "Slot Speaker",
                "children": [],
                "classes": [],
@@ -1096,7 +1169,7 @@
               "paddingTop": "4px",
               "width": "fit-content"
              },
-             "blockId": "ce9990a5f2",
+             "blockId": "4e096eab10",
              "blockName": "Slot Tag",
              "children": [],
              "classes": [],
@@ -1136,7 +1209,7 @@
             "paddingTop": "18px",
             "width": "100%"
            },
-           "blockId": "440d7e4ed7",
+           "blockId": "cb51599677",
            "blockName": "Slot · Animating like you mea",
            "children": [
             {
@@ -1152,7 +1225,7 @@
               "minWidth": "10px",
               "width": "84px"
              },
-             "blockId": "aa4f7bcac1",
+             "blockId": "a43d4d0d90",
              "blockName": "Slot Time",
              "children": [],
              "classes": [],
@@ -1175,7 +1248,7 @@
               "minWidth": "200px",
               "overflow": "hidden"
              },
-             "blockId": "cef93a5347",
+             "blockId": "ed46e32731",
              "blockName": "Slot Copy",
              "children": [
               {
@@ -1191,7 +1264,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "ef82f8d257",
+               "blockId": "389bd3a25a",
                "blockName": "Slot Title",
                "children": [],
                "classes": [],
@@ -1213,13 +1286,13 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "e2d0e08ac2",
+               "blockId": "7deedccf1d",
                "blockName": "Slot Speaker",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "element": "p",
-               "innerHTML": "Diego Ferreira — Linear",
+               "innerHTML": "Diego Ferreira - Linear",
                "mobileStyles": {},
                "rawStyles": {},
                "tabletStyles": {}
@@ -1251,7 +1324,7 @@
               "paddingTop": "4px",
               "width": "fit-content"
              },
-             "blockId": "32859510be",
+             "blockId": "0efd1c35ad",
              "blockName": "Slot Tag",
              "children": [],
              "classes": [],
@@ -1291,7 +1364,7 @@
             "paddingTop": "18px",
             "width": "100%"
            },
-           "blockId": "1a217c716b",
+           "blockId": "6a9e1ada73",
            "blockName": "Slot · Your tokens are showin",
            "children": [
             {
@@ -1307,7 +1380,7 @@
               "minWidth": "10px",
               "width": "84px"
              },
-             "blockId": "ae72c64a49",
+             "blockId": "f8ab564190",
              "blockName": "Slot Time",
              "children": [],
              "classes": [],
@@ -1330,7 +1403,7 @@
               "minWidth": "200px",
               "overflow": "hidden"
              },
-             "blockId": "b6640ebae7",
+             "blockId": "6b5d5d923b",
              "blockName": "Slot Copy",
              "children": [
               {
@@ -1346,7 +1419,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "0486ea9f93",
+               "blockId": "bf026369f6",
                "blockName": "Slot Title",
                "children": [],
                "classes": [],
@@ -1368,13 +1441,13 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "8eb6eea5a7",
+               "blockId": "c8d4bb7a15",
                "blockName": "Slot Speaker",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "element": "p",
-               "innerHTML": "Lena Vogel — Sentry",
+               "innerHTML": "Lena Vogel - Sentry",
                "mobileStyles": {},
                "rawStyles": {},
                "tabletStyles": {}
@@ -1406,7 +1479,7 @@
               "paddingTop": "4px",
               "width": "fit-content"
              },
-             "blockId": "c33f05a990",
+             "blockId": "aee42ff335",
              "blockName": "Slot Tag",
              "children": [],
              "classes": [],
@@ -1446,7 +1519,7 @@
             "paddingTop": "18px",
             "width": "100%"
            },
-           "blockId": "8e351e24e4",
+           "blockId": "08e2e30ddd",
            "blockName": "Slot · What CSS knows that yo",
            "children": [
             {
@@ -1462,7 +1535,7 @@
               "minWidth": "10px",
               "width": "84px"
              },
-             "blockId": "f732ce5173",
+             "blockId": "ebe409b19f",
              "blockName": "Slot Time",
              "children": [],
              "classes": [],
@@ -1485,7 +1558,7 @@
               "minWidth": "200px",
               "overflow": "hidden"
              },
-             "blockId": "623ee0ee74",
+             "blockId": "e18419ae8a",
              "blockName": "Slot Copy",
              "children": [
               {
@@ -1501,7 +1574,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "b33fa0b4cc",
+               "blockId": "fa5d130ca9",
                "blockName": "Slot Title",
                "children": [],
                "classes": [],
@@ -1523,13 +1596,13 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "259fd56d47",
+               "blockId": "0afc6d3da4",
                "blockName": "Slot Speaker",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "element": "p",
-               "innerHTML": "Rafael Costa — CSS WG",
+               "innerHTML": "Rafael Costa - CSS WG",
                "mobileStyles": {},
                "rawStyles": {},
                "tabletStyles": {}
@@ -1561,7 +1634,7 @@
               "paddingTop": "4px",
               "width": "fit-content"
              },
-             "blockId": "d62c4aa5ed",
+             "blockId": "13de78d1a4",
              "blockName": "Slot Tag",
              "children": [],
              "classes": [],
@@ -1601,7 +1674,7 @@
             "paddingTop": "18px",
             "width": "100%"
            },
-           "blockId": "3673d68c6e",
+           "blockId": "2cd9baaf8c",
            "blockName": "Slot · Afterparty at the fact",
            "children": [
             {
@@ -1617,7 +1690,7 @@
               "minWidth": "10px",
               "width": "84px"
              },
-             "blockId": "5de9e14b65",
+             "blockId": "3d9ba0f10b",
              "blockName": "Slot Time",
              "children": [],
              "classes": [],
@@ -1640,7 +1713,7 @@
               "minWidth": "200px",
               "overflow": "hidden"
              },
-             "blockId": "49e8d786a7",
+             "blockId": "2d34e96c94",
              "blockName": "Slot Copy",
              "children": [
               {
@@ -1656,7 +1729,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "2febb5eff6",
+               "blockId": "28e9a88373",
                "blockName": "Slot Title",
                "children": [],
                "classes": [],
@@ -1678,7 +1751,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "17f4188507",
+               "blockId": "1542e879a5",
                "blockName": "Slot Speaker",
                "children": [],
                "classes": [],
@@ -1716,7 +1789,7 @@
               "paddingTop": "4px",
               "width": "fit-content"
              },
-             "blockId": "463397d2eb",
+             "blockId": "503fce6cce",
              "blockName": "Slot Tag",
              "children": [],
              "classes": [],
@@ -1759,7 +1832,7 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "fb5a31fdd7",
+         "blockId": "0d0c36e9da",
          "blockName": "Schedule · Day 2",
          "children": [
           {
@@ -1774,7 +1847,7 @@
             "overflow": "hidden",
             "width": "100%"
            },
-           "blockId": "3d1a031220",
+           "blockId": "3c402c5a96",
            "blockName": "Day 2 Head",
            "children": [
             {
@@ -1794,7 +1867,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "82ed4ce116",
+             "blockId": "143929f0f3",
              "blockName": "Day Title",
              "children": [],
              "classes": [],
@@ -1816,13 +1889,13 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "7844a64a9e",
+             "blockId": "a113f09925",
              "blockName": "Day Date",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "Thursday, Oct 16 — workshops",
+             "innerHTML": "Thursday, Oct 16 - workshops",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1851,7 +1924,7 @@
             "paddingTop": "18px",
             "width": "100%"
            },
-           "blockId": "f8f64a56b0",
+           "blockId": "e7b84e3efd",
            "blockName": "Slot · Agents in production, ",
            "children": [
             {
@@ -1867,7 +1940,7 @@
               "minWidth": "10px",
               "width": "84px"
              },
-             "blockId": "e45af925d5",
+             "blockId": "16d611db18",
              "blockName": "Slot Time",
              "children": [],
              "classes": [],
@@ -1890,7 +1963,7 @@
               "minWidth": "200px",
               "overflow": "hidden"
              },
-             "blockId": "90c690497c",
+             "blockId": "7ded2bbfb2",
              "blockName": "Slot Copy",
              "children": [
               {
@@ -1906,7 +1979,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "208ad203e6",
+               "blockId": "f1443dcb21",
                "blockName": "Slot Title",
                "children": [],
                "classes": [],
@@ -1928,13 +2001,13 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "e2c6f5c6a5",
+               "blockId": "b429ad08ad",
                "blockName": "Slot Speaker",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "element": "p",
-               "innerHTML": "Yuki Tanaka — Supabase",
+               "innerHTML": "Yuki Tanaka - Supabase",
                "mobileStyles": {},
                "rawStyles": {},
                "tabletStyles": {}
@@ -1966,7 +2039,7 @@
               "paddingTop": "4px",
               "width": "fit-content"
              },
-             "blockId": "a3b9f5ee00",
+             "blockId": "1e26a8ebdb",
              "blockName": "Slot Tag",
              "children": [],
              "classes": [],
@@ -2006,7 +2079,7 @@
             "paddingTop": "18px",
             "width": "100%"
            },
-           "blockId": "59778ceeed",
+           "blockId": "25b9b99cd2",
            "blockName": "Slot · Design systems that su",
            "children": [
             {
@@ -2022,7 +2095,7 @@
               "minWidth": "10px",
               "width": "84px"
              },
-             "blockId": "9ed7039879",
+             "blockId": "3deebb688c",
              "blockName": "Slot Time",
              "children": [],
              "classes": [],
@@ -2045,7 +2118,7 @@
               "minWidth": "200px",
               "overflow": "hidden"
              },
-             "blockId": "b2c2aa2afb",
+             "blockId": "433c8c7034",
              "blockName": "Slot Copy",
              "children": [
               {
@@ -2061,7 +2134,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "fce0a3ab9e",
+               "blockId": "058024db8a",
                "blockName": "Slot Title",
                "children": [],
                "classes": [],
@@ -2083,13 +2156,13 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "e51725b5a4",
+               "blockId": "b372bb309a",
                "blockName": "Slot Speaker",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "element": "p",
-               "innerHTML": "Diego Ferreira — Linear",
+               "innerHTML": "Diego Ferreira - Linear",
                "mobileStyles": {},
                "rawStyles": {},
                "tabletStyles": {}
@@ -2121,7 +2194,7 @@
               "paddingTop": "4px",
               "width": "fit-content"
              },
-             "blockId": "ff9b1b6073",
+             "blockId": "08c1ea2580",
              "blockName": "Slot Tag",
              "children": [],
              "classes": [],
@@ -2161,7 +2234,7 @@
             "paddingTop": "18px",
             "width": "100%"
            },
-           "blockId": "249cf9d72e",
+           "blockId": "33450c1de6",
            "blockName": "Slot · Lunch & hallway track",
            "children": [
             {
@@ -2177,7 +2250,7 @@
               "minWidth": "10px",
               "width": "84px"
              },
-             "blockId": "116a6b56f5",
+             "blockId": "dde71906a1",
              "blockName": "Slot Time",
              "children": [],
              "classes": [],
@@ -2200,7 +2273,7 @@
               "minWidth": "200px",
               "overflow": "hidden"
              },
-             "blockId": "5f926dd33f",
+             "blockId": "aace76bec9",
              "blockName": "Slot Copy",
              "children": [
               {
@@ -2216,7 +2289,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "61bc533460",
+               "blockId": "c16641a09b",
                "blockName": "Slot Title",
                "children": [],
                "classes": [],
@@ -2238,7 +2311,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "456f0d5abc",
+               "blockId": "c943e24e7b",
                "blockName": "Slot Speaker",
                "children": [],
                "classes": [],
@@ -2276,7 +2349,7 @@
               "paddingTop": "4px",
               "width": "fit-content"
              },
-             "blockId": "17eef32493",
+             "blockId": "361abed4d5",
              "blockName": "Slot Tag",
              "children": [],
              "classes": [],
@@ -2316,7 +2389,7 @@
             "paddingTop": "18px",
             "width": "100%"
            },
-           "blockId": "4150203d90",
+           "blockId": "4ff463c890",
            "blockName": "Slot · Web performance, no ex",
            "children": [
             {
@@ -2332,7 +2405,7 @@
               "minWidth": "10px",
               "width": "84px"
              },
-             "blockId": "13d1b0147f",
+             "blockId": "8a9083fa14",
              "blockName": "Slot Time",
              "children": [],
              "classes": [],
@@ -2355,7 +2428,7 @@
               "minWidth": "200px",
               "overflow": "hidden"
              },
-             "blockId": "4183c86926",
+             "blockId": "bb2f4d1d7b",
              "blockName": "Slot Copy",
              "children": [
               {
@@ -2371,7 +2444,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "20623761ea",
+               "blockId": "1b63b53964",
                "blockName": "Slot Title",
                "children": [],
                "classes": [],
@@ -2393,13 +2466,13 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "f95dbe8de3",
+               "blockId": "a0a210f6cb",
                "blockName": "Slot Speaker",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "element": "p",
-               "innerHTML": "Amara Chen — Vercel",
+               "innerHTML": "Amara Chen - Vercel",
                "mobileStyles": {},
                "rawStyles": {},
                "tabletStyles": {}
@@ -2431,7 +2504,7 @@
               "paddingTop": "4px",
               "width": "fit-content"
              },
-             "blockId": "6288fe087b",
+             "blockId": "10f9950055",
              "blockName": "Slot Tag",
              "children": [],
              "classes": [],
@@ -2471,7 +2544,7 @@
             "paddingTop": "18px",
             "width": "100%"
            },
-           "blockId": "afbd9a50fd",
+           "blockId": "bcec73ade9",
            "blockName": "Slot · Threat-model your side",
            "children": [
             {
@@ -2487,7 +2560,7 @@
               "minWidth": "10px",
               "width": "84px"
              },
-             "blockId": "b8f41d499e",
+             "blockId": "2ebfd87c3e",
              "blockName": "Slot Time",
              "children": [],
              "classes": [],
@@ -2510,7 +2583,7 @@
               "minWidth": "200px",
               "overflow": "hidden"
              },
-             "blockId": "e1566fc8c5",
+             "blockId": "8baf1aacb7",
              "blockName": "Slot Copy",
              "children": [
               {
@@ -2526,7 +2599,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "1a77dbe081",
+               "blockId": "3576769f53",
                "blockName": "Slot Title",
                "children": [],
                "classes": [],
@@ -2548,13 +2621,13 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "d1759e1682",
+               "blockId": "e3c7dd9ca6",
                "blockName": "Slot Speaker",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "element": "p",
-               "innerHTML": "Lena Vogel — Sentry",
+               "innerHTML": "Lena Vogel - Sentry",
                "mobileStyles": {},
                "rawStyles": {},
                "tabletStyles": {}
@@ -2586,7 +2659,7 @@
               "paddingTop": "4px",
               "width": "fit-content"
              },
-             "blockId": "33e483e754",
+             "blockId": "6973d1218c",
              "blockName": "Slot Tag",
              "children": [],
              "classes": [],
@@ -2626,7 +2699,7 @@
             "paddingTop": "18px",
             "width": "100%"
            },
-           "blockId": "d82aadaca9",
+           "blockId": "84bb533d72",
            "blockName": "Slot · Closing circle & demos",
            "children": [
             {
@@ -2642,7 +2715,7 @@
               "minWidth": "10px",
               "width": "84px"
              },
-             "blockId": "aa60ff996a",
+             "blockId": "dcf7f51ffc",
              "blockName": "Slot Time",
              "children": [],
              "classes": [],
@@ -2665,7 +2738,7 @@
               "minWidth": "200px",
               "overflow": "hidden"
              },
-             "blockId": "6d66cb253a",
+             "blockId": "0cbc2b9f8e",
              "blockName": "Slot Copy",
              "children": [
               {
@@ -2681,7 +2754,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "c2e1278977",
+               "blockId": "8ebeb8b16d",
                "blockName": "Slot Title",
                "children": [],
                "classes": [],
@@ -2703,7 +2776,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "c0468a5c6a",
+               "blockId": "aaec013e2c",
                "blockName": "Slot Speaker",
                "children": [],
                "classes": [],
@@ -2741,7 +2814,7 @@
               "paddingTop": "4px",
               "width": "fit-content"
              },
-             "blockId": "43bff8d2c6",
+             "blockId": "c8abe98358",
              "blockName": "Slot Tag",
              "children": [],
              "classes": [],
@@ -2792,69 +2865,76 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "9ee6828c29",
+     "blockId": "c9c762ec33",
      "blockName": "Footer",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "a6ad55104e",
+       "blockId": "17e72b7e2f",
+       "blockName": "Footer Dots",
        "children": [],
        "classes": [],
        "customAttributes": {},
        "isChildOfComponent": "commit_footer",
        "mobileStyles": {},
+       "originalElement": "__raw_html__",
        "rawStyles": {},
-       "referenceBlockId": "75e8bb7c09",
+       "referenceBlockId": "e648049013",
        "tabletStyles": {}
       },
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "1de3f77768",
+       "blockId": "df2a9e6867",
+       "blockName": "Footer Container",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "3522ff1c3f",
+         "blockId": "53f1f87899",
+         "blockName": "Footer CTA",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "3122942006",
+           "blockId": "d38322b661",
+           "blockName": "Footer Headline",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "966c942ae3",
+           "referenceBlockId": "cae287cea7",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "f85ce99746",
+           "blockId": "610a39530d",
+           "blockName": "Footer Sub",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "fa5b292535",
+           "referenceBlockId": "540844ef4d",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "b5fdb0696f",
+           "blockId": "bfebde21ce",
+           "blockName": "Footer CTA Button",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "267d75fb02",
+           "referenceBlockId": "fa53f52374",
            "tabletStyles": {}
           }
          ],
@@ -2863,77 +2943,83 @@
          "isChildOfComponent": "commit_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "e9d26e37dc",
+         "referenceBlockId": "3a80a6694f",
          "tabletStyles": {}
         },
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "128a09ee9f",
+         "blockId": "5d5dd1fdcc",
+         "blockName": "Footer Links",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "67655af21d",
+           "blockId": "990ec2fd30",
+           "blockName": "Footer · Speakers",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "789c249d64",
+           "referenceBlockId": "2ef5b11a01",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "946f415b79",
+           "blockId": "7fbab7bf47",
+           "blockName": "Footer · Schedule",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "be9a014c3d",
+           "referenceBlockId": "85dc0c35b4",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "d2041fdaba",
+           "blockId": "7db53c5a2f",
+           "blockName": "Footer · Tickets",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "1a595af279",
+           "referenceBlockId": "0c169e8313",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "ca7a2869eb",
+           "blockId": "1d153c834a",
+           "blockName": "Footer · Code of conduct",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "ffffcfcf06",
+           "referenceBlockId": "111019d313",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "b7276493aa",
+           "blockId": "ee5f96086d",
+           "blockName": "Footer · Past editions",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "9998062e4b",
+           "referenceBlockId": "f2d8ab032e",
            "tabletStyles": {}
           }
          ],
@@ -2942,35 +3028,40 @@
          "isChildOfComponent": "commit_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "2ee25ab6e7",
+         "referenceBlockId": "ac46635ca3",
          "tabletStyles": {}
         },
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "784daa2afa",
+         "blockId": "4b646c4cd0",
+         "blockName": "Footer Bottom",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "282871749f",
+           "blockId": "2a2e607d33",
+           "blockName": "Footer Brand",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "9877dd4e40",
+             "blockId": "91ca2308ba",
+             "blockName": "Brand Mark",
              "children": [
               {
                "attributes": {},
                "baseStyles": {},
-               "blockId": "b5dc0a1ae7",
+               "blockId": "54c788f7cb",
+               "blockName": "Mark Icon",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "isChildOfComponent": "commit_footer",
                "mobileStyles": {},
+               "originalElement": "__raw_html__",
                "rawStyles": {},
-               "referenceBlockId": "30dcafc831",
+               "referenceBlockId": "d4e61ee738",
                "tabletStyles": {}
               }
              ],
@@ -2979,20 +3070,21 @@
              "isChildOfComponent": "commit_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "4cdb5633c3",
+             "referenceBlockId": "4065b1ef08",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "b74736aad4",
+             "blockId": "15bb889cee",
+             "blockName": "Wordmark",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "9e47fd5d5e",
+             "referenceBlockId": "c38e38b517",
              "tabletStyles": {}
             }
            ],
@@ -3001,20 +3093,21 @@
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "ea8569b2a4",
+           "referenceBlockId": "c910c17fc3",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "05c3189f38",
+           "blockId": "e3d178e500",
+           "blockName": "Copyright",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "e7495c1ee0",
+           "referenceBlockId": "389c0acabe",
            "tabletStyles": {}
           }
          ],
@@ -3023,7 +3116,7 @@
          "isChildOfComponent": "commit_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "df5597a298",
+         "referenceBlockId": "f39bc3dab0",
          "tabletStyles": {}
         }
        ],
@@ -3032,7 +3125,7 @@
        "isChildOfComponent": "commit_footer",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "8b2ebf5124",
+       "referenceBlockId": "7c743e3526",
        "tabletStyles": {}
       }
      ],
@@ -3059,9 +3152,15 @@
   },
   {
    "builder_script": "commit-reveal"
+  },
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
   }
  ],
- "creation": "2026-06-05 01:55:12.531756",
+ "creation": "2026-06-07 23:31:08.462501",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -3071,7 +3170,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "The full two-day programme of Commit '26.",
- "modified": "2026-06-14 20:46:12.697925",
+ "modified": "2026-06-21 09:35:27.339899",
  "modified_by": "Administrator",
  "name": "commit_schedule",
  "owner": "Administrator",

@@ -17,81 +17,252 @@
    "blockName": "Page",
    "children": [
     {
-     "blockId": "0d7f4bc845",
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "f3730c2b49",
      "blockName": "Navbar",
      "children": [
       {
-       "blockId": "ed809b6fd7",
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "842575de40",
+       "blockName": "Header Container",
        "children": [
         {
-         "blockId": "23aafe8818",
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "f9415fb3ba",
+         "blockName": "Header Row",
          "children": [
           {
-           "blockId": "13dcadb70d",
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "cfd7e84b40",
+           "blockName": "Brand",
            "children": [
             {
-             "blockId": "a57e624500",
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "8260267e10",
+             "blockName": "Brand Mark",
              "children": [
               {
-               "blockId": "36d12d0807",
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "1bfa6839b2",
+               "blockName": "Mark Icon",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
                "isChildOfComponent": "commit_navbar",
-               "referenceBlockId": "e5e473367f"
+               "mobileStyles": {},
+               "originalElement": "__raw_html__",
+               "rawStyles": {},
+               "referenceBlockId": "0fc1f42b82",
+               "tabletStyles": {}
               }
              ],
+             "classes": [],
+             "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
-             "referenceBlockId": "f169dca8c9"
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "eb90bb710c",
+             "tabletStyles": {}
             },
             {
-             "blockId": "f4e54f1d8b",
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "e64769460c",
+             "blockName": "Wordmark",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
-             "referenceBlockId": "3e3d06df5e"
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "38521d2ef7",
+             "tabletStyles": {}
             }
            ],
+           "classes": [],
+           "customAttributes": {},
            "isChildOfComponent": "commit_navbar",
-           "referenceBlockId": "916f28c31b"
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "3bcb49ebe0",
+           "tabletStyles": {}
           },
           {
-           "blockId": "f3da127e4f",
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "c701d9a0fe",
+           "blockName": "Primary Nav",
            "children": [
             {
-             "blockId": "cf2211b5bf",
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "27a23450e2",
+             "blockName": "Nav · Home",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
-             "referenceBlockId": "279649472c"
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "74d23c3c27",
+             "tabletStyles": {}
             },
             {
-             "blockId": "7e1168f2f8",
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "47ca135ba4",
+             "blockName": "Nav · Speakers",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
-             "referenceBlockId": "cb5dfa5da0"
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "ef2fb8616b",
+             "tabletStyles": {}
             },
             {
-             "blockId": "2cbaed9aaf",
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "956989272e",
+             "blockName": "Nav · Schedule",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
-             "referenceBlockId": "ee7c5c5a76"
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "3f56a9ff5e",
+             "tabletStyles": {}
             },
             {
-             "blockId": "2f72c45b47",
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "87bf84d66b",
+             "blockName": "Nav · Tickets",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
-             "referenceBlockId": "cbdab10222"
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "664311d0b6",
+             "tabletStyles": {}
             }
            ],
+           "classes": [],
+           "customAttributes": {},
            "isChildOfComponent": "commit_navbar",
-           "referenceBlockId": "0055c13860"
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "99893715eb",
+           "tabletStyles": {}
           },
           {
-           "blockId": "b9918c9ed0",
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "394653d49e",
+           "blockName": "Nav Actions",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "94bbe726d8",
+             "blockName": "Theme Toggle",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "7ce00f6f2e",
+               "blockName": "Theme · Sun",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "commit_navbar",
+               "mobileStyles": {},
+               "originalElement": "__raw_html__",
+               "rawStyles": {},
+               "referenceBlockId": "cb76491718",
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "0ce73b4def",
+               "blockName": "Theme · Moon",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "commit_navbar",
+               "mobileStyles": {},
+               "originalElement": "__raw_html__",
+               "rawStyles": {},
+               "referenceBlockId": "c4f4ba9b2d",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "c3fda509ec",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "dc9e101b18",
+             "blockName": "Nav CTA",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "14a3dec2d9",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
            "isChildOfComponent": "commit_navbar",
-           "referenceBlockId": "7bbcaacad9"
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "c8c9b874f4",
+           "tabletStyles": {}
           }
          ],
+         "classes": [],
+         "customAttributes": {},
          "isChildOfComponent": "commit_navbar",
-         "referenceBlockId": "e7d0d091fb"
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "15230846ee",
+         "tabletStyles": {}
         }
        ],
+       "classes": [],
+       "customAttributes": {},
        "isChildOfComponent": "commit_navbar",
-       "referenceBlockId": "a7cabf9f08"
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "cd0ed5ccde",
+       "tabletStyles": {}
       }
      ],
-     "extendedFromComponent": "commit_navbar"
+     "classes": [],
+     "customAttributes": {},
+     "extendedFromComponent": "commit_navbar",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
     },
     {
      "baseStyles": {
@@ -2443,113 +2614,278 @@
      "element": "div"
     },
     {
-     "blockId": "72a037e5c7",
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "b635828d9e",
      "blockName": "Footer",
      "children": [
       {
-       "blockId": "f37cde8576",
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "57e4ac3816",
+       "blockName": "Footer Dots",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
        "isChildOfComponent": "commit_footer",
-       "referenceBlockId": "75e8bb7c09"
+       "mobileStyles": {},
+       "originalElement": "__raw_html__",
+       "rawStyles": {},
+       "referenceBlockId": "e648049013",
+       "tabletStyles": {}
       },
       {
-       "blockId": "d71ca2919b",
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "466292102d",
+       "blockName": "Footer Container",
        "children": [
         {
-         "blockId": "62b0025912",
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "db8b952311",
+         "blockName": "Footer CTA",
          "children": [
           {
-           "blockId": "d24653c7bf",
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "0172eca473",
+           "blockName": "Footer Headline",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
            "isChildOfComponent": "commit_footer",
-           "referenceBlockId": "966c942ae3"
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "cae287cea7",
+           "tabletStyles": {}
           },
           {
-           "blockId": "b139957a3a",
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "5c3a957dd3",
+           "blockName": "Footer Sub",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
            "isChildOfComponent": "commit_footer",
-           "referenceBlockId": "fa5b292535"
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "540844ef4d",
+           "tabletStyles": {}
           },
           {
-           "blockId": "36869bd59a",
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "6342533cdb",
+           "blockName": "Footer CTA Button",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
            "isChildOfComponent": "commit_footer",
-           "referenceBlockId": "267d75fb02"
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "fa53f52374",
+           "tabletStyles": {}
           }
          ],
+         "classes": [],
+         "customAttributes": {},
          "isChildOfComponent": "commit_footer",
-         "referenceBlockId": "e9d26e37dc"
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "3a80a6694f",
+         "tabletStyles": {}
         },
         {
-         "blockId": "2108bd7312",
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "ee383f8850",
+         "blockName": "Footer Links",
          "children": [
           {
-           "blockId": "3a0c558ea5",
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "f51f667a70",
+           "blockName": "Footer · Speakers",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
            "isChildOfComponent": "commit_footer",
-           "referenceBlockId": "789c249d64"
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "2ef5b11a01",
+           "tabletStyles": {}
           },
           {
-           "blockId": "02ff918387",
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "3714769966",
+           "blockName": "Footer · Schedule",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
            "isChildOfComponent": "commit_footer",
-           "referenceBlockId": "be9a014c3d"
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "85dc0c35b4",
+           "tabletStyles": {}
           },
           {
-           "blockId": "bb890e9529",
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "b59bb212e4",
+           "blockName": "Footer · Tickets",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
            "isChildOfComponent": "commit_footer",
-           "referenceBlockId": "1a595af279"
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "0c169e8313",
+           "tabletStyles": {}
           },
           {
-           "blockId": "44775c93f4",
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "b2740cfa37",
+           "blockName": "Footer · Code of conduct",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
            "isChildOfComponent": "commit_footer",
-           "referenceBlockId": "ffffcfcf06"
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "111019d313",
+           "tabletStyles": {}
           },
           {
-           "blockId": "06e26e2e09",
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "92b1d8cf8b",
+           "blockName": "Footer · Past editions",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
            "isChildOfComponent": "commit_footer",
-           "referenceBlockId": "9998062e4b"
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "f2d8ab032e",
+           "tabletStyles": {}
           }
          ],
+         "classes": [],
+         "customAttributes": {},
          "isChildOfComponent": "commit_footer",
-         "referenceBlockId": "2ee25ab6e7"
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "ac46635ca3",
+         "tabletStyles": {}
         },
         {
-         "blockId": "866b8fd935",
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "6671f753e2",
+         "blockName": "Footer Bottom",
          "children": [
           {
-           "blockId": "22cd857a93",
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "7d0b108778",
+           "blockName": "Footer Brand",
            "children": [
             {
-             "blockId": "7d2bad53bf",
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "52ffb1f981",
+             "blockName": "Brand Mark",
              "children": [
               {
-               "blockId": "101c2fab79",
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "807f693858",
+               "blockName": "Mark Icon",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
                "isChildOfComponent": "commit_footer",
-               "referenceBlockId": "30dcafc831"
+               "mobileStyles": {},
+               "originalElement": "__raw_html__",
+               "rawStyles": {},
+               "referenceBlockId": "d4e61ee738",
+               "tabletStyles": {}
               }
              ],
+             "classes": [],
+             "customAttributes": {},
              "isChildOfComponent": "commit_footer",
-             "referenceBlockId": "4cdb5633c3"
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "4065b1ef08",
+             "tabletStyles": {}
             },
             {
-             "blockId": "cfdf03a167",
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "3035cc6733",
+             "blockName": "Wordmark",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
              "isChildOfComponent": "commit_footer",
-             "referenceBlockId": "9e47fd5d5e"
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "c38e38b517",
+             "tabletStyles": {}
             }
            ],
+           "classes": [],
+           "customAttributes": {},
            "isChildOfComponent": "commit_footer",
-           "referenceBlockId": "ea8569b2a4"
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "c910c17fc3",
+           "tabletStyles": {}
           },
           {
-           "blockId": "7e84258d65",
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "7998dd9aa6",
+           "blockName": "Copyright",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
            "isChildOfComponent": "commit_footer",
-           "referenceBlockId": "e7495c1ee0"
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "389c0acabe",
+           "tabletStyles": {}
           }
          ],
+         "classes": [],
+         "customAttributes": {},
          "isChildOfComponent": "commit_footer",
-         "referenceBlockId": "df5597a298"
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "f39bc3dab0",
+         "tabletStyles": {}
         }
        ],
+       "classes": [],
+       "customAttributes": {},
        "isChildOfComponent": "commit_footer",
-       "referenceBlockId": "8b2ebf5124"
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "7c743e3526",
+       "tabletStyles": {}
       }
      ],
-     "extendedFromComponent": "commit_footer"
+     "classes": [],
+     "customAttributes": {},
+     "extendedFromComponent": "commit_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
     }
    ],
    "draggable": false,
@@ -2578,7 +2914,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Commit '26 — two days of code, craft & caffeine in Lisbon.",
- "modified": "2026-06-29 17:13:14.552086",
+ "modified": "2026-07-12 23:18:21.795619",
  "modified_by": "Administrator",
  "name": "commit_home",
  "owner": "Administrator",

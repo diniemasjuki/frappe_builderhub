@@ -20,40 +20,46 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "7eaa883817",
+     "blockId": "9f17e2ea92",
      "blockName": "Navbar",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "0624ff9cf1",
+       "blockId": "94fa1d8ccd",
+       "blockName": "Header Container",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "ad7b940993",
+         "blockId": "9dcc1dd596",
+         "blockName": "Header Row",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "ade2d0f4d9",
+           "blockId": "9315c285eb",
+           "blockName": "Brand",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "5d27cb6543",
+             "blockId": "418c6837d3",
+             "blockName": "Brand Mark",
              "children": [
               {
                "attributes": {},
                "baseStyles": {},
-               "blockId": "e16fc9f4c6",
+               "blockId": "09dcff157e",
+               "blockName": "Mark Icon",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "isChildOfComponent": "commit_navbar",
                "mobileStyles": {},
+               "originalElement": "__raw_html__",
                "rawStyles": {},
-               "referenceBlockId": "e5e473367f",
+               "referenceBlockId": "0fc1f42b82",
                "tabletStyles": {}
               }
              ],
@@ -62,20 +68,21 @@
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "f169dca8c9",
+             "referenceBlockId": "eb90bb710c",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "32236b791f",
+             "blockId": "44a4ab43a3",
+             "blockName": "Wordmark",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "3e3d06df5e",
+             "referenceBlockId": "38521d2ef7",
              "tabletStyles": {}
             }
            ],
@@ -84,64 +91,69 @@
            "isChildOfComponent": "commit_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "916f28c31b",
+           "referenceBlockId": "3bcb49ebe0",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "df6e0c8acf",
+           "blockId": "c7d5ce37ae",
+           "blockName": "Primary Nav",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "6c3249e577",
+             "blockId": "244f8af98d",
+             "blockName": "Nav · Home",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "279649472c",
+             "referenceBlockId": "74d23c3c27",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "397bc2f212",
+             "blockId": "f03390a734",
+             "blockName": "Nav · Speakers",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "cb5dfa5da0",
+             "referenceBlockId": "ef2fb8616b",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "43d7de1dc4",
+             "blockId": "f5116124ff",
+             "blockName": "Nav · Schedule",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "ee7c5c5a76",
+             "referenceBlockId": "3f56a9ff5e",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "db1835b2fb",
+             "blockId": "64dd5da102",
+             "blockName": "Nav · Tickets",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "cbdab10222",
+             "referenceBlockId": "664311d0b6",
              "tabletStyles": {}
             }
            ],
@@ -150,20 +162,81 @@
            "isChildOfComponent": "commit_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "0055c13860",
+           "referenceBlockId": "99893715eb",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "e964749477",
-           "children": [],
+           "blockId": "e83685b0b6",
+           "blockName": "Nav Actions",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "ae1801daff",
+             "blockName": "Theme Toggle",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "629c71bd61",
+               "blockName": "Theme · Sun",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "commit_navbar",
+               "mobileStyles": {},
+               "originalElement": "__raw_html__",
+               "rawStyles": {},
+               "referenceBlockId": "cb76491718",
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "27b15c9a2e",
+               "blockName": "Theme · Moon",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "commit_navbar",
+               "mobileStyles": {},
+               "originalElement": "__raw_html__",
+               "rawStyles": {},
+               "referenceBlockId": "c4f4ba9b2d",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "c3fda509ec",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "af6772d18e",
+             "blockName": "Nav CTA",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "14a3dec2d9",
+             "tabletStyles": {}
+            }
+           ],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "7bbcaacad9",
+           "referenceBlockId": "c8c9b874f4",
            "tabletStyles": {}
           }
          ],
@@ -172,7 +245,7 @@
          "isChildOfComponent": "commit_navbar",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "e7d0d091fb",
+         "referenceBlockId": "15230846ee",
          "tabletStyles": {}
         }
        ],
@@ -181,7 +254,7 @@
        "isChildOfComponent": "commit_navbar",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "a7cabf9f08",
+       "referenceBlockId": "cd0ed5ccde",
        "tabletStyles": {}
       }
      ],
@@ -206,7 +279,7 @@
       "position": "relative",
       "width": "100%"
      },
-     "blockId": "f8ffb107a4",
+     "blockId": "8cae081cd3",
      "blockName": "Section · Speakers Hero",
      "children": [
       {
@@ -224,7 +297,7 @@
         "top": "0px",
         "width": "100%"
        },
-       "blockId": "38c0d00609",
+       "blockId": "1730ade8fc",
        "blockName": "Speakers Blobs",
        "children": [],
        "classes": [],
@@ -249,7 +322,7 @@
         "paddingRight": "28px",
         "width": "100%"
        },
-       "blockId": "e6300f37c8",
+       "blockId": "a8827267a8",
        "blockName": "Speakers Hero Container",
        "children": [
         {
@@ -264,7 +337,7 @@
           "position": "relative",
           "zIndex": "1"
          },
-         "blockId": "c9b06fd8dc",
+         "blockId": "295a8178cf",
          "blockName": "Speakers Hero Stack",
          "children": [
           {
@@ -284,7 +357,7 @@
             "paddingTop": "7px",
             "width": "fit-content"
            },
-           "blockId": "4468c0de23",
+           "blockId": "a65e4f39e4",
            "blockName": "Badge",
            "children": [
             {
@@ -296,7 +369,7 @@
               "lineHeight": "0",
               "overflow": "hidden"
              },
-             "blockId": "746914a1a3",
+             "blockId": "fb3e1c3a30",
              "blockName": "Badge Sparkle",
              "children": [],
              "classes": [],
@@ -319,7 +392,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "08e290a2bf",
+             "blockId": "419669e0ec",
              "blockName": "Badge Text",
              "children": [],
              "classes": [],
@@ -352,7 +425,7 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "2f5cc87c06",
+           "blockId": "1656c85940",
            "blockName": "Speakers Title",
            "children": [],
            "classes": [],
@@ -378,13 +451,13 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "3cc8a791ee",
+           "blockId": "98aff3fdd4",
            "blockName": "Speakers Subtitle",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "Twenty-four speakers. Zero keynote fluff. These are the first eight — the rest land with the schedule.",
+           "innerHTML": "Twenty-four speakers. Zero keynote fluff. These are the first eight - the rest land with the schedule.",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -425,7 +498,7 @@
       "paddingBottom": "80px",
       "width": "100%"
      },
-     "blockId": "f67604379e",
+     "blockId": "0fc284d7f9",
      "blockName": "Section · All Speakers",
      "children": [
       {
@@ -442,7 +515,7 @@
         "paddingRight": "28px",
         "width": "100%"
        },
-       "blockId": "257b32e2a7",
+       "blockId": "2b0f81a4cf",
        "blockName": "All Speakers Container",
        "children": [
         {
@@ -456,7 +529,7 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "f3ccf492c1",
+         "blockId": "e5dbcdc345",
          "blockName": "All Speakers Grid",
          "children": [
           {
@@ -475,7 +548,7 @@
             "padding": "14px",
             "width": "100%"
            },
-           "blockId": "83e428ef6a",
+           "blockId": "6448a85893",
            "blockName": "Speaker · Amara Chen",
            "children": [
             {
@@ -490,7 +563,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "aa4aae6fbb",
+             "blockId": "20d30c4b1d",
              "blockName": "Speaker Photo",
              "children": [],
              "classes": [],
@@ -512,7 +585,7 @@
               "paddingLeft": "6px",
               "paddingRight": "6px"
              },
-             "blockId": "77412b257f",
+             "blockId": "774e797021",
              "blockName": "Speaker Copy",
              "children": [
               {
@@ -528,7 +601,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "e06fb9c4fd",
+               "blockId": "7221aabac0",
                "blockName": "Speaker Name",
                "children": [],
                "classes": [],
@@ -550,7 +623,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "8fca582239",
+               "blockId": "3461f6e47d",
                "blockName": "Speaker Role",
                "children": [],
                "classes": [],
@@ -572,7 +645,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "a1ac988865",
+               "blockId": "9605185e10",
                "blockName": "Speaker Talk",
                "children": [],
                "classes": [],
@@ -617,7 +690,7 @@
             "padding": "14px",
             "width": "100%"
            },
-           "blockId": "f6ee292f21",
+           "blockId": "8270a11d55",
            "blockName": "Speaker · Diego Ferreira",
            "children": [
             {
@@ -632,7 +705,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "b8bd11d25a",
+             "blockId": "f672296c4a",
              "blockName": "Speaker Photo",
              "children": [],
              "classes": [],
@@ -654,7 +727,7 @@
               "paddingLeft": "6px",
               "paddingRight": "6px"
              },
-             "blockId": "70aff7cafb",
+             "blockId": "c75362e28c",
              "blockName": "Speaker Copy",
              "children": [
               {
@@ -670,7 +743,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "6adf941bcf",
+               "blockId": "066c7c776a",
                "blockName": "Speaker Name",
                "children": [],
                "classes": [],
@@ -692,7 +765,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "35103a7430",
+               "blockId": "0a59206b5f",
                "blockName": "Speaker Role",
                "children": [],
                "classes": [],
@@ -714,7 +787,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "df9ace41d2",
+               "blockId": "bc9d3b42ec",
                "blockName": "Speaker Talk",
                "children": [],
                "classes": [],
@@ -759,7 +832,7 @@
             "padding": "14px",
             "width": "100%"
            },
-           "blockId": "c0af4fbd92",
+           "blockId": "406b6adb33",
            "blockName": "Speaker · Priya Raman",
            "children": [
             {
@@ -774,7 +847,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "f67ec794ff",
+             "blockId": "0e712d31a3",
              "blockName": "Speaker Photo",
              "children": [],
              "classes": [],
@@ -796,7 +869,7 @@
               "paddingLeft": "6px",
               "paddingRight": "6px"
              },
-             "blockId": "42e8cc1492",
+             "blockId": "ee94864c84",
              "blockName": "Speaker Copy",
              "children": [
               {
@@ -812,7 +885,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "26c405e1d3",
+               "blockId": "cbd3afc196",
                "blockName": "Speaker Name",
                "children": [],
                "classes": [],
@@ -834,7 +907,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "7bb590af83",
+               "blockId": "0cc0b5d7e2",
                "blockName": "Speaker Role",
                "children": [],
                "classes": [],
@@ -856,7 +929,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "45a37f55e7",
+               "blockId": "349edb79b4",
                "blockName": "Speaker Talk",
                "children": [],
                "classes": [],
@@ -901,7 +974,7 @@
             "padding": "14px",
             "width": "100%"
            },
-           "blockId": "ee3d74fd27",
+           "blockId": "7cce0b409d",
            "blockName": "Speaker · Tom Okafor",
            "children": [
             {
@@ -916,7 +989,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "0542b68368",
+             "blockId": "a3f7d2c944",
              "blockName": "Speaker Photo",
              "children": [],
              "classes": [],
@@ -938,7 +1011,7 @@
               "paddingLeft": "6px",
               "paddingRight": "6px"
              },
-             "blockId": "6f99443e4d",
+             "blockId": "16cf1e8690",
              "blockName": "Speaker Copy",
              "children": [
               {
@@ -954,7 +1027,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "6281fc1855",
+               "blockId": "618feced7d",
                "blockName": "Speaker Name",
                "children": [],
                "classes": [],
@@ -976,7 +1049,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "0ba438448b",
+               "blockId": "b98f32fe4d",
                "blockName": "Speaker Role",
                "children": [],
                "classes": [],
@@ -998,7 +1071,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "3445b53198",
+               "blockId": "5d9221b8a6",
                "blockName": "Speaker Talk",
                "children": [],
                "classes": [],
@@ -1043,7 +1116,7 @@
             "padding": "14px",
             "width": "100%"
            },
-           "blockId": "f4286c4504",
+           "blockId": "5154fba488",
            "blockName": "Speaker · Lena Vogel",
            "children": [
             {
@@ -1058,7 +1131,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "c74cff5d63",
+             "blockId": "8f2526dd1a",
              "blockName": "Speaker Photo",
              "children": [],
              "classes": [],
@@ -1080,7 +1153,7 @@
               "paddingLeft": "6px",
               "paddingRight": "6px"
              },
-             "blockId": "a6284e05fb",
+             "blockId": "0388b06677",
              "blockName": "Speaker Copy",
              "children": [
               {
@@ -1096,7 +1169,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "132bccf0fc",
+               "blockId": "56f513b93c",
                "blockName": "Speaker Name",
                "children": [],
                "classes": [],
@@ -1118,7 +1191,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "2aed72b39f",
+               "blockId": "d56ec21c53",
                "blockName": "Speaker Role",
                "children": [],
                "classes": [],
@@ -1140,7 +1213,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "1659ec173d",
+               "blockId": "1cd3e0e70c",
                "blockName": "Speaker Talk",
                "children": [],
                "classes": [],
@@ -1185,7 +1258,7 @@
             "padding": "14px",
             "width": "100%"
            },
-           "blockId": "b2c6ac11f8",
+           "blockId": "0429c5d6bc",
            "blockName": "Speaker · Marcus Hale",
            "children": [
             {
@@ -1200,7 +1273,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "bf706d36ee",
+             "blockId": "9f320b9631",
              "blockName": "Speaker Photo",
              "children": [],
              "classes": [],
@@ -1222,7 +1295,7 @@
               "paddingLeft": "6px",
               "paddingRight": "6px"
              },
-             "blockId": "612948e051",
+             "blockId": "fda2fb1130",
              "blockName": "Speaker Copy",
              "children": [
               {
@@ -1238,7 +1311,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "f2fee22a5d",
+               "blockId": "796ec36f4a",
                "blockName": "Speaker Name",
                "children": [],
                "classes": [],
@@ -1260,7 +1333,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "11516423ac",
+               "blockId": "f09a1c61b2",
                "blockName": "Speaker Role",
                "children": [],
                "classes": [],
@@ -1282,7 +1355,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "c28e993275",
+               "blockId": "fb37bb1ac6",
                "blockName": "Speaker Talk",
                "children": [],
                "classes": [],
@@ -1327,7 +1400,7 @@
             "padding": "14px",
             "width": "100%"
            },
-           "blockId": "a90513e413",
+           "blockId": "28cf09694b",
            "blockName": "Speaker · Yuki Tanaka",
            "children": [
             {
@@ -1342,7 +1415,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "e9cd5c87d0",
+             "blockId": "6a540958d7",
              "blockName": "Speaker Photo",
              "children": [],
              "classes": [],
@@ -1364,7 +1437,7 @@
               "paddingLeft": "6px",
               "paddingRight": "6px"
              },
-             "blockId": "0ba528182f",
+             "blockId": "b85023cbd5",
              "blockName": "Speaker Copy",
              "children": [
               {
@@ -1380,7 +1453,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "c614455d3e",
+               "blockId": "ef15355edf",
                "blockName": "Speaker Name",
                "children": [],
                "classes": [],
@@ -1402,7 +1475,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "193df02bf5",
+               "blockId": "2b5961b15f",
                "blockName": "Speaker Role",
                "children": [],
                "classes": [],
@@ -1424,7 +1497,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "8d63ba3a44",
+               "blockId": "14f31f84fd",
                "blockName": "Speaker Talk",
                "children": [],
                "classes": [],
@@ -1469,7 +1542,7 @@
             "padding": "14px",
             "width": "100%"
            },
-           "blockId": "2ac1497de6",
+           "blockId": "2946a37fe4",
            "blockName": "Speaker · Rafael Costa",
            "children": [
             {
@@ -1484,7 +1557,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "0aa32c0df4",
+             "blockId": "457252dc6d",
              "blockName": "Speaker Photo",
              "children": [],
              "classes": [],
@@ -1506,7 +1579,7 @@
               "paddingLeft": "6px",
               "paddingRight": "6px"
              },
-             "blockId": "e4d8d869f7",
+             "blockId": "46971a016a",
              "blockName": "Speaker Copy",
              "children": [
               {
@@ -1522,7 +1595,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "5a25eaca67",
+               "blockId": "b9c2c554b1",
                "blockName": "Speaker Name",
                "children": [],
                "classes": [],
@@ -1544,7 +1617,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "8b75299a13",
+               "blockId": "8264796978",
                "blockName": "Speaker Role",
                "children": [],
                "classes": [],
@@ -1566,7 +1639,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "296bf66d4a",
+               "blockId": "cf0106f0d0",
                "blockName": "Speaker Talk",
                "children": [],
                "classes": [],
@@ -1633,7 +1706,7 @@
       "paddingBottom": "96px",
       "width": "100%"
      },
-     "blockId": "ae9161f0e9",
+     "blockId": "84d55abcf0",
      "blockName": "Section · CFP",
      "children": [
       {
@@ -1650,7 +1723,7 @@
         "paddingRight": "28px",
         "width": "100%"
        },
-       "blockId": "a23227feae",
+       "blockId": "7a285b90ca",
        "blockName": "CFP Container",
        "children": [
         {
@@ -1670,7 +1743,7 @@
           "paddingTop": "56px",
           "width": "100%"
          },
-         "blockId": "12607efc97",
+         "blockId": "50ba356d39",
          "blockName": "CFP Box",
          "children": [
           {
@@ -1687,7 +1760,7 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "1099c60f7a",
+           "blockId": "a44c362c39",
            "blockName": "CFP Title",
            "children": [],
            "classes": [],
@@ -1713,7 +1786,7 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "eefb678355",
+           "blockId": "4ece7fd3b9",
            "blockName": "CFP Text",
            "children": [],
            "classes": [],
@@ -1750,7 +1823,7 @@
             "textDecoration": "none",
             "width": "fit-content"
            },
-           "blockId": "a8b0839ef3",
+           "blockId": "09fbaa0150",
            "blockName": "CFP Button",
            "children": [],
            "classes": [],
@@ -1793,69 +1866,76 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "0e47492c3c",
+     "blockId": "78c7b41b8b",
      "blockName": "Footer",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "571274e5be",
+       "blockId": "9b694a3613",
+       "blockName": "Footer Dots",
        "children": [],
        "classes": [],
        "customAttributes": {},
        "isChildOfComponent": "commit_footer",
        "mobileStyles": {},
+       "originalElement": "__raw_html__",
        "rawStyles": {},
-       "referenceBlockId": "75e8bb7c09",
+       "referenceBlockId": "e648049013",
        "tabletStyles": {}
       },
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "3b4a838ce3",
+       "blockId": "45eefc4c5d",
+       "blockName": "Footer Container",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "682db2abdb",
+         "blockId": "42ac530e89",
+         "blockName": "Footer CTA",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "180de6d8af",
+           "blockId": "3428ad9dc0",
+           "blockName": "Footer Headline",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "966c942ae3",
+           "referenceBlockId": "cae287cea7",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "31161e767d",
+           "blockId": "61d09b2ead",
+           "blockName": "Footer Sub",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "fa5b292535",
+           "referenceBlockId": "540844ef4d",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "49b1ab1d52",
+           "blockId": "907424d2bd",
+           "blockName": "Footer CTA Button",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "267d75fb02",
+           "referenceBlockId": "fa53f52374",
            "tabletStyles": {}
           }
          ],
@@ -1864,77 +1944,83 @@
          "isChildOfComponent": "commit_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "e9d26e37dc",
+         "referenceBlockId": "3a80a6694f",
          "tabletStyles": {}
         },
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "2ce24806e4",
+         "blockId": "979ff2e9ee",
+         "blockName": "Footer Links",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "099d9f87f0",
+           "blockId": "dcb366e2b3",
+           "blockName": "Footer · Speakers",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "789c249d64",
+           "referenceBlockId": "2ef5b11a01",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "70135f33f9",
+           "blockId": "cb9137a87e",
+           "blockName": "Footer · Schedule",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "be9a014c3d",
+           "referenceBlockId": "85dc0c35b4",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "0630262dd7",
+           "blockId": "dd3013c2f1",
+           "blockName": "Footer · Tickets",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "1a595af279",
+           "referenceBlockId": "0c169e8313",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "806ce318e9",
+           "blockId": "b68cb9a0e1",
+           "blockName": "Footer · Code of conduct",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "ffffcfcf06",
+           "referenceBlockId": "111019d313",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "71291dbf00",
+           "blockId": "bc3ad80e5a",
+           "blockName": "Footer · Past editions",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "9998062e4b",
+           "referenceBlockId": "f2d8ab032e",
            "tabletStyles": {}
           }
          ],
@@ -1943,35 +2029,40 @@
          "isChildOfComponent": "commit_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "2ee25ab6e7",
+         "referenceBlockId": "ac46635ca3",
          "tabletStyles": {}
         },
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "ee2c6ff684",
+         "blockId": "2d467b2483",
+         "blockName": "Footer Bottom",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "301705f6b0",
+           "blockId": "d4df930109",
+           "blockName": "Footer Brand",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "47c020d58c",
+             "blockId": "f050e20d56",
+             "blockName": "Brand Mark",
              "children": [
               {
                "attributes": {},
                "baseStyles": {},
-               "blockId": "6195fe91c2",
+               "blockId": "77b94b528a",
+               "blockName": "Mark Icon",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "isChildOfComponent": "commit_footer",
                "mobileStyles": {},
+               "originalElement": "__raw_html__",
                "rawStyles": {},
-               "referenceBlockId": "30dcafc831",
+               "referenceBlockId": "d4e61ee738",
                "tabletStyles": {}
               }
              ],
@@ -1980,20 +2071,21 @@
              "isChildOfComponent": "commit_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "4cdb5633c3",
+             "referenceBlockId": "4065b1ef08",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "3446a8f0e7",
+             "blockId": "bc3da5f8db",
+             "blockName": "Wordmark",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "9e47fd5d5e",
+             "referenceBlockId": "c38e38b517",
              "tabletStyles": {}
             }
            ],
@@ -2002,20 +2094,21 @@
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "ea8569b2a4",
+           "referenceBlockId": "c910c17fc3",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "675140b5e5",
+           "blockId": "d69f23ddaa",
+           "blockName": "Copyright",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "e7495c1ee0",
+           "referenceBlockId": "389c0acabe",
            "tabletStyles": {}
           }
          ],
@@ -2024,7 +2117,7 @@
          "isChildOfComponent": "commit_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "df5597a298",
+         "referenceBlockId": "f39bc3dab0",
          "tabletStyles": {}
         }
        ],
@@ -2033,7 +2126,7 @@
        "isChildOfComponent": "commit_footer",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "8b2ebf5124",
+       "referenceBlockId": "7c743e3526",
        "tabletStyles": {}
       }
      ],
@@ -2060,9 +2153,15 @@
   },
   {
    "builder_script": "commit-reveal"
+  },
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
   }
  ],
- "creation": "2026-06-05 01:55:11.006276",
+ "creation": "2026-06-07 23:31:08.380070",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -2072,7 +2171,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "The first eight speakers of Commit '26.",
- "modified": "2026-06-05 01:55:12.508359",
+ "modified": "2026-06-21 09:35:27.404218",
  "modified_by": "Administrator",
  "name": "commit_speakers",
  "owner": "Administrator",
