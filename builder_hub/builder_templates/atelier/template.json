@@ -12,5 +12,9 @@
    "name": "atelier_contact"
   }
  ],
- "title": "Atelier"
+ "title": "Atelier",
+ "categories": [
+  "Portfolio",
+  "Marketing"
+ ]
 }
