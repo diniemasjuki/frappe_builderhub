@@ -55,6 +55,7 @@ def _get_catalog(base_url: str) -> list[dict]:
 				"name": group,
 				"title": manifest.get("title") or group.replace("_", " ").title(),
 				"description": manifest.get("description") or "",
+				"categories": manifest.get("categories") or [],
 				"preview": abs_url(manifest.get("preview")) or group_pages[0].preview,
 				"order": manifest.get("order"),
 				"pages": group_pages,

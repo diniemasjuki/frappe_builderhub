@@ -15,5 +15,8 @@
    "name": "verso_about"
   }
  ],
- "title": "Verso"
+ "title": "Verso",
+ "categories": [
+  "Portfolio"
+ ]
 }

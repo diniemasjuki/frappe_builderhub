@@ -15,5 +15,9 @@
    "name": "commit_tickets"
   }
  ],
- "title": "Commit"
+ "title": "Commit",
+ "categories": [
+  "Events",
+  "Marketing"
+ ]
 }

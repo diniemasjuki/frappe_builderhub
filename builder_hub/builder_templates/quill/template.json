@@ -12,5 +12,8 @@
    "name": "quill_about"
   }
  ],
- "title": "Quill"
+ "title": "Quill",
+ "categories": [
+  "Blog"
+ ]
 }
