@@ -696,7 +696,7 @@
             {
              "attributes": {
               "alt": "Diego Ferreira",
-              "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=700"
+              "src": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&q=80&w=700"
              },
              "baseStyles": {
               "borderRadius": "12px",
@@ -2171,7 +2171,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "The first eight speakers of Commit '26.",
- "modified": "2026-07-14 21:46:26.620403",
+ "modified": "2026-07-14 22:20:46.284434",
  "modified_by": "Administrator",
  "name": "commit_speakers",
  "owner": "Administrator",

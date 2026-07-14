@@ -2055,7 +2055,7 @@
             {
              "attributes": {
               "alt": "Diego Ferreira",
-              "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=700"
+              "src": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&q=80&w=700"
              },
              "baseStyles": {
               "borderRadius": "12px",
@@ -2928,7 +2928,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Commit '26 - two days of code, craft & caffeine in Lisbon.",
- "modified": "2026-07-14 21:46:26.612712",
+ "modified": "2026-07-14 22:20:46.276875",
  "modified_by": "Administrator",
  "name": "commit_home",
  "owner": "Administrator",
