@@ -523,9 +523,13 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "mobileStyles": {},
+           "mobileStyles": {
+            "flexBasis": "auto"
+           },
            "rawStyles": {},
-           "tabletStyles": {}
+           "tabletStyles": {
+            "flexBasis": "auto"
+           }
           },
           {
            "attributes": {
@@ -552,7 +556,10 @@
             "maxWidth": "100%"
            },
            "rawStyles": {},
-           "tabletStyles": {}
+           "tabletStyles": {
+            "height": "320px",
+            "maxWidth": "100%"
+           }
           }
          ],
          "classes": [],
@@ -563,7 +570,10 @@
           "gap": "32px"
          },
          "rawStyles": {},
-         "tabletStyles": {}
+         "tabletStyles": {
+          "flexDirection": "column",
+          "gap": "32px"
+         }
         }
        ],
        "classes": [],
@@ -1238,7 +1248,10 @@
             "maxWidth": "100%"
            },
            "rawStyles": {},
-           "tabletStyles": {}
+           "tabletStyles": {
+            "height": "300px",
+            "maxWidth": "100%"
+           }
           },
           {
            "attributes": {},
@@ -1605,9 +1618,13 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "mobileStyles": {},
+           "mobileStyles": {
+            "flexBasis": "auto"
+           },
            "rawStyles": {},
-           "tabletStyles": {}
+           "tabletStyles": {
+            "flexBasis": "auto"
+           }
           }
          ],
          "classes": [],
@@ -1618,7 +1635,10 @@
           "gap": "32px"
          },
          "rawStyles": {},
-         "tabletStyles": {}
+         "tabletStyles": {
+          "flexDirection": "column",
+          "gap": "32px"
+         }
         }
        ],
        "classes": [],
@@ -2402,7 +2422,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Hand-picked plants for small spaces, delivered with everything you need.",
- "modified": "2026-06-21 09:57:19.478535",
+ "modified": "2026-07-14 20:31:11.165897",
  "modified_by": "Administrator",
  "name": "fronds_landing",
  "owner": "Administrator",

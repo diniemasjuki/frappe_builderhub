@@ -419,7 +419,9 @@
          "classes": [],
          "customAttributes": {},
          "element": "div",
-         "mobileStyles": {},
+         "mobileStyles": {
+          "flexBasis": "auto"
+         },
          "rawStyles": {},
          "tabletStyles": {}
         },
@@ -468,6 +470,7 @@
          "customAttributes": {},
          "element": "div",
          "mobileStyles": {
+          "flexBasis": "auto",
           "marginRight": "auto",
           "maxWidth": "260px"
          },
@@ -988,7 +991,9 @@
            "customAttributes": {},
            "element": "h3",
            "innerHTML": "Brand & Identity",
-           "mobileStyles": {},
+           "mobileStyles": {
+            "flexBasis": "auto"
+           },
            "rawStyles": {},
            "tabletStyles": {}
           },
@@ -1090,7 +1095,9 @@
            "customAttributes": {},
            "element": "h3",
            "innerHTML": "Web & Digital",
-           "mobileStyles": {},
+           "mobileStyles": {
+            "flexBasis": "auto"
+           },
            "rawStyles": {},
            "tabletStyles": {}
           },
@@ -1189,7 +1196,9 @@
            "customAttributes": {},
            "element": "h3",
            "innerHTML": "Product Design",
-           "mobileStyles": {},
+           "mobileStyles": {
+            "flexBasis": "auto"
+           },
            "rawStyles": {},
            "tabletStyles": {}
           },
@@ -1493,7 +1502,9 @@
          "classes": [],
          "customAttributes": {},
          "element": "a",
-         "mobileStyles": {},
+         "mobileStyles": {
+          "flexBasis": "auto"
+         },
          "rawStyles": {},
          "tabletStyles": {}
         },
@@ -1635,7 +1646,9 @@
          "classes": [],
          "customAttributes": {},
          "element": "a",
-         "mobileStyles": {},
+         "mobileStyles": {
+          "flexBasis": "auto"
+         },
          "rawStyles": {},
          "tabletStyles": {}
         }
@@ -2622,7 +2635,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Atelier - a small senior design studio for brands and products.",
- "modified": "2026-06-21 09:35:27.572894",
+ "modified": "2026-07-14 20:31:11.137533",
  "modified_by": "Administrator",
  "name": "atelier_home",
  "owner": "Administrator",

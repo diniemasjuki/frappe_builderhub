@@ -2573,7 +2573,13 @@
              "innerHTML": "Can't make it? Every talk streams live and lands on YouTube the same week."
             }
            ],
-           "element": "div"
+           "element": "div",
+           "mobileStyles": {
+            "flexBasis": "auto"
+           },
+           "tabletStyles": {
+            "flexBasis": "auto"
+           }
           },
           {
            "attributes": {
@@ -2595,6 +2601,10 @@
            "mobileStyles": {
             "height": "260px",
             "maxWidth": "100%"
+           },
+           "tabletStyles": {
+            "height": "260px",
+            "maxWidth": "100%"
            }
           }
          ],
@@ -2603,6 +2613,10 @@
          },
          "element": "div",
          "mobileStyles": {
+          "flexDirection": "column",
+          "gap": "32px"
+         },
+         "tabletStyles": {
           "flexDirection": "column",
           "gap": "32px"
          }
@@ -2914,7 +2928,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Commit '26 — two days of code, craft & caffeine in Lisbon.",
- "modified": "2026-07-12 23:18:21.795619",
+ "modified": "2026-07-14 20:31:11.166061",
  "modified_by": "Administrator",
  "name": "commit_home",
  "owner": "Administrator",

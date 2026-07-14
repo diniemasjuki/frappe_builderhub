@@ -811,6 +811,7 @@
                  "attributes": {},
                  "baseStyles": {
                   "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
+                  "flexShrink": 0,
                   "fontFamily": "Inter",
                   "fontSize": "12px",
                   "fontWeight": "500",
@@ -819,6 +820,7 @@
                   "lineHeight": "1.4",
                   "minWidth": "10px",
                   "textTransform": "uppercase",
+                  "whiteSpace": "nowrap",
                   "width": "fit-content"
                  },
                  "blockId": "f82423961f",
@@ -974,6 +976,7 @@
                  "attributes": {},
                  "baseStyles": {
                   "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
+                  "flexShrink": 0,
                   "fontFamily": "Inter",
                   "fontSize": "12px",
                   "fontWeight": "500",
@@ -982,6 +985,7 @@
                   "lineHeight": "1.4",
                   "minWidth": "10px",
                   "textTransform": "uppercase",
+                  "whiteSpace": "nowrap",
                   "width": "fit-content"
                  },
                  "blockId": "caf69dead4",
@@ -1137,6 +1141,7 @@
                  "attributes": {},
                  "baseStyles": {
                   "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
+                  "flexShrink": 0,
                   "fontFamily": "Inter",
                   "fontSize": "12px",
                   "fontWeight": "500",
@@ -1145,6 +1150,7 @@
                   "lineHeight": "1.4",
                   "minWidth": "10px",
                   "textTransform": "uppercase",
+                  "whiteSpace": "nowrap",
                   "width": "fit-content"
                  },
                  "blockId": "c15ed6745c",
@@ -1300,6 +1306,7 @@
                  "attributes": {},
                  "baseStyles": {
                   "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
+                  "flexShrink": 0,
                   "fontFamily": "Inter",
                   "fontSize": "12px",
                   "fontWeight": "500",
@@ -1308,6 +1315,7 @@
                   "lineHeight": "1.4",
                   "minWidth": "10px",
                   "textTransform": "uppercase",
+                  "whiteSpace": "nowrap",
                   "width": "fit-content"
                  },
                  "blockId": "8fd12cad9b",
@@ -2488,7 +2496,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Mono is an independent design studio for brand, product and motion.",
- "modified": "2026-06-21 09:35:27.499214",
+ "modified": "2026-07-14 20:31:11.167141",
  "modified_by": "Administrator",
  "name": "mono_home",
  "owner": "Administrator",
