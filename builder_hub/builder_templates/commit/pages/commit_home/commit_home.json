@@ -459,7 +459,7 @@
            "blockId": "d50966aee2",
            "blockName": "Hero Subtitle",
            "element": "p",
-           "innerHTML": "Commit is a single-track conference for people who build for the web — 30 talks, 8 workshops, and one legendary afterparty."
+           "innerHTML": "Commit is a single-track conference for people who build for the web - 30 talks, 8 workshops, and one legendary afterparty."
           },
           {
            "baseStyles": {
@@ -1588,7 +1588,7 @@
              "blockId": "20e614be27",
              "blockName": "Highlight Desc",
              "element": "p",
-             "innerHTML": "No FOMO, no room-hopping. Every talk is the main event — 25 minutes, zero sales pitches."
+             "innerHTML": "No FOMO, no room-hopping. Every talk is the main event - 25 minutes, zero sales pitches."
             }
            ],
            "customAttributes": {
@@ -1951,7 +1951,7 @@
             {
              "attributes": {
               "alt": "Amara Chen",
-              "src": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=700"
+              "src": "https://images.unsplash.com/photo-1573497019236-17f8177b81e8?auto=format&fit=crop&q=80&w=700"
              },
              "baseStyles": {
               "borderRadius": "12px",
@@ -2055,7 +2055,7 @@
             {
              "attributes": {
               "alt": "Diego Ferreira",
-              "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=700"
+              "src": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&q=80&w=700"
              },
              "baseStyles": {
               "borderRadius": "12px",
@@ -2159,7 +2159,7 @@
             {
              "attributes": {
               "alt": "Priya Raman",
-              "src": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=700"
+              "src": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&q=80&w=700"
              },
              "baseStyles": {
               "borderRadius": "12px",
@@ -2263,7 +2263,7 @@
             {
              "attributes": {
               "alt": "Tom Okafor",
-              "src": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=700"
+              "src": "https://images.unsplash.com/photo-1531384441138-2736e62e0919?auto=format&fit=crop&q=80&w=700"
              },
              "baseStyles": {
               "borderRadius": "12px",
@@ -2554,7 +2554,7 @@
              "blockId": "14373d7b06",
              "blockName": "Venue Text",
              "element": "p",
-             "innerHTML": "Fábrica Braço de Prata — a 19th-century munitions factory turned culture house on Lisbon's riverfront. Twenty minutes from the airport, five from the best seafood of your life."
+             "innerHTML": "Fábrica Braço de Prata - a 19th-century munitions factory turned culture house on Lisbon's riverfront. Twenty minutes from the airport, five from the best seafood of your life."
             },
             {
              "baseStyles": {
@@ -2573,7 +2573,13 @@
              "innerHTML": "Can't make it? Every talk streams live and lands on YouTube the same week."
             }
            ],
-           "element": "div"
+           "element": "div",
+           "mobileStyles": {
+            "flexBasis": "auto"
+           },
+           "tabletStyles": {
+            "flexBasis": "auto"
+           }
           },
           {
            "attributes": {
@@ -2595,6 +2601,10 @@
            "mobileStyles": {
             "height": "260px",
             "maxWidth": "100%"
+           },
+           "tabletStyles": {
+            "height": "260px",
+            "maxWidth": "100%"
            }
           }
          ],
@@ -2603,6 +2613,10 @@
          },
          "element": "div",
          "mobileStyles": {
+          "flexDirection": "column",
+          "gap": "32px"
+         },
+         "tabletStyles": {
           "flexDirection": "column",
           "gap": "32px"
          }
@@ -2913,8 +2927,8 @@
  "idx": 0,
  "is_standard": 0,
  "is_template": 1,
- "meta_description": "Commit '26 — two days of code, craft & caffeine in Lisbon.",
- "modified": "2026-07-12 23:18:21.795619",
+ "meta_description": "Commit '26 - two days of code, craft & caffeine in Lisbon.",
+ "modified": "2026-07-14 22:20:46.276875",
  "modified_by": "Administrator",
  "name": "commit_home",
  "owner": "Administrator",

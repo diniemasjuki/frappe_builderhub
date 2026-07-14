@@ -1,5 +1,8 @@
 {
- "description": "An ultra-minimal, warm-toned personal site - centered column, one shared nav, warm cream palette, serif headings. Home, Work, About.",
+ "categories": [
+  "Portfolio"
+ ],
+ "description": "A warm, centered single column personal site.",
  "order": 5,
  "pages": [
   {
@@ -12,8 +15,5 @@
    "name": "husk_about"
   }
  ],
- "title": "Husk",
- "categories": [
-  "Portfolio"
- ]
+ "title": "Husk"
 }

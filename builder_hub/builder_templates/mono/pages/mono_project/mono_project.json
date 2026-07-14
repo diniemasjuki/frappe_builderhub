@@ -877,7 +877,9 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "mobileStyles": {},
+           "mobileStyles": {
+            "flexBasis": "auto"
+           },
            "rawStyles": {},
            "tabletStyles": {}
           },
@@ -947,7 +949,9 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "mobileStyles": {},
+           "mobileStyles": {
+            "flexBasis": "auto"
+           },
            "rawStyles": {},
            "tabletStyles": {}
           }
@@ -1800,7 +1804,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Case study - Nova, personal banking unboxed.",
- "modified": "2026-06-21 09:57:19.594351",
+ "modified": "2026-07-14 20:31:11.150296",
  "modified_by": "Administrator",
  "name": "mono_project",
  "owner": "Administrator",

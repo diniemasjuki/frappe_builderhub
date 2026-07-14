@@ -618,6 +618,7 @@
                    "attributes": {},
                    "baseStyles": {
                     "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                    "flexShrink": 0,
                     "fontFamily": "Bricolage Grotesque",
                     "fontSize": "44px",
                     "fontWeight": "700",
@@ -625,6 +626,7 @@
                     "letterSpacing": "-0.02em",
                     "lineHeight": "1.04",
                     "minWidth": "10px",
+                    "whiteSpace": "nowrap",
                     "width": "fit-content"
                    },
                    "blockId": "baedaabee7",
@@ -1070,6 +1072,7 @@
                    "attributes": {},
                    "baseStyles": {
                     "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                    "flexShrink": 0,
                     "fontFamily": "Bricolage Grotesque",
                     "fontSize": "44px",
                     "fontWeight": "700",
@@ -1077,6 +1080,7 @@
                     "letterSpacing": "-0.02em",
                     "lineHeight": "1.04",
                     "minWidth": "10px",
+                    "whiteSpace": "nowrap",
                     "width": "fit-content"
                    },
                    "blockId": "ffe5f57ee4",
@@ -1588,6 +1592,7 @@
                    "attributes": {},
                    "baseStyles": {
                     "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                    "flexShrink": 0,
                     "fontFamily": "Bricolage Grotesque",
                     "fontSize": "44px",
                     "fontWeight": "700",
@@ -1595,6 +1600,7 @@
                     "letterSpacing": "-0.02em",
                     "lineHeight": "1.04",
                     "minWidth": "10px",
+                    "whiteSpace": "nowrap",
                     "width": "fit-content"
                    },
                    "blockId": "d6870a1c23",
@@ -2769,7 +2775,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Passes for Commit '26 - online, conference, and all-access.",
- "modified": "2026-06-21 09:57:19.704019",
+ "modified": "2026-07-14 20:31:11.167911",
  "modified_by": "Administrator",
  "name": "commit_tickets",
  "owner": "Administrator",

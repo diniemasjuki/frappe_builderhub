@@ -431,7 +431,9 @@
          "classes": [],
          "customAttributes": {},
          "element": "div",
-         "mobileStyles": {},
+         "mobileStyles": {
+          "flexBasis": "auto"
+         },
          "rawStyles": {},
          "tabletStyles": {}
         },
@@ -598,7 +600,9 @@
          "classes": [],
          "customAttributes": {},
          "element": "div",
-         "mobileStyles": {},
+         "mobileStyles": {
+          "flexBasis": "auto"
+         },
          "rawStyles": {},
          "tabletStyles": {}
         }
@@ -812,7 +816,9 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "mobileStyles": {},
+           "mobileStyles": {
+            "flexBasis": "auto"
+           },
            "rawStyles": {},
            "tabletStyles": {}
           },
@@ -967,7 +973,9 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "mobileStyles": {},
+           "mobileStyles": {
+            "flexBasis": "auto"
+           },
            "rawStyles": {},
            "tabletStyles": {}
           },
@@ -1119,7 +1127,9 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "mobileStyles": {},
+           "mobileStyles": {
+            "flexBasis": "auto"
+           },
            "rawStyles": {},
            "tabletStyles": {}
           },
@@ -1806,7 +1816,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Quill - a publication on design, craft, and the slow web.",
- "modified": "2026-06-21 09:34:14.239955",
+ "modified": "2026-07-14 20:31:11.156660",
  "modified_by": "Administrator",
  "name": "quill_home",
  "owner": "Administrator",

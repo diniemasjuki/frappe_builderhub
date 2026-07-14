@@ -414,7 +414,9 @@
          "classes": [],
          "customAttributes": {},
          "element": "div",
-         "mobileStyles": {},
+         "mobileStyles": {
+          "flexBasis": "auto"
+         },
          "rawStyles": {},
          "tabletStyles": {}
         },
@@ -620,7 +622,9 @@
          "classes": [],
          "customAttributes": {},
          "element": "div",
-         "mobileStyles": {},
+         "mobileStyles": {
+          "flexBasis": "auto"
+         },
          "rawStyles": {},
          "tabletStyles": {}
         },
@@ -826,7 +830,9 @@
          "classes": [],
          "customAttributes": {},
          "element": "div",
-         "mobileStyles": {},
+         "mobileStyles": {
+          "flexBasis": "auto"
+         },
          "rawStyles": {},
          "tabletStyles": {}
         },
@@ -1032,7 +1038,9 @@
          "classes": [],
          "customAttributes": {},
          "element": "div",
-         "mobileStyles": {},
+         "mobileStyles": {
+          "flexBasis": "auto"
+         },
          "rawStyles": {},
          "tabletStyles": {}
         },
@@ -1238,7 +1246,9 @@
          "classes": [],
          "customAttributes": {},
          "element": "div",
-         "mobileStyles": {},
+         "mobileStyles": {
+          "flexBasis": "auto"
+         },
          "rawStyles": {},
          "tabletStyles": {}
         },
@@ -1558,7 +1568,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Selected projects - design, brand, and product.",
- "modified": "2026-06-21 09:35:27.261505",
+ "modified": "2026-07-14 20:31:11.139980",
  "modified_by": "Administrator",
  "name": "husk_work",
  "owner": "Administrator",

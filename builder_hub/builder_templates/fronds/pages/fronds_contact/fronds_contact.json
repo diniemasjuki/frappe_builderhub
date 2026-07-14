@@ -1548,7 +1548,9 @@
                  "dataKey": null,
                  "dynamicValues": [],
                  "element": "div",
-                 "mobileStyles": {},
+                 "mobileStyles": {
+                  "flexBasis": "auto"
+                 },
                  "props": {},
                  "rawStyles": {},
                  "tabletStyles": {}
@@ -1642,7 +1644,9 @@
                  "dataKey": null,
                  "dynamicValues": [],
                  "element": "div",
-                 "mobileStyles": {},
+                 "mobileStyles": {
+                  "flexBasis": "auto"
+                 },
                  "props": {},
                  "rawStyles": {},
                  "tabletStyles": {}
@@ -1896,7 +1900,9 @@
            "dataKey": null,
            "dynamicValues": [],
            "element": "div",
-           "mobileStyles": {},
+           "mobileStyles": {
+            "flexBasis": "auto"
+           },
            "props": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -2561,7 +2567,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Get in touch with the Fronds studio.",
- "modified": "2026-07-12 19:34:41.883253",
+ "modified": "2026-07-14 20:31:11.148106",
  "modified_by": "Administrator",
  "name": "fronds_contact",
  "owner": "Administrator",

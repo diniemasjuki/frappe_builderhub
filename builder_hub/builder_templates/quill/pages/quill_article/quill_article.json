@@ -915,7 +915,9 @@
          "classes": [],
          "customAttributes": {},
          "element": "div",
-         "mobileStyles": {},
+         "mobileStyles": {
+          "flexBasis": "auto"
+         },
          "rawStyles": {},
          "tabletStyles": {}
         }
@@ -1440,7 +1442,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "An essay on restraint, whitespace, and the slow web.",
- "modified": "2026-06-21 09:34:14.225459",
+ "modified": "2026-07-14 20:31:11.157219",
  "modified_by": "Administrator",
  "name": "quill_article",
  "owner": "Administrator",
