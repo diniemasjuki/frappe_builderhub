@@ -39,7 +39,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "1641691377",
-           "blockName": "Nav \u00b7 Classes",
+           "blockName": "Nav · Classes",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -53,7 +53,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "d3cc0b7e65",
-           "blockName": "Nav \u00b7 Visit",
+           "blockName": "Nav · Visit",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -116,7 +116,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "4e9a206cb8",
-             "blockName": "Theme \u00b7 Sun",
+             "blockName": "Theme · Sun",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -130,7 +130,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "a3b2ef84f9",
-             "blockName": "Theme \u00b7 Moon",
+             "blockName": "Theme · Moon",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -187,7 +187,7 @@
       "width": "100%"
      },
      "blockId": "2d9454fa16",
-     "blockName": "Section \u00b7 Classes Header",
+     "blockName": "Section · Classes Header",
      "children": [
       {
        "attributes": {},
@@ -284,7 +284,7 @@
       "width": "100%"
      },
      "blockId": "89856d6926",
-     "blockName": "Section \u00b7 Schedule",
+     "blockName": "Section · Schedule",
      "children": [
       {
        "attributes": {},
@@ -297,7 +297,7 @@
         "width": "100%"
        },
        "blockId": "9fe25776f3",
-       "blockName": "Day \u00b7 Monday",
+       "blockName": "Day · Monday",
        "children": [
         {
          "attributes": {},
@@ -339,7 +339,7 @@
           "width": "100%"
          },
          "blockId": "926e37aea2",
-         "blockName": "Class \u00b7 Slow Vinyasa",
+         "blockName": "Class · Slow Vinyasa",
          "children": [
           {
            "attributes": {},
@@ -412,7 +412,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "Meera \u00b7 All levels",
+           "innerHTML": "Meera · All levels",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -442,7 +442,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "innerHTML": "Book \u2192",
+           "innerHTML": "Book →",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -474,7 +474,7 @@
           "width": "100%"
          },
          "blockId": "4b52cfa03c",
-         "blockName": "Class \u00b7 Yin & Nidra",
+         "blockName": "Class · Yin & Nidra",
          "children": [
           {
            "attributes": {},
@@ -547,7 +547,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "Adil \u00b7 All levels",
+           "innerHTML": "Adil · All levels",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -577,7 +577,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "innerHTML": "Book \u2192",
+           "innerHTML": "Book →",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -613,7 +613,7 @@
         "width": "100%"
        },
        "blockId": "970a245d85",
-       "blockName": "Day \u00b7 Wednesday",
+       "blockName": "Day · Wednesday",
        "children": [
         {
          "attributes": {},
@@ -655,7 +655,7 @@
           "width": "100%"
          },
          "blockId": "cbcb521ec6",
-         "blockName": "Class \u00b7 Breathwork",
+         "blockName": "Class · Breathwork",
          "children": [
           {
            "attributes": {},
@@ -728,7 +728,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "Meera \u00b7 All levels",
+           "innerHTML": "Meera · All levels",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -758,7 +758,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "innerHTML": "Book \u2192",
+           "innerHTML": "Book →",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -790,7 +790,7 @@
           "width": "100%"
          },
          "blockId": "7387fd9732",
-         "blockName": "Class \u00b7 Strong Slow Flow",
+         "blockName": "Class · Strong Slow Flow",
          "children": [
           {
            "attributes": {},
@@ -863,7 +863,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "Tara \u00b7 Some practice",
+           "innerHTML": "Tara · Some practice",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -893,7 +893,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "innerHTML": "Book \u2192",
+           "innerHTML": "Book →",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -929,7 +929,7 @@
         "width": "100%"
        },
        "blockId": "76d462164b",
-       "blockName": "Day \u00b7 Friday",
+       "blockName": "Day · Friday",
        "children": [
         {
          "attributes": {},
@@ -971,7 +971,7 @@
           "width": "100%"
          },
          "blockId": "936a12d138",
-         "blockName": "Class \u00b7 Slow Vinyasa",
+         "blockName": "Class · Slow Vinyasa",
          "children": [
           {
            "attributes": {},
@@ -1044,7 +1044,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "Adil \u00b7 All levels",
+           "innerHTML": "Adil · All levels",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1074,7 +1074,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "innerHTML": "Book \u2192",
+           "innerHTML": "Book →",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1106,7 +1106,7 @@
           "width": "100%"
          },
          "blockId": "3e0fdbf037",
-         "blockName": "Class \u00b7 Candlelit Yin",
+         "blockName": "Class · Candlelit Yin",
          "children": [
           {
            "attributes": {},
@@ -1179,7 +1179,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "Meera \u00b7 All levels",
+           "innerHTML": "Meera · All levels",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1209,7 +1209,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "innerHTML": "Book \u2192",
+           "innerHTML": "Book →",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1245,7 +1245,7 @@
         "width": "100%"
        },
        "blockId": "c51dea615f",
-       "blockName": "Day \u00b7 Saturday",
+       "blockName": "Day · Saturday",
        "children": [
         {
          "attributes": {},
@@ -1287,7 +1287,7 @@
           "width": "100%"
          },
          "blockId": "ff6a60a6b5",
-         "blockName": "Class \u00b7 Long Form \u2014 2 hrs",
+         "blockName": "Class · Long Form - 2 hrs",
          "children": [
           {
            "attributes": {},
@@ -1334,7 +1334,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "h4",
-           "innerHTML": "Long Form \u2014 2 hrs",
+           "innerHTML": "Long Form - 2 hrs",
            "mobileStyles": {
             "fontSize": "22px",
             "width": "100%"
@@ -1360,7 +1360,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "Tara \u00b7 Some practice",
+           "innerHTML": "Tara · Some practice",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1390,7 +1390,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "innerHTML": "Book \u2192",
+           "innerHTML": "Book →",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1422,7 +1422,7 @@
           "width": "100%"
          },
          "blockId": "c17fc3066f",
-         "blockName": "Class \u00b7 Beginners' Hour",
+         "blockName": "Class · Beginners' Hour",
          "children": [
           {
            "attributes": {},
@@ -1495,7 +1495,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "Adil \u00b7 Start here",
+           "innerHTML": "Adil · Start here",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1525,7 +1525,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "innerHTML": "Book \u2192",
+           "innerHTML": "Book →",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1571,7 +1571,7 @@
       "width": "100%"
      },
      "blockId": "1b23e5352f",
-     "blockName": "Section \u00b7 Plans",
+     "blockName": "Section · Plans",
      "children": [
       {
        "attributes": {},
@@ -1623,7 +1623,7 @@
           "width": "33.33%"
          },
          "blockId": "67f51cb718",
-         "blockName": "Plan \u00b7 Drop in",
+         "blockName": "Plan · Drop in",
          "children": [
           {
            "attributes": {},
@@ -1667,7 +1667,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "\u20b9600",
+           "innerHTML": "₹600",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1717,7 +1717,7 @@
           "width": "33.33%"
          },
          "blockId": "7bc75d2353",
-         "blockName": "Plan \u00b7 Ten classes",
+         "blockName": "Plan · Ten classes",
          "children": [
           {
            "attributes": {},
@@ -1761,7 +1761,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "\u20b95,200",
+           "innerHTML": "₹5,200",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1811,7 +1811,7 @@
           "width": "33.33%"
          },
          "blockId": "3af6701271",
-         "blockName": "Plan \u00b7 Monthly unlimited",
+         "blockName": "Plan · Monthly unlimited",
          "children": [
           {
            "attributes": {},
@@ -1855,7 +1855,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "\u20b93,900",
+           "innerHTML": "₹3,900",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -2007,7 +2007,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "47686eb273",
-           "blockName": "Footer \u00b7 IG",
+           "blockName": "Footer · IG",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -2021,7 +2021,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "ad2731c1a3",
-           "blockName": "Footer \u00b7 Mail",
+           "blockName": "Footer · Mail",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -2103,7 +2103,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "This week's classes at Lull, plus fair prices with no contracts.",
- "modified": "2026-07-14 16:14:29.773743",
+ "modified": "2026-07-14 21:27:36.357979",
  "modified_by": "Administrator",
  "name": "lull_classes",
  "owner": "Administrator",

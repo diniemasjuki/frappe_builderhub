@@ -53,7 +53,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "78837f0da7",
-           "blockName": "Side \u00b7 Listings",
+           "blockName": "Side · Listings",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -67,7 +67,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "cb82754b53",
-           "blockName": "Side \u00b7 Property",
+           "blockName": "Side · Property",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -81,7 +81,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "bd0a8e234d",
-           "blockName": "Side \u00b7 Viewings",
+           "blockName": "Side · Viewings",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -130,7 +130,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "2dfc2c5e40",
-             "blockName": "Chip \u00b7 Lisbon & coast",
+             "blockName": "Chip · Lisbon & coast",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -144,7 +144,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "68669bf3c0",
-             "blockName": "Chip \u00b7 2 \u2014 4 beds",
+             "blockName": "Chip · 2 - 4 beds",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -158,7 +158,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "90994fcfcc",
-             "blockName": "Chip \u00b7 Under \u20ac900k",
+             "blockName": "Chip · Under €900k",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -172,7 +172,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "11018897fd",
-             "blockName": "Chip \u00b7 Move-in ready",
+             "blockName": "Chip · Move-in ready",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -282,7 +282,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "80ee5e7516",
-           "blockName": "Theme \u00b7 Sun",
+           "blockName": "Theme · Sun",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -296,7 +296,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "d59957b8e4",
-           "blockName": "Theme \u00b7 Moon",
+           "blockName": "Theme · Moon",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -376,7 +376,7 @@
         "width": "100%"
        },
        "blockId": "9d0b0c7212",
-       "blockName": "Section \u00b7 List Header",
+       "blockName": "Section · List Header",
        "children": [
         {
          "attributes": {},
@@ -409,7 +409,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "Est. 2012 \u2014 Lisbon & the coast",
+           "innerHTML": "Est. 2012 - Lisbon & the coast",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -493,7 +493,7 @@
         "width": "100%"
        },
        "blockId": "e6973a8fc2",
-       "blockName": "Section \u00b7 Listing Rows",
+       "blockName": "Section · Listing Rows",
        "children": [
         {
          "attributes": {
@@ -513,7 +513,7 @@
           "width": "100%"
          },
          "blockId": "fa8ae5a53e",
-         "blockName": "Listing \u00b7 Casa Branca",
+         "blockName": "Listing · Casa Branca",
          "children": [
           {
            "attributes": {},
@@ -529,11 +529,11 @@
             "width": "230px"
            },
            "blockId": "e3fe6c282b",
-           "blockName": "Listing Photo \u00b7 Casa Branca",
+           "blockName": "Listing Photo · Casa Branca",
            "children": [
             {
              "attributes": {
-              "alt": "Casa Branca \u2014 Cascais",
+              "alt": "Casa Branca - Cascais",
               "loading": "lazy",
               "src": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=800"
              },
@@ -545,7 +545,7 @@
               "width": "100%"
              },
              "blockId": "02e970bd6f",
-             "blockName": "Listing Photo \u00b7 Casa Branca \u00b7 Image",
+             "blockName": "Listing Photo · Casa Branca · Image",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -620,7 +620,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "3 bed \u00b7 2 bath \u00b7 145 m\u00b2",
+             "innerHTML": "3 bed · 2 bath · 145 m²",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -690,7 +690,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "\u20ac780,000",
+             "innerHTML": "€780,000",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -714,7 +714,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "View \u2192",
+             "innerHTML": "View →",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -763,7 +763,7 @@
           "width": "100%"
          },
          "blockId": "4e91239a1d",
-         "blockName": "Listing \u00b7 The Dusk House",
+         "blockName": "Listing · The Dusk House",
          "children": [
           {
            "attributes": {},
@@ -779,11 +779,11 @@
             "width": "230px"
            },
            "blockId": "785de1d3fd",
-           "blockName": "Listing Photo \u00b7 The Dusk House",
+           "blockName": "Listing Photo · The Dusk House",
            "children": [
             {
              "attributes": {
-              "alt": "The Dusk House \u2014 Sintra",
+              "alt": "The Dusk House - Sintra",
               "loading": "lazy",
               "src": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800"
              },
@@ -795,7 +795,7 @@
               "width": "100%"
              },
              "blockId": "03c5884b82",
-             "blockName": "Listing Photo \u00b7 The Dusk House \u00b7 Image",
+             "blockName": "Listing Photo · The Dusk House · Image",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -870,7 +870,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "4 bed \u00b7 3 bath \u00b7 190 m\u00b2",
+             "innerHTML": "4 bed · 3 bath · 190 m²",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -940,7 +940,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "\u20ac645,000",
+             "innerHTML": "€645,000",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -964,7 +964,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "View \u2192",
+             "innerHTML": "View →",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1013,7 +1013,7 @@
           "width": "100%"
          },
          "blockId": "89f62481a4",
-         "blockName": "Listing \u00b7 P\u00e1tio 12",
+         "blockName": "Listing · Pátio 12",
          "children": [
           {
            "attributes": {},
@@ -1029,11 +1029,11 @@
             "width": "230px"
            },
            "blockId": "ef9b1d21fb",
-           "blockName": "Listing Photo \u00b7 P\u00e1tio 12",
+           "blockName": "Listing Photo · Pátio 12",
            "children": [
             {
              "attributes": {
-              "alt": "P\u00e1tio 12 \u2014 Alfama, Lisbon",
+              "alt": "Pátio 12 - Alfama, Lisbon",
               "loading": "lazy",
               "src": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=800"
              },
@@ -1045,7 +1045,7 @@
               "width": "100%"
              },
              "blockId": "42929d54c9",
-             "blockName": "Listing Photo \u00b7 P\u00e1tio 12 \u00b7 Image",
+             "blockName": "Listing Photo · Pátio 12 · Image",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -1098,7 +1098,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "h3",
-             "innerHTML": "P\u00e1tio 12",
+             "innerHTML": "Pátio 12",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1120,7 +1120,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "2 bed \u00b7 1 bath \u00b7 96 m\u00b2",
+             "innerHTML": "2 bed · 1 bath · 96 m²",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1190,7 +1190,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "\u20ac520,000",
+             "innerHTML": "€520,000",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1214,7 +1214,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "View \u2192",
+             "innerHTML": "View →",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1263,7 +1263,7 @@
           "width": "100%"
          },
          "blockId": "1cbfdbd29a",
-         "blockName": "Listing \u00b7 Villa Norte",
+         "blockName": "Listing · Villa Norte",
          "children": [
           {
            "attributes": {},
@@ -1279,11 +1279,11 @@
             "width": "230px"
            },
            "blockId": "006f752285",
-           "blockName": "Listing Photo \u00b7 Villa Norte",
+           "blockName": "Listing Photo · Villa Norte",
            "children": [
             {
              "attributes": {
-              "alt": "Villa Norte \u2014 Estoril",
+              "alt": "Villa Norte - Estoril",
               "loading": "lazy",
               "src": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800"
              },
@@ -1295,7 +1295,7 @@
               "width": "100%"
              },
              "blockId": "461dd929e1",
-             "blockName": "Listing Photo \u00b7 Villa Norte \u00b7 Image",
+             "blockName": "Listing Photo · Villa Norte · Image",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -1370,7 +1370,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "4 bed \u00b7 4 bath \u00b7 240 m\u00b2",
+             "innerHTML": "4 bed · 4 bath · 240 m²",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1440,7 +1440,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "\u20ac890,000",
+             "innerHTML": "€890,000",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1464,7 +1464,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "View \u2192",
+             "innerHTML": "View →",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1513,7 +1513,7 @@
           "width": "100%"
          },
          "blockId": "173af09283",
-         "blockName": "Listing \u00b7 The Black House",
+         "blockName": "Listing · The Black House",
          "children": [
           {
            "attributes": {},
@@ -1529,11 +1529,11 @@
             "width": "230px"
            },
            "blockId": "79a2899c98",
-           "blockName": "Listing Photo \u00b7 The Black House",
+           "blockName": "Listing Photo · The Black House",
            "children": [
             {
              "attributes": {
-              "alt": "The Black House \u2014 Comporta",
+              "alt": "The Black House - Comporta",
               "loading": "lazy",
               "src": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&q=80&w=800"
              },
@@ -1545,7 +1545,7 @@
               "width": "100%"
              },
              "blockId": "5d6a695afe",
-             "blockName": "Listing Photo \u00b7 The Black House \u00b7 Image",
+             "blockName": "Listing Photo · The Black House · Image",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -1620,7 +1620,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "3 bed \u00b7 2 bath \u00b7 165 m\u00b2",
+             "innerHTML": "3 bed · 2 bath · 165 m²",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1690,7 +1690,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "\u20ac715,000",
+             "innerHTML": "€715,000",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1714,7 +1714,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "View \u2192",
+             "innerHTML": "View →",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1763,7 +1763,7 @@
           "width": "100%"
          },
          "blockId": "f6cdeef4ea",
-         "blockName": "Listing \u00b7 Casa M\u00f3dulo",
+         "blockName": "Listing · Casa Módulo",
          "children": [
           {
            "attributes": {},
@@ -1779,11 +1779,11 @@
             "width": "230px"
            },
            "blockId": "8b3dc52cd3",
-           "blockName": "Listing Photo \u00b7 Casa M\u00f3dulo",
+           "blockName": "Listing Photo · Casa Módulo",
            "children": [
             {
              "attributes": {
-              "alt": "Casa M\u00f3dulo \u2014 Almada",
+              "alt": "Casa Módulo - Almada",
               "loading": "lazy",
               "src": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800"
              },
@@ -1795,7 +1795,7 @@
               "width": "100%"
              },
              "blockId": "043bc91584",
-             "blockName": "Listing Photo \u00b7 Casa M\u00f3dulo \u00b7 Image",
+             "blockName": "Listing Photo · Casa Módulo · Image",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -1848,7 +1848,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "h3",
-             "innerHTML": "Casa M\u00f3dulo",
+             "innerHTML": "Casa Módulo",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1870,7 +1870,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "2 bed \u00b7 2 bath \u00b7 110 m\u00b2",
+             "innerHTML": "2 bed · 2 bath · 110 m²",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1940,7 +1940,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "\u20ac430,000",
+             "innerHTML": "€430,000",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1964,7 +1964,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "View \u2192",
+             "innerHTML": "View →",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -2015,7 +2015,7 @@
         "width": "100%"
        },
        "blockId": "376cdf7173",
-       "blockName": "Section \u00b7 Stats",
+       "blockName": "Section · Stats",
        "children": [
         {
          "attributes": {},
@@ -2027,7 +2027,7 @@
           "width": "33.33%"
          },
          "blockId": "d7fa9c1c68",
-         "blockName": "Stat \u00b7 homes matche",
+         "blockName": "Stat · homes matche",
          "children": [
           {
            "attributes": {},
@@ -2096,7 +2096,7 @@
           "width": "33.33%"
          },
          "blockId": "622028ba61",
-         "blockName": "Stat \u00b7 median time ",
+         "blockName": "Stat · median time ",
          "children": [
           {
            "attributes": {},
@@ -2165,7 +2165,7 @@
           "width": "33.33%"
          },
          "blockId": "18a944eca0",
-         "blockName": "Stat \u00b7 closed, coff",
+         "blockName": "Stat · closed, coff",
          "children": [
           {
            "attributes": {},
@@ -2185,7 +2185,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "\u20ac96M",
+           "innerHTML": "€96M",
            "mobileStyles": {
             "fontSize": "36px"
            },
@@ -2334,12 +2334,12 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Keys lists twenty homes at a time across Lisbon and the coast.",
- "modified": "2026-07-14 16:14:30.083135",
+ "modified": "2026-07-14 21:28:17.456192",
  "modified_by": "Administrator",
  "name": "keys_listings",
  "owner": "Administrator",
  "page_name": "keys_listings",
- "page_title": "Keys \u2014 Homes in Lisbon",
+ "page_title": "Keys - Homes in Lisbon",
  "preview": "/builder_assets/keys/keys_listings/preview.webp",
  "project_folder": null,
  "published": 0,

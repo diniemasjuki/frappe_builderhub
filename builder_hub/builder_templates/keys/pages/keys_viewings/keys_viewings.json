@@ -53,7 +53,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "04e395d724",
-           "blockName": "Side \u00b7 Listings",
+           "blockName": "Side · Listings",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -67,7 +67,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "8cb7f50d5d",
-           "blockName": "Side \u00b7 Property",
+           "blockName": "Side · Property",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -81,7 +81,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "353bb44a91",
-           "blockName": "Side \u00b7 Viewings",
+           "blockName": "Side · Viewings",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -130,7 +130,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "c96f61c72d",
-             "blockName": "Chip \u00b7 Lisbon & coast",
+             "blockName": "Chip · Lisbon & coast",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -144,7 +144,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "352e52b054",
-             "blockName": "Chip \u00b7 2 \u2014 4 beds",
+             "blockName": "Chip · 2 - 4 beds",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -158,7 +158,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "0891961498",
-             "blockName": "Chip \u00b7 Under \u20ac900k",
+             "blockName": "Chip · Under €900k",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -172,7 +172,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "1f2a9f975e",
-             "blockName": "Chip \u00b7 Move-in ready",
+             "blockName": "Chip · Move-in ready",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -282,7 +282,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "f90ea2f2b0",
-           "blockName": "Theme \u00b7 Sun",
+           "blockName": "Theme · Sun",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -296,7 +296,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "8ad8b0f4b3",
-           "blockName": "Theme \u00b7 Moon",
+           "blockName": "Theme · Moon",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -371,7 +371,7 @@
         "width": "100%"
        },
        "blockId": "594d288b29",
-       "blockName": "Section \u00b7 Viewings",
+       "blockName": "Section · Viewings",
        "children": [
         {
          "attributes": {},
@@ -475,7 +475,7 @@
             "width": "100%"
            },
            "blockId": "aa02cb10b6",
-           "blockName": "Slot \u00b7 Tuesday \u2014 Friday",
+           "blockName": "Slot · Tuesday - Friday",
            "children": [
             {
              "attributes": {},
@@ -496,7 +496,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "Tuesday \u2014 Friday",
+             "innerHTML": "Tuesday - Friday",
              "mobileStyles": {
               "width": "100%"
              },
@@ -523,7 +523,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "10:00 \u00b7 12:00 \u00b7 15:00 \u00b7 17:30",
+             "innerHTML": "10:00 · 12:00 · 15:00 · 17:30",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -553,7 +553,7 @@
               "width": "fit-content"
              },
              "blockId": "f691c341cb",
-             "blockName": "Slot CTA \u00b7 Tuesday \u2014 Friday",
+             "blockName": "Slot CTA · Tuesday - Friday",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -596,7 +596,7 @@
             "width": "100%"
            },
            "blockId": "7b5a35e049",
-           "blockName": "Slot \u00b7 Saturday",
+           "blockName": "Slot · Saturday",
            "children": [
             {
              "attributes": {},
@@ -644,7 +644,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "10:00 \u00b7 12:00 \u2014 mornings only",
+             "innerHTML": "10:00 · 12:00 - mornings only",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -674,7 +674,7 @@
               "width": "fit-content"
              },
              "blockId": "d3ad3df5d3",
-             "blockName": "Slot CTA \u00b7 Saturday",
+             "blockName": "Slot CTA · Saturday",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -717,7 +717,7 @@
             "width": "100%"
            },
            "blockId": "cd211594ee",
-           "blockName": "Slot \u00b7 Remote",
+           "blockName": "Slot · Remote",
            "children": [
             {
              "attributes": {},
@@ -795,7 +795,7 @@
               "width": "fit-content"
              },
              "blockId": "993fb9656c",
-             "blockName": "Slot CTA \u00b7 Remote",
+             "blockName": "Slot CTA · Remote",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -859,7 +859,7 @@
               "width": "fit-content"
              },
              "blockId": "de6efba44a",
-             "blockName": "Button \u00b7 hello@keys.pt",
+             "blockName": "Button · hello@keys.pt",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -897,7 +897,7 @@
               "width": "fit-content"
              },
              "blockId": "b1f6f11d74",
-             "blockName": "Button \u00b7 +351 21 340 5512",
+             "blockName": "Button · +351 21 340 5512",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -975,7 +975,7 @@
               "width": "100%"
              },
              "blockId": "07b9d3c149",
-             "blockName": "V Photo \u00b7 Image",
+             "blockName": "V Photo · Image",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -1063,7 +1063,7 @@
         "width": "100%"
        },
        "blockId": "cb65c6bf9d",
-       "blockName": "Section \u00b7 Team",
+       "blockName": "Section · Team",
        "children": [
         {
          "attributes": {},
@@ -1115,7 +1115,7 @@
             "width": "33.33%"
            },
            "blockId": "ff867c43a9",
-           "blockName": "Agent \u00b7 In\u00eas Duarte",
+           "blockName": "Agent · Inês Duarte",
            "children": [
             {
              "attributes": {},
@@ -1135,7 +1135,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "h3",
-             "innerHTML": "In\u00eas Duarte",
+             "innerHTML": "Inês Duarte",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1182,7 +1182,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "a",
-             "innerHTML": "Write directly \u2192",
+             "innerHTML": "Write directly →",
              "mobileStyles": {},
              "rawStyles": {
               "hover:text-decoration": "underline"
@@ -1212,7 +1212,7 @@
             "width": "33.33%"
            },
            "blockId": "2eb33b433d",
-           "blockName": "Agent \u00b7 Rui Costa",
+           "blockName": "Agent · Rui Costa",
            "children": [
             {
              "attributes": {},
@@ -1279,7 +1279,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "a",
-             "innerHTML": "Write directly \u2192",
+             "innerHTML": "Write directly →",
              "mobileStyles": {},
              "rawStyles": {
               "hover:text-decoration": "underline"
@@ -1309,7 +1309,7 @@
             "width": "33.33%"
            },
            "blockId": "697ca30fc7",
-           "blockName": "Agent \u00b7 Marta Silva",
+           "blockName": "Agent · Marta Silva",
            "children": [
             {
              "attributes": {},
@@ -1376,7 +1376,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "a",
-             "innerHTML": "Write directly \u2192",
+             "innerHTML": "Write directly →",
              "mobileStyles": {},
              "rawStyles": {
               "hover:text-decoration": "underline"
@@ -1513,7 +1513,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Book an hour-long viewing with Keys, Tuesday to Saturday, or remote.",
- "modified": "2026-07-14 20:31:11.166453",
+ "modified": "2026-07-14 21:28:17.452264",
  "modified_by": "Administrator",
  "name": "keys_viewings",
  "owner": "Administrator",

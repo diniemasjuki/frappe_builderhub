@@ -39,7 +39,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "5312f7dce5",
-           "blockName": "Nav \u00b7 Classes",
+           "blockName": "Nav · Classes",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -53,7 +53,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "b976d37b73",
-           "blockName": "Nav \u00b7 Visit",
+           "blockName": "Nav · Visit",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -116,7 +116,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "860be1283e",
-             "blockName": "Theme \u00b7 Sun",
+             "blockName": "Theme · Sun",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -130,7 +130,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "bb58c4ce1b",
-             "blockName": "Theme \u00b7 Moon",
+             "blockName": "Theme · Moon",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -188,7 +188,7 @@
       "width": "100%"
      },
      "blockId": "f86f81cdef",
-     "blockName": "Section \u00b7 Hero",
+     "blockName": "Section · Hero",
      "children": [
       {
        "attributes": {},
@@ -210,7 +210,7 @@
        "classes": [],
        "customAttributes": {},
        "element": "p",
-       "innerHTML": "A slow studio \u2014 Bandra West",
+       "innerHTML": "A slow studio - Bandra West",
        "mobileStyles": {},
        "rawStyles": {},
        "tabletStyles": {}
@@ -274,7 +274,7 @@
           "width": "100%"
          },
          "blockId": "4041ec8e07",
-         "blockName": "Arch Photo \u00b7 Image",
+         "blockName": "Arch Photo · Image",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -396,7 +396,7 @@
           "width": "fit-content"
          },
          "blockId": "df437a89c2",
-         "blockName": "Pill \u00b7 Book a class",
+         "blockName": "Pill · Book a class",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -425,7 +425,7 @@
           "width": "fit-content"
          },
          "blockId": "d5305a314a",
-         "blockName": "Link \u00b7 See the schedule",
+         "blockName": "Link · See the schedule",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -468,7 +468,7 @@
       "width": "100%"
      },
      "blockId": "e439edc5d3",
-     "blockName": "Section \u00b7 Offerings",
+     "blockName": "Section · Offerings",
      "children": [
       {
        "attributes": {},
@@ -510,7 +510,7 @@
         "width": "100%"
        },
        "blockId": "f248da58b4",
-       "blockName": "Offering \u00b7 Yoga",
+       "blockName": "Offering · Yoga",
        "children": [
         {
          "attributes": {},
@@ -527,7 +527,7 @@
           "width": "104px"
          },
          "blockId": "e261018a0f",
-         "blockName": "Offering Circle \u00b7 Yoga",
+         "blockName": "Offering Circle · Yoga",
          "children": [
           {
            "attributes": {
@@ -543,7 +543,7 @@
             "width": "100%"
            },
            "blockId": "79c7f6d484",
-           "blockName": "Offering Circle \u00b7 Yoga \u00b7 Image",
+           "blockName": "Offering Circle · Yoga · Image",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -656,7 +656,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "p",
-         "innerHTML": "from \u20b9600",
+         "innerHTML": "from ₹600",
          "mobileStyles": {},
          "rawStyles": {},
          "tabletStyles": {}
@@ -685,7 +685,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "div",
-         "innerHTML": "\u2192",
+         "innerHTML": "→",
          "mobileStyles": {
           "display": "none"
          },
@@ -718,7 +718,7 @@
         "width": "100%"
        },
        "blockId": "2b2d0e89ff",
-       "blockName": "Offering \u00b7 Breathwork",
+       "blockName": "Offering · Breathwork",
        "children": [
         {
          "attributes": {},
@@ -735,7 +735,7 @@
           "width": "104px"
          },
          "blockId": "4e6d20ad8a",
-         "blockName": "Offering Circle \u00b7 Breathwork",
+         "blockName": "Offering Circle · Breathwork",
          "children": [
           {
            "attributes": {
@@ -751,7 +751,7 @@
             "width": "100%"
            },
            "blockId": "2aa2aa8e0c",
-           "blockName": "Offering Circle \u00b7 Breathwork \u00b7 Image",
+           "blockName": "Offering Circle · Breathwork · Image",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -864,7 +864,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "p",
-         "innerHTML": "from \u20b9500",
+         "innerHTML": "from ₹500",
          "mobileStyles": {},
          "rawStyles": {},
          "tabletStyles": {}
@@ -893,7 +893,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "div",
-         "innerHTML": "\u2192",
+         "innerHTML": "→",
          "mobileStyles": {
           "display": "none"
          },
@@ -926,7 +926,7 @@
         "width": "100%"
        },
        "blockId": "58f9bf2c83",
-       "blockName": "Offering \u00b7 Bodywork",
+       "blockName": "Offering · Bodywork",
        "children": [
         {
          "attributes": {},
@@ -943,7 +943,7 @@
           "width": "104px"
          },
          "blockId": "c90d60cd69",
-         "blockName": "Offering Circle \u00b7 Bodywork",
+         "blockName": "Offering Circle · Bodywork",
          "children": [
           {
            "attributes": {
@@ -959,7 +959,7 @@
             "width": "100%"
            },
            "blockId": "b36439c788",
-           "blockName": "Offering Circle \u00b7 Bodywork \u00b7 Image",
+           "blockName": "Offering Circle · Bodywork · Image",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -1072,7 +1072,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "p",
-         "innerHTML": "from \u20b91,800",
+         "innerHTML": "from ₹1,800",
          "mobileStyles": {},
          "rawStyles": {},
          "tabletStyles": {}
@@ -1101,7 +1101,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "div",
-         "innerHTML": "\u2192",
+         "innerHTML": "→",
          "mobileStyles": {
           "display": "none"
          },
@@ -1141,7 +1141,7 @@
       "width": "100%"
      },
      "blockId": "7a446c9e58",
-     "blockName": "Section \u00b7 Quote",
+     "blockName": "Section · Quote",
      "children": [
       {
        "attributes": {},
@@ -1183,7 +1183,7 @@
        "classes": [],
        "customAttributes": {},
        "element": "p",
-       "innerHTML": "\u201cI came for the stretching and stayed<br>for the hour nobody could reach me.\u201d",
+       "innerHTML": "“I came for the stretching and stayed<br>for the hour nobody could reach me.”",
        "mobileStyles": {
         "fontSize": "26px"
        },
@@ -1317,7 +1317,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "5f7774bc33",
-           "blockName": "Footer \u00b7 IG",
+           "blockName": "Footer · IG",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -1331,7 +1331,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "ba430646d2",
-           "blockName": "Footer \u00b7 Mail",
+           "blockName": "Footer · Mail",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -1413,12 +1413,12 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Lull is a small wellness studio in Bandra - yoga, breathwork and bodywork.",
- "modified": "2026-07-14 16:14:29.772618",
+ "modified": "2026-07-14 21:27:36.352046",
  "modified_by": "Administrator",
  "name": "lull_home",
  "owner": "Administrator",
  "page_name": "lull_home",
- "page_title": "Lull \u2014 A slow studio",
+ "page_title": "Lull - A slow studio",
  "preview": "/builder_assets/lull/lull_home/preview.webp",
  "project_folder": null,
  "published": 0,

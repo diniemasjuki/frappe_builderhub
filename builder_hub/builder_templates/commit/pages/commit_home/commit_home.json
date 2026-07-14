@@ -459,7 +459,7 @@
            "blockId": "d50966aee2",
            "blockName": "Hero Subtitle",
            "element": "p",
-           "innerHTML": "Commit is a single-track conference for people who build for the web — 30 talks, 8 workshops, and one legendary afterparty."
+           "innerHTML": "Commit is a single-track conference for people who build for the web - 30 talks, 8 workshops, and one legendary afterparty."
           },
           {
            "baseStyles": {
@@ -1588,7 +1588,7 @@
              "blockId": "20e614be27",
              "blockName": "Highlight Desc",
              "element": "p",
-             "innerHTML": "No FOMO, no room-hopping. Every talk is the main event — 25 minutes, zero sales pitches."
+             "innerHTML": "No FOMO, no room-hopping. Every talk is the main event - 25 minutes, zero sales pitches."
             }
            ],
            "customAttributes": {
@@ -2554,7 +2554,7 @@
              "blockId": "14373d7b06",
              "blockName": "Venue Text",
              "element": "p",
-             "innerHTML": "Fábrica Braço de Prata — a 19th-century munitions factory turned culture house on Lisbon's riverfront. Twenty minutes from the airport, five from the best seafood of your life."
+             "innerHTML": "Fábrica Braço de Prata - a 19th-century munitions factory turned culture house on Lisbon's riverfront. Twenty minutes from the airport, five from the best seafood of your life."
             },
             {
              "baseStyles": {
@@ -2927,8 +2927,8 @@
  "idx": 0,
  "is_standard": 0,
  "is_template": 1,
- "meta_description": "Commit '26 — two days of code, craft & caffeine in Lisbon.",
- "modified": "2026-07-14 20:31:11.166061",
+ "meta_description": "Commit '26 - two days of code, craft & caffeine in Lisbon.",
+ "modified": "2026-07-14 21:27:36.340440",
  "modified_by": "Administrator",
  "name": "commit_home",
  "owner": "Administrator",

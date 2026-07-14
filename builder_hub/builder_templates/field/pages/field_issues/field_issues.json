@@ -87,7 +87,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "b228222730",
-             "blockName": "Theme \u00b7 Sun",
+             "blockName": "Theme · Sun",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -101,7 +101,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "f68efa8a03",
-             "blockName": "Theme \u00b7 Moon",
+             "blockName": "Theme · Moon",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -162,7 +162,7 @@
          "attributes": {},
          "baseStyles": {},
          "blockId": "36a6cb72b9",
-         "blockName": "Nav \u00b7 Issues",
+         "blockName": "Nav · Issues",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -176,7 +176,7 @@
          "attributes": {},
          "baseStyles": {},
          "blockId": "b51e9b04f5",
-         "blockName": "Nav \u00b7 The Story",
+         "blockName": "Nav · The Story",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -190,7 +190,7 @@
          "attributes": {},
          "baseStyles": {},
          "blockId": "e10108b779",
-         "blockName": "Nav \u00b7 About",
+         "blockName": "Nav · About",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -204,7 +204,7 @@
          "attributes": {},
          "baseStyles": {},
          "blockId": "64200b84da",
-         "blockName": "Nav \u00b7 Archive",
+         "blockName": "Nav · Archive",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -218,7 +218,7 @@
          "attributes": {},
          "baseStyles": {},
          "blockId": "72df990eb4",
-         "blockName": "Nav \u00b7 Print",
+         "blockName": "Nav · Print",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -257,7 +257,7 @@
       "width": "100%"
      },
      "blockId": "d11b1fe2b5",
-     "blockName": "Section \u00b7 Front Page",
+     "blockName": "Section · Front Page",
      "children": [
       {
        "attributes": {},
@@ -273,7 +273,7 @@
         "width": "30%"
        },
        "blockId": "eae3f75db6",
-       "blockName": "Front \u00b7 Lead Col",
+       "blockName": "Front · Lead Col",
        "children": [
         {
          "attributes": {},
@@ -294,7 +294,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "p",
-         "innerHTML": "The cover story \u00b7 No. 15",
+         "innerHTML": "The cover story · No. 15",
          "mobileStyles": {},
          "rawStyles": {},
          "tabletStyles": {}
@@ -341,7 +341,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "p",
-         "innerHTML": "<span style=\"font-size: 3em; float: left; line-height: 0.8; padding: 6px 8px 0px 0px; color: #0E7A5F;\">E</span>veryone we met asked why we were walking. By the second ghat we had stopped answering and started asking it back. The bus dropped us where the tar gave up, at a chai stall whose owner has watched forty years of walkers set out too fast\u2026",
+         "innerHTML": "<span style=\"font-size: 3em; float: left; line-height: 0.8; padding: 6px 8px 0px 0px; color: #0E7A5F;\">E</span>veryone we met asked why we were walking. By the second ghat we had stopped answering and started asking it back. The bus dropped us where the tar gave up, at a chai stall whose owner has watched forty years of walkers set out too fast…",
          "mobileStyles": {},
          "rawStyles": {},
          "tabletStyles": {}
@@ -367,7 +367,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "a",
-         "innerHTML": "Continued on the story page \u2192",
+         "innerHTML": "Continued on the story page →",
          "mobileStyles": {},
          "rawStyles": {
           "hover:text-decoration": "underline",
@@ -401,7 +401,7 @@
         "width": "44%"
        },
        "blockId": "f4d3ed8393",
-       "blockName": "Front \u00b7 Photo Col",
+       "blockName": "Front · Photo Col",
        "children": [
         {
          "attributes": {},
@@ -431,7 +431,7 @@
             "width": "100%"
            },
            "blockId": "719f3b5ae4",
-           "blockName": "Front Photo \u00b7 Image",
+           "blockName": "Front Photo · Image",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -471,7 +471,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "p",
-         "innerHTML": "Setting out from Bhaja, 05:40 \u2014 photograph by Ila Menon",
+         "innerHTML": "Setting out from Bhaja, 05:40 - photograph by Ila Menon",
          "mobileStyles": {},
          "rawStyles": {},
          "tabletStyles": {}
@@ -500,7 +500,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "p",
-         "innerHTML": "\u201cYou do not finish a walk like this.<br>You just stop somewhere flat.\u201d",
+         "innerHTML": "“You do not finish a walk like this.<br>You just stop somewhere flat.”",
          "mobileStyles": {},
          "rawStyles": {},
          "tabletStyles": {}
@@ -527,7 +527,7 @@
         "width": "22%"
        },
        "blockId": "4785eb21df",
-       "blockName": "Front \u00b7 Briefs Col",
+       "blockName": "Front · Briefs Col",
        "children": [
         {
          "attributes": {},
@@ -574,7 +574,7 @@
           "width": "100%"
          },
          "blockId": "8a0351a789",
-         "blockName": "Brief \u00b7 No. 14",
+         "blockName": "Brief · No. 14",
          "children": [
           {
            "attributes": {},
@@ -640,7 +640,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "Konkan Railway \u00b7 5,400 words",
+           "innerHTML": "Konkan Railway · 5,400 words",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -670,7 +670,7 @@
           "width": "100%"
          },
          "blockId": "a439fd5ca9",
-         "blockName": "Brief \u00b7 No. 13",
+         "blockName": "Brief · No. 13",
          "children": [
           {
            "attributes": {},
@@ -736,7 +736,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "Rajasthan \u00b7 3,100 words",
+           "innerHTML": "Rajasthan · 3,100 words",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -766,7 +766,7 @@
           "width": "100%"
          },
          "blockId": "e85b1ad457",
-         "blockName": "Brief \u00b7 No. 12",
+         "blockName": "Brief · No. 12",
          "children": [
           {
            "attributes": {},
@@ -832,7 +832,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "Kerala backwaters \u00b7 4,700 words",
+           "innerHTML": "Kerala backwaters · 4,700 words",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -862,7 +862,7 @@
           "width": "100%"
          },
          "blockId": "73b02b8281",
-         "blockName": "Brief \u00b7 No. 11",
+         "blockName": "Brief · No. 11",
          "children": [
           {
            "attributes": {},
@@ -928,7 +928,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "Cilento, Italy \u00b7 2,900 words",
+           "innerHTML": "Cilento, Italy · 2,900 words",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -979,7 +979,7 @@
       "width": "auto"
      },
      "blockId": "76c4ca49c1",
-     "blockName": "Section \u00b7 Below Fold",
+     "blockName": "Section · Below Fold",
      "children": [
       {
        "attributes": {
@@ -998,7 +998,7 @@
         "width": "33.33%"
        },
        "blockId": "d28cfef62d",
-       "blockName": "Below \u00b7 No. 14",
+       "blockName": "Below · No. 14",
        "children": [
         {
          "attributes": {},
@@ -1013,7 +1013,7 @@
           "width": "100%"
          },
          "blockId": "47f3c6d399",
-         "blockName": "Below Photo \u00b7 No. 14",
+         "blockName": "Below Photo · No. 14",
          "children": [
           {
            "attributes": {
@@ -1029,7 +1029,7 @@
             "width": "100%"
            },
            "blockId": "e92e0cfc3a",
-           "blockName": "Below Photo \u00b7 No. 14 \u00b7 Image",
+           "blockName": "Below Photo · No. 14 · Image",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -1125,7 +1125,7 @@
         "width": "33.33%"
        },
        "blockId": "db008da6a4",
-       "blockName": "Below \u00b7 No. 13",
+       "blockName": "Below · No. 13",
        "children": [
         {
          "attributes": {},
@@ -1140,7 +1140,7 @@
           "width": "100%"
          },
          "blockId": "a83ad6a2a0",
-         "blockName": "Below Photo \u00b7 No. 13",
+         "blockName": "Below Photo · No. 13",
          "children": [
           {
            "attributes": {
@@ -1156,7 +1156,7 @@
             "width": "100%"
            },
            "blockId": "a30d9e5255",
-           "blockName": "Below Photo \u00b7 No. 13 \u00b7 Image",
+           "blockName": "Below Photo · No. 13 · Image",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -1252,7 +1252,7 @@
         "width": "33.33%"
        },
        "blockId": "608ec1668b",
-       "blockName": "Below \u00b7 No. 12",
+       "blockName": "Below · No. 12",
        "children": [
         {
          "attributes": {},
@@ -1267,7 +1267,7 @@
           "width": "100%"
          },
          "blockId": "d3ab1ff4c4",
-         "blockName": "Below Photo \u00b7 No. 12",
+         "blockName": "Below Photo · No. 12",
          "children": [
           {
            "attributes": {
@@ -1283,7 +1283,7 @@
             "width": "100%"
            },
            "blockId": "ec4f6c42d9",
-           "blockName": "Below Photo \u00b7 No. 12 \u00b7 Image",
+           "blockName": "Below Photo · No. 12 · Image",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -1462,12 +1462,12 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Field Journal - travel writing for people who miss the train on purpose.",
- "modified": "2026-07-14 16:14:30.239586",
+ "modified": "2026-07-14 21:28:17.445123",
  "modified_by": "Administrator",
  "name": "field_issues",
  "owner": "Administrator",
  "page_name": "field_issues",
- "page_title": "Field Journal \u2014 Issue 07",
+ "page_title": "Field Journal - Issue 07",
  "preview": "/builder_assets/field/field_issues/preview.webp",
  "project_folder": null,
  "published": 0,

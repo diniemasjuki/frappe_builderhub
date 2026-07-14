@@ -53,7 +53,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "93bcfaab20",
-           "blockName": "Nav \u00b7 Home",
+           "blockName": "Nav · Home",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -67,7 +67,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "88ee35b688",
-           "blockName": "Nav \u00b7 Shows",
+           "blockName": "Nav · Shows",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -81,7 +81,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "df5b3f44c6",
-           "blockName": "Nav \u00b7 About",
+           "blockName": "Nav · About",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -144,7 +144,7 @@
       "width": "100%"
      },
      "blockId": "cc1ab36d59",
-     "blockName": "Section \u00b7 Hero",
+     "blockName": "Section · Hero",
      "children": [
       {
        "attributes": {},
@@ -176,7 +176,7 @@
           "width": "100%"
          },
          "blockId": "ac6a8aceb5",
-         "blockName": "Hero Photo \u00b7 Image",
+         "blockName": "Hero Photo · Image",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -425,7 +425,7 @@
        "classes": [],
        "customAttributes": {},
        "element": "p",
-       "innerHTML": "On tour \u2014 Sep / Oct 2026&nbsp;&nbsp;\u2022&nbsp;&nbsp;On tour \u2014 Sep / Oct 2026&nbsp;&nbsp;\u2022&nbsp;&nbsp;On tour \u2014 Sep / Oct 2026&nbsp;&nbsp;\u2022&nbsp;&nbsp;On tour \u2014 Sep / Oct 2026",
+       "innerHTML": "On tour - Sep / Oct 2026&nbsp;&nbsp;•&nbsp;&nbsp;On tour - Sep / Oct 2026&nbsp;&nbsp;•&nbsp;&nbsp;On tour - Sep / Oct 2026&nbsp;&nbsp;•&nbsp;&nbsp;On tour - Sep / Oct 2026",
        "mobileStyles": {},
        "rawStyles": {},
        "tabletStyles": {}
@@ -451,7 +451,7 @@
       "width": "100%"
      },
      "blockId": "3389fc92ad",
-     "blockName": "Section \u00b7 Records Head",
+     "blockName": "Section · Records Head",
      "children": [
       {
        "attributes": {},
@@ -525,7 +525,7 @@
       "width": "100%"
      },
      "blockId": "0c36f42511",
-     "blockName": "Section \u00b7 Poster Wall",
+     "blockName": "Section · Poster Wall",
      "children": [
       {
        "attributes": {
@@ -544,7 +544,7 @@
         "zIndex": "1"
        },
        "blockId": "227c1e01f8",
-       "blockName": "Poster \u00b7 STATIC",
+       "blockName": "Poster · STATIC",
        "children": [
         {
          "attributes": {},
@@ -559,7 +559,7 @@
           "width": "100%"
          },
          "blockId": "cb4e2be464",
-         "blockName": "Poster Cover \u00b7 STATIC",
+         "blockName": "Poster Cover · STATIC",
          "children": [
           {
            "attributes": {
@@ -575,7 +575,7 @@
             "width": "100%"
            },
            "blockId": "8fe3a6ebe8",
-           "blockName": "Poster Cover \u00b7 STATIC \u00b7 Image",
+           "blockName": "Poster Cover · STATIC · Image",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -657,7 +657,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "EP \u00b7 2026",
+           "innerHTML": "EP · 2026",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -704,7 +704,7 @@
         "zIndex": "1"
        },
        "blockId": "0f1344bd5f",
-       "blockName": "Poster \u00b7 ROOM TONE",
+       "blockName": "Poster · ROOM TONE",
        "children": [
         {
          "attributes": {},
@@ -719,7 +719,7 @@
           "width": "100%"
          },
          "blockId": "6b8ae91e82",
-         "blockName": "Poster Cover \u00b7 ROOM TONE",
+         "blockName": "Poster Cover · ROOM TONE",
          "children": [
           {
            "attributes": {
@@ -735,7 +735,7 @@
             "width": "100%"
            },
            "blockId": "fde6fb5199",
-           "blockName": "Poster Cover \u00b7 ROOM TONE \u00b7 Image",
+           "blockName": "Poster Cover · ROOM TONE · Image",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -817,7 +817,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "LP \u00b7 2025",
+           "innerHTML": "LP · 2025",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -864,7 +864,7 @@
         "zIndex": "1"
        },
        "blockId": "6ddb257d72",
-       "blockName": "Poster \u00b7 LOUD PLACES",
+       "blockName": "Poster · LOUD PLACES",
        "children": [
         {
          "attributes": {},
@@ -879,7 +879,7 @@
           "width": "100%"
          },
          "blockId": "b50d682b6f",
-         "blockName": "Poster Cover \u00b7 LOUD PLACES",
+         "blockName": "Poster Cover · LOUD PLACES",
          "children": [
           {
            "attributes": {
@@ -895,7 +895,7 @@
             "width": "100%"
            },
            "blockId": "5e8eea8d07",
-           "blockName": "Poster Cover \u00b7 LOUD PLACES \u00b7 Image",
+           "blockName": "Poster Cover · LOUD PLACES · Image",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -977,7 +977,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "SINGLE \u00b7 2025",
+           "innerHTML": "SINGLE · 2025",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1038,7 +1038,7 @@
       "width": "100%"
      },
      "blockId": "5ec8774c93",
-     "blockName": "Section \u00b7 Press Quote",
+     "blockName": "Section · Press Quote",
      "children": [
       {
        "attributes": {},
@@ -1087,7 +1087,7 @@
        "classes": [],
        "customAttributes": {},
        "element": "p",
-       "innerHTML": "Rolling Blackouts Magazine \u00b7 album of the month",
+       "innerHTML": "Rolling Blackouts Magazine · album of the month",
        "mobileStyles": {},
        "rawStyles": {},
        "tabletStyles": {}
@@ -1132,7 +1132,7 @@
          "attributes": {},
          "baseStyles": {},
          "blockId": "6af5e2b77f",
-         "blockName": "Footer \u00b7 Spotify",
+         "blockName": "Footer · Spotify",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -1146,7 +1146,7 @@
          "attributes": {},
          "baseStyles": {},
          "blockId": "9c8e95aa63",
-         "blockName": "Footer \u00b7 Bandcamp",
+         "blockName": "Footer · Bandcamp",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -1160,7 +1160,7 @@
          "attributes": {},
          "baseStyles": {},
          "blockId": "507810d7f1",
-         "blockName": "Footer \u00b7 YouTube",
+         "blockName": "Footer · YouTube",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -1174,7 +1174,7 @@
          "attributes": {},
          "baseStyles": {},
          "blockId": "aac11ad369",
-         "blockName": "Footer \u00b7 Instagram",
+         "blockName": "Footer · Instagram",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -1284,12 +1284,12 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Verge - the new album No Signal, records, and tour dates.",
- "modified": "2026-07-14 16:14:30.721452",
+ "modified": "2026-07-14 21:28:17.463202",
  "modified_by": "Administrator",
  "name": "verge_home",
  "owner": "Administrator",
  "page_name": "verge_home",
- "page_title": "VERGE \u2014 No Signal, out 12 Sep",
+ "page_title": "VERGE - No Signal, out 12 Sep",
  "preview": "/builder_assets/verge/verge_home/preview.webp",
  "project_folder": null,
  "published": 0,

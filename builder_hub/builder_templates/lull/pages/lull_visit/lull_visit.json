@@ -39,7 +39,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "5d64465aeb",
-           "blockName": "Nav \u00b7 Classes",
+           "blockName": "Nav · Classes",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -53,7 +53,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "05a741aaaf",
-           "blockName": "Nav \u00b7 Visit",
+           "blockName": "Nav · Visit",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -116,7 +116,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "f0eb129ba8",
-             "blockName": "Theme \u00b7 Sun",
+             "blockName": "Theme · Sun",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -130,7 +130,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "e4dee2888f",
-             "blockName": "Theme \u00b7 Moon",
+             "blockName": "Theme · Moon",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -187,7 +187,7 @@
       "width": "100%"
      },
      "blockId": "27cb822d05",
-     "blockName": "Section \u00b7 Visit",
+     "blockName": "Section · Visit",
      "children": [
       {
        "attributes": {},
@@ -220,7 +220,7 @@
           "width": "100%"
          },
          "blockId": "d692397650",
-         "blockName": "Visit Photo \u00b7 Image",
+         "blockName": "Visit Photo · Image",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -357,7 +357,7 @@
             "width": "100%"
            },
            "blockId": "66cea9d73d",
-           "blockName": "Visit Row \u00b7 Hours",
+           "blockName": "Visit Row · Hours",
            "children": [
             {
              "attributes": {},
@@ -401,7 +401,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "Mon \u2014 Sat, 07:00 \u2014 20:00 \u00b7 Sundays we rest",
+             "innerHTML": "Mon - Sat, 07:00 - 20:00 · Sundays we rest",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -428,7 +428,7 @@
             "width": "100%"
            },
            "blockId": "127020809d",
-           "blockName": "Visit Row \u00b7 Bring",
+           "blockName": "Visit Row · Bring",
            "children": [
             {
              "attributes": {},
@@ -499,7 +499,7 @@
             "width": "100%"
            },
            "blockId": "7fa4360a3f",
-           "blockName": "Visit Row \u00b7 Contact",
+           "blockName": "Visit Row · Contact",
            "children": [
             {
              "attributes": {},
@@ -543,7 +543,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "hello@lull.studio \u00b7 +91 98 2020 4141",
+             "innerHTML": "hello@lull.studio · +91 98 2020 4141",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -599,7 +599,7 @@
             "width": "fit-content"
            },
            "blockId": "ff20a18a45",
-           "blockName": "Pill \u00b7 Book your first class",
+           "blockName": "Pill · Book your first class",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -653,7 +653,7 @@
       "width": "100%"
      },
      "blockId": "63722f5634",
-     "blockName": "Section \u00b7 FAQ",
+     "blockName": "Section · FAQ",
      "children": [
       {
        "attributes": {},
@@ -694,7 +694,7 @@
         "width": "100%"
        },
        "blockId": "187f20a489",
-       "blockName": "FAQ \u00b7 Do I need my own",
+       "blockName": "FAQ · Do I need my own",
        "children": [
         {
          "attributes": {},
@@ -772,7 +772,7 @@
         "width": "100%"
        },
        "blockId": "1fd9d3ac1d",
-       "blockName": "FAQ \u00b7 I've never done ",
+       "blockName": "FAQ · I've never done ",
        "children": [
         {
          "attributes": {},
@@ -850,7 +850,7 @@
         "width": "100%"
        },
        "blockId": "13bd68d248",
-       "blockName": "FAQ \u00b7 Can I just walk ",
+       "blockName": "FAQ · Can I just walk ",
        "children": [
         {
          "attributes": {},
@@ -1018,7 +1018,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "d19b7bdedf",
-           "blockName": "Footer \u00b7 IG",
+           "blockName": "Footer · IG",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -1032,7 +1032,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "d3decc8a4c",
-           "blockName": "Footer \u00b7 Mail",
+           "blockName": "Footer · Mail",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -1114,7 +1114,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Find Lull above the flower market in Bandra West - hours, FAQs and contact.",
- "modified": "2026-07-14 16:14:29.775206",
+ "modified": "2026-07-14 21:27:36.354990",
  "modified_by": "Administrator",
  "name": "lull_visit",
  "owner": "Administrator",

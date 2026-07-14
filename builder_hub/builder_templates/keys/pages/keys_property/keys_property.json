@@ -53,7 +53,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "bc9137ad6a",
-           "blockName": "Side \u00b7 Listings",
+           "blockName": "Side · Listings",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -67,7 +67,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "22b7d207c5",
-           "blockName": "Side \u00b7 Property",
+           "blockName": "Side · Property",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -81,7 +81,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "da1f0f4da3",
-           "blockName": "Side \u00b7 Viewings",
+           "blockName": "Side · Viewings",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -130,7 +130,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "441f6d2c19",
-             "blockName": "Chip \u00b7 Lisbon & coast",
+             "blockName": "Chip · Lisbon & coast",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -144,7 +144,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "718659046e",
-             "blockName": "Chip \u00b7 2 \u2014 4 beds",
+             "blockName": "Chip · 2 - 4 beds",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -158,7 +158,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "a12a49ab16",
-             "blockName": "Chip \u00b7 Under \u20ac900k",
+             "blockName": "Chip · Under €900k",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -172,7 +172,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "616be6ed97",
-             "blockName": "Chip \u00b7 Move-in ready",
+             "blockName": "Chip · Move-in ready",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -282,7 +282,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "4feded6022",
-           "blockName": "Theme \u00b7 Sun",
+           "blockName": "Theme · Sun",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -296,7 +296,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "5ffc667fe9",
-           "blockName": "Theme \u00b7 Moon",
+           "blockName": "Theme · Moon",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -373,7 +373,7 @@
         "width": "100%"
        },
        "blockId": "c8aa5bf2c9",
-       "blockName": "Section \u00b7 Property Header",
+       "blockName": "Section · Property Header",
        "children": [
         {
          "attributes": {},
@@ -406,7 +406,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "Cascais \u00b7 Ref KY-0142",
+           "innerHTML": "Cascais · Ref KY-0142",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -477,7 +477,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "\u20ac780,000",
+           "innerHTML": "€780,000",
            "mobileStyles": {
             "fontSize": "30px"
            },
@@ -553,7 +553,7 @@
         "width": "100%"
        },
        "blockId": "e12ccf8646",
-       "blockName": "Section \u00b7 Gallery",
+       "blockName": "Section · Gallery",
        "children": [
         {
          "attributes": {},
@@ -584,7 +584,7 @@
             "width": "100%"
            },
            "blockId": "8b71739f45",
-           "blockName": "Gallery Main \u00b7 Image",
+           "blockName": "Gallery Main · Image",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -649,7 +649,7 @@
               "width": "100%"
              },
              "blockId": "3067c66c04",
-             "blockName": "Gallery 2 \u00b7 Image",
+             "blockName": "Gallery 2 · Image",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -700,7 +700,7 @@
               "width": "100%"
              },
              "blockId": "df5b3bf856",
-             "blockName": "Gallery 3 \u00b7 Image",
+             "blockName": "Gallery 3 · Image",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -751,7 +751,7 @@
               "width": "100%"
              },
              "blockId": "bca610328e",
-             "blockName": "Gallery 4 \u00b7 Image",
+             "blockName": "Gallery 4 · Image",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -801,7 +801,7 @@
         "width": "100%"
        },
        "blockId": "0ac4bb9f52",
-       "blockName": "Section \u00b7 Detail",
+       "blockName": "Section · Detail",
        "children": [
         {
          "attributes": {},
@@ -831,7 +831,7 @@
             "width": "25%"
            },
            "blockId": "9d1117d5d9",
-           "blockName": "Fact \u00b7 Bedrooms",
+           "blockName": "Fact · Bedrooms",
            "children": [
             {
              "attributes": {},
@@ -905,7 +905,7 @@
             "width": "25%"
            },
            "blockId": "247c0e90f3",
-           "blockName": "Fact \u00b7 Bathrooms",
+           "blockName": "Fact · Bathrooms",
            "children": [
             {
              "attributes": {},
@@ -979,7 +979,7 @@
             "width": "25%"
            },
            "blockId": "98436e5df5",
-           "blockName": "Fact \u00b7 Interior",
+           "blockName": "Fact · Interior",
            "children": [
             {
              "attributes": {},
@@ -1023,7 +1023,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "145 m\u00b2",
+             "innerHTML": "145 m²",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1053,7 +1053,7 @@
             "width": "25%"
            },
            "blockId": "898a4f49d6",
-           "blockName": "Fact \u00b7 Built",
+           "blockName": "Fact · Built",
            "children": [
             {
              "attributes": {},
@@ -1097,7 +1097,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "2019 \u00b7 A-rated",
+             "innerHTML": "2019 · A-rated",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1168,7 +1168,7 @@
             "width": "100%"
            },
            "blockId": "58f1b401f1",
-           "blockName": "Feature \u00b7 Kitchen",
+           "blockName": "Feature · Kitchen",
            "children": [
             {
              "attributes": {},
@@ -1246,7 +1246,7 @@
             "width": "100%"
            },
            "blockId": "c2e29a2480",
-           "blockName": "Feature \u00b7 Outdoors",
+           "blockName": "Feature · Outdoors",
            "children": [
             {
              "attributes": {},
@@ -1293,7 +1293,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "Salt pool, outdoor kitchen, olive tree, and 90 m\u00b2 of terrace over two levels.",
+             "innerHTML": "Salt pool, outdoor kitchen, olive tree, and 90 m² of terrace over two levels.",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1324,7 +1324,7 @@
             "width": "100%"
            },
            "blockId": "b1c33c5fed",
-           "blockName": "Feature \u00b7 Energy",
+           "blockName": "Feature · Energy",
            "children": [
             {
              "attributes": {},
@@ -1402,7 +1402,7 @@
             "width": "100%"
            },
            "blockId": "27c8129bfb",
-           "blockName": "Feature \u00b7 The area",
+           "blockName": "Feature · The area",
            "children": [
             {
              "attributes": {},
@@ -1582,13 +1582,13 @@
  "idx": 0,
  "is_standard": 0,
  "is_template": 1,
- "meta_description": "Casa Branca in Cascais - 3 bed, salt pool, A-rated. \u20ac780,000 with Keys.",
- "modified": "2026-07-14 16:14:30.084956",
+ "meta_description": "Casa Branca in Cascais - 3 bed, salt pool, A-rated. €780,000 with Keys.",
+ "modified": "2026-07-14 21:28:17.460293",
  "modified_by": "Administrator",
  "name": "keys_property",
  "owner": "Administrator",
  "page_name": "keys_property",
- "page_title": "Casa Branca \u2014 \u20ac780,000",
+ "page_title": "Casa Branca - €780,000",
  "preview": "/builder_assets/keys/keys_property/preview.webp",
  "project_folder": null,
  "published": 0,

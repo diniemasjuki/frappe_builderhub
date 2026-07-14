@@ -53,7 +53,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "afd4dcc72c",
-           "blockName": "Nav \u00b7 Home",
+           "blockName": "Nav · Home",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -67,7 +67,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "a843bec8ed",
-           "blockName": "Nav \u00b7 Shows",
+           "blockName": "Nav · Shows",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -81,7 +81,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "a9b576ccc4",
-           "blockName": "Nav \u00b7 About",
+           "blockName": "Nav · About",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -143,7 +143,7 @@
       "width": "100%"
      },
      "blockId": "ddf2bd88ad",
-     "blockName": "Section \u00b7 Shows Header",
+     "blockName": "Section · Shows Header",
      "children": [
       {
        "attributes": {},
@@ -164,7 +164,7 @@
        "classes": [],
        "customAttributes": {},
        "element": "p",
-       "innerHTML": "Sep \u2014 Oct 2026",
+       "innerHTML": "Sep - Oct 2026",
        "mobileStyles": {},
        "rawStyles": {},
        "tabletStyles": {}
@@ -241,7 +241,7 @@
       "width": "100%"
      },
      "blockId": "c1a0a75f49",
-     "blockName": "Section \u00b7 Show List",
+     "blockName": "Section · Show List",
      "children": [
       {
        "attributes": {},
@@ -258,7 +258,7 @@
         "width": "100%"
        },
        "blockId": "5a37f9790c",
-       "blockName": "Show \u00b7 BOMBAY",
+       "blockName": "Show · BOMBAY",
        "children": [
         {
          "attributes": {},
@@ -363,7 +363,7 @@
           "width": "fit-content"
          },
          "blockId": "9c1bd73a27",
-         "blockName": "Show CTA \u00b7 BOMBAY",
+         "blockName": "Show CTA · BOMBAY",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -404,7 +404,7 @@
         "width": "100%"
        },
        "blockId": "68f31361e4",
-       "blockName": "Show \u00b7 PUNE",
+       "blockName": "Show · PUNE",
        "children": [
         {
          "attributes": {},
@@ -509,7 +509,7 @@
           "width": "fit-content"
          },
          "blockId": "bd78fc2805",
-         "blockName": "Show CTA \u00b7 PUNE",
+         "blockName": "Show CTA · PUNE",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -550,7 +550,7 @@
         "width": "100%"
        },
        "blockId": "8872988478",
-       "blockName": "Show \u00b7 BANGALORE",
+       "blockName": "Show · BANGALORE",
        "children": [
         {
          "attributes": {},
@@ -653,7 +653,7 @@
           "width": "fit-content"
          },
          "blockId": "6cc6babd5d",
-         "blockName": "Show CTA \u00b7 BANGALORE",
+         "blockName": "Show CTA · BANGALORE",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -690,7 +690,7 @@
         "width": "100%"
        },
        "blockId": "6fe2c8b184",
-       "blockName": "Show \u00b7 BERLIN",
+       "blockName": "Show · BERLIN",
        "children": [
         {
          "attributes": {},
@@ -795,7 +795,7 @@
           "width": "fit-content"
          },
          "blockId": "be4f1749d0",
-         "blockName": "Show CTA \u00b7 BERLIN",
+         "blockName": "Show CTA · BERLIN",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -836,7 +836,7 @@
         "width": "100%"
        },
        "blockId": "f60c684333",
-       "blockName": "Show \u00b7 PRAGUE",
+       "blockName": "Show · PRAGUE",
        "children": [
         {
          "attributes": {},
@@ -941,7 +941,7 @@
           "width": "fit-content"
          },
          "blockId": "394827a70d",
-         "blockName": "Show CTA \u00b7 PRAGUE",
+         "blockName": "Show CTA · PRAGUE",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -982,7 +982,7 @@
         "width": "100%"
        },
        "blockId": "7602f3d829",
-       "blockName": "Show \u00b7 AMSTERDAM",
+       "blockName": "Show · AMSTERDAM",
        "children": [
         {
          "attributes": {},
@@ -1087,7 +1087,7 @@
           "width": "fit-content"
          },
          "blockId": "615d9aedde",
-         "blockName": "Show CTA \u00b7 AMSTERDAM",
+         "blockName": "Show CTA · AMSTERDAM",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -1128,7 +1128,7 @@
         "width": "100%"
        },
        "blockId": "129d701e67",
-       "blockName": "Show \u00b7 LONDON",
+       "blockName": "Show · LONDON",
        "children": [
         {
          "attributes": {},
@@ -1231,7 +1231,7 @@
           "width": "fit-content"
          },
          "blockId": "c7ea2598b4",
-         "blockName": "Show CTA \u00b7 LONDON",
+         "blockName": "Show CTA · LONDON",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -1268,7 +1268,7 @@
         "width": "100%"
        },
        "blockId": "d3fe36a0f7",
-       "blockName": "Show \u00b7 GOA",
+       "blockName": "Show · GOA",
        "children": [
         {
          "attributes": {},
@@ -1342,7 +1342,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "p",
-         "innerHTML": "Vagator Hilltop \u2014 homecoming",
+         "innerHTML": "Vagator Hilltop - homecoming",
          "mobileStyles": {},
          "rawStyles": {},
          "tabletStyles": {}
@@ -1373,7 +1373,7 @@
           "width": "fit-content"
          },
          "blockId": "3c04987159",
-         "blockName": "Show CTA \u00b7 GOA",
+         "blockName": "Show CTA · GOA",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -1418,7 +1418,7 @@
       "width": "100%"
      },
      "blockId": "ef6fd2f34f",
-     "blockName": "Section \u00b7 Shows Photo",
+     "blockName": "Section · Shows Photo",
      "children": [
       {
        "attributes": {},
@@ -1449,7 +1449,7 @@
           "width": "100%"
          },
          "blockId": "8dafe4ccaa",
-         "blockName": "Shows Photo \u00b7 Image",
+         "blockName": "Shows Photo · Image",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -1511,7 +1511,7 @@
          "attributes": {},
          "baseStyles": {},
          "blockId": "a7378126bc",
-         "blockName": "Footer \u00b7 Spotify",
+         "blockName": "Footer · Spotify",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -1525,7 +1525,7 @@
          "attributes": {},
          "baseStyles": {},
          "blockId": "c6cf9a412c",
-         "blockName": "Footer \u00b7 Bandcamp",
+         "blockName": "Footer · Bandcamp",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -1539,7 +1539,7 @@
          "attributes": {},
          "baseStyles": {},
          "blockId": "6ee547e991",
-         "blockName": "Footer \u00b7 YouTube",
+         "blockName": "Footer · YouTube",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -1553,7 +1553,7 @@
          "attributes": {},
          "baseStyles": {},
          "blockId": "2dfba21936",
-         "blockName": "Footer \u00b7 Instagram",
+         "blockName": "Footer · Instagram",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -1663,7 +1663,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Verge on the road - September and October 2026, India and Europe.",
- "modified": "2026-07-14 16:14:30.722452",
+ "modified": "2026-07-14 21:28:17.466028",
  "modified_by": "Administrator",
  "name": "verge_shows",
  "owner": "Administrator",

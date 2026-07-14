@@ -5,7 +5,7 @@ Deleting a group's fixtures from the app does NOT remove it downstream:
 so a wholly-removed group lingers in every site's DB until explicitly deleted.
 This patch does that deletion, idempotently, on install/migrate.
 
-Only the shipped template artifacts are removed — template pages
+Only the shipped template artifacts are removed: template pages
 (`is_template=1` + `template_group`), the group's private components
 (`<group>_*`) and its grouped variables. User pages created from these
 templates (no `template_group`) are left untouched; the shared
@@ -27,7 +27,7 @@ def _safe_delete(doctype, name):
 
 	A user page still referencing one of these (now-removed) template
 	components would raise LinkExistsError, and `force` does not bypass every
-	guard across versions — so swallow and log rather than halt `bench migrate`.
+	guard across versions, so swallow and log rather than halt `bench migrate`.
 	Commit on success so a later failure's rollback can't undo earlier deletes.
 	"""
 	try:

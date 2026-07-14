@@ -47,7 +47,7 @@
          "attributes": {},
          "baseStyles": {},
          "blockId": "de57c0831a",
-         "blockName": "Nav \u00b7 Rooms",
+         "blockName": "Nav · Rooms",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -61,7 +61,7 @@
          "attributes": {},
          "baseStyles": {},
          "blockId": "eefbb5317a",
-         "blockName": "Nav \u00b7 Visit",
+         "blockName": "Nav · Visit",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -95,7 +95,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "c8baf32f4a",
-           "blockName": "Theme \u00b7 Sun",
+           "blockName": "Theme · Sun",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -109,7 +109,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "bfc477794e",
-           "blockName": "Theme \u00b7 Moon",
+           "blockName": "Theme · Moon",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -159,7 +159,7 @@
       "width": "100%"
      },
      "blockId": "f6a2c9f769",
-     "blockName": "Section \u00b7 Hero",
+     "blockName": "Section · Hero",
      "children": [
       {
        "attributes": {},
@@ -192,7 +192,7 @@
           "width": "100%"
          },
          "blockId": "3047c8f8af",
-         "blockName": "Hero Photo \u00b7 Image",
+         "blockName": "Hero Photo · Image",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -269,7 +269,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "p",
-         "innerHTML": "A six-room stay \u2014 Alibaug",
+         "innerHTML": "A six-room stay - Alibaug",
          "mobileStyles": {},
          "rawStyles": {},
          "tabletStyles": {}
@@ -366,7 +366,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "p",
-         "innerHTML": "Scroll \u2193",
+         "innerHTML": "Scroll ↓",
          "mobileStyles": {},
          "rawStyles": {},
          "tabletStyles": {}
@@ -403,7 +403,7 @@
       "width": "100%"
      },
      "blockId": "66327d9fb3",
-     "blockName": "Chapter \u00b7 The Garden Room",
+     "blockName": "Chapter · The Garden Room",
      "children": [
       {
        "attributes": {},
@@ -421,7 +421,7 @@
         "width": "100%"
        },
        "blockId": "9d031296f9",
-       "blockName": "Chapter Photo \u00b7 The Garden Room",
+       "blockName": "Chapter Photo · The Garden Room",
        "children": [
         {
          "attributes": {
@@ -437,7 +437,7 @@
           "width": "100%"
          },
          "blockId": "500e2fe911",
-         "blockName": "Chapter Photo \u00b7 The Garden Room \u00b7 Image",
+         "blockName": "Chapter Photo · The Garden Room · Image",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -589,7 +589,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "\u20b99,500 / night",
+           "innerHTML": "₹9,500 / night",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -647,7 +647,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "a",
-         "innerHTML": "See this room \u2192",
+         "innerHTML": "See this room →",
          "mobileStyles": {},
          "rawStyles": {
           "hover:color": "var(--33cc44dd-0002-4c02-8c02-ccdd0002bb02, #24352B)",
@@ -691,7 +691,7 @@
       "width": "100%"
      },
      "blockId": "63b7f75550",
-     "blockName": "Chapter \u00b7 The Glass Suite",
+     "blockName": "Chapter · The Glass Suite",
      "children": [
       {
        "attributes": {},
@@ -709,7 +709,7 @@
         "width": "100%"
        },
        "blockId": "6f19e3e0f6",
-       "blockName": "Chapter Photo \u00b7 The Glass Suite",
+       "blockName": "Chapter Photo · The Glass Suite",
        "children": [
         {
          "attributes": {
@@ -725,7 +725,7 @@
           "width": "100%"
          },
          "blockId": "d5fbea023c",
-         "blockName": "Chapter Photo \u00b7 The Glass Suite \u00b7 Image",
+         "blockName": "Chapter Photo · The Glass Suite · Image",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -877,7 +877,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "\u20b914,000 / night",
+           "innerHTML": "₹14,000 / night",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -935,7 +935,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "a",
-         "innerHTML": "See this room \u2192",
+         "innerHTML": "See this room →",
          "mobileStyles": {},
          "rawStyles": {
           "hover:color": "var(--33cc44dd-0002-4c02-8c02-ccdd0002bb02, #24352B)",
@@ -979,7 +979,7 @@
       "width": "100%"
      },
      "blockId": "935b8b298f",
-     "blockName": "Chapter \u00b7 The Pool House",
+     "blockName": "Chapter · The Pool House",
      "children": [
       {
        "attributes": {},
@@ -997,7 +997,7 @@
         "width": "100%"
        },
        "blockId": "f1ecb743a9",
-       "blockName": "Chapter Photo \u00b7 The Pool House",
+       "blockName": "Chapter Photo · The Pool House",
        "children": [
         {
          "attributes": {
@@ -1013,7 +1013,7 @@
           "width": "100%"
          },
          "blockId": "48d12f9010",
-         "blockName": "Chapter Photo \u00b7 The Pool House \u00b7 Image",
+         "blockName": "Chapter Photo · The Pool House · Image",
          "children": [],
          "classes": [],
          "customAttributes": {},
@@ -1165,7 +1165,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "\u20b918,500 / night",
+           "innerHTML": "₹18,500 / night",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1223,7 +1223,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "a",
-         "innerHTML": "See this room \u2192",
+         "innerHTML": "See this room →",
          "mobileStyles": {},
          "rawStyles": {
           "hover:color": "var(--33cc44dd-0002-4c02-8c02-ccdd0002bb02, #24352B)",
@@ -1267,7 +1267,7 @@
       "width": "100%"
      },
      "blockId": "ec65de863d",
-     "blockName": "Section \u00b7 Outro",
+     "blockName": "Section · Outro",
      "children": [
       {
        "attributes": {},
@@ -1565,12 +1565,12 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Nook is a six-room farmhouse stay by the creek in Alibaug.",
- "modified": "2026-07-14 16:14:29.927555",
+ "modified": "2026-07-14 21:27:36.348395",
  "modified_by": "Administrator",
  "name": "nook_home",
  "owner": "Administrator",
  "page_name": "nook_home",
- "page_title": "Nook \u2014 A six-room stay",
+ "page_title": "Nook - A six-room stay",
  "preview": "/builder_assets/nook/nook_home/preview.webp",
  "project_folder": null,
  "published": 0,
