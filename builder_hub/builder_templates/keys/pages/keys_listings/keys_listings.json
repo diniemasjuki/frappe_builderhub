@@ -158,7 +158,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "90994fcfcc",
-             "blockName": "Chip · Under €900k",
+             "blockName": "Chip · Under ₹9 Cr",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -690,7 +690,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "€780,000",
+             "innerHTML": "₹7.8 Cr",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -940,7 +940,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "€645,000",
+             "innerHTML": "₹6.4 Cr",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1190,7 +1190,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "€520,000",
+             "innerHTML": "₹5.2 Cr",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1440,7 +1440,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "€890,000",
+             "innerHTML": "₹8.9 Cr",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1690,7 +1690,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "€715,000",
+             "innerHTML": "₹7.1 Cr",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1940,7 +1940,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "€430,000",
+             "innerHTML": "₹4.3 Cr",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -2185,7 +2185,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "€96M",
+           "innerHTML": "₹960 Cr",
            "mobileStyles": {
             "fontSize": "36px"
            },
@@ -2334,7 +2334,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Keys lists twenty homes at a time across Lisbon and the coast.",
- "modified": "2026-07-14 21:28:17.456192",
+ "modified": "2026-07-14 22:20:05.434376",
  "modified_by": "Administrator",
  "name": "keys_listings",
  "owner": "Administrator",
