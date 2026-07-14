@@ -11,12 +11,12 @@ sharing a set of Builder Components and Variables. Groups are bundled as fixture
 
 ## Templates
 
-Twelve multi-page template groups. Each has a shared navbar/footer + theme
+Eleven multi-page template groups. Each has a shared navbar/footer + theme
 across its pages, with a built-in light/dark toggle (except Verge, which is
 single-theme dark by design).
 
 Each group carries one picker category in its `template.json` manifest:
-**Marketing** (Fronds, Commit, Verge), **Portfolio** (Atelier, Mono, Husk, Verso),
+**Marketing** (Fronds, Commit, Verge), **Portfolio** (Mono, Husk, Verso),
 **Editorial** (Quill, Field), and **Local business** (Lull, Nook, Keys).
 
 ### Fronds
@@ -26,15 +26,6 @@ An earthy multi-page starter for boutique brands.
 ![Fronds - Landing](builder_hub/www/builder_assets/fronds/fronds_landing/preview.webp)
 
 **Pages:** Landing · About · Contact
----
-### Atelier
-
-A bold studio site for agencies and freelancers: oversized type, a geometric inline-SVG
-hero, a services index, a selected-work grid, and a built-in contact form.
-
-![Atelier - Home](builder_hub/www/builder_assets/atelier/atelier_home/preview.webp)
-
-**Pages:** Home · Work · Contact
 ---
 ### Mono
 
