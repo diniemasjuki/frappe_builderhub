@@ -19,8 +19,8 @@ Rules that apply to every template:
 - Codenames are unique single words. Taken: commit, field, fronds, husk, keys, lull, mono, nook,
   quill, verge, verso, plus every built group below (through tally and intake).
   Retired, do not reuse: forge, grain, copper, ware, beacon, signal, quip, hex, prism,
-  tally, intake (the Jul 2026 SaaS/app-UI batch read generic; conceit-first rebuilds get
-  fresh codenames).
+  tally, intake, prospect (the Jul 2026 SaaS/app-UI batch and its prospectus follow-up were
+  all retired; the user's direction is Framer-grade polish or a conceit that lands).
 - Templates need not be themed (light/dark toggle optional): app-UI and product templates may
   ship a single neutral look, but every color still goes through Builder Variables so the whole
   template rethemes by editing the palette.
@@ -51,7 +51,6 @@ Rules that apply to every template:
 | reel   | screening room: letterboxed 21:9 stills, timecodes, slate cards, credits crawl |
 | margin | book page: reading column + numbered margin notes, dotted-leader TOC |
 | plinth | drawing set: type-only index with hover thumbnails, sheet furniture, titleblock |
-| prospect | printed prospectus: cover + seal, numbered Items, exhibits, rate card, risk factors, countersign |
 
 New briefs must claim an archetype not on this list, and the list grows as templates ship.
 
@@ -134,10 +133,9 @@ Five template slots per category, each with a different theme.
 | plaza    | bright | city hotel, jewel tones, amenity grid |
 | tide     | minimal | coastal B&B, sea glass, quiet type |
 
-### Technology / SaaS (electric accents on dark or clean white) — prospect BUILT Jul 2026
+### Technology / SaaS (electric accents on dark or clean white)
 | Codename | Theme | Concept |
 |----------|-------|---------|
-| prospect | paper | B2B SaaS site as an investment prospectus, wit included (built: 3 pages, order 28) |
 | orbit    | bright | product landing, gradient accents, feature orbits |
 | stack    | minimal | B2B platform, gray scale, integration logos |
 | neon     | bold | startup launch, electric violet on off-black |
@@ -688,7 +686,7 @@ An internal-tool starter: topbar-only chrome with an INTERNAL env badge, request
 a dotted audit timeline, and a new-request form using real input/textarea elements plus a
 dashed drop zone. Public Sans, teal accent, amber warnings. Pages: queue (home), request, new.
 
-## Brief: prospect (Technology, paper) — BUILT
+## Brief: prospect (Technology, paper) — RETIRED Jul 2026 (conceit didn't land with the user)
 
 The flagship SaaS-marketing conceit: the site IS a printed investment prospectus. Cover with
 prospectus number, red double-border seal badges (rotated), table of contents, numbered Items
