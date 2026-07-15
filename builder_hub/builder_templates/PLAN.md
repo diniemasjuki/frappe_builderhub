@@ -40,6 +40,11 @@ Rules that apply to every template:
 | tulle  | layered offset tissue panels, script overlays, pill nav, RSVP card footer |
 | denim  | bordered cells, marquee tickers, rotated stickers, checkerboard grid |
 | pleat  | magazine spreads with folio bars, paired portrait+detail images, colophon |
+| ridge  | gapless photo mosaic wall, hover captions, overlay nav |
+| quip   | bento board of mixed-size rounded tiles, floating bar nav |
+| vitae  | document: paper sheet on a desk, letterhead, date-left CV entries |
+| reel   | screening room: letterboxed 21:9 stills, timecodes, slate cards, credits crawl |
+| margin | book page: reading column + numbered margin notes, dotted-leader TOC |
 
 New briefs must claim an archetype not on this list, and the list grows as templates ship.
 
@@ -75,6 +80,15 @@ Five template slots per category, each with a different theme.
 | scoop    | bright pastel | gelato café, candy colors, playful shapes |
 | graze    | editorial | farm-to-table restaurant, producer stories |
 | zest     | sunshine | street-food brand, citrus yellow, bold stickers |
+
+### Portfolio & Personal (one person, one voice; joins husk/mono/verso) — BUILT Jul 2026, orders 18-22
+| Codename | Theme | Concept |
+|----------|-------|---------|
+| ridge    | dark | photographer, gapless photo mosaic wall, index overlay (built: 3 pages) |
+| quip     | bright | designer, bento-box board of mixed-size tiles (built: 3 pages) |
+| vitae    | minimal | consultant CV as a paper sheet on a desk, letterhead and entries (built: 3 pages) |
+| reel     | dark | filmmaker, letterboxed 21:9 stills with timecode captions (built: 3 pages) |
+| margin   | warm light | writer/academic, body column with numbered margin notes (built: 3 pages) |
 
 ### Manufacturing & Industrial (steel blue, gray, safety-orange accents)
 | Codename | Theme | Concept |
@@ -408,6 +422,187 @@ pages:
   - {name: pleat_looks, route: /looks, sections: [issue contents header, looks 01-06 as full spreads with credits, stockist note, colophon footer]}
   - {name: pleat_studio, route: /studio, sections: [about the studio spread (portrait + manifesto), services in folio rows (campaign, lookbook, casting), press + contact block with mailto, colophon footer]}
 components: [pleat_folio_nav, pleat_colophon]
+```
+
+## Brief: ridge (Portfolio, dark)
+
+```yaml
+codename: ridge
+category: Portfolio
+title: Ridge
+description: A dark photography portfolio built as a gapless photo mosaic wall.
+theme: dark
+concept: >
+  Ridge is a landscape and documentary photographer. The site is the work: a gapless mosaic
+  of photographs edge to edge, near-black chrome, one signal-orange accent. Captions appear
+  on hover; everything else stays out of the way. Conversion is a print or commission enquiry.
+palette:            # dark-first, dark_value: null, color-scheme: dark
+  - {name: coal,   value: "#101012", dark_value: null}
+  - {name: slateb, value: "#1A1A1E", dark_value: null}
+  - {name: bone,   value: "#EDEBE6", dark_value: null}
+  - {name: gray,   value: "#8E8C88", dark_value: null}
+  - {name: linec,  value: "#2A2A2F", dark_value: null}
+  - {name: signal, value: "#FF4D00", dark_value: null}
+fonts: {display: Syne, body: Inter}
+archetype: >
+  Gapless mosaic wall. Nav is a thin overlay bar: name left, series links + enquire right.
+  Home opens with a short statement row then goes straight into a flex mosaic: rows of photos
+  with mixed widths (40/60, 33/33/33, 55/45), zero gaps, hover captions sliding up. A series
+  page repeats the mosaic filtered to one series with an index header (No., place, year).
+  Info page is a small portrait + statement + press list. No other group is a gapless mosaic.
+imagery: >
+  Landscape, road, water, people at distance. Moody, high contrast. The mosaic mixes
+  orientations; pick images that survive hard crops.
+pages:
+  - {name: ridge_home, route: /, sections: [overlay nav, one-line statement, mosaic wall (8-10 photos, hover captions), enquire strip footer]}
+  - {name: ridge_series, route: /series, sections: [series index header (No./place/year rows), mosaic filtered to the series with caption bars, edition note, enquire strip]}
+  - {name: ridge_info, route: /info, sections: [portrait + statement, selected press ledger, prints and commissions block with mailto, enquire strip]}
+components: [ridge_nav, ridge_enquire]
+```
+
+## Brief: quip (Portfolio, bright)
+
+```yaml
+codename: quip
+category: Portfolio
+title: Quip
+description: A playful designer portfolio arranged as a bento board of tiles.
+theme: bright
+concept: >
+  Quip is a brand and product designer with jokes. The whole site is a bento board: rounded
+  tiles of different sizes on a cream canvas, violet and lime accents, hover tilts. Serious
+  work, unserious delivery. Conversion is "say hi" email.
+palette:
+  - {name: cream,  value: "#FAF7F2", dark_value: "#161320"}
+  - {name: inkq,   value: "#221B36", dark_value: "#EFEBFA"}
+  - {name: violet, value: "#6C4CF1", dark_value: "#9B85F5"}
+  - {name: lime,   value: "#C6F24E", dark_value: "#A8D63A"}
+  - {name: peach,  value: "#FFB49A", dark_value: "#C97F63"}
+  - {name: mutedq, value: "#8D87A0", dark_value: "#8D87A0"}
+fonts: {display: Bricolage Grotesque, body: Nunito Sans}
+archetype: >
+  Bento board. Nav is a floating rounded bar with a wiggly logo and two links. Home is one
+  big board: a 12-col style flex-wrap of rounded tiles: intro tile (2x), project photo tiles,
+  a stat tile (13 brands, 0 comic sans), a lime "currently" tile, a violet CTA tile. Tiles
+  hover-lift. Projects page: each project is a wide tile pair (cover + facts). About page:
+  face tile + fact tiles + tools marquee-free chip rows. No other group is a bento grid.
+imagery: >
+  Colorful abstract gradients, design workspaces, bold product shots. Punchy saturation,
+  nothing corporate.
+pages:
+  - {name: quip_home, route: /, sections: [floating nav, bento board (intro, 3 projects, stats, currently, CTA tiles), footer chip row]}
+  - {name: quip_projects, route: /projects, sections: [board header tile, three project tile-pairs (cover + role/result facts), process tile row, footer chip row]}
+  - {name: quip_hello, route: /hello, sections: [face tile + bio tile, fact tiles (clients, talks, tools), say-hi CTA tile with mailto, footer chip row]}
+components: [quip_nav, quip_footer]
+```
+
+## Brief: vitae (Portfolio, minimal)
+
+```yaml
+codename: vitae
+category: Portfolio
+title: Vitae
+description: A consultant's CV presented as a crisp paper sheet on a desk.
+theme: minimal
+concept: >
+  Vitae is a fractional CFO / consultant one-pager. The site looks like a beautifully set
+  A4 resume lying on a warm gray desk: letterhead, hairline-ruled entries, dates in the left
+  column, a navy accent. Print-ready feeling, zero decoration. Conversion is a intro call.
+palette:
+  - {name: desk,   value: "#E9E7E2", dark_value: "#141414"}
+  - {name: paperv, value: "#FFFFFF", dark_value: "#1E1E1E"}
+  - {name: inkv,   value: "#232323", dark_value: "#ECEAE6"}
+  - {name: mutedv, value: "#8A8781", dark_value: "#96938D"}
+  - {name: linev,  value: "#E4E2DD", dark_value: "#2E2E2E"}
+  - {name: navy,   value: "#1F3A64", dark_value: "#7C9CD0"}
+fonts: {display: EB Garamond, body: IBM Plex Sans}
+archetype: >
+  Paper sheet on a desk. Everything lives on a centered white sheet (max 840px) with a soft
+  shadow over a desk-gray page background. Letterhead top: name in Garamond, contact line,
+  navy rule. Sections are CV entries: date span left column, role + bullets right. Skills as
+  hairline chips. Footer is the signature block. Other pages are additional sheets: an
+  engagements sheet, a references/contact sheet. No other group frames content as a document.
+imagery: >
+  Almost none: one small formal portrait on the contact sheet. The document IS the design.
+pages:
+  - {name: vitae_home, route: /, sections: [desk bg + sheet, letterhead, summary paragraph, experience entries (date left / role right), education + skills chips, signature footer]}
+  - {name: vitae_engagements, route: /engagements, sections: [sheet header, case entries with outcome numbers (dates left), approach list, signature footer]}
+  - {name: vitae_contact, route: /contact, sections: [sheet with portrait + availability line, engagement terms rows, intro-call mailto block, signature footer]}
+components: [vitae_letterhead, vitae_signature]
+```
+
+## Brief: reel (Portfolio, dark)
+
+```yaml
+codename: reel
+category: Portfolio
+title: Reel
+description: A filmmaker portfolio of letterboxed stills with timecode captions.
+theme: dark
+concept: >
+  Reel is a director / DP. The site is a screening room: near-black, every still presented
+  letterboxed at 21:9 with a mono timecode caption (00:04:12), titles in condensed caps like
+  film slates. One amber accent like a tungsten lamp. Conversion is a rep/production enquiry.
+palette:            # dark-first, dark_value: null, color-scheme: dark
+  - {name: screen, value: "#0A0A0C", dark_value: null}
+  - {name: slate2, value: "#141418", dark_value: null}
+  - {name: ivory2, value: "#F4F2EC", dark_value: null}
+  - {name: dim,    value: "#8F8D86", dark_value: null}
+  - {name: liner,  value: "#26262B", dark_value: null}
+  - {name: amber,  value: "#E8B14E", dark_value: null}
+fonts: {display: Oswald, body: Archivo, mono: IBM Plex Mono}
+archetype: >
+  Screening room. Nav is a slate bar: name, roles, enquire, all condensed caps. Films are
+  stacked letterboxed frames: full-width 21:9 stills with black bars implied by the page,
+  each with a mono timecode + title + client row beneath, separated by generous black.
+  A film page shows the frame, then a slate card (director / client / runtime rows in mono)
+  and paired production stills. About page is a credits crawl: centered rows like end
+  credits. No other group letterboxes imagery or uses timecodes/credit-crawl furniture.
+imagery: >
+  Cinematic frames: stage light, streets at night, sets, silhouettes. Everything crops to
+  21:9 without losing the subject.
+pages:
+  - {name: reel_films, route: /, sections: [slate nav, name + roles opener, four letterboxed stills with timecode/title/client rows, enquire slate footer]}
+  - {name: reel_film, route: /film, sections: [hero letterbox frame, slate card (mono production rows), two production stills pair, next-film link row, enquire slate]}
+  - {name: reel_about, route: /about, sections: [portrait letterboxed, credits crawl (role rows centered), awards mono list, enquire slate]}
+components: [reel_nav, reel_enquire]
+```
+
+## Brief: margin (Portfolio, warm light)
+
+```yaml
+codename: margin
+category: Portfolio
+title: Margin
+description: A writer's site with a reading column and numbered margin notes.
+theme: warm light
+concept: >
+  Margin is an essayist / researcher. The layout is a book page: a measured reading column
+  with true margin notes: small numbered asides sitting in the wide right margin, a madder-red
+  accent for note numbers and links. Quiet, bookish, deeply readable. Conversion is a
+  newsletter/contact email.
+palette:
+  - {name: paperm, value: "#FBF8F2", dark_value: "#1B1915"}
+  - {name: inkm,   value: "#2B2620", dark_value: "#EDE8DF"}
+  - {name: mutedm, value: "#97897A", dark_value: "#9C9184"}
+  - {name: rulem,  value: "#EAE3D6", dark_value: "#2F2B24"}
+  - {name: madder, value: "#A5372D", dark_value: "#D06A5F"}
+  - {name: washm,  value: "#F3EEE3", dark_value: "#242019"}
+fonts: {display: Newsreader, body: Newsreader, caps: Inter}
+archetype: >
+  Book page with margin notes. Nav is a running head: title left, page-style links right,
+  thin rule. Content is a two-column book grid: reading column (65ch) left, wide margin
+  right holding numbered notes (superscript madder numerals in the text, matching notes in
+  the margin, top-aligned to their paragraph). Essays list as a table of contents with
+  chapter numerals and dotted leaders. Footer is a colophon line. On mobile the notes tuck
+  inline as tinted asides. No other group has true margin-note anatomy.
+imagery: >
+  Sparse: a desk photo or a book still on the about page. Type carries the site.
+pages:
+  - {name: margin_home, route: /, sections: [running-head nav, opening essay excerpt with 3 margin notes, table of contents with dotted leaders, newsletter line, colophon]}
+  - {name: margin_essays, route: /essays, sections: [contents header, full TOC by year with numerals and leaders, selected quote with margin note, colophon]}
+  - {name: margin_about, route: /about, sections: [bio column with margin notes (portrait as a margin figure), now list, contact + newsletter block, colophon]}
+components: [margin_head, margin_colophon]
 ```
 
 ## Follow-ups
