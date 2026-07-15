@@ -1,0 +1,19 @@
+{
+ "categories": [
+  "Technology"
+ ],
+ "description": "A dark developer-tool site with terminal windows and honest release notes.",
+ "order": 24,
+ "pages": [
+  {
+   "name": "hex_home"
+  },
+  {
+   "name": "hex_pricing"
+  },
+  {
+   "name": "hex_changelog"
+  }
+ ],
+ "title": "Hex"
+}
