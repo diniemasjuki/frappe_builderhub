@@ -1,0 +1,19 @@
+{
+ "categories": [
+  "App UI"
+ ],
+ "description": "A dashboard app-shell starter: sidebar, KPI cards, charts and tables.",
+ "order": 26,
+ "pages": [
+  {
+   "name": "tally_overview"
+  },
+  {
+   "name": "tally_customers"
+  },
+  {
+   "name": "tally_settings"
+  }
+ ],
+ "title": "Tally"
+}

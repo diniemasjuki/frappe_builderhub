@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Variable",
+ "group": "tally",
+ "name": "318e42e2-f1c0-4023-805c-e28f80fdcd6a",
+ "type": "Color",
+ "value": "#2563EB",
+ "variable_name": "accent"
+}
