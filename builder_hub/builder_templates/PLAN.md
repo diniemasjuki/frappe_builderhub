@@ -17,7 +17,11 @@ Rules that apply to every template:
   the built-in font loader only carries `wght`.
 - Imagery hotlinks `images.unsplash.com` (established pattern across groups).
 - Codenames are unique single words. Taken: commit, field, fronds, husk, keys, lull, mono, nook,
-  quill, verge, verso. Retired, do not reuse: forge, grain, copper, ware, beacon, signal, quip.
+  quill, verge, verso, plus every built group below (through tally and intake).
+  Retired, do not reuse: forge, grain, copper, ware, beacon, signal, quip.
+- Templates need not be themed (light/dark toggle optional): app-UI and product templates may
+  ship a single neutral look, but every color still goes through Builder Variables so the whole
+  template rethemes by editing the palette.
 
 ## Archetype registry (shipped groups)
 
@@ -45,6 +49,10 @@ Rules that apply to every template:
 | reel   | screening room: letterboxed 21:9 stills, timecodes, slate cards, credits crawl |
 | margin | book page: reading column + numbered margin notes, dotted-leader TOC |
 | plinth | drawing set: type-only index with hover thumbnails, sheet furniture, titleblock |
+| hex    | dev-tool marketing: terminal windows, mono install command, release notes |
+| prism  | neutral SaaS marketing: mock product frames from blocks, comparison pricing table |
+| tally  | dashboard app shell: sidebar chrome, KPI cards, CSS charts, data tables |
+| intake | internal tool: queue rows with SLA chips, audit timeline, real-input form |
 
 New briefs must claim an archetype not on this list, and the list grows as templates ship.
 
@@ -127,14 +135,23 @@ Five template slots per category, each with a different theme.
 | plaza    | bright | city hotel, jewel tones, amenity grid |
 | tide     | minimal | coastal B&B, sea glass, quiet type |
 
-### Technology / SaaS (electric accents on dark or clean white)
+### Technology / SaaS (electric accents on dark or clean white) — hex + prism BUILT Jul 2026
 | Codename | Theme | Concept |
 |----------|-------|---------|
-| hex      | dark | developer tool, terminal black, syntax-highlight accents |
+| hex      | dark | developer tool, terminal black, syntax-highlight accents (built: 3 pages, order 24) |
 | orbit    | bright | product landing, gradient accents, feature orbits |
-| prism    | light | SaaS marketing site, white with prismatic gradients |
+| prism    | neutral | SaaS marketing site, one brand variable, mock product frames (built: 3 pages, order 25) |
 | stack    | minimal | B2B platform, gray scale, integration logos |
 | neon     | bold | startup launch, electric violet on off-black |
+
+### Apps & Dashboards (persona-survey driven: web_app_ui 63 + dashboard 17 + internal_tool 18 of 217 signups; theme-less, variable-driven, no photos) — tally + intake BUILT Jul 2026
+| Codename | Theme | Concept |
+|----------|-------|---------|
+| tally    | neutral | analytics dashboard shell: sidebar, KPI cards, charts, tables (built: 3 pages, order 26) |
+| intake   | neutral | internal request tool: queue, approvals, audit timeline, form (built: 3 pages, order 27) |
+| roster   | neutral | team directory / lightweight CRM: people cards, profile page |
+| console  | neutral | admin console: settings-heavy, permissions matrix, API keys |
+| beam     | neutral | status page: uptime bars, incident history, subscribe |
 
 ## Brief schema
 
@@ -637,6 +654,38 @@ pages:
   - {name: plinth_profile, route: /profile, sections: [profile statement + portrait with caption, numbered principles, studio visit block with mailto, titleblock]}
 components: [plinth_head, plinth_titleblock]
 ```
+
+## Brief: hex (Technology, dark) — BUILT
+
+Dev-tool marketing. Terminal windows with traffic-light dots, mono install command, man-page
+flag cards (--incremental, --why), hyperfine benchmark terminal, tier cards, release-notes
+changelog with FEATURE/FIX/BREAKING tags, status-dot footer. Space Grotesk + JetBrains Mono.
+Palette void/panelx/textx/dimx/linex/mintx/violx, dark-only. Pages: home, pricing, changelog.
+No photos anywhere.
+
+## Brief: prism (Technology, neutral) — BUILT
+
+The theme-less SaaS site: white, Inter, ONE brand variable (indigo) so the whole site rethemes
+by editing a single color. Product screenshots are mock UI built from blocks (browser frame,
+stat cards, bar chart, table rows), so no images to replace. Metrics band, alternating feature
+rows, testimonial cards, a real comparison pricing TABLE with tick rows, honest FAQ, CTA band
+footer. Pages: home, pricing, contact.
+
+## Brief: tally (App UI, neutral) — BUILT
+
+A dashboard app-shell starter, not a website: fixed sidebar (logo, icon nav, usage meter),
+topbar (search pill, bell, avatar), KPI cards with delta colors, a CSS bar chart, progress
+rows, activity feed, data tables with status pills in overflow-x scrollers, settings page with
+field rows, toggle switches, team list and a danger zone. Inter, 7 variables, no theme toggle.
+Pages: overview (home), customers, settings. Distinct from keys (property listings shell):
+tally owns analytics furniture.
+
+## Brief: intake (App UI, neutral) — BUILT
+
+An internal-tool starter: topbar-only chrome with an INTERNAL env badge, request queue rows
+(id, title, priority/SLA/status chips), request detail with meta grid, approval action bar and
+a dotted audit timeline, and a new-request form using real input/textarea elements plus a
+dashed drop zone. Public Sans, teal accent, amber warnings. Pages: queue (home), request, new.
 
 ## Follow-ups
 
