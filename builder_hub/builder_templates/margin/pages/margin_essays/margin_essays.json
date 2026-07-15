@@ -178,7 +178,7 @@
       {
        "attributes": {},
        "baseStyles": {
-        "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+        "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
         "fontFamily": "Inter",
         "fontSize": "10px",
         "fontWeight": "600",
@@ -322,7 +322,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+              "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
               "flexShrink": 0,
               "fontFamily": "Newsreader",
               "fontSize": "15px",
@@ -368,7 +368,7 @@
              "innerHTML": "On keeping a notebook nobody will read",
              "mobileStyles": {},
              "rawStyles": {
-              "hover:color": "#A5372D",
+              "hover:color": "#3F6B4F",
               "transition": "color 0.15s ease-out"
              },
              "tabletStyles": {}
@@ -448,7 +448,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+              "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
               "flexShrink": 0,
               "fontFamily": "Newsreader",
               "fontSize": "15px",
@@ -494,7 +494,7 @@
              "innerHTML": "The case for slow email",
              "mobileStyles": {},
              "rawStyles": {
-              "hover:color": "#A5372D",
+              "hover:color": "#3F6B4F",
               "transition": "color 0.15s ease-out"
              },
              "tabletStyles": {}
@@ -643,7 +643,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+              "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
               "flexShrink": 0,
               "fontFamily": "Newsreader",
               "fontSize": "15px",
@@ -689,7 +689,7 @@
              "innerHTML": "Walking as an editing technique",
              "mobileStyles": {},
              "rawStyles": {
-              "hover:color": "#A5372D",
+              "hover:color": "#3F6B4F",
               "transition": "color 0.15s ease-out"
              },
              "tabletStyles": {}
@@ -769,7 +769,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+              "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
               "flexShrink": 0,
               "fontFamily": "Newsreader",
               "fontSize": "15px",
@@ -815,7 +815,7 @@
              "innerHTML": "On rereading yourself",
              "mobileStyles": {},
              "rawStyles": {
-              "hover:color": "#A5372D",
+              "hover:color": "#3F6B4F",
               "transition": "color 0.15s ease-out"
              },
              "tabletStyles": {}
@@ -895,7 +895,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+              "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
               "flexShrink": 0,
               "fontFamily": "Newsreader",
               "fontSize": "15px",
@@ -941,7 +941,7 @@
              "innerHTML": "Deadlines, a defense",
              "mobileStyles": {},
              "rawStyles": {
-              "hover:color": "#A5372D",
+              "hover:color": "#3F6B4F",
               "transition": "color 0.15s ease-out"
              },
              "tabletStyles": {}
@@ -1021,7 +1021,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+              "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
               "flexShrink": 0,
               "fontFamily": "Newsreader",
               "fontSize": "15px",
@@ -1067,7 +1067,7 @@
              "innerHTML": "The library card as biography",
              "mobileStyles": {},
              "rawStyles": {
-              "hover:color": "#A5372D",
+              "hover:color": "#3F6B4F",
               "transition": "color 0.15s ease-out"
              },
              "tabletStyles": {}
@@ -1216,7 +1216,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+              "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
               "flexShrink": 0,
               "fontFamily": "Newsreader",
               "fontSize": "15px",
@@ -1262,7 +1262,7 @@
              "innerHTML": "Against frictionless everything",
              "mobileStyles": {},
              "rawStyles": {
-              "hover:color": "#A5372D",
+              "hover:color": "#3F6B4F",
               "transition": "color 0.15s ease-out"
              },
              "tabletStyles": {}
@@ -1342,7 +1342,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+              "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
               "flexShrink": 0,
               "fontFamily": "Newsreader",
               "fontSize": "15px",
@@ -1388,7 +1388,7 @@
              "innerHTML": "Marginalia, a love letter",
              "mobileStyles": {},
              "rawStyles": {
-              "hover:color": "#A5372D",
+              "hover:color": "#3F6B4F",
               "transition": "color 0.15s ease-out"
              },
              "tabletStyles": {}
@@ -1532,7 +1532,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "“The margin is where the reader talks back<sup style=\"color: #A5372D; font-weight: 600;\">1</sup>. A book with clean margins was merely bought; a book with full ones was read.”",
+           "innerHTML": "“The margin is where the reader talks back<sup style=\"color: #3F6B4F; font-weight: 600;\">1</sup>. A book with clean margins was merely bought; a book with full ones was read.”",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1593,7 +1593,7 @@
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+                "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
                 "fontFamily": "Newsreader",
                 "fontSize": "13px",
                 "fontWeight": "600",
@@ -1816,7 +1816,7 @@
    "builder_script": "margin_styles"
   }
  ],
- "creation": "2026-07-15 17:03:59.778134",
+ "creation": "2026-07-15 17:23:38.978338",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -1826,7 +1826,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Every Margin essay, numbered and dated, oldest at the bottom.",
- "modified": "2026-07-15 17:05:53.143173",
+ "modified": "2026-07-15 17:26:57.078674",
  "modified_by": "Administrator",
  "name": "margin_essays",
  "owner": "Administrator",

@@ -178,7 +178,7 @@
       {
        "attributes": {},
        "baseStyles": {
-        "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+        "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
         "fontFamily": "Inter",
         "fontSize": "10px",
         "fontWeight": "600",
@@ -270,7 +270,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "The notebook on my desk has one reader, and she is not impressed. I have kept one since 2009<sup style=\"color: #A5372D; font-weight: 600;\">1</sup>, through four countries and two careers, and the single rule that survived is this: write the day before judging it. Every system I tried that was cleverer than that<sup style=\"color: #A5372D; font-weight: 600;\">2</sup> collapsed within a season.",
+           "innerHTML": "The notebook on my desk has one reader, and she is not impressed. I have kept one since 2009<sup style=\"color: #3F6B4F; font-weight: 600;\">1</sup>, through four countries and two careers, and the single rule that survived is this: write the day before judging it. Every system I tried that was cleverer than that<sup style=\"color: #3F6B4F; font-weight: 600;\">2</sup> collapsed within a season.",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -293,7 +293,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "What the notebook is for, I have decided, is not memory but manners: it teaches you to notice. The entries that embarrass me most are the ones that matter<sup style=\"color: #A5372D; font-weight: 600;\">3</sup>, which is how I know the practice is working.",
+           "innerHTML": "What the notebook is for, I have decided, is not memory but manners: it teaches you to notice. The entries that embarrass me most are the ones that matter<sup style=\"color: #3F6B4F; font-weight: 600;\">3</sup>, which is how I know the practice is working.",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -303,7 +303,7 @@
             "href": "essays"
            },
            "baseStyles": {
-            "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+            "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
             "fontFamily": "Newsreader",
             "fontSize": "17px",
             "fontStyle": "italic",
@@ -323,7 +323,7 @@
            "innerHTML": "Continue reading →",
            "mobileStyles": {},
            "rawStyles": {
-            "hover:color": "#7E2A22",
+            "hover:color": "#2E5340",
             "transition": "color 0.15s ease-out"
            },
            "tabletStyles": {}
@@ -384,7 +384,7 @@
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+                "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
                 "fontFamily": "Newsreader",
                 "fontSize": "13px",
                 "fontWeight": "600",
@@ -481,7 +481,7 @@
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+                "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
                 "fontFamily": "Newsreader",
                 "fontSize": "13px",
                 "fontWeight": "600",
@@ -578,7 +578,7 @@
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+                "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
                 "fontFamily": "Newsreader",
                 "fontSize": "13px",
                 "fontWeight": "600",
@@ -754,7 +754,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+            "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
             "flexShrink": 0,
             "fontFamily": "Newsreader",
             "fontSize": "15px",
@@ -800,7 +800,7 @@
            "innerHTML": "On keeping a notebook nobody will read",
            "mobileStyles": {},
            "rawStyles": {
-            "hover:color": "#A5372D",
+            "hover:color": "#3F6B4F",
             "transition": "color 0.15s ease-out"
            },
            "tabletStyles": {}
@@ -880,7 +880,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+            "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
             "flexShrink": 0,
             "fontFamily": "Newsreader",
             "fontSize": "15px",
@@ -926,7 +926,7 @@
            "innerHTML": "The case for slow email",
            "mobileStyles": {},
            "rawStyles": {
-            "hover:color": "#A5372D",
+            "hover:color": "#3F6B4F",
             "transition": "color 0.15s ease-out"
            },
            "tabletStyles": {}
@@ -1006,7 +1006,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+            "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
             "flexShrink": 0,
             "fontFamily": "Newsreader",
             "fontSize": "15px",
@@ -1052,7 +1052,7 @@
            "innerHTML": "Walking as an editing technique",
            "mobileStyles": {},
            "rawStyles": {
-            "hover:color": "#A5372D",
+            "hover:color": "#3F6B4F",
             "transition": "color 0.15s ease-out"
            },
            "tabletStyles": {}
@@ -1132,7 +1132,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+            "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
             "flexShrink": 0,
             "fontFamily": "Newsreader",
             "fontSize": "15px",
@@ -1178,7 +1178,7 @@
            "innerHTML": "On rereading yourself",
            "mobileStyles": {},
            "rawStyles": {
-            "hover:color": "#A5372D",
+            "hover:color": "#3F6B4F",
             "transition": "color 0.15s ease-out"
            },
            "tabletStyles": {}
@@ -1292,7 +1292,7 @@
           "href": "mailto:letters@margin.ink?subject=Subscribe"
          },
          "baseStyles": {
-          "backgroundColor": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+          "backgroundColor": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
           "borderRadius": "3px",
           "color": "#FBF8F2",
           "fontFamily": "Inter",
@@ -1316,7 +1316,7 @@
          "innerHTML": "Subscribe",
          "mobileStyles": {},
          "rawStyles": {
-          "hover:background-color": "#7E2A22",
+          "hover:background-color": "#2E5340",
           "transition": "background-color 0.15s ease-out"
          },
          "tabletStyles": {}
@@ -1466,7 +1466,7 @@
    "builder_script": "margin_styles"
   }
  ],
- "creation": "2026-07-15 17:03:59.778134",
+ "creation": "2026-07-15 17:23:38.978338",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -1476,7 +1476,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Margin: monthly essays by June Ash, with proper margin notes.",
- "modified": "2026-07-15 17:05:53.143173",
+ "modified": "2026-07-15 17:26:57.078674",
  "modified_by": "Administrator",
  "name": "margin_home",
  "owner": "Administrator",

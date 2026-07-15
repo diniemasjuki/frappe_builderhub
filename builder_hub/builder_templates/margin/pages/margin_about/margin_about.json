@@ -178,7 +178,7 @@
       {
        "attributes": {},
        "baseStyles": {
-        "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+        "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
         "fontFamily": "Inter",
         "fontSize": "10px",
         "fontWeight": "600",
@@ -270,7 +270,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "June Ash is an essayist and, for rent-paying reasons, a research editor. Before Devon there was a decade in publishing<sup style=\"color: #A5372D; font-weight: 600;\">1</sup>, which is where the affection for margins, footnotes and other apparatus of the page comes from.",
+           "innerHTML": "June Ash is an essayist and, for rent-paying reasons, a research editor. Before Devon there was a decade in publishing<sup style=\"color: #3F6B4F; font-weight: 600;\">1</sup>, which is where the affection for margins, footnotes and other apparatus of the page comes from.",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -293,7 +293,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "The essays here are monthly, roughly. Each one goes through three drafts and a long walk<sup style=\"color: #A5372D; font-weight: 600;\">2</sup> before it earns its number. Nothing is sponsored; the newsletter is free; the notebook remains private.",
+           "innerHTML": "The essays here are monthly, roughly. Each one goes through three drafts and a long walk<sup style=\"color: #3F6B4F; font-weight: 600;\">2</sup> before it earns its number. Nothing is sponsored; the newsletter is free; the notebook remains private.",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -426,7 +426,7 @@
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+                "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
                 "fontFamily": "Newsreader",
                 "fontSize": "13px",
                 "fontWeight": "600",
@@ -523,7 +523,7 @@
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+                "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
                 "fontFamily": "Newsreader",
                 "fontSize": "13px",
                 "fontWeight": "600",
@@ -699,7 +699,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+            "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
             "flexShrink": 0,
             "fontFamily": "Newsreader",
             "fontSize": "15px",
@@ -745,7 +745,7 @@
            "innerHTML": "Reading: three biographies of the same poet, refereeing",
            "mobileStyles": {},
            "rawStyles": {
-            "hover:color": "#A5372D",
+            "hover:color": "#3F6B4F",
             "transition": "color 0.15s ease-out"
            },
            "tabletStyles": {}
@@ -825,7 +825,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+            "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
             "flexShrink": 0,
             "fontFamily": "Newsreader",
             "fontSize": "15px",
@@ -871,7 +871,7 @@
            "innerHTML": "Writing: essay 18, provisionally about lighthouses",
            "mobileStyles": {},
            "rawStyles": {
-            "hover:color": "#A5372D",
+            "hover:color": "#3F6B4F",
             "transition": "color 0.15s ease-out"
            },
            "tabletStyles": {}
@@ -951,7 +951,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+            "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
             "flexShrink": 0,
             "fontFamily": "Newsreader",
             "fontSize": "15px",
@@ -997,7 +997,7 @@
            "innerHTML": "Avoiding: a book proposal, successfully so far",
            "mobileStyles": {},
            "rawStyles": {
-            "hover:color": "#A5372D",
+            "hover:color": "#3F6B4F",
             "transition": "color 0.15s ease-out"
            },
            "tabletStyles": {}
@@ -1111,7 +1111,7 @@
           "href": "mailto:letters@margin.ink"
          },
          "baseStyles": {
-          "color": "var(--dcf82b55-d9b1-4042-81b0-f48810d2fd41, #A5372D)",
+          "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
           "fontFamily": "Newsreader",
           "fontSize": "16px",
           "fontStyle": "italic",
@@ -1131,7 +1131,7 @@
          "innerHTML": "letters@margin.ink",
          "mobileStyles": {},
          "rawStyles": {
-          "hover:color": "#7E2A22",
+          "hover:color": "#2E5340",
           "transition": "color 0.15s ease-out"
          },
          "tabletStyles": {}
@@ -1281,7 +1281,7 @@
    "builder_script": "margin_styles"
   }
  ],
- "creation": "2026-07-15 17:03:59.778134",
+ "creation": "2026-07-15 17:23:38.978338",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -1291,7 +1291,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "About June Ash: slow essays, long walks, letters answered monthly.",
- "modified": "2026-07-15 17:05:53.143173",
+ "modified": "2026-07-15 17:26:57.078674",
  "modified_by": "Administrator",
  "name": "margin_about",
  "owner": "Administrator",
