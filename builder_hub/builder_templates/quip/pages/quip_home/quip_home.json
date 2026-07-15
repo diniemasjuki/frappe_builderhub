@@ -1,0 +1,1269 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--4cbb61f2-03ce-407c-8137-2a10271769b9, #FAF7F2)",
+    "color": "var(--86f87e1a-35f0-4bbf-8718-a6c5c7117f2c, #221B36)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Nunito Sans",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "6c30d4d58a",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "91d2781fe2",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "536da8d287",
+       "blockName": "Nav Bar",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "0deed4cbea",
+         "blockName": "Logo",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "quip_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "a990580cc9",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "5a011c6649",
+         "blockName": "Nav Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "6d0f40697c",
+           "blockName": "Projects",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "quip_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "3cf483801e",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "d523fb7401",
+           "blockName": "Hello",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "quip_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "2a041ebda4",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "2daca8b023",
+           "blockName": "Theme Toggle",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "02af6553ea",
+             "blockName": "Theme · ti-sun",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "quip_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "969172c5a4",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "4504246c94",
+             "blockName": "Theme · ti-moon",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "quip_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "c5dd813766",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "quip_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "3f9caaa8d1",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "quip_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "5ec7a60503",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "quip_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "0543689422",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "quip_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1180px",
+      "padding": "0 28px",
+      "paddingTop": "28px",
+      "width": "100%"
+     },
+     "blockId": "af8890b5a1",
+     "blockName": "Section · Board",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "gap": "16px",
+        "width": "100%"
+       },
+       "blockId": "49557d1556",
+       "blockName": "Bento Board",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--1abf6594-2a40-4d69-8d5b-d1069f0b74fb, #6C4CF1)",
+          "borderRadius": "22px",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "12px",
+          "padding": "40px",
+          "width": "calc(66.666% - 8px)"
+         },
+         "blockId": "ecdef95c1f",
+         "blockName": "Tile · Intro",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8bb3f410-695b-474e-8975-986d6670e567, #FFB49A)",
+            "fontFamily": "Nunito Sans",
+            "fontSize": "10px",
+            "fontWeight": "800",
+            "height": "fit-content",
+            "letterSpacing": "0.16em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "3b0f9d5586",
+           "blockName": "Intro Kicker",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Brand & product designer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#FAF7F2",
+            "fontFamily": "Bricolage Grotesque",
+            "fontSize": "52px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "02fc252c44",
+           "blockName": "Intro Headline",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Hi, I'm Juno.<br>I make brands<br>behave.",
+           "mobileStyles": {
+            "fontSize": "34px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#C9BFF0",
+            "fontFamily": "Nunito Sans",
+            "fontSize": "15px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "maxWidth": "440px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "3db9699e8c",
+           "blockName": "Intro Copy",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Ten years of logos, systems and apps for companies that wanted to be taken seriously, but not too seriously.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "qp-tile"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": "22px",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "12px",
+          "padding": "14px",
+          "width": "calc(33.333% - 8px)"
+         },
+         "blockId": "ce7cb69d2b",
+         "blockName": "Photo Tile · Splash, a paint ",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Splash, a paint brand",
+            "src": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&q=80&w=1100"
+           },
+           "baseStyles": {
+            "borderRadius": "14px",
+            "display": "block",
+            "flexShrink": 0,
+            "height": "292px",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "9075ee4fce",
+           "blockName": "Tile Photo · Splash, a paint ",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "justifyContent": "space-between",
+            "width": "100%"
+           },
+           "blockId": "4ebcd1c941",
+           "blockName": "Tile Label Row",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--86f87e1a-35f0-4bbf-8718-a6c5c7117f2c, #221B36)",
+              "fontFamily": "Nunito Sans",
+              "fontSize": "10px",
+              "fontWeight": "800",
+              "height": "fit-content",
+              "letterSpacing": "0.16em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "4f12e9ed59",
+             "blockName": "Tile Label · Splash · Identit",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Splash · Identity",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--1abf6594-2a40-4d69-8d5b-d1069f0b74fb, #6C4CF1)",
+              "fontFamily": "Nunito Sans",
+              "fontSize": "12px",
+              "fontWeight": "800",
+              "height": "fit-content",
+              "letterSpacing": "0.16em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "74fbc6c923",
+             "blockName": "Tile Arrow · Splash · Ide",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "↗",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "qp-tile"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": "22px",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "12px",
+          "padding": "14px",
+          "width": "calc(33.333% - 11px)"
+         },
+         "blockId": "4b72c5b34f",
+         "blockName": "Photo Tile · Bend, a 3d toolk",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Bend, a 3d toolkit",
+            "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1100"
+           },
+           "baseStyles": {
+            "borderRadius": "14px",
+            "display": "block",
+            "flexShrink": 0,
+            "height": "240px",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "7e721e7fbd",
+           "blockName": "Tile Photo · Bend, a 3d toolk",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "justifyContent": "space-between",
+            "width": "100%"
+           },
+           "blockId": "9b6ac4ae4a",
+           "blockName": "Tile Label Row",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--86f87e1a-35f0-4bbf-8718-a6c5c7117f2c, #221B36)",
+              "fontFamily": "Nunito Sans",
+              "fontSize": "10px",
+              "fontWeight": "800",
+              "height": "fit-content",
+              "letterSpacing": "0.16em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "74f35fb42d",
+             "blockName": "Tile Label · Bend · Product",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Bend · Product",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--1abf6594-2a40-4d69-8d5b-d1069f0b74fb, #6C4CF1)",
+              "fontFamily": "Nunito Sans",
+              "fontSize": "12px",
+              "fontWeight": "800",
+              "height": "fit-content",
+              "letterSpacing": "0.16em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "9e742744c9",
+             "blockName": "Tile Arrow · Bend · Produ",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "↗",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "qp-tile"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": "22px",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "12px",
+          "padding": "14px",
+          "width": "calc(33.333% - 11px)"
+         },
+         "blockId": "04be49cef9",
+         "blockName": "Photo Tile · Tint, palettes a",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Tint, palettes app",
+            "src": "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=1100"
+           },
+           "baseStyles": {
+            "borderRadius": "14px",
+            "display": "block",
+            "flexShrink": 0,
+            "height": "240px",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "0863d8e4c1",
+           "blockName": "Tile Photo · Tint, palettes a",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "justifyContent": "space-between",
+            "width": "100%"
+           },
+           "blockId": "7af0a0bc23",
+           "blockName": "Tile Label Row",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--86f87e1a-35f0-4bbf-8718-a6c5c7117f2c, #221B36)",
+              "fontFamily": "Nunito Sans",
+              "fontSize": "10px",
+              "fontWeight": "800",
+              "height": "fit-content",
+              "letterSpacing": "0.16em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "d12eea1bce",
+             "blockName": "Tile Label · Tint · App",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Tint · App",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--1abf6594-2a40-4d69-8d5b-d1069f0b74fb, #6C4CF1)",
+              "fontFamily": "Nunito Sans",
+              "fontSize": "12px",
+              "fontWeight": "800",
+              "height": "fit-content",
+              "letterSpacing": "0.16em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "c4a19d02e4",
+             "blockName": "Tile Arrow · Tint · App",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "↗",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "qp-tile"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--edb5da61-8981-4323-818d-9e9f7d9b3b92, #C6F24E)",
+          "borderRadius": "22px",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "12px",
+          "padding": "28px",
+          "width": "calc(33.333% - 11px)"
+         },
+         "blockId": "2ea23c351c",
+         "blockName": "Tile · Currently",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--86f87e1a-35f0-4bbf-8718-a6c5c7117f2c, #221B36)",
+            "fontFamily": "Nunito Sans",
+            "fontSize": "10px",
+            "fontWeight": "800",
+            "height": "fit-content",
+            "letterSpacing": "0.16em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "ece1c78246",
+           "blockName": "Currently Kicker",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Currently",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--86f87e1a-35f0-4bbf-8718-a6c5c7117f2c, #221B36)",
+            "fontFamily": "Bricolage Grotesque",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "lineHeight": "1.2",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "b6b7b1fe1a",
+           "blockName": "Currently Text",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Renaming a bank.<br>Can't say which.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--265ffab9-bd5d-4ef3-8f9e-133511f00e4b, #8D87A0)",
+            "fontFamily": "Nunito Sans",
+            "fontSize": "13px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "7c4584d0d9",
+           "blockName": "Currently Sub",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Two slots open for autumn.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "qp-tile"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": "22px",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "12px",
+          "padding": "32px",
+          "width": "calc(33.333% - 11px)"
+         },
+         "blockId": "4229b5c27b",
+         "blockName": "Tile · Stats",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--1abf6594-2a40-4d69-8d5b-d1069f0b74fb, #6C4CF1)",
+            "fontFamily": "Bricolage Grotesque",
+            "fontSize": "64px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "c2c5886d0d",
+           "blockName": "Stat Number",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "13",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--86f87e1a-35f0-4bbf-8718-a6c5c7117f2c, #221B36)",
+            "fontFamily": "Nunito Sans",
+            "fontSize": "10px",
+            "fontWeight": "800",
+            "height": "fit-content",
+            "letterSpacing": "0.16em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "0f009c9133",
+           "blockName": "Stat Label",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Brands shipped",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--4cbb61f2-03ce-407c-8137-2a10271769b9, #FAF7F2)",
+            "height": "2px",
+            "width": "100%"
+           },
+           "blockId": "4146b2f069",
+           "blockName": "Stat Rule",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8bb3f410-695b-474e-8975-986d6670e567, #FFB49A)",
+            "fontFamily": "Bricolage Grotesque",
+            "fontSize": "64px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "e9a45d047f",
+           "blockName": "Stat Zero",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "0",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--86f87e1a-35f0-4bbf-8718-a6c5c7117f2c, #221B36)",
+            "fontFamily": "Nunito Sans",
+            "fontSize": "10px",
+            "fontWeight": "800",
+            "height": "fit-content",
+            "letterSpacing": "0.16em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "2b8c014a2f",
+           "blockName": "Stat Zero Label",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Uses of comic sans",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "qp-tile"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": "22px",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "12px",
+          "padding": "14px",
+          "width": "calc(33.333% - 11px)"
+         },
+         "blockId": "ecdb0d5172",
+         "blockName": "Photo Tile · Process, mid-mes",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Process, mid-mess",
+            "src": "https://images.unsplash.com/photo-1587440871875-191322ee64b0?auto=format&fit=crop&q=80&w=1100"
+           },
+           "baseStyles": {
+            "borderRadius": "14px",
+            "display": "block",
+            "flexShrink": 0,
+            "height": "252px",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "88cbd4ff24",
+           "blockName": "Tile Photo · Process, mid-mes",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "justifyContent": "space-between",
+            "width": "100%"
+           },
+           "blockId": "7f3e5ec9f5",
+           "blockName": "Tile Label Row",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--86f87e1a-35f0-4bbf-8718-a6c5c7117f2c, #221B36)",
+              "fontFamily": "Nunito Sans",
+              "fontSize": "10px",
+              "fontWeight": "800",
+              "height": "fit-content",
+              "letterSpacing": "0.16em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "fab275e5f9",
+             "blockName": "Tile Label · The mess, honest",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "The mess, honestly",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--1abf6594-2a40-4d69-8d5b-d1069f0b74fb, #6C4CF1)",
+              "fontFamily": "Nunito Sans",
+              "fontSize": "12px",
+              "fontWeight": "800",
+              "height": "fit-content",
+              "letterSpacing": "0.16em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "e855419d15",
+             "blockName": "Tile Arrow · The mess, ho",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "↗",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "qp-tile"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "href": "mailto:juno@quip.design"
+         },
+         "baseStyles": {
+          "borderRadius": "22px",
+          "display": "flex",
+          "flexDirection": "column",
+          "height": "auto",
+          "minWidth": "10px",
+          "textDecoration": "none",
+          "width": "calc(33.333% - 11px)"
+         },
+         "blockId": "b1cf3c191e",
+         "blockName": "Tile · CTA Link",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--8bb3f410-695b-474e-8975-986d6670e567, #FFB49A)",
+            "borderRadius": "22px",
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "12px",
+            "padding": "28px",
+            "width": "100%"
+           },
+           "blockId": "65221a0b43",
+           "blockName": "Tile · CTA",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#7A4B37",
+              "fontFamily": "Nunito Sans",
+              "fontSize": "10px",
+              "fontWeight": "800",
+              "height": "fit-content",
+              "letterSpacing": "0.16em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "1ff476838a",
+             "blockName": "CTA Kicker",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Got a weird problem?",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--86f87e1a-35f0-4bbf-8718-a6c5c7117f2c, #221B36)",
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "40px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "lineHeight": "1.05",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "a27cf230b9",
+             "blockName": "CTA Text",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Say hi →",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#7A4B37",
+              "fontFamily": "Nunito Sans",
+              "fontSize": "13px",
+              "fontWeight": "500",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "f8c9245e2f",
+             "blockName": "CTA Sub",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "juno@quip.design, replies same day, often with a sketch.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [
+            "qp-tile"
+           ],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "a",
+         "innerHTML": "",
+         "mobileStyles": {
+          "width": "100%"
+         },
+         "rawStyles": {
+          "hover:transform": "translateY(-4px)",
+          "transition": "transform 0.2s ease-out"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "flexWrap": "nowrap"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 16px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "da1f930c4e",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "58fa8fad41",
+       "blockName": "Footer Chips",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "4f35755b43",
+         "blockName": "Chip · Email",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "quip_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "dab521dd2e",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "d9bad07efb",
+         "blockName": "Chip · Brands",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "quip_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "24befc716b",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "7638b50470",
+         "blockName": "Chip · Comic Sans",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "quip_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "efb3fc0c38",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "quip_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "dfbe0cd846",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "7e1548344a",
+       "blockName": "Footer Line",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "quip_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "6726c6e040",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "quip_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  },
+  {
+   "builder_script": "quip_styles"
+  }
+ ],
+ "creation": "2026-07-15 17:03:59.153568",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Juno makes brands behave: identity, product and apps with jokes included.",
+ "modified": "2026-07-15 17:05:53.143173",
+ "modified_by": "Administrator",
+ "name": "quip_home",
+ "owner": "Administrator",
+ "page_name": "quip_home",
+ "page_title": "Quip* · Juno, brand & product designer",
+ "preview": "/builder_assets/quip/quip_home/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/quip/home",
+ "template_group": "quip"
+}
