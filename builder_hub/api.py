@@ -189,5 +189,9 @@ def allow_template_embedding(response=None, request=None):
 	if request is None or response is None:
 		return
 	if request.path.startswith("/templates/"):
-		response.headers["Content-Security-Policy"] = "frame-ancestors *"
+		existing = response.headers.get("Content-Security-Policy", "")
+		directives = [d.strip() for d in existing.split(";") if d.strip()]
+		directives = [d for d in directives if not d.startswith("frame-ancestors")]
+		directives.append("frame-ancestors *")
+		response.headers["Content-Security-Policy"] = "; ".join(directives)
 		response.headers.pop("X-Frame-Options", None)
