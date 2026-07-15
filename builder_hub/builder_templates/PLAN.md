@@ -17,7 +17,7 @@ Rules that apply to every template:
   the built-in font loader only carries `wght`.
 - Imagery hotlinks `images.unsplash.com` (established pattern across groups).
 - Codenames are unique single words. Taken: commit, field, fronds, husk, keys, lull, mono, nook,
-  quill, verge, verso. Retired, do not reuse: forge, grain, copper, ware, beacon, signal.
+  quill, verge, verso. Retired, do not reuse: forge, grain, copper, ware, beacon, signal, quip.
 
 ## Archetype registry (shipped groups)
 
@@ -34,17 +34,17 @@ Rules that apply to every template:
 | keys   | fixed-sidebar app shell, listings as rows |
 | field  | newspaper three-column front page, drop caps |
 | verge  | dark type-over-photo, rotated posters, tour list |
-
 | hem    | hairline viewport frame, corner nav, numbered ledger rows |
 | silk   | dark mirrored 50/50 splits, stacked monogram nav, numeral collection |
 | tulle  | layered offset tissue panels, script overlays, pill nav, RSVP card footer |
 | denim  | bordered cells, marquee tickers, rotated stickers, checkerboard grid |
 | pleat  | magazine spreads with folio bars, paired portrait+detail images, colophon |
 | ridge  | gapless photo mosaic wall, hover captions, overlay nav |
-| quip   | bento board of mixed-size rounded tiles, floating bar nav |
+| canvas | site as a live design file: dotted canvas, selection boxes, cursors, comments |
 | vitae  | document: paper sheet on a desk, letterhead, date-left CV entries |
 | reel   | screening room: letterboxed 21:9 stills, timecodes, slate cards, credits crawl |
 | margin | book page: reading column + numbered margin notes, dotted-leader TOC |
+| plinth | drawing set: type-only index with hover thumbnails, sheet furniture, titleblock |
 
 New briefs must claim an archetype not on this list, and the list grows as templates ship.
 
@@ -85,10 +85,11 @@ Five template slots per category, each with a different theme.
 | Codename | Theme | Concept |
 |----------|-------|---------|
 | ridge    | dark | photographer, gapless photo mosaic wall, index overlay (built: 3 pages) |
-| quip     | bright | designer, bento-box board of mixed-size tiles (built: 3 pages) |
+| canvas   | bright | designer, site as a live design file with comments left in (built: 3 pages) |
 | vitae    | minimal | consultant CV as a paper sheet on a desk, letterhead and entries (built: 3 pages) |
 | reel     | dark | filmmaker, letterboxed 21:9 stills with timecode captions (built: 3 pages) |
 | margin   | warm light | writer/academic, body column with numbered margin notes (built: 3 pages) |
+| plinth   | minimal | architects, type-only project index with drawing-sheet furniture (built: 3 pages) |
 
 ### Manufacturing & Industrial (steel blue, gray, safety-orange accents)
 | Codename | Theme | Concept |
@@ -460,40 +461,38 @@ pages:
 components: [ridge_nav, ridge_enquire]
 ```
 
-## Brief: quip (Portfolio, bright)
+## Brief: canvas (Portfolio, bright) — replaced quip (retired: bento boards read generic)
 
 ```yaml
-codename: quip
+codename: canvas
 category: Portfolio
-title: Quip
-description: A playful designer portfolio arranged as a bento board of tiles.
+title: Canvas
+description: A designer portfolio presented as a live design file, comments left in.
 theme: bright
 concept: >
-  Quip is a brand and product designer with jokes. The whole site is a bento board: rounded
-  tiles of different sizes on a cream canvas, violet and lime accents, hover tilts. Serious
-  work, unserious delivery. Conversion is "say hi" email.
+  Nadia is a product designer. Her site IS a design file: dotted canvas background,
+  sections inside blue selection boxes with corner handles and layer-name tabs
+  (hero / v3 — final FINAL), collaborator cursors drifting over the page, pink comment
+  pins with real comment cards, sticky notes in a handwriting font. Toolbar nav with a
+  Share button; status-bar footer (autosaved just now · 100%). Conversion: "invite me
+  to your file" email.
 palette:
-  - {name: cream,  value: "#FAF7F2", dark_value: "#161320"}
-  - {name: inkq,   value: "#221B36", dark_value: "#EFEBFA"}
-  - {name: violet, value: "#6C4CF1", dark_value: "#9B85F5"}
-  - {name: lime,   value: "#C6F24E", dark_value: "#A8D63A"}
-  - {name: peach,  value: "#FFB49A", dark_value: "#C97F63"}
-  - {name: mutedq, value: "#8D87A0", dark_value: "#8D87A0"}
-fonts: {display: Bricolage Grotesque, body: Nunito Sans}
+  - {name: paperc, value: "#FCFCFB", dark_value: "#15171C"}
+  - {name: inkc,   value: "#1B1F27", dark_value: "#EDEFF4"}
+  - {name: blue,   value: "#2F7BFF", dark_value: "#6FA5FF"}   # selection chrome
+  - {name: pink,   value: "#FF4F9A", dark_value: "#FF7DB4"}   # comment pins
+  - {name: lemon,  value: "#FFD84D", dark_value: "#D9B33A"}   # sticky notes
+  - {name: mutedc, value: "#8A93A6", dark_value: "#8A93A6"}
+fonts: {display: Sora, body: Inter, hand: Caveat}
 archetype: >
-  Bento board. Nav is a floating rounded bar with a wiggly logo and two links. Home is one
-  big board: a 12-col style flex-wrap of rounded tiles: intro tile (2x), project photo tiles,
-  a stat tile (13 brands, 0 comic sans), a lime "currently" tile, a violet CTA tile. Tiles
-  hover-lift. Projects page: each project is a wide tile pair (cover + facts). About page:
-  face tile + fact tiles + tools marquee-free chip rows. No other group is a bento grid.
-imagery: >
-  Colorful abstract gradients, design workspaces, bold product shots. Punchy saturation,
-  nothing corporate.
+  Design-file chrome as page furniture: dotted grid canvas, selection boxes with
+  handles + label tabs, cursor pills, comment pins and cards, stickies, toolbar and
+  status bar. No other group imitates software chrome.
 pages:
-  - {name: quip_home, route: /, sections: [floating nav, bento board (intro, 3 projects, stats, currently, CTA tiles), footer chip row]}
-  - {name: quip_projects, route: /projects, sections: [board header tile, three project tile-pairs (cover + role/result facts), process tile row, footer chip row]}
-  - {name: quip_hello, route: /hello, sections: [face tile + bio tile, fact tiles (clients, talks, tools), say-hi CTA tile with mailto, footer chip row]}
-components: [quip_nav, quip_footer]
+  - {name: canvas_home, route: /, sections: [toolbar, hero selection box with cursors + pin + sticky, recruiter comment card, three project frames (staggered), status bar]}
+  - {name: canvas_work, route: /work, sections: [header, three case frames each with cover + facts + client comment card + pin, status bar]}
+  - {name: canvas_about, route: /about, sections: [photo instance frame + bio frame + tools sticky, version-history changelog frame (v1 agency / v2 bank / v3 independent), CTA frame with cursor, status bar]}
+components: [canvas_nav, canvas_footer]
 ```
 
 ## Brief: vitae (Portfolio, minimal)
@@ -578,7 +577,7 @@ description: A writer's site with a reading column and numbered margin notes.
 theme: warm light
 concept: >
   Margin is an essayist / researcher. The layout is a book page: a measured reading column
-  with true margin notes: small numbered asides sitting in the wide right margin, a madder-red
+  with true margin notes: small numbered asides sitting in the wide right margin, a library-green
   accent for note numbers and links. Quiet, bookish, deeply readable. Conversion is a
   newsletter/contact email.
 palette:
@@ -586,13 +585,13 @@ palette:
   - {name: inkm,   value: "#2B2620", dark_value: "#EDE8DF"}
   - {name: mutedm, value: "#97897A", dark_value: "#9C9184"}
   - {name: rulem,  value: "#EAE3D6", dark_value: "#2F2B24"}
-  - {name: madder, value: "#A5372D", dark_value: "#D06A5F"}
+  - {name: laurel, value: "#3F6B4F", dark_value: "#8FBC9B"}
   - {name: washm,  value: "#F3EEE3", dark_value: "#242019"}
 fonts: {display: Newsreader, body: Newsreader, caps: Inter}
 archetype: >
   Book page with margin notes. Nav is a running head: title left, page-style links right,
   thin rule. Content is a two-column book grid: reading column (65ch) left, wide margin
-  right holding numbered notes (superscript madder numerals in the text, matching notes in
+  right holding numbered notes (superscript green numerals in the text, matching notes in
   the margin, top-aligned to their paragraph). Essays list as a table of contents with
   chapter numerals and dotted leaders. Footer is a colophon line. On mobile the notes tuck
   inline as tinted asides. No other group has true margin-note anatomy.
@@ -603,6 +602,40 @@ pages:
   - {name: margin_essays, route: /essays, sections: [contents header, full TOC by year with numerals and leaders, selected quote with margin note, colophon]}
   - {name: margin_about, route: /about, sections: [bio column with margin notes (portrait as a margin figure), now list, contact + newsletter block, colophon]}
 components: [margin_head, margin_colophon]
+```
+
+## Brief: plinth (Portfolio, minimal)
+
+```yaml
+codename: plinth
+category: Portfolio
+title: Plinth
+description: A minimal architect portfolio: a type-only index with hover thumbnails.
+theme: minimal
+concept: >
+  Plinth is a two-person architecture practice. The site borrows the language of a
+  drawing set: sheet numbers (SHT A-01), scale and revision notes in Space Mono, a
+  titleblock footer, and a project index that is pure typography: five giant rows,
+  hover to see the building. One drafting-blue accent. Conversion: a studio visit email.
+palette:
+  - {name: sheetp,   value: "#FFFFFF", dark_value: "#161617"}
+  - {name: graphite, value: "#17181A", dark_value: "#EDEDEB"}
+  - {name: fogp,     value: "#9A9DA3", dark_value: "#8F9296"}
+  - {name: hairp,    value: "#ECECEA", dark_value: "#2A2A2C"}
+  - {name: draft,    value: "#2B5BD7", dark_value: "#7D9BF0"}
+  - {name: panelp,   value: "#F6F6F4", dark_value: "#1D1D1F"}
+fonts: {display: Instrument Sans, mono: Space Mono}
+archetype: >
+  Drawing set. Head bar with sheet coordinates; index rows of 56px project names with
+  mono PRJ numbers and meta, hairline rules, hover thumbnail floating in from the right;
+  project page as a numbered sheet (hero, SPECIFICATION table, captioned pair, NEXT row);
+  titleblock footer (firm / drawn / scale / rev). No other group is a type-only index or
+  uses drawing-sheet furniture.
+pages:
+  - {name: plinth_home, route: /, sections: [sheet bar + statement, five index rows with hover thumbnails, capabilities row, titleblock]}
+  - {name: plinth_project, route: /project, sections: [sheet header, elevation hero with caption, specification table + narrative, captioned image pair, next-project row, titleblock]}
+  - {name: plinth_profile, route: /profile, sections: [profile statement + portrait with caption, numbered principles, studio visit block with mailto, titleblock]}
+components: [plinth_head, plinth_titleblock]
 ```
 
 ## Follow-ups
