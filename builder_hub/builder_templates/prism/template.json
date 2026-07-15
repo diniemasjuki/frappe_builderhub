@@ -1,0 +1,19 @@
+{
+ "categories": [
+  "Technology"
+ ],
+ "description": "A clean SaaS marketing site with mock product frames and a comparison pricing table.",
+ "order": 25,
+ "pages": [
+  {
+   "name": "prism_home"
+  },
+  {
+   "name": "prism_pricing"
+  },
+  {
+   "name": "prism_contact"
+  }
+ ],
+ "title": "Prism"
+}

@@ -1,0 +1,4887 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+    "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Inter",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "a02f411b64",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "82894f6e46",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "142de9c33c",
+       "blockName": "Nav Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "c39258d119",
+         "blockName": "Logo Group",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "81270f0a3b",
+           "blockName": "Logo Mark",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prism_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "169e46a197",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "2f5340a4ce",
+           "blockName": "Brand",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prism_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "609cb88533",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "prism_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "2e6db32339",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "6b54ca8883",
+         "blockName": "Nav Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "ebceaea9c0",
+           "blockName": "Pricing",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prism_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "d46d567523",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "12b36c239e",
+           "blockName": "Contact",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prism_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "b88ff035ef",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "1f86c3a1b0",
+           "blockName": "Nav CTA",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prism_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "8d674d9085",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "prism_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "bef36a4df4",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "prism_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "ab3b297bc2",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "prism_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1120px",
+      "padding": "84px 32px 64px",
+      "textAlign": "center",
+      "width": "100%"
+     },
+     "blockId": "d14c811d2f",
+     "blockName": "Section · Hero",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+        "fontFamily": "Inter",
+        "fontSize": "12px",
+        "fontWeight": "600",
+        "height": "fit-content",
+        "letterSpacing": "0.04em",
+        "lineHeight": "1.5",
+        "minWidth": "10px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "973e87aae8",
+       "blockName": "Hero Label",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Customer analytics, minus the analyst",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+        "fontFamily": "Inter",
+        "fontSize": "56px",
+        "fontWeight": "700",
+        "height": "fit-content",
+        "letterSpacing": "-0.02em",
+        "lineHeight": "1.15",
+        "marginTop": "14px",
+        "minWidth": "10px",
+        "textAlign": "center",
+        "width": "fit-content"
+       },
+       "blockId": "9787ae66bf",
+       "blockName": "Hero Headline",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Know what your customers<br>do, not what they say.",
+       "mobileStyles": {
+        "fontSize": "31px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {
+        "fontSize": "42px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--41b1da93-1871-40e0-873e-6054692f012c, #6B7280)",
+        "fontFamily": "Inter",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.7",
+        "marginTop": "4px",
+        "maxWidth": "560px",
+        "minWidth": "10px",
+        "textAlign": "center",
+        "width": "100%"
+       },
+       "blockId": "dae733d87a",
+       "blockName": "Hero Sub",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Prism turns your product events into answers: who's about to churn, what made them convert, and which feature quietly carries the whole business.",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "12px",
+        "marginTop": "18px",
+        "width": "fit-content"
+       },
+       "blockId": "871393598f",
+       "blockName": "Hero CTAs",
+       "children": [
+        {
+         "attributes": {
+          "href": "mailto:hello@prism.app"
+         },
+         "baseStyles": {
+          "backgroundColor": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+          "borderColor": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+          "borderRadius": "10px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "color": "#FFFFFF",
+          "fontFamily": "Inter",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "lineHeight": "1",
+          "minWidth": "10px",
+          "padding": "13px 22px",
+          "textDecoration": "none",
+          "width": "fit-content"
+         },
+         "blockId": "1432924b6b",
+         "blockName": "Hero CTA 1",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "a",
+         "innerHTML": "Start free trial",
+         "mobileStyles": {},
+         "rawStyles": {
+          "hover:opacity": "0.85",
+          "transition": "opacity 0.15s ease-out"
+         },
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "href": "contact"
+         },
+         "baseStyles": {
+          "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+          "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+          "borderRadius": "10px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+          "fontFamily": "Inter",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "lineHeight": "1",
+          "minWidth": "10px",
+          "padding": "13px 22px",
+          "textDecoration": "none",
+          "width": "fit-content"
+         },
+         "blockId": "458c96f600",
+         "blockName": "Hero CTA 2",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "a",
+         "innerHTML": "Talk to us",
+         "mobileStyles": {},
+         "rawStyles": {
+          "hover:opacity": "0.85",
+          "transition": "opacity 0.15s ease-out"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "marginTop": "48px",
+        "maxWidth": "860px",
+        "width": "100%"
+       },
+       "blockId": "f35b25557d",
+       "blockName": "Hero Frame Wrap",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+          "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+          "borderRadius": "14px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "overflow": "hidden",
+          "width": "100%"
+         },
+         "blockId": "acb5293503",
+         "blockName": "Hero Product Frame",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderBottomColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "5px",
+            "padding": "10px 14px",
+            "width": "100%"
+           },
+           "blockId": "4a5bde2a27",
+           "blockName": "Frame Bar",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+              "borderRadius": "999px",
+              "height": "8px",
+              "width": "8px"
+             },
+             "blockId": "219b5c2c49",
+             "blockName": "Frame Dot 1",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+              "borderRadius": "999px",
+              "height": "8px",
+              "width": "8px"
+             },
+             "blockId": "9b2cbd9544",
+             "blockName": "Frame Dot 2",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+              "borderRadius": "999px",
+              "height": "8px",
+              "width": "8px"
+             },
+             "blockId": "6ba3792033",
+             "blockName": "Frame Dot 3",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "#F3F4F6",
+              "borderRadius": "6px",
+              "flexGrow": 1,
+              "height": "16px",
+              "marginLeft": "8px"
+             },
+             "blockId": "2dacb5e9fb",
+             "blockName": "Frame URL",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "#F9FAFB",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "12px",
+            "padding": "16px",
+            "width": "100%"
+           },
+           "blockId": "ea7ff99097",
+           "blockName": "Frame Body",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "12px",
+              "width": "100%"
+             },
+             "blockId": "23504416ae",
+             "blockName": "Mock Stats Row",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+                "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                "borderRadius": "10px",
+                "borderStyle": "solid",
+                "borderWidth": "1px",
+                "display": "flex",
+                "flexBasis": "0px",
+                "flexDirection": "column",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "gap": "8px",
+                "padding": "14px 16px",
+                "width": "100%"
+               },
+               "blockId": "d041857a46",
+               "blockName": "Mock Stat Card · $48,200",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderRadius": "4px",
+                  "height": "7px",
+                  "width": "60%"
+                 },
+                 "blockId": "979065608b",
+                 "blockName": "Mock Bar",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+                  "fontFamily": "Inter",
+                  "fontSize": "20px",
+                  "fontWeight": "700",
+                  "height": "fit-content",
+                  "lineHeight": "1.2",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "4b76bc80cb",
+                 "blockName": "Mock Stat · $48,200",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "$48,200",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "#16A34A",
+                  "fontFamily": "Inter",
+                  "fontSize": "11px",
+                  "fontWeight": "600",
+                  "height": "fit-content",
+                  "lineHeight": "1.2",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "ffa4ba16af",
+                 "blockName": "Mock Delta · $48,200",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "↑ 12%",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+                "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                "borderRadius": "10px",
+                "borderStyle": "solid",
+                "borderWidth": "1px",
+                "display": "flex",
+                "flexBasis": "0px",
+                "flexDirection": "column",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "gap": "8px",
+                "padding": "14px 16px",
+                "width": "100%"
+               },
+               "blockId": "3005b11bc4",
+               "blockName": "Mock Stat Card · 1,284",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderRadius": "4px",
+                  "height": "7px",
+                  "width": "50%"
+                 },
+                 "blockId": "0409f0b075",
+                 "blockName": "Mock Bar",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+                  "fontFamily": "Inter",
+                  "fontSize": "20px",
+                  "fontWeight": "700",
+                  "height": "fit-content",
+                  "lineHeight": "1.2",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "83a68c9dec",
+                 "blockName": "Mock Stat · 1,284",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "1,284",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "#16A34A",
+                  "fontFamily": "Inter",
+                  "fontSize": "11px",
+                  "fontWeight": "600",
+                  "height": "fit-content",
+                  "lineHeight": "1.2",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "f35464f79e",
+                 "blockName": "Mock Delta · 1,284",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "↑ 12%",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+                "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                "borderRadius": "10px",
+                "borderStyle": "solid",
+                "borderWidth": "1px",
+                "display": "flex",
+                "flexBasis": "0px",
+                "flexDirection": "column",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "gap": "8px",
+                "padding": "14px 16px",
+                "width": "100%"
+               },
+               "blockId": "538182754e",
+               "blockName": "Mock Stat Card · 97.2%",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderRadius": "4px",
+                  "height": "7px",
+                  "width": "70%"
+                 },
+                 "blockId": "a1f9e20336",
+                 "blockName": "Mock Bar",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+                  "fontFamily": "Inter",
+                  "fontSize": "20px",
+                  "fontWeight": "700",
+                  "height": "fit-content",
+                  "lineHeight": "1.2",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "5bf66e8fa3",
+                 "blockName": "Mock Stat · 97.2%",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "97.2%",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "#DC2626",
+                  "fontFamily": "Inter",
+                  "fontSize": "11px",
+                  "fontWeight": "600",
+                  "height": "fit-content",
+                  "lineHeight": "1.2",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "27dd71298d",
+                 "blockName": "Mock Delta · 97.2%",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "↓ 3%",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "flex-end",
+              "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+              "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+              "borderRadius": "10px",
+              "borderStyle": "solid",
+              "borderWidth": "1px",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "8px",
+              "height": "150px",
+              "padding": "16px",
+              "width": "100%"
+             },
+             "blockId": "4657ec2dfc",
+             "blockName": "Mock Chart",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                "borderRadius": "4px 4px 0 0",
+                "flexBasis": "0px",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "height": "34%"
+               },
+               "blockId": "35711d1fa0",
+               "blockName": "Chart Bar 0",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                "borderRadius": "4px 4px 0 0",
+                "flexBasis": "0px",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "height": "52%"
+               },
+               "blockId": "faddf1c550",
+               "blockName": "Chart Bar 1",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                "borderRadius": "4px 4px 0 0",
+                "flexBasis": "0px",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "height": "40%"
+               },
+               "blockId": "dc94e57f48",
+               "blockName": "Chart Bar 2",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                "borderRadius": "4px 4px 0 0",
+                "flexBasis": "0px",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "height": "64%"
+               },
+               "blockId": "d8d4f25166",
+               "blockName": "Chart Bar 3",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                "borderRadius": "4px 4px 0 0",
+                "flexBasis": "0px",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "height": "58%"
+               },
+               "blockId": "0e7fc40334",
+               "blockName": "Chart Bar 4",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                "borderRadius": "4px 4px 0 0",
+                "flexBasis": "0px",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "height": "78%"
+               },
+               "blockId": "6e91f13dec",
+               "blockName": "Chart Bar 5",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                "borderRadius": "4px 4px 0 0",
+                "flexBasis": "0px",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "height": "70%"
+               },
+               "blockId": "a875eb748a",
+               "blockName": "Chart Bar 6",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+                "borderRadius": "4px 4px 0 0",
+                "flexBasis": "0px",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "height": "92%"
+               },
+               "blockId": "ff2c444b80",
+               "blockName": "Chart Bar 7",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+              "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+              "borderRadius": "10px",
+              "borderStyle": "solid",
+              "borderWidth": "1px",
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "overflow": "hidden",
+              "width": "100%"
+             },
+             "blockId": "fb2751e31b",
+             "blockName": "Mock Table",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "alignItems": "center",
+                "borderTopColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                "borderTopStyle": "solid",
+                "borderTopWidth": "1px",
+                "display": "flex",
+                "flexDirection": "row",
+                "flexShrink": 0,
+                "gap": "10px",
+                "padding": "9px 14px",
+                "width": "100%"
+               },
+               "blockId": "cab5e19c63",
+               "blockName": "Mock Table Row · Active",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "999px",
+                  "flexShrink": 0,
+                  "height": "18px",
+                  "width": "18px"
+                 },
+                 "blockId": "068ad0abe4",
+                 "blockName": "Mock Avatar",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderRadius": "4px",
+                  "height": "7px",
+                  "width": "34%"
+                 },
+                 "blockId": "47c527287c",
+                 "blockName": "Mock Bar",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "flexGrow": 1
+                 },
+                 "blockId": "2673d49f66",
+                 "blockName": "Mock Row Spacer",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "#DCFCE7",
+                  "borderRadius": "999px",
+                  "color": "#166534",
+                  "fontFamily": "Inter",
+                  "fontSize": "10px",
+                  "fontWeight": "600",
+                  "height": "fit-content",
+                  "lineHeight": "1",
+                  "minWidth": "10px",
+                  "padding": "4px 10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "884ca28325",
+                 "blockName": "Mock Pill · Active",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "Active",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "alignItems": "center",
+                "borderTopColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                "borderTopStyle": "solid",
+                "borderTopWidth": "1px",
+                "display": "flex",
+                "flexDirection": "row",
+                "flexShrink": 0,
+                "gap": "10px",
+                "padding": "9px 14px",
+                "width": "100%"
+               },
+               "blockId": "4e180152a0",
+               "blockName": "Mock Table Row · Invited",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "999px",
+                  "flexShrink": 0,
+                  "height": "18px",
+                  "width": "18px"
+                 },
+                 "blockId": "f8e638c54a",
+                 "blockName": "Mock Avatar",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderRadius": "4px",
+                  "height": "7px",
+                  "width": "46%"
+                 },
+                 "blockId": "682626a453",
+                 "blockName": "Mock Bar",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "flexGrow": 1
+                 },
+                 "blockId": "42cb8c4c70",
+                 "blockName": "Mock Row Spacer",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "999px",
+                  "color": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+                  "fontFamily": "Inter",
+                  "fontSize": "10px",
+                  "fontWeight": "600",
+                  "height": "fit-content",
+                  "lineHeight": "1",
+                  "minWidth": "10px",
+                  "padding": "4px 10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "a99ffa30af",
+                 "blockName": "Mock Pill · Invited",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "Invited",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "alignItems": "center",
+                "borderTopColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                "borderTopStyle": "solid",
+                "borderTopWidth": "1px",
+                "display": "flex",
+                "flexDirection": "row",
+                "flexShrink": 0,
+                "gap": "10px",
+                "padding": "9px 14px",
+                "width": "100%"
+               },
+               "blockId": "840ed721ef",
+               "blockName": "Mock Table Row · Active",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "999px",
+                  "flexShrink": 0,
+                  "height": "18px",
+                  "width": "18px"
+                 },
+                 "blockId": "dc276f04a2",
+                 "blockName": "Mock Avatar",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderRadius": "4px",
+                  "height": "7px",
+                  "width": "28%"
+                 },
+                 "blockId": "b75f8f5a11",
+                 "blockName": "Mock Bar",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "flexGrow": 1
+                 },
+                 "blockId": "a785509209",
+                 "blockName": "Mock Row Spacer",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "#DCFCE7",
+                  "borderRadius": "999px",
+                  "color": "#166534",
+                  "fontFamily": "Inter",
+                  "fontSize": "10px",
+                  "fontWeight": "600",
+                  "height": "fit-content",
+                  "lineHeight": "1",
+                  "minWidth": "10px",
+                  "padding": "4px 10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "fed8da8912",
+                 "blockName": "Mock Pill · Active",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "Active",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {
+          "box-shadow": "0 30px 70px rgba(17, 24, 39, 0.12)"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "marginTop": "32px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "46px 18px 40px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1120px",
+      "padding": "0 32px 72px",
+      "width": "100%"
+     },
+     "blockId": "536395be1e",
+     "blockName": "Section · Metrics",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+        "borderRadius": "16px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "20px",
+        "padding": "32px 24px",
+        "width": "100%"
+       },
+       "blockId": "d7ee62cf83",
+       "blockName": "Metrics Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "4px",
+          "width": "100%"
+         },
+         "blockId": "3714683256",
+         "blockName": "Metric Col 1",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+            "fontFamily": "Inter",
+            "fontSize": "36px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "-0.02em",
+            "lineHeight": "1.15",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "bb1ce0db2a",
+           "blockName": "Metric 1",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "4,200+",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--41b1da93-1871-40e0-873e-6054692f012c, #6B7280)",
+            "fontFamily": "Inter",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "maxWidth": "560px",
+            "minWidth": "10px",
+            "textAlign": "center",
+            "width": "100%"
+           },
+           "blockId": "6370c89b37",
+           "blockName": "Metric 1 Label",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "teams on Prism",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "4px",
+          "width": "100%"
+         },
+         "blockId": "687328b17a",
+         "blockName": "Metric Col 2",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+            "fontFamily": "Inter",
+            "fontSize": "36px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "-0.02em",
+            "lineHeight": "1.15",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "255b763e55",
+           "blockName": "Metric 2",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "11 min",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--41b1da93-1871-40e0-873e-6054692f012c, #6B7280)",
+            "fontFamily": "Inter",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "maxWidth": "560px",
+            "minWidth": "10px",
+            "textAlign": "center",
+            "width": "100%"
+           },
+           "blockId": "8be045925a",
+           "blockName": "Metric 2 Label",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "median setup time",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "4px",
+          "width": "100%"
+         },
+         "blockId": "50ac106615",
+         "blockName": "Metric Col 3",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+            "fontFamily": "Inter",
+            "fontSize": "36px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "-0.02em",
+            "lineHeight": "1.15",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "01cafb6cad",
+           "blockName": "Metric 3",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "38%",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--41b1da93-1871-40e0-873e-6054692f012c, #6B7280)",
+            "fontFamily": "Inter",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "maxWidth": "560px",
+            "minWidth": "10px",
+            "textAlign": "center",
+            "width": "100%"
+           },
+           "blockId": "f66aae1834",
+           "blockName": "Metric 3 Label",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "average churn reduction",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "22px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 18px 44px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "72px",
+      "maxWidth": "1120px",
+      "padding": "0 32px 84px",
+      "width": "100%"
+     },
+     "blockId": "6e47b083a2",
+     "blockName": "Section · Features",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "56px",
+        "width": "100%"
+       },
+       "blockId": "a229a0c38f",
+       "blockName": "Feature · See churn before it happens",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "10px",
+          "justifyContent": "center",
+          "width": "100%"
+         },
+         "blockId": "ac5fb7d370",
+         "blockName": "Feature Copy · See churn before it happens",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+            "fontFamily": "Inter",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.04em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "9d6de8d81a",
+           "blockName": "Feature Label · See churn before it happens",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Retention",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+            "fontFamily": "Inter",
+            "fontSize": "30px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "-0.02em",
+            "lineHeight": "1.15",
+            "marginTop": "8px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "e94c8c6cf0",
+           "blockName": "Feature Title · See churn before it happens",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "See churn before it happens",
+           "mobileStyles": {
+            "fontSize": "24px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--41b1da93-1871-40e0-873e-6054692f012c, #6B7280)",
+            "fontFamily": "Inter",
+            "fontSize": "14.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "maxWidth": "560px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "ae3925e1b2",
+           "blockName": "Feature Text · See churn before it happens",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Prism scores every account nightly and tells you who is drifting away while there is still time to wave.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "8px",
+            "marginTop": "6px",
+            "width": "100%"
+           },
+           "blockId": "ae5a3aa718",
+           "blockName": "Feature Items · See churn before it happens",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "10px",
+              "width": "100%"
+             },
+             "blockId": "f267e3ea2c",
+             "blockName": "Feature Item · See churn before it happens 0",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "lineHeight": "1.5",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "6ad370dada",
+               "blockName": "F Tick · See churn before it happens 0",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "✓",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--41b1da93-1871-40e0-873e-6054692f012c, #6B7280)",
+                "fontFamily": "Inter",
+                "fontSize": "13.5px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "lineHeight": "1.7",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "f00c9f1925",
+               "blockName": "F Item · See churn before it happens 0",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Churn risk scores with plain-English reasons",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "10px",
+              "width": "100%"
+             },
+             "blockId": "0ae243ebc3",
+             "blockName": "Feature Item · See churn before it happens 1",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "lineHeight": "1.5",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "3015370daa",
+               "blockName": "F Tick · See churn before it happens 1",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "✓",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--41b1da93-1871-40e0-873e-6054692f012c, #6B7280)",
+                "fontFamily": "Inter",
+                "fontSize": "13.5px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "lineHeight": "1.7",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "a785d01c8c",
+               "blockName": "F Item · See churn before it happens 1",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Slack alert when a key account goes quiet",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "10px",
+              "width": "100%"
+             },
+             "blockId": "90a92fda9a",
+             "blockName": "Feature Item · See churn before it happens 2",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "lineHeight": "1.5",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "33c1bc19be",
+               "blockName": "F Tick · See churn before it happens 2",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "✓",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--41b1da93-1871-40e0-873e-6054692f012c, #6B7280)",
+                "fontFamily": "Inter",
+                "fontSize": "13.5px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "lineHeight": "1.7",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "95016c7535",
+               "blockName": "F Item · See churn before it happens 2",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Cohorts by plan, region or any event",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "width": "52%"
+         },
+         "blockId": "0a027be63e",
+         "blockName": "Feature Frame Col · See churn before it happens",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+            "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+            "borderRadius": "14px",
+            "borderStyle": "solid",
+            "borderWidth": "1px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "overflow": "hidden",
+            "width": "100%"
+           },
+           "blockId": "606fee9aaf",
+           "blockName": "Feature Frame · See churn before it happens",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "center",
+              "borderBottomColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+              "borderBottomStyle": "solid",
+              "borderBottomWidth": "1px",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "5px",
+              "padding": "10px 14px",
+              "width": "100%"
+             },
+             "blockId": "7182e74838",
+             "blockName": "Frame Bar",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                "borderRadius": "999px",
+                "height": "8px",
+                "width": "8px"
+               },
+               "blockId": "1e01256afd",
+               "blockName": "Frame Dot 1",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                "borderRadius": "999px",
+                "height": "8px",
+                "width": "8px"
+               },
+               "blockId": "8ebc51f184",
+               "blockName": "Frame Dot 2",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                "borderRadius": "999px",
+                "height": "8px",
+                "width": "8px"
+               },
+               "blockId": "f9734887fc",
+               "blockName": "Frame Dot 3",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "#F3F4F6",
+                "borderRadius": "6px",
+                "flexGrow": 1,
+                "height": "16px",
+                "marginLeft": "8px"
+               },
+               "blockId": "a706762403",
+               "blockName": "Frame URL",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "#F9FAFB",
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "gap": "12px",
+              "padding": "16px",
+              "width": "100%"
+             },
+             "blockId": "be7f77e7ab",
+             "blockName": "Frame Body",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "flexShrink": 0,
+                "gap": "12px",
+                "width": "100%"
+               },
+               "blockId": "e3bc005da2",
+               "blockName": "Mock Stats Row",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+                  "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderRadius": "10px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "display": "flex",
+                  "flexBasis": "0px",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "gap": "8px",
+                  "padding": "14px 16px",
+                  "width": "100%"
+                 },
+                 "blockId": "084e74df48",
+                 "blockName": "Mock Stat Card · $48,200",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                    "borderRadius": "4px",
+                    "height": "7px",
+                    "width": "60%"
+                   },
+                   "blockId": "b1e0437d82",
+                   "blockName": "Mock Bar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+                    "fontFamily": "Inter",
+                    "fontSize": "20px",
+                    "fontWeight": "700",
+                    "height": "fit-content",
+                    "lineHeight": "1.2",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "68a6826d4d",
+                   "blockName": "Mock Stat · $48,200",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "$48,200",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "#16A34A",
+                    "fontFamily": "Inter",
+                    "fontSize": "11px",
+                    "fontWeight": "600",
+                    "height": "fit-content",
+                    "lineHeight": "1.2",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "a73a49be67",
+                   "blockName": "Mock Delta · $48,200",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "↑ 12%",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+                  "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderRadius": "10px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "display": "flex",
+                  "flexBasis": "0px",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "gap": "8px",
+                  "padding": "14px 16px",
+                  "width": "100%"
+                 },
+                 "blockId": "4587f9ffae",
+                 "blockName": "Mock Stat Card · 1,284",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                    "borderRadius": "4px",
+                    "height": "7px",
+                    "width": "50%"
+                   },
+                   "blockId": "802de8efb0",
+                   "blockName": "Mock Bar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+                    "fontFamily": "Inter",
+                    "fontSize": "20px",
+                    "fontWeight": "700",
+                    "height": "fit-content",
+                    "lineHeight": "1.2",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "79c0eae9a5",
+                   "blockName": "Mock Stat · 1,284",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "1,284",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "#16A34A",
+                    "fontFamily": "Inter",
+                    "fontSize": "11px",
+                    "fontWeight": "600",
+                    "height": "fit-content",
+                    "lineHeight": "1.2",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "474299899b",
+                   "blockName": "Mock Delta · 1,284",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "↑ 12%",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+                  "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderRadius": "10px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "display": "flex",
+                  "flexBasis": "0px",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "gap": "8px",
+                  "padding": "14px 16px",
+                  "width": "100%"
+                 },
+                 "blockId": "609b1404c0",
+                 "blockName": "Mock Stat Card · 97.2%",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                    "borderRadius": "4px",
+                    "height": "7px",
+                    "width": "70%"
+                   },
+                   "blockId": "c1a0ea540e",
+                   "blockName": "Mock Bar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+                    "fontFamily": "Inter",
+                    "fontSize": "20px",
+                    "fontWeight": "700",
+                    "height": "fit-content",
+                    "lineHeight": "1.2",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "2399566c0c",
+                   "blockName": "Mock Stat · 97.2%",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "97.2%",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "#DC2626",
+                    "fontFamily": "Inter",
+                    "fontSize": "11px",
+                    "fontWeight": "600",
+                    "height": "fit-content",
+                    "lineHeight": "1.2",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "b12036fb57",
+                   "blockName": "Mock Delta · 97.2%",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "↓ 3%",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "alignItems": "flex-end",
+                "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+                "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                "borderRadius": "10px",
+                "borderStyle": "solid",
+                "borderWidth": "1px",
+                "display": "flex",
+                "flexDirection": "row",
+                "gap": "8px",
+                "height": "150px",
+                "padding": "16px",
+                "width": "100%"
+               },
+               "blockId": "421b4cfccd",
+               "blockName": "Mock Chart",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "4px 4px 0 0",
+                  "flexBasis": "0px",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": "34%"
+                 },
+                 "blockId": "b1ee355998",
+                 "blockName": "Chart Bar 0",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "4px 4px 0 0",
+                  "flexBasis": "0px",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": "52%"
+                 },
+                 "blockId": "593e5f2cdb",
+                 "blockName": "Chart Bar 1",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "4px 4px 0 0",
+                  "flexBasis": "0px",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": "40%"
+                 },
+                 "blockId": "d89ab86b0d",
+                 "blockName": "Chart Bar 2",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "4px 4px 0 0",
+                  "flexBasis": "0px",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": "64%"
+                 },
+                 "blockId": "4099fd2136",
+                 "blockName": "Chart Bar 3",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "4px 4px 0 0",
+                  "flexBasis": "0px",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": "58%"
+                 },
+                 "blockId": "0da2a44fb0",
+                 "blockName": "Chart Bar 4",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "4px 4px 0 0",
+                  "flexBasis": "0px",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": "78%"
+                 },
+                 "blockId": "df3a121301",
+                 "blockName": "Chart Bar 5",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "4px 4px 0 0",
+                  "flexBasis": "0px",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": "70%"
+                 },
+                 "blockId": "fb2d38eda4",
+                 "blockName": "Chart Bar 6",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+                  "borderRadius": "4px 4px 0 0",
+                  "flexBasis": "0px",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": "92%"
+                 },
+                 "blockId": "a3bb3b7674",
+                 "blockName": "Chart Bar 7",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+                "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                "borderRadius": "10px",
+                "borderStyle": "solid",
+                "borderWidth": "1px",
+                "display": "flex",
+                "flexDirection": "column",
+                "flexShrink": 0,
+                "overflow": "hidden",
+                "width": "100%"
+               },
+               "blockId": "1fee124f11",
+               "blockName": "Mock Table",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "borderTopColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderTopStyle": "solid",
+                  "borderTopWidth": "1px",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "10px",
+                  "padding": "9px 14px",
+                  "width": "100%"
+                 },
+                 "blockId": "cffadc3ba6",
+                 "blockName": "Mock Table Row · Active",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                    "borderRadius": "999px",
+                    "flexShrink": 0,
+                    "height": "18px",
+                    "width": "18px"
+                   },
+                   "blockId": "6c0ca695cc",
+                   "blockName": "Mock Avatar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                    "borderRadius": "4px",
+                    "height": "7px",
+                    "width": "34%"
+                   },
+                   "blockId": "59863bd508",
+                   "blockName": "Mock Bar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "flexGrow": 1
+                   },
+                   "blockId": "8030ba1718",
+                   "blockName": "Mock Row Spacer",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "#DCFCE7",
+                    "borderRadius": "999px",
+                    "color": "#166534",
+                    "fontFamily": "Inter",
+                    "fontSize": "10px",
+                    "fontWeight": "600",
+                    "height": "fit-content",
+                    "lineHeight": "1",
+                    "minWidth": "10px",
+                    "padding": "4px 10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "a1d4e1417c",
+                   "blockName": "Mock Pill · Active",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "Active",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "borderTopColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderTopStyle": "solid",
+                  "borderTopWidth": "1px",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "10px",
+                  "padding": "9px 14px",
+                  "width": "100%"
+                 },
+                 "blockId": "b3039a77c2",
+                 "blockName": "Mock Table Row · Invited",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                    "borderRadius": "999px",
+                    "flexShrink": 0,
+                    "height": "18px",
+                    "width": "18px"
+                   },
+                   "blockId": "7f09102395",
+                   "blockName": "Mock Avatar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                    "borderRadius": "4px",
+                    "height": "7px",
+                    "width": "46%"
+                   },
+                   "blockId": "1362d62429",
+                   "blockName": "Mock Bar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "flexGrow": 1
+                   },
+                   "blockId": "dec112bf0d",
+                   "blockName": "Mock Row Spacer",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                    "borderRadius": "999px",
+                    "color": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+                    "fontFamily": "Inter",
+                    "fontSize": "10px",
+                    "fontWeight": "600",
+                    "height": "fit-content",
+                    "lineHeight": "1",
+                    "minWidth": "10px",
+                    "padding": "4px 10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "e36920b75a",
+                   "blockName": "Mock Pill · Invited",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "Invited",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "borderTopColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderTopStyle": "solid",
+                  "borderTopWidth": "1px",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "10px",
+                  "padding": "9px 14px",
+                  "width": "100%"
+                 },
+                 "blockId": "f70951bf8f",
+                 "blockName": "Mock Table Row · Active",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                    "borderRadius": "999px",
+                    "flexShrink": 0,
+                    "height": "18px",
+                    "width": "18px"
+                   },
+                   "blockId": "443ae1dbc9",
+                   "blockName": "Mock Avatar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                    "borderRadius": "4px",
+                    "height": "7px",
+                    "width": "28%"
+                   },
+                   "blockId": "f62288f307",
+                   "blockName": "Mock Bar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "flexGrow": 1
+                   },
+                   "blockId": "dcbc0e57e5",
+                   "blockName": "Mock Row Spacer",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "#DCFCE7",
+                    "borderRadius": "999px",
+                    "color": "#166534",
+                    "fontFamily": "Inter",
+                    "fontSize": "10px",
+                    "fontWeight": "600",
+                    "height": "fit-content",
+                    "lineHeight": "1",
+                    "minWidth": "10px",
+                    "padding": "4px 10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "0142a3b0be",
+                   "blockName": "Mock Pill · Active",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "Active",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {
+            "box-shadow": "0 30px 70px rgba(17, 24, 39, 0.12)"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "marginTop": "20px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "0px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "56px",
+        "width": "100%"
+       },
+       "blockId": "3a821f1983",
+       "blockName": "Feature · Know what actually converts",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "width": "52%"
+         },
+         "blockId": "6e97c9e8b5",
+         "blockName": "Feature Frame Col · Know what actually converts",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+            "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+            "borderRadius": "14px",
+            "borderStyle": "solid",
+            "borderWidth": "1px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "overflow": "hidden",
+            "width": "100%"
+           },
+           "blockId": "d8a1fb9e18",
+           "blockName": "Feature Frame · Know what actually converts",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "center",
+              "borderBottomColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+              "borderBottomStyle": "solid",
+              "borderBottomWidth": "1px",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "5px",
+              "padding": "10px 14px",
+              "width": "100%"
+             },
+             "blockId": "43c8c48899",
+             "blockName": "Frame Bar",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                "borderRadius": "999px",
+                "height": "8px",
+                "width": "8px"
+               },
+               "blockId": "2fe9c83c12",
+               "blockName": "Frame Dot 1",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                "borderRadius": "999px",
+                "height": "8px",
+                "width": "8px"
+               },
+               "blockId": "42e13e18f1",
+               "blockName": "Frame Dot 2",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                "borderRadius": "999px",
+                "height": "8px",
+                "width": "8px"
+               },
+               "blockId": "47d59f1a68",
+               "blockName": "Frame Dot 3",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "#F3F4F6",
+                "borderRadius": "6px",
+                "flexGrow": 1,
+                "height": "16px",
+                "marginLeft": "8px"
+               },
+               "blockId": "ea121831cf",
+               "blockName": "Frame URL",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "#F9FAFB",
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "gap": "12px",
+              "padding": "16px",
+              "width": "100%"
+             },
+             "blockId": "342a6a10a7",
+             "blockName": "Frame Body",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "flexShrink": 0,
+                "gap": "12px",
+                "width": "100%"
+               },
+               "blockId": "1db5c724e1",
+               "blockName": "Mock Stats Row",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+                  "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderRadius": "10px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "display": "flex",
+                  "flexBasis": "0px",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "gap": "8px",
+                  "padding": "14px 16px",
+                  "width": "100%"
+                 },
+                 "blockId": "acaaf94922",
+                 "blockName": "Mock Stat Card · $48,200",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                    "borderRadius": "4px",
+                    "height": "7px",
+                    "width": "60%"
+                   },
+                   "blockId": "a887001d14",
+                   "blockName": "Mock Bar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+                    "fontFamily": "Inter",
+                    "fontSize": "20px",
+                    "fontWeight": "700",
+                    "height": "fit-content",
+                    "lineHeight": "1.2",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "8fbd6e5a75",
+                   "blockName": "Mock Stat · $48,200",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "$48,200",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "#16A34A",
+                    "fontFamily": "Inter",
+                    "fontSize": "11px",
+                    "fontWeight": "600",
+                    "height": "fit-content",
+                    "lineHeight": "1.2",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "a3d0792bc4",
+                   "blockName": "Mock Delta · $48,200",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "↑ 12%",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+                  "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderRadius": "10px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "display": "flex",
+                  "flexBasis": "0px",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "gap": "8px",
+                  "padding": "14px 16px",
+                  "width": "100%"
+                 },
+                 "blockId": "1cd90db658",
+                 "blockName": "Mock Stat Card · 1,284",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                    "borderRadius": "4px",
+                    "height": "7px",
+                    "width": "50%"
+                   },
+                   "blockId": "28dfcf16fa",
+                   "blockName": "Mock Bar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+                    "fontFamily": "Inter",
+                    "fontSize": "20px",
+                    "fontWeight": "700",
+                    "height": "fit-content",
+                    "lineHeight": "1.2",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "b3394080f8",
+                   "blockName": "Mock Stat · 1,284",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "1,284",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "#16A34A",
+                    "fontFamily": "Inter",
+                    "fontSize": "11px",
+                    "fontWeight": "600",
+                    "height": "fit-content",
+                    "lineHeight": "1.2",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "75a8e66e69",
+                   "blockName": "Mock Delta · 1,284",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "↑ 12%",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+                  "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderRadius": "10px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "display": "flex",
+                  "flexBasis": "0px",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "gap": "8px",
+                  "padding": "14px 16px",
+                  "width": "100%"
+                 },
+                 "blockId": "ceee7cec63",
+                 "blockName": "Mock Stat Card · 97.2%",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                    "borderRadius": "4px",
+                    "height": "7px",
+                    "width": "70%"
+                   },
+                   "blockId": "e58af87fc0",
+                   "blockName": "Mock Bar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+                    "fontFamily": "Inter",
+                    "fontSize": "20px",
+                    "fontWeight": "700",
+                    "height": "fit-content",
+                    "lineHeight": "1.2",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "d06bcd58a7",
+                   "blockName": "Mock Stat · 97.2%",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "97.2%",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "#DC2626",
+                    "fontFamily": "Inter",
+                    "fontSize": "11px",
+                    "fontWeight": "600",
+                    "height": "fit-content",
+                    "lineHeight": "1.2",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "4bba460ff2",
+                   "blockName": "Mock Delta · 97.2%",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "↓ 3%",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "alignItems": "flex-end",
+                "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+                "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                "borderRadius": "10px",
+                "borderStyle": "solid",
+                "borderWidth": "1px",
+                "display": "flex",
+                "flexDirection": "row",
+                "gap": "8px",
+                "height": "150px",
+                "padding": "16px",
+                "width": "100%"
+               },
+               "blockId": "894661892e",
+               "blockName": "Mock Chart",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "4px 4px 0 0",
+                  "flexBasis": "0px",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": "34%"
+                 },
+                 "blockId": "327aec9aa3",
+                 "blockName": "Chart Bar 0",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "4px 4px 0 0",
+                  "flexBasis": "0px",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": "52%"
+                 },
+                 "blockId": "553fdc4312",
+                 "blockName": "Chart Bar 1",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "4px 4px 0 0",
+                  "flexBasis": "0px",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": "40%"
+                 },
+                 "blockId": "b80b011263",
+                 "blockName": "Chart Bar 2",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "4px 4px 0 0",
+                  "flexBasis": "0px",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": "64%"
+                 },
+                 "blockId": "f8b6cae93f",
+                 "blockName": "Chart Bar 3",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "4px 4px 0 0",
+                  "flexBasis": "0px",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": "58%"
+                 },
+                 "blockId": "54d9c45f1b",
+                 "blockName": "Chart Bar 4",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "4px 4px 0 0",
+                  "flexBasis": "0px",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": "78%"
+                 },
+                 "blockId": "5469fdaf15",
+                 "blockName": "Chart Bar 5",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                  "borderRadius": "4px 4px 0 0",
+                  "flexBasis": "0px",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": "70%"
+                 },
+                 "blockId": "c7e9e17999",
+                 "blockName": "Chart Bar 6",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "backgroundColor": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+                  "borderRadius": "4px 4px 0 0",
+                  "flexBasis": "0px",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "height": "92%"
+                 },
+                 "blockId": "7da14cb508",
+                 "blockName": "Chart Bar 7",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+                "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                "borderRadius": "10px",
+                "borderStyle": "solid",
+                "borderWidth": "1px",
+                "display": "flex",
+                "flexDirection": "column",
+                "flexShrink": 0,
+                "overflow": "hidden",
+                "width": "100%"
+               },
+               "blockId": "7d60b24195",
+               "blockName": "Mock Table",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "borderTopColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderTopStyle": "solid",
+                  "borderTopWidth": "1px",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "10px",
+                  "padding": "9px 14px",
+                  "width": "100%"
+                 },
+                 "blockId": "367e138f1f",
+                 "blockName": "Mock Table Row · Active",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                    "borderRadius": "999px",
+                    "flexShrink": 0,
+                    "height": "18px",
+                    "width": "18px"
+                   },
+                   "blockId": "c90db3b2bb",
+                   "blockName": "Mock Avatar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                    "borderRadius": "4px",
+                    "height": "7px",
+                    "width": "34%"
+                   },
+                   "blockId": "36a2f76a5f",
+                   "blockName": "Mock Bar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "flexGrow": 1
+                   },
+                   "blockId": "78815d844e",
+                   "blockName": "Mock Row Spacer",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "#DCFCE7",
+                    "borderRadius": "999px",
+                    "color": "#166534",
+                    "fontFamily": "Inter",
+                    "fontSize": "10px",
+                    "fontWeight": "600",
+                    "height": "fit-content",
+                    "lineHeight": "1",
+                    "minWidth": "10px",
+                    "padding": "4px 10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "ce0bc86a6b",
+                   "blockName": "Mock Pill · Active",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "Active",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "borderTopColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderTopStyle": "solid",
+                  "borderTopWidth": "1px",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "10px",
+                  "padding": "9px 14px",
+                  "width": "100%"
+                 },
+                 "blockId": "7c376ba372",
+                 "blockName": "Mock Table Row · Invited",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                    "borderRadius": "999px",
+                    "flexShrink": 0,
+                    "height": "18px",
+                    "width": "18px"
+                   },
+                   "blockId": "d048d265c5",
+                   "blockName": "Mock Avatar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                    "borderRadius": "4px",
+                    "height": "7px",
+                    "width": "46%"
+                   },
+                   "blockId": "54069da817",
+                   "blockName": "Mock Bar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "flexGrow": 1
+                   },
+                   "blockId": "bc9f6097d0",
+                   "blockName": "Mock Row Spacer",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                    "borderRadius": "999px",
+                    "color": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+                    "fontFamily": "Inter",
+                    "fontSize": "10px",
+                    "fontWeight": "600",
+                    "height": "fit-content",
+                    "lineHeight": "1",
+                    "minWidth": "10px",
+                    "padding": "4px 10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "5a6e654122",
+                   "blockName": "Mock Pill · Invited",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "Invited",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "borderTopColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                  "borderTopStyle": "solid",
+                  "borderTopWidth": "1px",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "10px",
+                  "padding": "9px 14px",
+                  "width": "100%"
+                 },
+                 "blockId": "26e3313bc3",
+                 "blockName": "Mock Table Row · Active",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+                    "borderRadius": "999px",
+                    "flexShrink": 0,
+                    "height": "18px",
+                    "width": "18px"
+                   },
+                   "blockId": "c896a8138d",
+                   "blockName": "Mock Avatar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+                    "borderRadius": "4px",
+                    "height": "7px",
+                    "width": "28%"
+                   },
+                   "blockId": "9410695773",
+                   "blockName": "Mock Bar",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "flexGrow": 1
+                   },
+                   "blockId": "8364e34f6a",
+                   "blockName": "Mock Row Spacer",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "div",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "backgroundColor": "#DCFCE7",
+                    "borderRadius": "999px",
+                    "color": "#166534",
+                    "fontFamily": "Inter",
+                    "fontSize": "10px",
+                    "fontWeight": "600",
+                    "height": "fit-content",
+                    "lineHeight": "1",
+                    "minWidth": "10px",
+                    "padding": "4px 10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "f0c16e95dc",
+                   "blockName": "Mock Pill · Active",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "Active",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {
+            "box-shadow": "0 30px 70px rgba(17, 24, 39, 0.12)"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "marginTop": "20px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "10px",
+          "justifyContent": "center",
+          "width": "100%"
+         },
+         "blockId": "4407c3b8f7",
+         "blockName": "Feature Copy · Know what actually converts",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+            "fontFamily": "Inter",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.04em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "a7a11e0082",
+           "blockName": "Feature Label · Know what actually converts",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Attribution",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+            "fontFamily": "Inter",
+            "fontSize": "30px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "-0.02em",
+            "lineHeight": "1.15",
+            "marginTop": "8px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "ab854d3572",
+           "blockName": "Feature Title · Know what actually converts",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Know what actually converts",
+           "mobileStyles": {
+            "fontSize": "24px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--41b1da93-1871-40e0-873e-6054692f012c, #6B7280)",
+            "fontFamily": "Inter",
+            "fontSize": "14.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "maxWidth": "560px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "bf62cfc252",
+           "blockName": "Feature Text · Know what actually converts",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Follow the whole journey from first touch to paid, without duct-taping four tools together.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "8px",
+            "marginTop": "6px",
+            "width": "100%"
+           },
+           "blockId": "bfab93c553",
+           "blockName": "Feature Items · Know what actually converts",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "10px",
+              "width": "100%"
+             },
+             "blockId": "1b4d1de92c",
+             "blockName": "Feature Item · Know what actually converts 0",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "lineHeight": "1.5",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "83f86249eb",
+               "blockName": "F Tick · Know what actually converts 0",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "✓",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--41b1da93-1871-40e0-873e-6054692f012c, #6B7280)",
+                "fontFamily": "Inter",
+                "fontSize": "13.5px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "lineHeight": "1.7",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "7e359a5543",
+               "blockName": "F Item · Know what actually converts 0",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Multi-touch attribution out of the box",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "10px",
+              "width": "100%"
+             },
+             "blockId": "ea0134cb21",
+             "blockName": "Feature Item · Know what actually converts 1",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "lineHeight": "1.5",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "e5d57c538f",
+               "blockName": "F Tick · Know what actually converts 1",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "✓",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--41b1da93-1871-40e0-873e-6054692f012c, #6B7280)",
+                "fontFamily": "Inter",
+                "fontSize": "13.5px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "lineHeight": "1.7",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "2654774597",
+               "blockName": "F Item · Know what actually converts 1",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Campaign ROI on one screen",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "10px",
+              "width": "100%"
+             },
+             "blockId": "20ba4c5217",
+             "blockName": "Feature Item · Know what actually converts 2",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--1814f728-beb1-4094-89b6-d760c71724ed, #4F46E5)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "lineHeight": "1.5",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "b3231b6492",
+               "blockName": "F Tick · Know what actually converts 2",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "✓",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--41b1da93-1871-40e0-873e-6054692f012c, #6B7280)",
+                "fontFamily": "Inter",
+                "fontSize": "13.5px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "lineHeight": "1.7",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "444dcf2a87",
+               "blockName": "F Item · Know what actually converts 2",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Works with your existing event names",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "0px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "gap": "44px",
+      "padding": "0 18px 52px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1120px",
+      "padding": "0 32px 56px",
+      "width": "100%"
+     },
+     "blockId": "c00ae07c0e",
+     "blockName": "Section · Quotes",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "18px",
+        "width": "100%"
+       },
+       "blockId": "144e3ac8ed",
+       "blockName": "Quotes Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+          "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+          "borderRadius": "14px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "padding": "26px 28px",
+          "width": "100%"
+         },
+         "blockId": "57daa67bc2",
+         "blockName": "Quote Card 1",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+            "fontFamily": "Inter",
+            "fontSize": "14.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "fc955868da",
+           "blockName": "Quote 1",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "“We found a churn pattern in week one that had been costing us $30k a month. Prism paid for itself before the trial ended.”",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "10px",
+            "marginTop": "14px",
+            "width": "100%"
+           },
+           "blockId": "35ebb1f884",
+           "blockName": "Q1 Attribution",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+              "borderRadius": "999px",
+              "flexShrink": 0,
+              "height": "30px",
+              "width": "30px"
+             },
+             "blockId": "46e8aac8fe",
+             "blockName": "Q1 Avatar",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "gap": "0px",
+              "width": "100%"
+             },
+             "blockId": "04cff70d75",
+             "blockName": "Q1 Meta",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+                "fontFamily": "Inter",
+                "fontSize": "12.5px",
+                "fontWeight": "600",
+                "height": "fit-content",
+                "lineHeight": "1.4",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "3cefa41aeb",
+               "blockName": "Q1 Name",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Priya N.",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--41b1da93-1871-40e0-873e-6054692f012c, #6B7280)",
+                "fontFamily": "Inter",
+                "fontSize": "11.5px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "lineHeight": "1.7",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "878c7bf473",
+               "blockName": "Q1 Role",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "COO, seat-based SaaS",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--b9fb4ce9-56fe-4389-8a68-9ef7e63154d9, #FFFFFF)",
+          "borderColor": "var(--cac13841-d7d8-4dd2-843c-75b37da4fd9c, #E5E7EB)",
+          "borderRadius": "14px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "padding": "26px 28px",
+          "width": "100%"
+         },
+         "blockId": "8daa5a7016",
+         "blockName": "Quote Card 2",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+            "fontFamily": "Inter",
+            "fontSize": "14.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "fff23c581c",
+           "blockName": "Quote 2",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "“The first analytics tool our PMs actually open on their own. I have deleted eleven dashboards.”",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "10px",
+            "marginTop": "14px",
+            "width": "100%"
+           },
+           "blockId": "420c707c9c",
+           "blockName": "Q2 Attribution",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--9a198b90-e08b-4ef0-8f2b-556563e6a30f, #EEF2FF)",
+              "borderRadius": "999px",
+              "flexShrink": 0,
+              "height": "30px",
+              "width": "30px"
+             },
+             "blockId": "1fa5e2b996",
+             "blockName": "Q2 Avatar",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "gap": "0px",
+              "width": "100%"
+             },
+             "blockId": "440f0bc0cb",
+             "blockName": "Q2 Meta",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--2fc20344-8e06-43ae-8743-a9f89940a44b, #111827)",
+                "fontFamily": "Inter",
+                "fontSize": "12.5px",
+                "fontWeight": "600",
+                "height": "fit-content",
+                "lineHeight": "1.4",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "eb8e882c86",
+               "blockName": "Q2 Name",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Marcus T.",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--41b1da93-1871-40e0-873e-6054692f012c, #6B7280)",
+                "fontFamily": "Inter",
+                "fontSize": "11.5px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "lineHeight": "1.7",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "b15f12c4e8",
+               "blockName": "Q2 Role",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Head of Data, marketplace",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 18px 36px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "1d7ed42900",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "9c3d3c5f91",
+       "blockName": "Footer CTA Band",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "a7443b7a46",
+         "blockName": "Footer Headline",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "prism_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "e2bbfa8536",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "a6d74bfb1e",
+         "blockName": "Footer Sub",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "prism_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "228dfe5c57",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "12c4652eff",
+         "blockName": "Footer CTA",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "prism_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "e6468f1590",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "prism_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "ab2203d8e6",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "cac5973088",
+       "blockName": "Footer Bottom",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "5745c0aa09",
+         "blockName": "Footer Brand Group",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "f1b63fd706",
+           "blockName": "Footer Mark",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prism_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "7e118131cb",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "f11a96d1c8",
+           "blockName": "Footer Brand",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prism_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "11e209feae",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "prism_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "d04804b2dc",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "ba69d4ad34",
+         "blockName": "Footer Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "b6cadcef72",
+           "blockName": "Pricing",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prism_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "c9013f1262",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "572510aa30",
+           "blockName": "Contact",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prism_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "4246fb98bc",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "02976d50a5",
+           "blockName": "Footer Mail",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prism_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "7812cc9e82",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "prism_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "a1f7829cbd",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "prism_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "8f157a440e",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "prism_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "prism_styles"
+  }
+ ],
+ "creation": "2026-07-15 19:50:37.383576",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Prism turns product events into answers: churn risk, attribution, cohorts.",
+ "modified": "2026-07-15 20:03:07.258970",
+ "modified_by": "Administrator",
+ "name": "prism_home",
+ "owner": "Administrator",
+ "page_name": "prism_home",
+ "page_title": "Prism · Customer analytics, minus the analyst",
+ "preview": "/builder_assets/prism/prism_home/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/prism/home",
+ "template_group": "prism"
+}
