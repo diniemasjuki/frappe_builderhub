@@ -18,7 +18,9 @@ Rules that apply to every template:
 - Imagery hotlinks `images.unsplash.com` (established pattern across groups).
 - Codenames are unique single words. Taken: commit, field, fronds, husk, keys, lull, mono, nook,
   quill, verge, verso, plus every built group below (through tally and intake).
-  Retired, do not reuse: forge, grain, copper, ware, beacon, signal, quip.
+  Retired, do not reuse: forge, grain, copper, ware, beacon, signal, quip, hex, prism,
+  tally, intake (the Jul 2026 SaaS/app-UI batch read generic; conceit-first rebuilds get
+  fresh codenames).
 - Templates need not be themed (light/dark toggle optional): app-UI and product templates may
   ship a single neutral look, but every color still goes through Builder Variables so the whole
   template rethemes by editing the palette.
@@ -49,10 +51,6 @@ Rules that apply to every template:
 | reel   | screening room: letterboxed 21:9 stills, timecodes, slate cards, credits crawl |
 | margin | book page: reading column + numbered margin notes, dotted-leader TOC |
 | plinth | drawing set: type-only index with hover thumbnails, sheet furniture, titleblock |
-| hex    | dev-tool marketing: terminal windows, mono install command, release notes |
-| prism  | neutral SaaS marketing: mock product frames from blocks, comparison pricing table |
-| tally  | dashboard app shell: sidebar chrome, KPI cards, CSS charts, data tables |
-| intake | internal tool: queue rows with SLA chips, audit timeline, real-input form |
 | prospect | printed prospectus: cover + seal, numbered Items, exhibits, rate card, risk factors, countersign |
 
 New briefs must claim an archetype not on this list, and the list grows as templates ship.
@@ -136,21 +134,22 @@ Five template slots per category, each with a different theme.
 | plaza    | bright | city hotel, jewel tones, amenity grid |
 | tide     | minimal | coastal B&B, sea glass, quiet type |
 
-### Technology / SaaS (electric accents on dark or clean white) — hex + prism BUILT Jul 2026
+### Technology / SaaS (electric accents on dark or clean white) — prospect BUILT Jul 2026
 | Codename | Theme | Concept |
 |----------|-------|---------|
-| hex      | dark | developer tool, terminal black, syntax-highlight accents (built: 3 pages, order 24) |
+| prospect | paper | B2B SaaS site as an investment prospectus, wit included (built: 3 pages, order 28) |
 | orbit    | bright | product landing, gradient accents, feature orbits |
-| prism    | neutral | SaaS marketing site, one brand variable, mock product frames (built: 3 pages, order 25) |
 | stack    | minimal | B2B platform, gray scale, integration logos |
 | neon     | bold | startup launch, electric violet on off-black |
-| prospect | paper | B2B SaaS site as an investment prospectus, wit included (built: 3 pages, order 28) |
+| (dev tool slot) | dark | developer-tool marketing; first build (hex) retired Jul 2026, rebuild wants a conceit |
 
-### Apps & Dashboards (persona-survey driven: web_app_ui 63 + dashboard 17 + internal_tool 18 of 217 signups; theme-less, variable-driven, no photos) — tally + intake BUILT Jul 2026
+### Apps & Dashboards (persona-survey driven: web_app_ui 63 + dashboard 17 + internal_tool 18 of 217 signups; theme-less, variable-driven, no photos)
+First builds (tally: dashboard shell, intake: internal tool) retired Jul 2026: technically
+clean but generic mockups, no conceit. The demand is real; rebuilds must find the wit first.
 | Codename | Theme | Concept |
 |----------|-------|---------|
-| tally    | neutral | analytics dashboard shell: sidebar, KPI cards, charts, tables (built: 3 pages, order 26) |
-| intake   | neutral | internal request tool: queue, approvals, audit timeline, form (built: 3 pages, order 27) |
+| (dashboard slot) | neutral | analytics dashboard shell; first build (tally) retired |
+| (internal tool slot) | neutral | request queue / approvals; first build (intake) retired |
 | roster   | neutral | team directory / lightweight CRM: people cards, profile page |
 | console  | neutral | admin console: settings-heavy, permissions matrix, API keys |
 | beam     | neutral | status page: uptime bars, incident history, subscribe |
@@ -657,7 +656,7 @@ pages:
 components: [plinth_head, plinth_titleblock]
 ```
 
-## Brief: hex (Technology, dark) — BUILT
+## Brief: hex (Technology, dark) — RETIRED Jul 2026 (generic, no conceit)
 
 Dev-tool marketing. Terminal windows with traffic-light dots, mono install command, man-page
 flag cards (--incremental, --why), hyperfine benchmark terminal, tier cards, release-notes
@@ -665,7 +664,7 @@ changelog with FEATURE/FIX/BREAKING tags, status-dot footer. Space Grotesk + Jet
 Palette void/panelx/textx/dimx/linex/mintx/violx, dark-only. Pages: home, pricing, changelog.
 No photos anywhere.
 
-## Brief: prism (Technology, neutral) — BUILT
+## Brief: prism (Technology, neutral) — RETIRED Jul 2026 (generic by design, which was the mistake)
 
 The theme-less SaaS site: white, Inter, ONE brand variable (indigo) so the whole site rethemes
 by editing a single color. Product screenshots are mock UI built from blocks (browser frame,
@@ -673,7 +672,7 @@ stat cards, bar chart, table rows), so no images to replace. Metrics band, alter
 rows, testimonial cards, a real comparison pricing TABLE with tick rows, honest FAQ, CTA band
 footer. Pages: home, pricing, contact.
 
-## Brief: tally (App UI, neutral) — BUILT
+## Brief: tally (App UI, neutral) — RETIRED Jul 2026 (a mockup, not a template with a soul)
 
 A dashboard app-shell starter, not a website: fixed sidebar (logo, icon nav, usage meter),
 topbar (search pill, bell, avatar), KPI cards with delta colors, a CSS bar chart, progress
@@ -682,7 +681,7 @@ field rows, toggle switches, team list and a danger zone. Inter, 7 variables, no
 Pages: overview (home), customers, settings. Distinct from keys (property listings shell):
 tally owns analytics furniture.
 
-## Brief: intake (App UI, neutral) — BUILT
+## Brief: intake (App UI, neutral) — RETIRED Jul 2026 (same batch, same lesson)
 
 An internal-tool starter: topbar-only chrome with an INTERNAL env badge, request queue rows
 (id, title, priority/SLA/status chips), request detail with meta grid, approval action bar and
