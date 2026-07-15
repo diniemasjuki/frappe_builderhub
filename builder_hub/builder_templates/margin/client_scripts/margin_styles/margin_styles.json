@@ -1,0 +1,12 @@
+{
+ "creation": "2026-07-15 17:03:59.778134",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 0,
+ "modified": "2026-07-15 17:03:59.778134",
+ "modified_by": "Administrator",
+ "name": "margin_styles",
+ "owner": "Administrator",
+ "script": "\n@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap');\n\nhtml { scroll-behavior: smooth; }\n::selection { background: #A5372D; color: #FBF8F2; }\nsup { font-size: 70%; line-height: 0; }\n",
+ "script_type": "CSS"
+}
