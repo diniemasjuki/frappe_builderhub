@@ -1,0 +1,1840 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--a5674d62-8a8d-4468-8918-4de408d14d2c, #F6F7F8)",
+    "color": "var(--f05a03fd-8342-45c2-8c77-be412c447aca, #1F2328)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Public Sans",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "2320df891a",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "0e89ef3f60",
+     "blockName": "Topbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "3ced6a5f27",
+       "blockName": "Topbar Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "60a7417e0d",
+         "blockName": "Brand Group",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "11dc766d57",
+           "blockName": "Brand",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "intake_topbar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "d20d465ac8",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "3799b2dffd",
+           "blockName": "Env Badge",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "intake_topbar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "a2e905aea3",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "intake_topbar",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "56b17a85c0",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "16c2b38f4f",
+         "blockName": "Topbar Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "1a2e6a4b70",
+           "blockName": "Queue",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "intake_topbar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "01aabd30a8",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "ea01c90b09",
+           "blockName": "New request",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "intake_topbar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "a8ac42128b",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "intake_topbar",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "755365ea73",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "c63f7a5851",
+         "blockName": "Topbar User",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "84e0c89197",
+           "blockName": "User Team",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "intake_topbar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "2f60dbe6f9",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "c270aa8f8d",
+           "blockName": "User Avatar",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "intake_topbar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "b1435190a7",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "intake_topbar",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "6309bb27a5",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "intake_topbar",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "037665efd3",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "intake_topbar",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "960px",
+      "padding": "0 28px",
+      "width": "100%"
+     },
+     "blockId": "adfe91b921",
+     "blockName": "Section · Crumb",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "8px",
+        "padding": "24px 0 12px",
+        "width": "100%"
+       },
+       "blockId": "9188f9212f",
+       "blockName": "Crumb Row",
+       "children": [
+        {
+         "attributes": {
+          "href": "home"
+         },
+         "baseStyles": {
+          "color": "var(--acc16338-fbf6-4940-8f88-d6c17327800f, #667085)",
+          "fontFamily": "Public Sans",
+          "fontSize": "12px",
+          "fontWeight": "500",
+          "height": "fit-content",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "textDecoration": "none",
+          "width": "fit-content"
+         },
+         "blockId": "92509be472",
+         "blockName": "Crumb Queue",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "a",
+         "innerHTML": "Queue",
+         "mobileStyles": {},
+         "rawStyles": {
+          "hover:color": "#1F2328",
+          "transition": "color 0.12s ease-out"
+         },
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--acc16338-fbf6-4940-8f88-d6c17327800f, #667085)",
+          "fontFamily": "Public Sans",
+          "fontSize": "12px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "7e3f89a40f",
+         "blockName": "Crumb Sep",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "/",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--f05a03fd-8342-45c2-8c77-be412c447aca, #1F2328)",
+          "fontFamily": "Public Sans",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "5ee1374034",
+         "blockName": "Crumb Current",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "REQ-1042",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "14px",
+        "padding": "0 0 18px",
+        "width": "100%"
+       },
+       "blockId": "c00f6cb7ff",
+       "blockName": "Request Title Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--f05a03fd-8342-45c2-8c77-be412c447aca, #1F2328)",
+          "flexBasis": "0px",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "fontFamily": "Public Sans",
+          "fontSize": "19px",
+          "fontWeight": "700",
+          "height": "fit-content",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "525068b076",
+         "blockName": "Request Title",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "3x MacBook Pro for the design team",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "#F2F4F7",
+          "borderRadius": "6px",
+          "color": "#475467",
+          "fontFamily": "Public Sans",
+          "fontSize": "11px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "lineHeight": "1",
+          "minWidth": "10px",
+          "padding": "5px 9px",
+          "whiteSpace": "nowrap",
+          "width": "fit-content"
+         },
+         "blockId": "03e1d2cee4",
+         "blockName": "Chip · In review",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "In review",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "alignItems": "flex-start",
+        "flexDirection": "column",
+        "gap": "8px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 16px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "14px",
+      "maxWidth": "960px",
+      "padding": "0 28px 26px",
+      "width": "100%"
+     },
+     "blockId": "c1869c216d",
+     "blockName": "Section · Details",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--eaeb1508-595c-42a1-8349-54fbb78f11d1, #FFFFFF)",
+        "borderColor": "var(--4f6d4485-9960-41e2-8e9f-ec97aba98a62, #E4E7EC)",
+        "borderRadius": "10px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "display": "flex",
+        "flexDirection": "column",
+        "padding": "20px 22px",
+        "width": "100%"
+       },
+       "blockId": "a1053ad259",
+       "blockName": "Meta Card",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "flexWrap": "wrap",
+          "gap": "14px",
+          "width": "100%"
+         },
+         "blockId": "a96a47da1a",
+         "blockName": "Meta Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexBasis": "0px",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "minWidth": "150px",
+            "width": "100%"
+           },
+           "blockId": "8c84059aa3",
+           "blockName": "Meta · Requester",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--acc16338-fbf6-4940-8f88-d6c17327800f, #667085)",
+              "fontFamily": "Public Sans",
+              "fontSize": "10px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.06em",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "4650926fdd",
+             "blockName": "Meta Label · Requester",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "REQUESTER",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--f05a03fd-8342-45c2-8c77-be412c447aca, #1F2328)",
+              "fontFamily": "Public Sans",
+              "fontSize": "13px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.5",
+              "marginTop": "3px",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "14111fb3b3",
+             "blockName": "Meta Value · Requester",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Nadia R · Design",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexBasis": "auto",
+            "minWidth": "calc(50% - 7px)"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexBasis": "0px",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "minWidth": "150px",
+            "width": "100%"
+           },
+           "blockId": "e30ad4e639",
+           "blockName": "Meta · Cost center",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--acc16338-fbf6-4940-8f88-d6c17327800f, #667085)",
+              "fontFamily": "Public Sans",
+              "fontSize": "10px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.06em",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "89380cd1ca",
+             "blockName": "Meta Label · Cost center",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "COST CENTER",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--f05a03fd-8342-45c2-8c77-be412c447aca, #1F2328)",
+              "fontFamily": "Public Sans",
+              "fontSize": "13px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.5",
+              "marginTop": "3px",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "1d371ac9b2",
+             "blockName": "Meta Value · Cost center",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "DES-204",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexBasis": "auto",
+            "minWidth": "calc(50% - 7px)"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexBasis": "0px",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "minWidth": "150px",
+            "width": "100%"
+           },
+           "blockId": "fd9fd0b809",
+           "blockName": "Meta · Needed by",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--acc16338-fbf6-4940-8f88-d6c17327800f, #667085)",
+              "fontFamily": "Public Sans",
+              "fontSize": "10px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.06em",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "c52c1c476a",
+             "blockName": "Meta Label · Needed by",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "NEEDED BY",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--f05a03fd-8342-45c2-8c77-be412c447aca, #1F2328)",
+              "fontFamily": "Public Sans",
+              "fontSize": "13px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.5",
+              "marginTop": "3px",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "32257e85e2",
+             "blockName": "Meta Value · Needed by",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Jul 22, 2026",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexBasis": "auto",
+            "minWidth": "calc(50% - 7px)"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexBasis": "0px",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "minWidth": "150px",
+            "width": "100%"
+           },
+           "blockId": "3f0b04dfc3",
+           "blockName": "Meta · Amount",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--acc16338-fbf6-4940-8f88-d6c17327800f, #667085)",
+              "fontFamily": "Public Sans",
+              "fontSize": "10px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.06em",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "49df5e3720",
+             "blockName": "Meta Label · Amount",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "AMOUNT",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--f05a03fd-8342-45c2-8c77-be412c447aca, #1F2328)",
+              "fontFamily": "Public Sans",
+              "fontSize": "13px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.5",
+              "marginTop": "3px",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "0e41a0768f",
+             "blockName": "Meta Value · Amount",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "$8,700",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexBasis": "auto",
+            "minWidth": "calc(50% - 7px)"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--eaeb1508-595c-42a1-8349-54fbb78f11d1, #FFFFFF)",
+        "borderColor": "var(--4f6d4485-9960-41e2-8e9f-ec97aba98a62, #E4E7EC)",
+        "borderRadius": "10px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "display": "flex",
+        "flexDirection": "column",
+        "padding": "20px 22px",
+        "width": "100%"
+       },
+       "blockId": "84fe432f5e",
+       "blockName": "Description Card",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--acc16338-fbf6-4940-8f88-d6c17327800f, #667085)",
+          "fontFamily": "Public Sans",
+          "fontSize": "10px",
+          "fontWeight": "700",
+          "height": "fit-content",
+          "letterSpacing": "0.06em",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "paddingBottom": "8px",
+          "width": "fit-content"
+         },
+         "blockId": "8f34eda688",
+         "blockName": "Desc Label",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "DESCRIPTION",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "#374151",
+          "fontFamily": "Public Sans",
+          "fontSize": "13.5px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "f0af9b23d7",
+         "blockName": "Desc Text",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Two new hires start Aug 4, plus one machine from the 2022 batch that now sounds like a hairdryer. Specs in the attached sheet; the usual 14-inch config, keyboards per person.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "8px",
+          "paddingTop": "12px",
+          "width": "100%"
+         },
+         "blockId": "afd7c35736",
+         "blockName": "Attachments",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "#F2F4F7",
+            "borderRadius": "6px",
+            "color": "#475467",
+            "fontFamily": "Public Sans",
+            "fontSize": "11px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "padding": "5px 9px",
+            "whiteSpace": "nowrap",
+            "width": "fit-content"
+           },
+           "blockId": "76f3345d81",
+           "blockName": "Chip · design-hires-2026.xlsx",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "design-hires-2026.xlsx",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "#F2F4F7",
+            "borderRadius": "6px",
+            "color": "#475467",
+            "fontFamily": "Public Sans",
+            "fontSize": "11px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "padding": "5px 9px",
+            "whiteSpace": "nowrap",
+            "width": "fit-content"
+           },
+           "blockId": "98e7bcf402",
+           "blockName": "Chip · quote-apple-b2b.pdf",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "quote-apple-b2b.pdf",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--eaeb1508-595c-42a1-8349-54fbb78f11d1, #FFFFFF)",
+        "borderColor": "#B7DFD9",
+        "borderRadius": "10px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "display": "flex",
+        "flexDirection": "column",
+        "padding": "20px 22px",
+        "width": "100%"
+       },
+       "blockId": "f6839cb928",
+       "blockName": "Approval Card",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--acc16338-fbf6-4940-8f88-d6c17327800f, #667085)",
+          "fontFamily": "Public Sans",
+          "fontSize": "12.5px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "paddingBottom": "12px",
+          "width": "fit-content"
+         },
+         "blockId": "4daea2df92",
+         "blockName": "Approval Hint",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Your approval is requested as budget owner for DES.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "flexWrap": "wrap",
+          "gap": "10px",
+          "width": "100%"
+         },
+         "blockId": "1e9d618f7f",
+         "blockName": "Approval Buttons",
+         "children": [
+          {
+           "attributes": {
+            "href": "mailto:ops@company.internal?subject=Approve REQ-1042"
+           },
+           "baseStyles": {
+            "backgroundColor": "var(--cb34dd0d-437a-4977-83b8-9d36f54c11e2, #0E7569)",
+            "borderRadius": "8px",
+            "color": "#FFFFFF",
+            "fontFamily": "Public Sans",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "padding": "11px 18px",
+            "textDecoration": "none",
+            "width": "fit-content"
+           },
+           "blockId": "613ce10361",
+           "blockName": "Approve Button",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "Approve",
+           "mobileStyles": {},
+           "rawStyles": {
+            "hover:background-color": "#0A5C52",
+            "transition": "background-color 0.12s ease-out"
+           },
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "mailto:ops@company.internal?subject=Changes REQ-1042"
+           },
+           "baseStyles": {
+            "borderColor": "var(--4f6d4485-9960-41e2-8e9f-ec97aba98a62, #E4E7EC)",
+            "borderRadius": "8px",
+            "borderStyle": "solid",
+            "borderWidth": "1px",
+            "color": "var(--f05a03fd-8342-45c2-8c77-be412c447aca, #1F2328)",
+            "fontFamily": "Public Sans",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "padding": "11px 18px",
+            "textDecoration": "none",
+            "width": "fit-content"
+           },
+           "blockId": "e7fd3f9242",
+           "blockName": "Changes Button",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "Request changes",
+           "mobileStyles": {},
+           "rawStyles": {
+            "hover:background-color": "#FAFBFC",
+            "transition": "background-color 0.12s ease-out"
+           },
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "mailto:ops@company.internal?subject=Decline REQ-1042"
+           },
+           "baseStyles": {
+            "color": "#B42318",
+            "fontFamily": "Public Sans",
+            "fontSize": "13px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "padding": "11px 6px",
+            "textDecoration": "none",
+            "width": "fit-content"
+           },
+           "blockId": "7e5caaf063",
+           "blockName": "Decline Button",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "Decline",
+           "mobileStyles": {},
+           "rawStyles": {
+            "hover:opacity": "0.7",
+            "transition": "opacity 0.12s ease-out"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 16px 20px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "960px",
+      "padding": "0 28px 40px",
+      "width": "100%"
+     },
+     "blockId": "052d359a9b",
+     "blockName": "Section · Timeline",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--eaeb1508-595c-42a1-8349-54fbb78f11d1, #FFFFFF)",
+        "borderColor": "var(--4f6d4485-9960-41e2-8e9f-ec97aba98a62, #E4E7EC)",
+        "borderRadius": "10px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "display": "flex",
+        "flexDirection": "column",
+        "padding": "20px 22px",
+        "width": "100%"
+       },
+       "blockId": "a86f082e8f",
+       "blockName": "Timeline Card",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--acc16338-fbf6-4940-8f88-d6c17327800f, #667085)",
+          "fontFamily": "Public Sans",
+          "fontSize": "10px",
+          "fontWeight": "700",
+          "height": "fit-content",
+          "letterSpacing": "0.06em",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "paddingBottom": "14px",
+          "width": "fit-content"
+         },
+         "blockId": "590f8a78dd",
+         "blockName": "Timeline Label",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "ACTIVITY",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "position": "relative"
+         },
+         "blockId": "a294f8ee2b",
+         "blockName": "Timeline Wrap",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--4f6d4485-9960-41e2-8e9f-ec97aba98a62, #E4E7EC)",
+            "bottom": "10px",
+            "left": "5px",
+            "position": "absolute",
+            "top": "6px",
+            "width": "2px"
+           },
+           "blockId": "19b625da4d",
+           "blockName": "Timeline Line",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "position": "relative",
+            "width": "100%",
+            "zIndex": "1"
+           },
+           "blockId": "0faa9b08a0",
+           "blockName": "Timeline Events",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "14px",
+              "padding": "0 0 18px",
+              "width": "100%"
+             },
+             "blockId": "a152e59a96",
+             "blockName": "Timeline Event · yesterday 09:12",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--cb34dd0d-437a-4977-83b8-9d36f54c11e2, #0E7569)",
+                "borderColor": "var(--eaeb1508-595c-42a1-8349-54fbb78f11d1, #FFFFFF)",
+                "borderRadius": "999px",
+                "borderStyle": "solid",
+                "borderWidth": "2px",
+                "flexShrink": 0,
+                "height": "12px",
+                "marginTop": "3px",
+                "width": "12px",
+                "zIndex": "2"
+               },
+               "blockId": "9f628b073e",
+               "blockName": "TL Dot · yesterday 09:12",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "flexShrink": 0,
+                "gap": "1px",
+                "width": "100%"
+               },
+               "blockId": "eba9e7c4ea",
+               "blockName": "TL Body · yesterday 09:12",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--f05a03fd-8342-45c2-8c77-be412c447aca, #1F2328)",
+                  "fontFamily": "Public Sans",
+                  "fontSize": "12.5px",
+                  "fontWeight": "400",
+                  "height": "fit-content",
+                  "lineHeight": "1.5",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "94bed3f221",
+                 "blockName": "TL What · yesterday 09:12",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "Request created with 2 attachments",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--acc16338-fbf6-4940-8f88-d6c17327800f, #667085)",
+                  "fontFamily": "Public Sans",
+                  "fontSize": "11px",
+                  "fontWeight": "400",
+                  "height": "fit-content",
+                  "lineHeight": "1.5",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "bbe2183247",
+                 "blockName": "TL Meta · yesterday 09:12",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "Nadia R · yesterday 09:12",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "14px",
+              "padding": "0 0 18px",
+              "width": "100%"
+             },
+             "blockId": "ff3510740e",
+             "blockName": "Timeline Event · yesterday 09:14",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--4f6d4485-9960-41e2-8e9f-ec97aba98a62, #E4E7EC)",
+                "borderColor": "var(--eaeb1508-595c-42a1-8349-54fbb78f11d1, #FFFFFF)",
+                "borderRadius": "999px",
+                "borderStyle": "solid",
+                "borderWidth": "2px",
+                "flexShrink": 0,
+                "height": "12px",
+                "marginTop": "3px",
+                "width": "12px",
+                "zIndex": "2"
+               },
+               "blockId": "0a14b4195a",
+               "blockName": "TL Dot · yesterday 09:14",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "flexShrink": 0,
+                "gap": "1px",
+                "width": "100%"
+               },
+               "blockId": "29b329b755",
+               "blockName": "TL Body · yesterday 09:14",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--f05a03fd-8342-45c2-8c77-be412c447aca, #1F2328)",
+                  "fontFamily": "Public Sans",
+                  "fontSize": "12.5px",
+                  "fontWeight": "400",
+                  "height": "fit-content",
+                  "lineHeight": "1.5",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "afd9ffbdaf",
+                 "blockName": "TL What · yesterday 09:14",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "Routed to ops-team, SLA 24h started",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--acc16338-fbf6-4940-8f88-d6c17327800f, #667085)",
+                  "fontFamily": "Public Sans",
+                  "fontSize": "11px",
+                  "fontWeight": "400",
+                  "height": "fit-content",
+                  "lineHeight": "1.5",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "5a28857607",
+                 "blockName": "TL Meta · yesterday 09:14",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "Intake bot · yesterday 09:14",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "14px",
+              "padding": "0 0 18px",
+              "width": "100%"
+             },
+             "blockId": "4f395442c4",
+             "blockName": "Timeline Event · yesterday 11:40",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--4f6d4485-9960-41e2-8e9f-ec97aba98a62, #E4E7EC)",
+                "borderColor": "var(--eaeb1508-595c-42a1-8349-54fbb78f11d1, #FFFFFF)",
+                "borderRadius": "999px",
+                "borderStyle": "solid",
+                "borderWidth": "2px",
+                "flexShrink": 0,
+                "height": "12px",
+                "marginTop": "3px",
+                "width": "12px",
+                "zIndex": "2"
+               },
+               "blockId": "eda463bcca",
+               "blockName": "TL Dot · yesterday 11:40",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "flexShrink": 0,
+                "gap": "1px",
+                "width": "100%"
+               },
+               "blockId": "35fea47dfb",
+               "blockName": "TL Body · yesterday 11:40",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--f05a03fd-8342-45c2-8c77-be412c447aca, #1F2328)",
+                  "fontFamily": "Public Sans",
+                  "fontSize": "12.5px",
+                  "fontWeight": "400",
+                  "height": "fit-content",
+                  "lineHeight": "1.5",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "6f160629cb",
+                 "blockName": "TL What · yesterday 11:40",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "Assigned to budget owner for DES",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--acc16338-fbf6-4940-8f88-d6c17327800f, #667085)",
+                  "fontFamily": "Public Sans",
+                  "fontSize": "11px",
+                  "fontWeight": "400",
+                  "height": "fit-content",
+                  "lineHeight": "1.5",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "068a5123ce",
+                 "blockName": "TL Meta · yesterday 11:40",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "Ravi K · yesterday 11:40",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "14px",
+              "padding": "0 0 18px",
+              "width": "100%"
+             },
+             "blockId": "2aa333aaac",
+             "blockName": "Timeline Event · today 08:05",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--edf124c8-5b94-45c0-8f63-967923586488, #B45309)",
+                "borderColor": "var(--eaeb1508-595c-42a1-8349-54fbb78f11d1, #FFFFFF)",
+                "borderRadius": "999px",
+                "borderStyle": "solid",
+                "borderWidth": "2px",
+                "flexShrink": 0,
+                "height": "12px",
+                "marginTop": "3px",
+                "width": "12px",
+                "zIndex": "2"
+               },
+               "blockId": "79096aa263",
+               "blockName": "TL Dot · today 08:05",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "flexShrink": 0,
+                "gap": "1px",
+                "width": "100%"
+               },
+               "blockId": "f5581bc5f3",
+               "blockName": "TL Body · today 08:05",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--f05a03fd-8342-45c2-8c77-be412c447aca, #1F2328)",
+                  "fontFamily": "Public Sans",
+                  "fontSize": "12.5px",
+                  "fontWeight": "400",
+                  "height": "fit-content",
+                  "lineHeight": "1.5",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "813d86cef7",
+                 "blockName": "TL What · today 08:05",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "Comment: quote checked against Q3 pricing, numbers are right",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--acc16338-fbf6-4940-8f88-d6c17327800f, #667085)",
+                  "fontFamily": "Public Sans",
+                  "fontSize": "11px",
+                  "fontWeight": "400",
+                  "height": "fit-content",
+                  "lineHeight": "1.5",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "c33863ef11",
+                 "blockName": "TL Meta · today 08:05",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "Ravi K · today 08:05",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "14px",
+              "padding": "0 0 4px",
+              "width": "100%"
+             },
+             "blockId": "1b5f4d588e",
+             "blockName": "Timeline Event · now",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "#D0D5DD",
+                "borderColor": "var(--eaeb1508-595c-42a1-8349-54fbb78f11d1, #FFFFFF)",
+                "borderRadius": "999px",
+                "borderStyle": "solid",
+                "borderWidth": "2px",
+                "flexShrink": 0,
+                "height": "12px",
+                "marginTop": "3px",
+                "width": "12px",
+                "zIndex": "2"
+               },
+               "blockId": "5f92561d2c",
+               "blockName": "TL Dot · now",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "flexShrink": 0,
+                "gap": "1px",
+                "width": "100%"
+               },
+               "blockId": "73c72d7304",
+               "blockName": "TL Body · now",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--f05a03fd-8342-45c2-8c77-be412c447aca, #1F2328)",
+                  "fontFamily": "Public Sans",
+                  "fontSize": "12.5px",
+                  "fontWeight": "400",
+                  "height": "fit-content",
+                  "lineHeight": "1.5",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "99388fd514",
+                 "blockName": "TL What · now",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "Approval pending",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--acc16338-fbf6-4940-8f88-d6c17327800f, #667085)",
+                  "fontFamily": "Public Sans",
+                  "fontSize": "11px",
+                  "fontWeight": "400",
+                  "height": "fit-content",
+                  "lineHeight": "1.5",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "8ece66c9ff",
+                 "blockName": "TL Meta · now",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "You · now",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 16px 28px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "4f563c93e8",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "da325a2dba",
+       "blockName": "Footer Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "088d51c480",
+         "blockName": "Footer Version",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "intake_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "17b611b50f",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "f3f6c5fcab",
+         "blockName": "Footer Bug",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "intake_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "711a35cdbc",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "intake_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "1e0cc263c4",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "intake_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "intake_styles"
+  }
+ ],
+ "creation": "2026-07-15 20:01:43.049075",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "The request detail screen: meta grid, approval actions and an audit timeline.",
+ "modified": "2026-07-15 20:03:07.258970",
+ "modified_by": "Administrator",
+ "name": "intake_request",
+ "owner": "Administrator",
+ "page_name": "intake_request",
+ "page_title": "REQ-1042 · Intake",
+ "preview": "/builder_assets/intake/intake_request/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/intake/request",
+ "template_group": "intake"
+}
