@@ -51,6 +51,9 @@ Rules that apply to every template:
 | reel   | screening room: letterboxed 21:9 stills, timecodes, slate cards, credits crawl |
 | margin | book page: reading column + numbered margin notes, dotted-leader TOC |
 | plinth | drawing set: type-only index with hover thumbnails, sheet furniture, titleblock |
+| encore | keynote: spotlight hero, act rules, footlit demo frame, stage notes, applause, one more thing |
+| aurora | glow SaaS landing: gradient hero + text, glass bento grid, glowing product frame, quote wall |
+| bureau | agency mega-type: acid highlight marks, typographic case covers, numbered service mega-list |
 
 New briefs must claim an archetype not on this list, and the list grows as templates ship.
 
@@ -68,6 +71,11 @@ Five template slots per category, each with a different theme.
 | crayon   | pastel | preschool / daycare, soft primaries, rounded shapes |
 | atlas    | editorial | online academy, course catalog as a syllabus |
 | chalk    | dark | exam-prep / coaching institute, chalkboard green-black |
+
+### Agency & Studio (bold type, one loud accent) — bureau BUILT Jul 2026
+| Codename | Theme | Concept |
+|----------|-------|---------|
+| bureau   | bright | Framer-grade agency: mega type, acid marks, typographic case covers (built: 3 pages, order 26, category Marketing) |
 
 ### Fashion (high contrast, editorial, photo-led) — BUILT Jul 2026, orders 13-17
 | Codename | Theme | Concept |
@@ -133,9 +141,11 @@ Five template slots per category, each with a different theme.
 | plaza    | bright | city hotel, jewel tones, amenity grid |
 | tide     | minimal | coastal B&B, sea glass, quiet type |
 
-### Technology / SaaS (electric accents on dark or clean white)
+### Technology / SaaS (electric accents on dark or clean white) — encore + aurora BUILT Jul 2026
 | Codename | Theme | Concept |
 |----------|-------|---------|
+| encore   | dark | SaaS site staged as a product keynote, user-picked conceit (built: 3 pages, order 24) |
+| aurora   | dark | Framer-grade glow landing: glass bento, gradient text (built: 3 pages, order 25) |
 | orbit    | bright | product landing, gradient accents, feature orbits |
 | stack    | minimal | B2B platform, gray scale, integration logos |
 | neon     | bold | startup launch, electric violet on off-black |
@@ -697,6 +707,33 @@ answers objections deadpan, and a signature page with dotted lines where the CTA
 Pages: home (the document), rates (schedule + readable fine print + month-end guarantee),
 appendix (A: firm, B: anticipated questions, C: correspondence). Distinct from vitae (a CV
 sheet on a desk) and margin (book page): prospect owns securities-filing furniture.
+
+## Brief: encore (Technology, dark) — BUILT
+
+The keynote conceit, picked by the user from an options round: the site is a product launch
+keynote. Radial spotlight hero (ACT I), demo in a stage frame with gold footlights (ACT II),
+three reveal cards with ( applause ) captions (ACT III), "And it's available today." (ACT IV),
+a One More Thing encore section, gold stage-note asides in mono, and a house-lights-up footer.
+Pricing page is "the pricing slide, uncut" plus questions from the audience; about page is
+Backstage with a setlist changelog and cast credits. Gabarito + Inter + IBM Plex Mono,
+house/stage/lumen/gold palette, dark-only, no photos.
+
+## Brief: aurora (Technology, dark) — BUILT
+
+The Framer-grade one: violet radial glow hero, gradient-clipped headline text, glass cards
+(blur + 4% white), a glowing mock product frame built from blocks, text logo row, bento grid
+(sparkline card, working toggle rows, avatar stack, mono API snippet, security card), gradient
+stat trio, offset testimonial wall, glow CTA band. Inter everywhere, tight tracking. Pricing
+with a featured glowing tier; contact with real inputs. Dark-only, no photos.
+
+## Brief: bureau (Marketing / Agency, bright) — BUILT
+
+The Framer-grade agency site: Hanken Grotesk mega type with acid marker highlights, case
+studies as typographic covers (each client a colored poster tile with its own wordmark
+styling, no photos), numbered services mega-list with acid hover, black manifesto band ("Nice
+brands finish last."), client name wall, and a full-acid footer with a giant "Let's talk".
+Work page adds client-reported result chips; contact page has budget chips and a
+what-happens-next row. Light, no toggle.
 
 ## Follow-ups
 
