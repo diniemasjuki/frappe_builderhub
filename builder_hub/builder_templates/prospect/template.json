@@ -1,0 +1,19 @@
+{
+ "categories": [
+  "Technology"
+ ],
+ "description": "A SaaS marketing site written as an investment prospectus: exhibits, rate card, risk factors, countersignature.",
+ "order": 28,
+ "pages": [
+  {
+   "name": "prospect_home"
+  },
+  {
+   "name": "prospect_rates"
+  },
+  {
+   "name": "prospect_appendix"
+  }
+ ],
+ "title": "Prospect"
+}

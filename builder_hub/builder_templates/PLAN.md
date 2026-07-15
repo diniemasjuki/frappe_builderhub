@@ -53,6 +53,7 @@ Rules that apply to every template:
 | prism  | neutral SaaS marketing: mock product frames from blocks, comparison pricing table |
 | tally  | dashboard app shell: sidebar chrome, KPI cards, CSS charts, data tables |
 | intake | internal tool: queue rows with SLA chips, audit timeline, real-input form |
+| prospect | printed prospectus: cover + seal, numbered Items, exhibits, rate card, risk factors, countersign |
 
 New briefs must claim an archetype not on this list, and the list grows as templates ship.
 
@@ -143,6 +144,7 @@ Five template slots per category, each with a different theme.
 | prism    | neutral | SaaS marketing site, one brand variable, mock product frames (built: 3 pages, order 25) |
 | stack    | minimal | B2B platform, gray scale, integration logos |
 | neon     | bold | startup launch, electric violet on off-black |
+| prospect | paper | B2B SaaS site as an investment prospectus, wit included (built: 3 pages, order 28) |
 
 ### Apps & Dashboards (persona-survey driven: web_app_ui 63 + dashboard 17 + internal_tool 18 of 217 signups; theme-less, variable-driven, no photos) — tally + intake BUILT Jul 2026
 | Codename | Theme | Concept |
@@ -686,6 +688,18 @@ An internal-tool starter: topbar-only chrome with an INTERNAL env badge, request
 (id, title, priority/SLA/status chips), request detail with meta grid, approval action bar and
 a dotted audit timeline, and a new-request form using real input/textarea elements plus a
 dashed drop zone. Public Sans, teal accent, amber warnings. Pages: queue (home), request, new.
+
+## Brief: prospect (Technology, paper) — BUILT
+
+The flagship SaaS-marketing conceit: the site IS a printed investment prospectus. Cover with
+prospectus number, red double-border seal badges (rotated), table of contents, numbered Items
+with folio rules, the product shown as captioned Exhibits (Fig. 1 plates built from blocks: a
+mock ledger), pricing as a double-ruled rate card with footnotes, a Risk Factors section that
+answers objections deadpan, and a signature page with dotted lines where the CTA is
+"Countersign". Source Serif 4 + IBM Plex Mono, paper/ink/seal palette, light-only, no photos.
+Pages: home (the document), rates (schedule + readable fine print + month-end guarantee),
+appendix (A: firm, B: anticipated questions, C: correspondence). Distinct from vitae (a CV
+sheet on a desk) and margin (book page): prospect owns securities-filing furniture.
 
 ## Follow-ups
 

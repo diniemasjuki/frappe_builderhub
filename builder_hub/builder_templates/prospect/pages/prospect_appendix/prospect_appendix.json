@@ -1,0 +1,1462 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--de12303e-f6c1-4107-8d14-d6a9e9dd9630, #F7F4ED)",
+    "color": "var(--0b3aa7ba-7f6b-4ecd-8a11-991a0252084a, #1E1B16)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Source Serif 4",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "5dcfc06297",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "443b8c109f",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "5af207c2ef",
+       "blockName": "Masthead Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "c65d276d17",
+         "blockName": "Masthead Brand",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "prospect_masthead",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "dfdf5e223d",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "4343c20b5f",
+         "blockName": "Masthead Form",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "prospect_masthead",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "6b3b59de68",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "993f66b82a",
+         "blockName": "Masthead Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "efe186f487",
+           "blockName": "The reading",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prospect_masthead",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "5639a9b421",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "e0ea985ec9",
+           "blockName": "Rates",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prospect_masthead",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "9e2032a528",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "732256a273",
+           "blockName": "Appendix",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prospect_masthead",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "6fdd8b2ddf",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "1527555c0d",
+           "blockName": "Masthead CTA",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prospect_masthead",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "a052148248",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "prospect_masthead",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "3fb9c14603",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "prospect_masthead",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "f89046bc35",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "8db12f25bb",
+       "blockName": "Masthead Double Rule",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "prospect_masthead",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "b38a3486da",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "prospect_masthead",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "860px",
+      "padding": "0 36px",
+      "width": "100%"
+     },
+     "blockId": "8b722ba267",
+     "blockName": "Section · Appendix Head",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--0f7526f0-4ab8-47e8-8ede-4dfc9c00d3b3, #9E2B25)",
+        "fontFamily": "IBM Plex Mono",
+        "fontSize": "11px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "letterSpacing": "0.04em",
+        "lineHeight": "1.7",
+        "minWidth": "10px",
+        "padding": "52px 0 0",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "5aca97033f",
+       "blockName": "Appendix Kicker",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Appendices A through C",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--0b3aa7ba-7f6b-4ecd-8a11-991a0252084a, #1E1B16)",
+        "fontFamily": "Source Serif 4",
+        "fontSize": "44px",
+        "fontWeight": "600",
+        "height": "fit-content",
+        "lineHeight": "1.12",
+        "marginTop": "14px",
+        "minWidth": "10px",
+        "width": "fit-content"
+       },
+       "blockId": "9b39d9375e",
+       "blockName": "Appendix Headline",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "The supporting material.",
+       "mobileStyles": {
+        "fontSize": "30px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 20px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "860px",
+      "padding": "56px 36px 0",
+      "width": "100%"
+     },
+     "blockId": "3bce4d83af",
+     "blockName": "Section · About",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "18px",
+        "padding": "0 0 30px",
+        "width": "100%"
+       },
+       "blockId": "5fbebe3a35",
+       "blockName": "Item Folio · A",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--0f7526f0-4ab8-47e8-8ede-4dfc9c00d3b3, #9E2B25)",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": "11px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "letterSpacing": "0.04em",
+          "lineHeight": "1.7",
+          "minWidth": "10px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "a2a9afbe15",
+         "blockName": "Item No · A",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Item Nº A",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--fe35dd7a-c1d6-468c-88c2-cfb2d6f655ec, #DED7C8)",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "height": "1px"
+         },
+         "blockId": "a6e87f7295",
+         "blockName": "Item Rule · A",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--0b3aa7ba-7f6b-4ecd-8a11-991a0252084a, #1E1B16)",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": "11px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "letterSpacing": "0.04em",
+          "lineHeight": "1.7",
+          "minWidth": "10px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "7d17df18b9",
+         "blockName": "Item Title · A",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "About the firm",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--0b3aa7ba-7f6b-4ecd-8a11-991a0252084a, #1E1B16)",
+        "fontFamily": "Source Serif 4",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.75",
+        "minWidth": "10px",
+        "width": "fit-content"
+       },
+       "blockId": "9ee7dcb271",
+       "blockName": "About Para 1",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Ledgerline was started in 2023 by two people who had, between them, closed 71 month-ends and enjoyed none. The company is 14 people, profitable since month nine, and books its own revenue in Ledgerline, which keeps us honest about bugs.",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--0b3aa7ba-7f6b-4ecd-8a11-991a0252084a, #1E1B16)",
+        "fontFamily": "Source Serif 4",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.75",
+        "marginTop": "14px",
+        "minWidth": "10px",
+        "width": "fit-content"
+       },
+       "blockId": "aab24f21f6",
+       "blockName": "About Para 2",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "We publish our numbers each quarter in this same prospectus format, because a bookkeeping company with private books would be a joke we refuse to be.⁴",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "borderTopColor": "var(--fe35dd7a-c1d6-468c-88c2-cfb2d6f655ec, #DED7C8)",
+        "borderTopStyle": "solid",
+        "borderTopWidth": "1px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "gap": "6px",
+        "marginTop": "28px",
+        "paddingTop": "12px",
+        "width": "100%"
+       },
+       "blockId": "9d4c720872",
+       "blockName": "About Footnotes",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "10px",
+          "width": "100%"
+         },
+         "blockId": "d4c3b72014",
+         "blockName": "Footnote · ⁴",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--0f7526f0-4ab8-47e8-8ede-4dfc9c00d3b3, #9E2B25)",
+            "flexShrink": 0,
+            "fontFamily": "IBM Plex Mono",
+            "fontSize": "10px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.04em",
+            "lineHeight": "1.7",
+            "minWidth": "10px",
+            "paddingTop": "3px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "7f7089f139",
+           "blockName": "Fn Sym · ⁴",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "⁴",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--e5169248-baf9-4c77-8779-ae2e416a86bd, #8A8175)",
+            "flexBasis": "0px",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Source Serif 4",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.75",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "d79c2313c4",
+           "blockName": "Fn Text · ⁴",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The current quarter's edition is available from the hotline, along with opinions on chart-of-accounts design.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "36px 20px 0"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "860px",
+      "padding": "64px 36px 0",
+      "width": "100%"
+     },
+     "blockId": "452cf674d2",
+     "blockName": "Section · FAQ",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "18px",
+        "padding": "0 0 30px",
+        "width": "100%"
+       },
+       "blockId": "99d446107d",
+       "blockName": "Item Folio · B",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--0f7526f0-4ab8-47e8-8ede-4dfc9c00d3b3, #9E2B25)",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": "11px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "letterSpacing": "0.04em",
+          "lineHeight": "1.7",
+          "minWidth": "10px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "4d96dbff81",
+         "blockName": "Item No · B",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Item Nº B",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--fe35dd7a-c1d6-468c-88c2-cfb2d6f655ec, #DED7C8)",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "height": "1px"
+         },
+         "blockId": "04fff9ae7d",
+         "blockName": "Item Rule · B",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--0b3aa7ba-7f6b-4ecd-8a11-991a0252084a, #1E1B16)",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": "11px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "letterSpacing": "0.04em",
+          "lineHeight": "1.7",
+          "minWidth": "10px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "88edef29b5",
+         "blockName": "Item Title · B",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Anticipated questions",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "width": "100%"
+       },
+       "blockId": "64d7907ff9",
+       "blockName": "FAQ Rows",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderTopColor": "var(--fe35dd7a-c1d6-468c-88c2-cfb2d6f655ec, #DED7C8)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "0px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "gap": "5px",
+          "padding": "18px 0",
+          "width": "100%"
+         },
+         "blockId": "3e8ccb1eb5",
+         "blockName": "QA · We already have an accou",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--0b3aa7ba-7f6b-4ecd-8a11-991a0252084a, #1E1B16)",
+            "fontFamily": "Source Serif 4",
+            "fontSize": "16.5px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.75",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "accc99399a",
+           "blockName": "Q · We already have an acc",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "We already have an accountant.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--e5169248-baf9-4c77-8779-ae2e416a86bd, #8A8175)",
+            "fontFamily": "Source Serif 4",
+            "fontSize": "14.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.75",
+            "maxWidth": "640px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "d20b1fb5fc",
+           "blockName": "A · We already have an acc",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Good, keep them. Ledgerline does the daily reconciling they never wanted; they do the judgment calls they trained for. Accountants refer us more than any ad we have run.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderTopColor": "var(--fe35dd7a-c1d6-468c-88c2-cfb2d6f655ec, #DED7C8)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "gap": "5px",
+          "padding": "18px 0",
+          "width": "100%"
+         },
+         "blockId": "44f43e0bc9",
+         "blockName": "QA · Our books are currently ",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--0b3aa7ba-7f6b-4ecd-8a11-991a0252084a, #1E1B16)",
+            "fontFamily": "Source Serif 4",
+            "fontSize": "16.5px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.75",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "d5bd73d69e",
+           "blockName": "Q · Our books are currentl",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Our books are currently a disaster.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--e5169248-baf9-4c77-8779-ae2e416a86bd, #8A8175)",
+            "fontFamily": "Source Serif 4",
+            "fontSize": "14.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.75",
+            "maxWidth": "640px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "996412b795",
+           "blockName": "A · Our books are currentl",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Disasters are the specialty. Migration is free precisely because the worse your spreadsheet, the better our demo.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderTopColor": "var(--fe35dd7a-c1d6-468c-88c2-cfb2d6f655ec, #DED7C8)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "gap": "5px",
+          "padding": "18px 0",
+          "width": "100%"
+         },
+         "blockId": "d9ed9d8d7f",
+         "blockName": "QA · What about multi-currenc",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--0b3aa7ba-7f6b-4ecd-8a11-991a0252084a, #1E1B16)",
+            "fontFamily": "Source Serif 4",
+            "fontSize": "16.5px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.75",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "5c68507c62",
+           "blockName": "Q · What about multi-curre",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "What about multi-currency, inventory, or our weird revenue recognition?",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--e5169248-baf9-4c77-8779-ae2e416a86bd, #8A8175)",
+            "fontFamily": "Source Serif 4",
+            "fontSize": "14.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.75",
+            "maxWidth": "640px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "211bedb3c5",
+           "blockName": "A · What about multi-curre",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Multi-currency yes, inventory yes, weird rev-rec: send one example to the hotline and we will answer with a screen recording, not a maybe.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderTopColor": "var(--fe35dd7a-c1d6-468c-88c2-cfb2d6f655ec, #DED7C8)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "gap": "5px",
+          "padding": "18px 0",
+          "width": "100%"
+         },
+         "blockId": "b632636769",
+         "blockName": "QA · Is our data safe?",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--0b3aa7ba-7f6b-4ecd-8a11-991a0252084a, #1E1B16)",
+            "fontFamily": "Source Serif 4",
+            "fontSize": "16.5px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.75",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "1f87426ea3",
+           "blockName": "Q · Is our data safe?",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Is our data safe?",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--e5169248-baf9-4c77-8779-ae2e416a86bd, #8A8175)",
+            "fontFamily": "Source Serif 4",
+            "fontSize": "14.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.75",
+            "maxWidth": "640px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "5da18680ab",
+           "blockName": "A · Is our data safe?",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "SOC 2 Type II, EU or US residency at signup, and export-everything is a button on the settings page, not a support ticket.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "40px 20px 0"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "860px",
+      "padding": "64px 36px 24px",
+      "width": "100%"
+     },
+     "blockId": "22a01b811d",
+     "blockName": "Section · Contact",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "18px",
+        "padding": "0 0 30px",
+        "width": "100%"
+       },
+       "blockId": "8ea685cd48",
+       "blockName": "Item Folio · C",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--0f7526f0-4ab8-47e8-8ede-4dfc9c00d3b3, #9E2B25)",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": "11px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "letterSpacing": "0.04em",
+          "lineHeight": "1.7",
+          "minWidth": "10px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "7dbdb44645",
+         "blockName": "Item No · C",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Item Nº C",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--fe35dd7a-c1d6-468c-88c2-cfb2d6f655ec, #DED7C8)",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "height": "1px"
+         },
+         "blockId": "ffefe65445",
+         "blockName": "Item Rule · C",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--0b3aa7ba-7f6b-4ecd-8a11-991a0252084a, #1E1B16)",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": "11px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "letterSpacing": "0.04em",
+          "lineHeight": "1.7",
+          "minWidth": "10px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "e89a7b9d8d",
+         "blockName": "Item Title · C",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Correspondence",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "32px",
+        "width": "100%"
+       },
+       "blockId": "9e9d9858b1",
+       "blockName": "Corr Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "6px",
+          "width": "100%"
+         },
+         "blockId": "d8cf911c20",
+         "blockName": "Corr Col 1",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--e5169248-baf9-4c77-8779-ae2e416a86bd, #8A8175)",
+            "fontFamily": "IBM Plex Mono",
+            "fontSize": "10px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.04em",
+            "lineHeight": "1.7",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "8e4543bc2e",
+           "blockName": "Corr L1",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "FOR COUNTERSIGNING",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "mailto:sign@ledgerline.co"
+           },
+           "baseStyles": {
+            "color": "var(--0f7526f0-4ab8-47e8-8ede-4dfc9c00d3b3, #9E2B25)",
+            "fontFamily": "Source Serif 4",
+            "fontSize": "17px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textDecoration": "none",
+            "width": "fit-content"
+           },
+           "blockId": "0c08b1db09",
+           "blockName": "Corr Sign",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "sign@ledgerline.co",
+           "mobileStyles": {},
+           "rawStyles": {
+            "hover:color": "#1E1B16",
+            "transition": "color 0.15s ease-out"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "6px",
+          "width": "100%"
+         },
+         "blockId": "83c69acf1c",
+         "blockName": "Corr Col 2",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--e5169248-baf9-4c77-8779-ae2e416a86bd, #8A8175)",
+            "fontFamily": "IBM Plex Mono",
+            "fontSize": "10px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.04em",
+            "lineHeight": "1.7",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "f60480bcd5",
+           "blockName": "Corr L2",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "FOR QUESTIONS",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "mailto:hotline@ledgerline.co"
+           },
+           "baseStyles": {
+            "color": "var(--0b3aa7ba-7f6b-4ecd-8a11-991a0252084a, #1E1B16)",
+            "fontFamily": "Source Serif 4",
+            "fontSize": "17px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textDecoration": "none",
+            "width": "fit-content"
+           },
+           "blockId": "19fb3155f5",
+           "blockName": "Corr Hotline",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "hotline@ledgerline.co",
+           "mobileStyles": {},
+           "rawStyles": {
+            "hover:color": "#9E2B25",
+            "transition": "color 0.15s ease-out"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "6px",
+          "width": "100%"
+         },
+         "blockId": "a3a7609a32",
+         "blockName": "Corr Col 3",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--e5169248-baf9-4c77-8779-ae2e416a86bd, #8A8175)",
+            "fontFamily": "IBM Plex Mono",
+            "fontSize": "10px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.04em",
+            "lineHeight": "1.7",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "39bca9348e",
+           "blockName": "Corr L3",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "BY POST, IF YOU MUST",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--0b3aa7ba-7f6b-4ecd-8a11-991a0252084a, #1E1B16)",
+            "fontFamily": "Source Serif 4",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.75",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "808f67659d",
+           "blockName": "Corr Address",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Ledgerline Inc<br>Herengracht 420, Amsterdam",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "20px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "40px 20px 12px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "4ac1c16071",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "b22c6d546c",
+       "blockName": "End Rule",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "prospect_endmatter",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "5eadf78bb4",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "26c0959490",
+       "blockName": "End Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "b903767177",
+         "blockName": "End Left",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "274f45ed65",
+           "blockName": "End Folio",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prospect_endmatter",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "25e434da44",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "708a95d83e",
+           "blockName": "End Firm",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prospect_endmatter",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "4ef104ec60",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "prospect_endmatter",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "cf0e1c70e2",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "f524cb0293",
+         "blockName": "End Right",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "d134f11a22",
+           "blockName": "End Mail",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prospect_endmatter",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "f37d9eb755",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "a9c69287c4",
+           "blockName": "End Promise",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "prospect_endmatter",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "8b91d00f79",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "prospect_endmatter",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "94f6d8c8c2",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "prospect_endmatter",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "bd3e284fe3",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "e44bf104ff",
+       "blockName": "End Mark",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "prospect_endmatter",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "55f778a75f",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "prospect_endmatter",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "prospect_styles"
+  }
+ ],
+ "creation": "2026-07-15 22:25:06.480390",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Appendix A: the firm. Appendix B: anticipated questions. Appendix C: correspondence.",
+ "modified": "2026-07-15 22:26:05.272713",
+ "modified_by": "Administrator",
+ "name": "prospect_appendix",
+ "owner": "Administrator",
+ "page_name": "prospect_appendix",
+ "page_title": "Appendices · Ledgerline",
+ "preview": "/builder_assets/prospect/prospect_appendix/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/prospect/appendix",
+ "template_group": "prospect"
+}
