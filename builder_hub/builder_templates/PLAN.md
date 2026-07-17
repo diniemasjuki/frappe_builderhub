@@ -16,11 +16,12 @@ Rules that apply to every template:
 - Fonts come from Google Fonts. Italics need a CSS `@import ...:ital@0;1` client script,
   the built-in font loader only carries `wght`.
 - Imagery hotlinks `images.unsplash.com` (established pattern across groups).
-- Codenames are unique single words. Taken: commit, field, fronds, husk, keys, lull, mono, nook,
+- Codenames are unique single words. Taken: field, fronds, husk, keys, lull, mono, nook,
   quill, verge, verso, plus every built group below (through tally and intake).
   Retired, do not reuse: forge, grain, copper, ware, beacon, signal, quip, hex, prism,
   tally, intake, prospect (the Jul 2026 SaaS/app-UI batch and its prospectus follow-up were
-  all retired; the user's direction is Framer-grade polish or a conceit that lands).
+  all retired; the user's direction is Framer-grade polish or a conceit that lands),
+  commit (original conference starter, retired Jul 17 2026).
 - Templates need not be themed (light/dark toggle optional): app-UI and product templates may
   ship a single neutral look, but every color still goes through Builder Variables so the whole
   template rethemes by editing the palette.
@@ -34,7 +35,6 @@ Rules that apply to every template:
 | verso  | ultra minimal fixed sidebar |
 | husk   | warm centered single column |
 | quill  | clean editorial blog, article layouts |
-| commit | vivid conference: countdown, speaker grid, tickets |
 | lull   | arch photo hero + circle rows, weekly schedule |
 | nook   | full-viewport overlay chapters |
 | keys   | fixed-sidebar app shell, listings as rows |
@@ -740,8 +740,8 @@ what-happens-next row. Light, no toggle.
 - Author the `ember` fixture group from the brief: dev-mode authoring, `sync_builder_templates`,
   preview webp at 2560x1440, mobile audit (scrollWidth scan at 1440/1024/768/390, flexBasis
   check on stacked panes).
-- Re-tag the 11 shipped groups' `template.json` categories into the industry taxonomy when the
-  first new template ships (fronds/commit/verge -> closest vertical or General, mono/husk/verso
-  -> Portfolio stays? decide then).
+- Re-tag the original shipped groups' `template.json` categories into the industry taxonomy when
+  the first new template ships (fronds/verge -> closest vertical or General, mono/husk/verso
+  -> Portfolio stays? decide then). commit was retired Jul 17 2026 instead of re-tagging.
 - Expand briefs category by category after ember validates the schema, one fully detailed brief
   per template before building it.
