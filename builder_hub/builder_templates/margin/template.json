@@ -1,0 +1,19 @@
+{
+ "categories": [
+  "Portfolio"
+ ],
+ "description": "A writer's site with a reading column and numbered margin notes.",
+ "order": 22,
+ "pages": [
+  {
+   "name": "margin_home"
+  },
+  {
+   "name": "margin_essays"
+  },
+  {
+   "name": "margin_about"
+  }
+ ],
+ "title": "Margin"
+}
