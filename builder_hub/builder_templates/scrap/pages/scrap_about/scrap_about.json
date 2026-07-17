@@ -876,7 +876,7 @@
    "builder_script": "scrap_styles"
   }
  ],
- "creation": "2026-07-17 07:11:27.304024",
+ "creation": "2026-07-17 09:37:38.326476",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -886,7 +886,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Who makes SCRAP, on what paper, with how much ink. Three projects a season; bring scissors.",
- "modified": "2026-07-17 07:12:29.562129",
+ "modified": "2026-07-17 09:38:45.906294",
  "modified_by": "Administrator",
  "name": "scrap_about",
  "owner": "Administrator",

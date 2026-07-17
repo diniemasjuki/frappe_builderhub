@@ -14,7 +14,7 @@
     "minHeight": "100vh",
     "width": "100%"
    },
-   "blockId": "d300610690",
+   "blockId": "d6224e61b7",
    "blockName": "Root",
    "children": [
     {
@@ -243,20 +243,35 @@
        "attributes": {},
        "baseStyles": {},
        "blockId": "0d045a9235",
-       "blockName": "Year Rule",
+       "blockName": "Year Rule Wrap",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
          "blockId": "03d775617f",
-         "blockName": "Year Rule Fill",
-         "children": [],
+         "blockName": "Year Rule",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "11d7d2d078",
+           "blockName": "Year Rule Fill",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "annum_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "6fcf56b3a6",
+           "tabletStyles": {}
+          }
+         ],
          "classes": [],
          "customAttributes": {},
          "isChildOfComponent": "annum_nav",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "6fcf56b3a6",
+         "referenceBlockId": "1d0a866983",
          "tabletStyles": {}
         }
        ],
@@ -265,7 +280,7 @@
        "isChildOfComponent": "annum_nav",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "1d0a866983",
+       "referenceBlockId": "ef9a072f60",
        "tabletStyles": {}
       }
      ],
@@ -1164,46 +1179,32 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "11d7d2d078",
+     "blockId": "bf8d7d01ea",
      "blockName": "Footer",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "bf8d7d01ea",
+       "blockId": "136aca1f06",
        "blockName": "Footer Inner",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "136aca1f06",
+         "blockId": "816a404790",
          "blockName": "Footer Row",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "816a404790",
+           "blockId": "b598b819d4",
            "blockName": "Footer Left",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "b598b819d4",
-             "blockName": "Footer Name",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "isChildOfComponent": "annum_footer",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "41cee09a32",
-             "tabletStyles": {}
-            },
-            {
-             "attributes": {},
-             "baseStyles": {},
              "blockId": "d4fd888b6f",
-             "blockName": "Footer Line",
+             "blockName": "Footer Name",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -1212,6 +1213,20 @@
              "rawStyles": {},
              "referenceBlockId": "bb32fd618a",
              "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "187ce7bd26",
+             "blockName": "Footer Line",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "annum_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "82ff1f2d64",
+             "tabletStyles": {}
             }
            ],
            "classes": [],
@@ -1219,34 +1234,20 @@
            "isChildOfComponent": "annum_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "82ff1f2d64",
+           "referenceBlockId": "c81c5ed532",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "187ce7bd26",
+           "blockId": "7854cf9214",
            "blockName": "Footer Right",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "7854cf9214",
-             "blockName": "Footer Mail",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "isChildOfComponent": "annum_footer",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "c81c5ed532",
-             "tabletStyles": {}
-            },
-            {
-             "attributes": {},
-             "baseStyles": {},
              "blockId": "47f5b05231",
-             "blockName": "Footer Fine",
+             "blockName": "Footer Mail",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -1255,6 +1256,20 @@
              "rawStyles": {},
              "referenceBlockId": "14db903f72",
              "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "d300610690",
+             "blockName": "Footer Fine",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "annum_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "eb0d3b6ff7",
+             "tabletStyles": {}
             }
            ],
            "classes": [],
@@ -1262,7 +1277,7 @@
            "isChildOfComponent": "annum_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "eb0d3b6ff7",
+           "referenceBlockId": "e444112bc5",
            "tabletStyles": {}
           }
          ],
@@ -1271,7 +1286,7 @@
          "isChildOfComponent": "annum_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "e444112bc5",
+         "referenceBlockId": "34bf20648d",
          "tabletStyles": {}
         }
        ],
@@ -1280,7 +1295,7 @@
        "isChildOfComponent": "annum_footer",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "34bf20648d",
+       "referenceBlockId": "768f447c7f",
        "tabletStyles": {}
       }
      ],
@@ -1313,7 +1328,7 @@
    "builder_script": "annum_styles"
   }
  ],
- "creation": "2026-07-17 09:21:53.319485",
+ "creation": "2026-07-17 09:37:38.165365",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -1323,7 +1338,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "The maker behind the one-thing-a-year rule, the house rules, and where to send spare lumber.",
- "modified": "2026-07-17 09:22:43.212990",
+ "modified": "2026-07-17 09:38:45.665497",
  "modified_by": "Administrator",
  "name": "annum_about",
  "owner": "Administrator",

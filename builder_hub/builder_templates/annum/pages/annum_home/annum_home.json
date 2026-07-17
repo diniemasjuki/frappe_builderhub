@@ -14,7 +14,7 @@
     "minHeight": "100vh",
     "width": "100%"
    },
-   "blockId": "2cd72fddf2",
+   "blockId": "99f9a06157",
    "blockName": "Root",
    "children": [
     {
@@ -243,20 +243,35 @@
        "attributes": {},
        "baseStyles": {},
        "blockId": "a83e92f5a9",
-       "blockName": "Year Rule",
+       "blockName": "Year Rule Wrap",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
          "blockId": "37fd053e05",
-         "blockName": "Year Rule Fill",
-         "children": [],
+         "blockName": "Year Rule",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "86b22c1c3d",
+           "blockName": "Year Rule Fill",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "annum_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "6fcf56b3a6",
+           "tabletStyles": {}
+          }
+         ],
          "classes": [],
          "customAttributes": {},
          "isChildOfComponent": "annum_nav",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "6fcf56b3a6",
+         "referenceBlockId": "1d0a866983",
          "tabletStyles": {}
         }
        ],
@@ -265,7 +280,7 @@
        "isChildOfComponent": "annum_nav",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "1d0a866983",
+       "referenceBlockId": "ef9a072f60",
        "tabletStyles": {}
       }
      ],
@@ -1085,8 +1100,8 @@
        "children": [
         {
          "attributes": {
-          "alt": "Workshop sparks at dusk",
-          "src": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=2000"
+          "alt": "The workshop tool wall",
+          "src": "https://images.unsplash.com/photo-1426927308491-6380b6a9936f?auto=format&fit=crop&q=80&w=2000"
          },
          "baseStyles": {
           "display": "block",
@@ -1114,7 +1129,7 @@
           "backgroundColor": "rgba(15, 12, 10, 0.55)",
           "borderRadius": "999px",
           "bottom": "22px",
-          "color": "rgba(255, 255, 255, 0.85)",
+          "color": "rgba(255, 255, 255, 0.9)",
           "fontFamily": "Inter",
           "fontSize": "11.5px",
           "fontWeight": "600",
@@ -1135,7 +1150,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "p",
-         "innerHTML": "fig. 2026, in progress",
+         "innerHTML": "fig. 0: the tools that made them",
          "mobileStyles": {},
          "rawStyles": {},
          "tabletStyles": {}
@@ -3980,46 +3995,32 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "86b22c1c3d",
+     "blockId": "48e0ef7baa",
      "blockName": "Footer",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "48e0ef7baa",
+       "blockId": "12e5faa439",
        "blockName": "Footer Inner",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "12e5faa439",
+         "blockId": "80af2361b4",
          "blockName": "Footer Row",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "80af2361b4",
+           "blockId": "da3c7d2497",
            "blockName": "Footer Left",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "da3c7d2497",
-             "blockName": "Footer Name",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "isChildOfComponent": "annum_footer",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "41cee09a32",
-             "tabletStyles": {}
-            },
-            {
-             "attributes": {},
-             "baseStyles": {},
              "blockId": "c337c85fe6",
-             "blockName": "Footer Line",
+             "blockName": "Footer Name",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -4028,6 +4029,20 @@
              "rawStyles": {},
              "referenceBlockId": "bb32fd618a",
              "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "5b9078fcb1",
+             "blockName": "Footer Line",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "annum_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "82ff1f2d64",
+             "tabletStyles": {}
             }
            ],
            "classes": [],
@@ -4035,34 +4050,20 @@
            "isChildOfComponent": "annum_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "82ff1f2d64",
+           "referenceBlockId": "c81c5ed532",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "5b9078fcb1",
+           "blockId": "eaeecb1b93",
            "blockName": "Footer Right",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "eaeecb1b93",
-             "blockName": "Footer Mail",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "isChildOfComponent": "annum_footer",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "c81c5ed532",
-             "tabletStyles": {}
-            },
-            {
-             "attributes": {},
-             "baseStyles": {},
              "blockId": "796445dee2",
-             "blockName": "Footer Fine",
+             "blockName": "Footer Mail",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -4071,6 +4072,20 @@
              "rawStyles": {},
              "referenceBlockId": "14db903f72",
              "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "2cd72fddf2",
+             "blockName": "Footer Fine",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "annum_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "eb0d3b6ff7",
+             "tabletStyles": {}
             }
            ],
            "classes": [],
@@ -4078,7 +4093,7 @@
            "isChildOfComponent": "annum_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "eb0d3b6ff7",
+           "referenceBlockId": "e444112bc5",
            "tabletStyles": {}
           }
          ],
@@ -4087,7 +4102,7 @@
          "isChildOfComponent": "annum_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "e444112bc5",
+         "referenceBlockId": "34bf20648d",
          "tabletStyles": {}
         }
        ],
@@ -4096,7 +4111,7 @@
        "isChildOfComponent": "annum_footer",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "34bf20648d",
+       "referenceBlockId": "768f447c7f",
        "tabletStyles": {}
       }
      ],
@@ -4129,7 +4144,7 @@
    "builder_script": "annum_styles"
   }
  ],
- "creation": "2026-07-17 09:21:53.319485",
+ "creation": "2026-07-17 09:37:38.165365",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -4139,7 +4154,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Jonas Riis makes one personal project a year: a balm, a garden, a cabin, a bike frame, a stool, 300 pots.",
- "modified": "2026-07-17 09:22:43.212990",
+ "modified": "2026-07-17 09:38:45.665497",
  "modified_by": "Administrator",
  "name": "annum_home",
  "owner": "Administrator",

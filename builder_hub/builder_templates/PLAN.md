@@ -767,7 +767,7 @@ The one-thing-a-year maker portfolio, built to the user's spec: image-heavy hero
 projects timeline. Split ledger hero (user-picked over the first full-bleed-overlay version):
 text on solid bone at left with a huge stacked Bricolage Grotesque headline and a clickable
 year ledger (2026 to 2021, anchor links into the timeline with hover arrows), full-height
-workshop-sparks photo column at right with a fig caption chip. Ledger-style nav: brand lockup
+workshop tool-wall photo column at right with a fig caption chip. Ledger-style nav: brand lockup
 with sub-line, numbered links (01/02/03), a pulsing "now making: salve" status chip, and a
 2px year-progress rule under the bar. Then a spine timeline with amber year dots, big rounded
 photos, status and material chips per project (balm, allotment, cabin, bike frame, stools,

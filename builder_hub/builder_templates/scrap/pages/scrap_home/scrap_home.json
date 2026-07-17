@@ -380,7 +380,9 @@
               "height": "210px"
              },
              "rawStyles": {},
-             "tabletStyles": {}
+             "tabletStyles": {
+              "height": "220px"
+             }
             }
            ],
            "classes": [
@@ -392,7 +394,9 @@
            "rawStyles": {
             "box-shadow": "0 2px 10px rgba(24, 20, 16, 0.14)"
            },
-           "tabletStyles": {}
+           "tabletStyles": {
+            "width": "70%"
+           }
           },
           {
            "attributes": {},
@@ -481,7 +485,9 @@
               "height": "190px"
              },
              "rawStyles": {},
-             "tabletStyles": {}
+             "tabletStyles": {
+              "height": "195px"
+             }
             },
             {
              "attributes": {},
@@ -517,7 +523,10 @@
            "rawStyles": {
             "box-shadow": "0 3px 14px rgba(24, 20, 16, 0.2)"
            },
-           "tabletStyles": {}
+           "tabletStyles": {
+            "top": "180px",
+            "width": "64%"
+           }
           },
           {
            "attributes": {},
@@ -571,7 +580,12 @@
            "rawStyles": {
             "box-shadow": "0 2px 8px rgba(24, 20, 16, 0.2)"
            },
-           "tabletStyles": {}
+           "tabletStyles": {
+            "height": "78px",
+            "right": "2%",
+            "top": "335px",
+            "width": "78px"
+           }
           }
          ],
          "classes": [],
@@ -583,7 +597,9 @@
           "width": "100%"
          },
          "rawStyles": {},
-         "tabletStyles": {}
+         "tabletStyles": {
+          "minHeight": "450px"
+         }
         }
        ],
        "classes": [],
@@ -1851,7 +1867,7 @@
    "builder_script": "scrap_styles"
   }
  ],
- "creation": "2026-07-17 07:11:27.304024",
+ "creation": "2026-07-17 09:37:38.326476",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -1861,7 +1877,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Mara Kessler makes loud things on purpose: posters, identities, zines. A cut-and-paste portfolio.",
- "modified": "2026-07-17 07:12:29.562129",
+ "modified": "2026-07-17 09:38:45.906294",
  "modified_by": "Administrator",
  "name": "scrap_home",
  "owner": "Administrator",
