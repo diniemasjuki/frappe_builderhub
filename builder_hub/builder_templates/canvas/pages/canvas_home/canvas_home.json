@@ -267,12 +267,12 @@
             "zIndex": "3"
            },
            "blockId": "32f0c74eab",
-           "blockName": "Tab · hero / v3 — final FINAL",
+           "blockName": "Tab · hero / v3, final FINAL",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "hero / v3 — final FINAL",
+           "innerHTML": "hero / v3, final FINAL",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1805,7 +1805,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "The portfolio of Nadia Reyes, presented as a live design file. Comments left in.",
- "modified": "2026-07-15 17:26:57.078674",
+ "modified": "2026-07-17 09:45:26.305628",
  "modified_by": "Administrator",
  "name": "canvas_home",
  "owner": "Administrator",

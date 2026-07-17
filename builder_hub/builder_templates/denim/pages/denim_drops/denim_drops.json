@@ -1665,7 +1665,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "innerHTML": "$—",
+           "innerHTML": "$TBA",
            "mobileStyles": {},
            "rawStyles": {
             "box-shadow": "4px 4px 0 #1B2A6B"
@@ -2394,7 +2394,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Drop 04 is live: baggy and straight selvedge, boxy tees, Runner 01. Restocks Friday.",
- "modified": "2026-07-15 16:33:25.504997",
+ "modified": "2026-07-17 09:45:26.305628",
  "modified_by": "Administrator",
  "name": "denim_drops",
  "owner": "Administrator",

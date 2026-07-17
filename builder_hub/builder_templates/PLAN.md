@@ -75,12 +75,12 @@ Five template slots per category, each with a different theme.
 | atlas    | editorial | online academy, course catalog as a syllabus |
 | chalk    | dark | exam-prep / coaching institute, chalkboard green-black |
 
-### Agency & Studio (bold type, one loud accent) — bureau BUILT Jul 2026
+### Agency & Studio (bold type, one loud accent), bureau BUILT Jul 2026
 | Codename | Theme | Concept |
 |----------|-------|---------|
 | bureau   | bright | Framer-grade agency: mega type, acid marks, typographic case covers (built: 3 pages, order 26, category Marketing) |
 
-### Fashion (high contrast, editorial, photo-led) — BUILT Jul 2026, orders 13-17
+### Fashion (high contrast, editorial, photo-led), BUILT Jul 2026, orders 13-17
 | Codename | Theme | Concept |
 |----------|-------|---------|
 | hem      | minimal | atelier / tailor, white space, hairline type (built: 3 pages) |
@@ -98,7 +98,7 @@ Five template slots per category, each with a different theme.
 | graze    | editorial | farm-to-table restaurant, producer stories |
 | zest     | sunshine | street-food brand, citrus yellow, bold stickers |
 
-### Portfolio & Personal (one person, one voice; joins husk/mono/verso) — BUILT Jul 2026, orders 18-22
+### Portfolio & Personal (one person, one voice; joins husk/mono/verso), BUILT Jul 2026, orders 18-22
 | Codename | Theme | Concept |
 |----------|-------|---------|
 | ridge    | dark | photographer, gapless photo mosaic wall, index overlay (built: 3 pages) |
@@ -109,7 +109,7 @@ Five template slots per category, each with a different theme.
 | plinth   | minimal | architects, type-only project index with drawing-sheet furniture (built: 3 pages) |
 | scrap    | paper | graphic designer, cut-and-paste zine: torn panels, tape, xerox, ransom type (built: 3 pages, order 27) |
 | affiche  | bright | design studio, site as a series of swiss posters, type only (built: 3 pages, order 28) |
-| annum    | warm light + dark | maker's one-project-a-year photo timeline, user-spec (built: 3 pages, order 29) |
+| annum    | moss light + dark | maker's one-project-a-year photo timeline, user-spec (built: 3 pages, order 29) |
 
 ### Manufacturing & Industrial (steel blue, gray, safety-orange accents)
 | Codename | Theme | Concept |
@@ -147,7 +147,7 @@ Five template slots per category, each with a different theme.
 | plaza    | bright | city hotel, jewel tones, amenity grid |
 | tide     | minimal | coastal B&B, sea glass, quiet type |
 
-### Technology / SaaS (electric accents on dark or clean white) — encore + aurora BUILT Jul 2026
+### Technology / SaaS (electric accents on dark or clean white), encore + aurora BUILT Jul 2026
 | Codename | Theme | Concept |
 |----------|-------|---------|
 | encore   | dark | SaaS site staged as a product keynote, user-picked conceit (built: 3 pages, order 24) |
@@ -493,7 +493,7 @@ pages:
 components: [ridge_nav, ridge_enquire]
 ```
 
-## Brief: canvas (Portfolio, bright) — replaced quip (retired: bento boards read generic)
+## Brief: canvas (Portfolio, bright), replaced quip (retired: bento boards read generic)
 
 ```yaml
 codename: canvas
@@ -504,7 +504,7 @@ theme: bright
 concept: >
   Nadia is a product designer. Her site IS a design file: dotted canvas background,
   sections inside blue selection boxes with corner handles and layer-name tabs
-  (hero / v3 — final FINAL), collaborator cursors drifting over the page, pink comment
+  (hero / v3, final FINAL), collaborator cursors drifting over the page, pink comment
   pins with real comment cards, sticky notes in a handwriting font. Toolbar nav with a
   Share button; status-bar footer (autosaved just now · 100%). Conversion: "invite me
   to your file" email.
@@ -670,7 +670,7 @@ pages:
 components: [plinth_head, plinth_titleblock]
 ```
 
-## Brief: hex (Technology, dark) — RETIRED Jul 2026 (generic, no conceit)
+## Brief: hex (Technology, dark), RETIRED Jul 2026 (generic, no conceit)
 
 Dev-tool marketing. Terminal windows with traffic-light dots, mono install command, man-page
 flag cards (--incremental, --why), hyperfine benchmark terminal, tier cards, release-notes
@@ -678,7 +678,7 @@ changelog with FEATURE/FIX/BREAKING tags, status-dot footer. Space Grotesk + Jet
 Palette void/panelx/textx/dimx/linex/mintx/violx, dark-only. Pages: home, pricing, changelog.
 No photos anywhere.
 
-## Brief: prism (Technology, neutral) — RETIRED Jul 2026 (generic by design, which was the mistake)
+## Brief: prism (Technology, neutral), RETIRED Jul 2026 (generic by design, which was the mistake)
 
 The theme-less SaaS site: white, Inter, ONE brand variable (indigo) so the whole site rethemes
 by editing a single color. Product screenshots are mock UI built from blocks (browser frame,
@@ -686,7 +686,7 @@ stat cards, bar chart, table rows), so no images to replace. Metrics band, alter
 rows, testimonial cards, a real comparison pricing TABLE with tick rows, honest FAQ, CTA band
 footer. Pages: home, pricing, contact.
 
-## Brief: tally (App UI, neutral) — RETIRED Jul 2026 (a mockup, not a template with a soul)
+## Brief: tally (App UI, neutral), RETIRED Jul 2026 (a mockup, not a template with a soul)
 
 A dashboard app-shell starter, not a website: fixed sidebar (logo, icon nav, usage meter),
 topbar (search pill, bell, avatar), KPI cards with delta colors, a CSS bar chart, progress
@@ -695,14 +695,14 @@ field rows, toggle switches, team list and a danger zone. Inter, 7 variables, no
 Pages: overview (home), customers, settings. Distinct from keys (property listings shell):
 tally owns analytics furniture.
 
-## Brief: intake (App UI, neutral) — RETIRED Jul 2026 (same batch, same lesson)
+## Brief: intake (App UI, neutral), RETIRED Jul 2026 (same batch, same lesson)
 
 An internal-tool starter: topbar-only chrome with an INTERNAL env badge, request queue rows
 (id, title, priority/SLA/status chips), request detail with meta grid, approval action bar and
 a dotted audit timeline, and a new-request form using real input/textarea elements plus a
 dashed drop zone. Public Sans, teal accent, amber warnings. Pages: queue (home), request, new.
 
-## Brief: prospect (Technology, paper) — RETIRED Jul 2026 (conceit didn't land with the user)
+## Brief: prospect (Technology, paper), RETIRED Jul 2026 (conceit didn't land with the user)
 
 The flagship SaaS-marketing conceit: the site IS a printed investment prospectus. Cover with
 prospectus number, red double-border seal badges (rotated), table of contents, numbered Items
@@ -714,7 +714,7 @@ Pages: home (the document), rates (schedule + readable fine print + month-end gu
 appendix (A: firm, B: anticipated questions, C: correspondence). Distinct from vitae (a CV
 sheet on a desk) and margin (book page): prospect owns securities-filing furniture.
 
-## Brief: encore (Technology, dark) — BUILT
+## Brief: encore (Technology, dark), BUILT
 
 The keynote conceit, picked by the user from an options round: the site is a product launch
 keynote. Radial spotlight hero (ACT I), demo in a stage frame with gold footlights (ACT II),
@@ -724,7 +724,7 @@ Pricing page is "the pricing slide, uncut" plus questions from the audience; abo
 Backstage with a setlist changelog and cast credits. Gabarito + Inter + IBM Plex Mono,
 house/stage/lumen/gold palette, dark-only, no photos.
 
-## Brief: aurora (Technology, dark) — BUILT
+## Brief: aurora (Technology, dark), BUILT
 
 The Framer-grade one: violet radial glow hero, gradient-clipped headline text, glass cards
 (blur + 4% white), a glowing mock product frame built from blocks, text logo row, bento grid
@@ -732,7 +732,7 @@ The Framer-grade one: violet radial glow hero, gradient-clipped headline text, g
 stat trio, offset testimonial wall, glow CTA band. Inter everywhere, tight tracking. Pricing
 with a featured glowing tier; contact with real inputs. Dark-only, no photos.
 
-## Brief: bureau (Marketing / Agency, bright) — BUILT
+## Brief: bureau (Marketing / Agency, bright), BUILT
 
 The Framer-grade agency site: Hanken Grotesk mega type with acid marker highlights, case
 studies as typographic covers (each client a colored poster tile with its own wordmark
@@ -741,7 +741,7 @@ brands finish last."), client name wall, and a full-acid footer with a giant "Le
 Work page adds client-reported result chips; contact page has budget chips and a
 what-happens-next row. Light, no toggle.
 
-## Brief: scrap (Portfolio, paper) — BUILT
+## Brief: scrap (Portfolio, paper), BUILT
 
 The cut-and-paste zine: a graphic designer's portfolio assembled like a photocopied fanzine.
 Torn-edge photo panels (clip-path polygons) at slight rotations that straighten on hover,
@@ -751,7 +751,7 @@ quotes, staple-run dividers, a black house-rules band, and a colophon page that 
 paper stock. Aged-paper single theme, red and highlighter-yellow accents. 3 pages
 (home / werk / colophon), order 27.
 
-## Brief: affiche (Portfolio, bright) — BUILT
+## Brief: affiche (Portfolio, bright), BUILT
 
 The Swiss poster wall: Studio Oksen's site as a stack of full-viewport International-Style
 posters. Inter Tight 900 mega type ("Grafik ist Arbeit."), red/black/white only, rotated
@@ -761,7 +761,7 @@ Werkverzeichnis catalog table with red numbers (deliberately smaller and denser 
 giant index rows). German-flavored copy. Light, no toggle, no photos. 3 pages
 (home / arbeit / kontakt), order 28.
 
-## Brief: annum (Portfolio, warm light + dark) — BUILT
+## Brief: annum (Portfolio, warm light + dark), BUILT
 
 The one-thing-a-year maker portfolio, built to the user's spec: image-heavy hero + personal
 projects timeline. Split ledger hero (user-picked over the first full-bleed-overlay version):
@@ -773,8 +773,8 @@ with sub-line, numbered links (01/02/03), a pulsing "now making: salve" status c
 photos, status and material chips per project (balm, allotment, cabin, bike frame, stools,
 ceramics), a stats band (6 years / 6 things / 0 abandoned), an amber "2027 is unclaimed" CTA
 card, a year-by-year ledger page with a type-only "prehistory" section, and an about page
-with portrait and numbered house rules. Bricolage Grotesque + Inter, warm bone palette with
-amber accent, light/dark toggle. 3 pages (home / ledger / about), order 29.
+with portrait and numbered house rules. Bricolage Grotesque + Inter, cool paper palette with
+moss green accent (user-picked over amber, indigo, oxblood, brass), light/dark toggle. 3 pages (home / ledger / about), order 29.
 
 ## Follow-ups
 

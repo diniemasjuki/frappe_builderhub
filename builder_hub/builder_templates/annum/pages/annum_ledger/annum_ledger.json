@@ -5,8 +5,8 @@
    "attributes": {},
    "baseStyles": {
     "alignItems": "center",
-    "backgroundColor": "var(--820b56df-9f2d-4faa-80a6-d44d90d8ea34, #FAF7F2)",
-    "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1B1712)",
+    "backgroundColor": "var(--820b56df-9f2d-4faa-80a6-d44d90d8ea34, #F7F7F3)",
+    "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1A1C16)",
     "display": "flex",
     "flexDirection": "column",
     "flexShrink": 0,
@@ -309,7 +309,7 @@
       {
        "attributes": {},
        "baseStyles": {
-        "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1B1712)",
+        "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1A1C16)",
         "fontFamily": "Bricolage Grotesque",
         "fontSize": "72px",
         "fontWeight": "700",
@@ -339,7 +339,7 @@
       {
        "attributes": {},
        "baseStyles": {
-        "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+        "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
         "fontFamily": "Inter",
         "fontSize": "16px",
         "fontWeight": "400",
@@ -479,7 +479,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #C2551C)",
+              "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #3D6B4A)",
               "fontFamily": "Bricolage Grotesque",
               "fontSize": "18px",
               "fontWeight": "800",
@@ -503,7 +503,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10px",
               "fontWeight": "600",
@@ -536,7 +536,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1B1712)",
+            "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1A1C16)",
             "fontFamily": "Bricolage Grotesque",
             "fontSize": "27px",
             "fontWeight": "700",
@@ -563,7 +563,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
             "fontFamily": "Inter",
             "fontSize": "14.5px",
             "fontWeight": "400",
@@ -602,11 +602,11 @@
             {
              "attributes": {},
              "baseStyles": {
-              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E3E4DB)",
               "borderRadius": "999px",
               "borderStyle": "solid",
               "borderWidth": "1px",
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10.5px",
               "fontWeight": "600",
@@ -632,11 +632,11 @@
             {
              "attributes": {},
              "baseStyles": {
-              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E3E4DB)",
               "borderRadius": "999px",
               "borderStyle": "solid",
               "borderWidth": "1px",
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10.5px",
               "fontWeight": "600",
@@ -782,7 +782,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #C2551C)",
+              "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #3D6B4A)",
               "fontFamily": "Bricolage Grotesque",
               "fontSize": "18px",
               "fontWeight": "800",
@@ -806,7 +806,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10px",
               "fontWeight": "600",
@@ -839,7 +839,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1B1712)",
+            "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1A1C16)",
             "fontFamily": "Bricolage Grotesque",
             "fontSize": "27px",
             "fontWeight": "700",
@@ -866,7 +866,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
             "fontFamily": "Inter",
             "fontSize": "14.5px",
             "fontWeight": "400",
@@ -905,11 +905,11 @@
             {
              "attributes": {},
              "baseStyles": {
-              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E3E4DB)",
               "borderRadius": "999px",
               "borderStyle": "solid",
               "borderWidth": "1px",
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10.5px",
               "fontWeight": "600",
@@ -935,11 +935,11 @@
             {
              "attributes": {},
              "baseStyles": {
-              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E3E4DB)",
               "borderRadius": "999px",
               "borderStyle": "solid",
               "borderWidth": "1px",
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10.5px",
               "fontWeight": "600",
@@ -1085,7 +1085,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #C2551C)",
+              "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #3D6B4A)",
               "fontFamily": "Bricolage Grotesque",
               "fontSize": "18px",
               "fontWeight": "800",
@@ -1109,7 +1109,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10px",
               "fontWeight": "600",
@@ -1142,7 +1142,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1B1712)",
+            "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1A1C16)",
             "fontFamily": "Bricolage Grotesque",
             "fontSize": "27px",
             "fontWeight": "700",
@@ -1169,7 +1169,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
             "fontFamily": "Inter",
             "fontSize": "14.5px",
             "fontWeight": "400",
@@ -1208,11 +1208,11 @@
             {
              "attributes": {},
              "baseStyles": {
-              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E3E4DB)",
               "borderRadius": "999px",
               "borderStyle": "solid",
               "borderWidth": "1px",
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10.5px",
               "fontWeight": "600",
@@ -1238,11 +1238,11 @@
             {
              "attributes": {},
              "baseStyles": {
-              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E3E4DB)",
               "borderRadius": "999px",
               "borderStyle": "solid",
               "borderWidth": "1px",
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10.5px",
               "fontWeight": "600",
@@ -1388,7 +1388,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #C2551C)",
+              "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #3D6B4A)",
               "fontFamily": "Bricolage Grotesque",
               "fontSize": "18px",
               "fontWeight": "800",
@@ -1412,7 +1412,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10px",
               "fontWeight": "600",
@@ -1445,7 +1445,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1B1712)",
+            "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1A1C16)",
             "fontFamily": "Bricolage Grotesque",
             "fontSize": "27px",
             "fontWeight": "700",
@@ -1472,7 +1472,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
             "fontFamily": "Inter",
             "fontSize": "14.5px",
             "fontWeight": "400",
@@ -1511,11 +1511,11 @@
             {
              "attributes": {},
              "baseStyles": {
-              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E3E4DB)",
               "borderRadius": "999px",
               "borderStyle": "solid",
               "borderWidth": "1px",
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10.5px",
               "fontWeight": "600",
@@ -1541,11 +1541,11 @@
             {
              "attributes": {},
              "baseStyles": {
-              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E3E4DB)",
               "borderRadius": "999px",
               "borderStyle": "solid",
               "borderWidth": "1px",
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10.5px",
               "fontWeight": "600",
@@ -1691,7 +1691,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #C2551C)",
+              "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #3D6B4A)",
               "fontFamily": "Bricolage Grotesque",
               "fontSize": "18px",
               "fontWeight": "800",
@@ -1715,7 +1715,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10px",
               "fontWeight": "600",
@@ -1748,7 +1748,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1B1712)",
+            "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1A1C16)",
             "fontFamily": "Bricolage Grotesque",
             "fontSize": "27px",
             "fontWeight": "700",
@@ -1775,7 +1775,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
             "fontFamily": "Inter",
             "fontSize": "14.5px",
             "fontWeight": "400",
@@ -1814,11 +1814,11 @@
             {
              "attributes": {},
              "baseStyles": {
-              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E3E4DB)",
               "borderRadius": "999px",
               "borderStyle": "solid",
               "borderWidth": "1px",
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10.5px",
               "fontWeight": "600",
@@ -1844,11 +1844,11 @@
             {
              "attributes": {},
              "baseStyles": {
-              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E3E4DB)",
               "borderRadius": "999px",
               "borderStyle": "solid",
               "borderWidth": "1px",
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10.5px",
               "fontWeight": "600",
@@ -1994,7 +1994,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #C2551C)",
+              "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #3D6B4A)",
               "fontFamily": "Bricolage Grotesque",
               "fontSize": "18px",
               "fontWeight": "800",
@@ -2018,7 +2018,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10px",
               "fontWeight": "600",
@@ -2051,7 +2051,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1B1712)",
+            "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1A1C16)",
             "fontFamily": "Bricolage Grotesque",
             "fontSize": "27px",
             "fontWeight": "700",
@@ -2078,7 +2078,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
             "fontFamily": "Inter",
             "fontSize": "14.5px",
             "fontWeight": "400",
@@ -2117,11 +2117,11 @@
             {
              "attributes": {},
              "baseStyles": {
-              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E3E4DB)",
               "borderRadius": "999px",
               "borderStyle": "solid",
               "borderWidth": "1px",
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10.5px",
               "fontWeight": "600",
@@ -2147,11 +2147,11 @@
             {
              "attributes": {},
              "baseStyles": {
-              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E3E4DB)",
               "borderRadius": "999px",
               "borderStyle": "solid",
               "borderWidth": "1px",
-              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+              "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
               "fontFamily": "Inter",
               "fontSize": "10.5px",
               "fontWeight": "600",
@@ -2234,7 +2234,7 @@
       {
        "attributes": {},
        "baseStyles": {
-        "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+        "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
         "fontFamily": "Inter",
         "fontSize": "11.5px",
         "fontWeight": "600",
@@ -2260,7 +2260,7 @@
       {
        "attributes": {},
        "baseStyles": {
-        "borderBottomColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+        "borderBottomColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E3E4DB)",
         "borderBottomStyle": "solid",
         "borderBottomWidth": "1px",
         "display": "flex",
@@ -2275,7 +2275,7 @@
          "attributes": {},
          "baseStyles": {
           "alignItems": "baseline",
-          "borderTopColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+          "borderTopColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E3E4DB)",
           "borderTopStyle": "solid",
           "borderTopWidth": "1px",
           "display": "flex",
@@ -2291,7 +2291,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
             "flexShrink": 0,
             "fontFamily": "Bricolage Grotesque",
             "fontSize": "17px",
@@ -2316,7 +2316,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
             "flexGrow": 1,
             "flexShrink": 1,
             "fontFamily": "Inter",
@@ -2350,7 +2350,7 @@
          "attributes": {},
          "baseStyles": {
           "alignItems": "baseline",
-          "borderTopColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+          "borderTopColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E3E4DB)",
           "borderTopStyle": "solid",
           "borderTopWidth": "1px",
           "display": "flex",
@@ -2366,7 +2366,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
             "flexShrink": 0,
             "fontFamily": "Bricolage Grotesque",
             "fontSize": "17px",
@@ -2391,7 +2391,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
             "flexGrow": 1,
             "flexShrink": 1,
             "fontFamily": "Inter",
@@ -2425,7 +2425,7 @@
          "attributes": {},
          "baseStyles": {
           "alignItems": "baseline",
-          "borderTopColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+          "borderTopColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E3E4DB)",
           "borderTopStyle": "solid",
           "borderTopWidth": "1px",
           "display": "flex",
@@ -2441,7 +2441,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
             "flexShrink": 0,
             "fontFamily": "Bricolage Grotesque",
             "fontSize": "17px",
@@ -2466,7 +2466,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #6C7166)",
             "flexGrow": 1,
             "flexShrink": 1,
             "fontFamily": "Inter",
@@ -2666,7 +2666,7 @@
    "builder_script": "annum_styles"
   }
  ],
- "creation": "2026-07-17 09:37:38.165365",
+ "creation": "2026-07-17 09:48:02.969484",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -2676,7 +2676,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Every year on the record since 2018, including the twelve-side-project year that created the rule.",
- "modified": "2026-07-17 09:38:45.665497",
+ "modified": "2026-07-17 09:48:46.106537",
  "modified_by": "Administrator",
  "name": "annum_ledger",
  "owner": "Administrator",

@@ -628,7 +628,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "p",
-         "innerHTML": "FEKK '25 — BEST CINEMATOGRAPHY · THE LAST PROJECTIONIST",
+         "innerHTML": "FEKK '25: BEST CINEMATOGRAPHY · THE LAST PROJECTIONIST",
          "mobileStyles": {},
          "rawStyles": {},
          "tabletStyles": {}
@@ -656,7 +656,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "p",
-         "innerHTML": "CICLOPE '24 — SHORTLIST, CINEMATOGRAPHY · SKYWARD",
+         "innerHTML": "CICLOPE '24: SHORTLIST, CINEMATOGRAPHY · SKYWARD",
          "mobileStyles": {},
          "rawStyles": {},
          "tabletStyles": {}
@@ -684,7 +684,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "p",
-         "innerHTML": "LOCARNO '25 — OFFICIAL SELECTION · PARDI DI DOMANI",
+         "innerHTML": "LOCARNO '25: OFFICIAL SELECTION · PARDI DI DOMANI",
          "mobileStyles": {},
          "rawStyles": {},
          "tabletStyles": {}
@@ -848,7 +848,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Credits, awards and a decade of honest light from Ljubljana.",
- "modified": "2026-07-15 17:05:53.143173",
+ "modified": "2026-07-17 09:45:26.305628",
  "modified_by": "Administrator",
  "name": "reel_about",
  "owner": "Administrator",

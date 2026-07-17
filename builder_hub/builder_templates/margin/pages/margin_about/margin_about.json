@@ -382,7 +382,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "Fig. 1 — the author, unposed",
+             "innerHTML": "Fig. 1: the author, unposed",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1291,7 +1291,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "About June Ash: slow essays, long walks, letters answered monthly.",
- "modified": "2026-07-15 17:26:57.078674",
+ "modified": "2026-07-17 09:45:26.305628",
  "modified_by": "Administrator",
  "name": "margin_about",
  "owner": "Administrator",

@@ -250,7 +250,7 @@
          "classes": [],
          "customAttributes": {},
          "element": "p",
-         "innerHTML": "PROJECT INDEX · 2019 — 2026",
+         "innerHTML": "PROJECT INDEX · 2019 TO 2026",
          "mobileStyles": {},
          "rawStyles": {},
          "tabletStyles": {}
@@ -1423,7 +1423,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Plinth Architects: five built works, one index, buildings that hold still.",
- "modified": "2026-07-15 17:26:57.078674",
+ "modified": "2026-07-17 09:45:26.305628",
  "modified_by": "Administrator",
  "name": "plinth_home",
  "owner": "Administrator",
