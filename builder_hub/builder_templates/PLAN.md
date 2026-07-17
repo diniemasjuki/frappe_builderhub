@@ -54,6 +54,7 @@ Rules that apply to every template:
 | encore | keynote: spotlight hero, act rules, footlit demo frame, stage notes, applause, one more thing |
 | aurora | glow SaaS landing: gradient hero + text, glass bento grid, glowing product frame, quote wall |
 | bureau | agency mega-type: acid highlight marks, typographic case covers, numbered service mega-list |
+| scrap  | zine paste-up: torn rotated panels, masking tape, xerox photos, ransom headlines, staples |
 
 New briefs must claim an archetype not on this list, and the list grows as templates ship.
 
@@ -104,6 +105,7 @@ Five template slots per category, each with a different theme.
 | reel     | dark | filmmaker, letterboxed 21:9 stills with timecode captions (built: 3 pages) |
 | margin   | warm light | writer/academic, body column with numbered margin notes (built: 3 pages) |
 | plinth   | minimal | architects, type-only project index with drawing-sheet furniture (built: 3 pages) |
+| scrap    | paper | graphic designer, cut-and-paste zine: torn panels, tape, xerox, ransom type (built: 3 pages, order 27) |
 
 ### Manufacturing & Industrial (steel blue, gray, safety-orange accents)
 | Codename | Theme | Concept |
@@ -734,6 +736,16 @@ styling, no photos), numbered services mega-list with acid hover, black manifest
 brands finish last."), client name wall, and a full-acid footer with a giant "Let's talk".
 Work page adds client-reported result chips; contact page has budget chips and a
 what-happens-next row. Light, no toggle.
+
+## Brief: scrap (Portfolio, paper) — BUILT
+
+The cut-and-paste zine: a graphic designer's portfolio assembled like a photocopied fanzine.
+Torn-edge photo panels (clip-path polygons) at slight rotations that straighten on hover,
+masking-tape strips, xerox photo treatment (grayscale + contrast), ransom-note headlines
+mixing Anton, Courier Prime and Permanent Marker, marker scribbles for asides and client
+quotes, staple-run dividers, a black house-rules band, and a colophon page that lists the
+paper stock. Aged-paper single theme, red and highlighter-yellow accents. 3 pages
+(home / werk / colophon), order 27.
 
 ## Follow-ups
 
