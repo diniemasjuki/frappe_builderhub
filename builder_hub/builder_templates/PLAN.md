@@ -21,7 +21,9 @@ Rules that apply to every template:
   Retired, do not reuse: forge, grain, copper, ware, beacon, signal, quip, hex, prism,
   tally, intake, prospect (the Jul 2026 SaaS/app-UI batch and its prospectus follow-up were
   all retired; the user's direction is Framer-grade polish or a conceit that lands),
-  commit (original conference starter, retired Jul 17 2026).
+  commit (original conference starter, retired Jul 17 2026), cobalt and hustle
+  (Jul 2026 marketing batch, retired same week: competent genre executions without a strong
+  conceit; the bar is what a top design agency would ship).
 - Templates need not be themed (light/dark toggle optional): app-UI and product templates may
   ship a single neutral look, but every color still goes through Builder Variables so the whole
   template rethemes by editing the palette.
@@ -57,9 +59,7 @@ Rules that apply to every template:
 | scrap  | zine paste-up: torn rotated panels, masking tape, xerox photos, ransom headlines, staples |
 | affiche | poster wall: full-viewport swiss posters, diagonal bands, vertical rails, catalog table |
 | annum  | year timeline: split ledger hero, spine timeline with year dots and big photos, ledger |
-| cobalt | site hoarding: solid cobalt masthead, hazard-stripe dividers, numbered service slabs, framed job photos, quote form |
 | candor | statement screens: full-viewport one-color statement hero, cropped mega wordmark, serif fee table, no photos |
-| hustle | creator course: flame skew marks, curriculum rows with week chips, receipts wall, guarantee band, application form |
 | fetch  | product bento: super-rounded pastel tiles, blob photo frames, star reviews, size table, guarantee card |
 
 New briefs must claim an archetype not on this list, and the list grows as templates ship.
@@ -119,11 +119,6 @@ crossovers), encore, aurora (Technology + Marketing).
 | scrap    | paper | graphic designer, cut-and-paste zine: torn panels, tape, xerox, ransom type (built: 3 pages, order 27) |
 | affiche  | bright | design studio, site as a series of swiss posters, type only (built: 3 pages, order 28) |
 | annum    | moss light + dark | maker's one-project-a-year photo timeline, user-spec (built: 3 pages, order 29) |
-
-### Trades & Contractors (cobalt, safety orange), cobalt BUILT Jul 2026
-| Codename | Theme | Concept |
-|----------|-------|---------|
-| cobalt   | bright | builder/contractor crew, cobalt + hazard stripes, fixed-quote form (built: 3 pages, order 30, Marketing + Local business) |
 
 ### Manufacturing & Industrial (steel blue, gray, safety-orange accents)
 | Codename | Theme | Concept |
@@ -800,16 +795,6 @@ verified goodest dogs, a size table with honest fit notes, material spec tiles, 
 break-it-we-replace-it-forever guarantee card. Single bright theme. 3 pages
 (home / collar / help), order 33.
 
-## Brief: hustle (Marketing + Technology, dark loud), BUILT
-
-The creator-course site ("turn your hustle into a business" energy): near-black ground with a
-single flame-orange accent, Bebas Neue shouts with skewed highlight marks, a flame-framed
-instructor portrait with hard offset shadow, a proof strip (2,300 alumni / $11M tracked),
-numbered curriculum rows with week chips, a "receipts, not testimonials" results wall with
-big metrics, a full-refund guarantee band, cohort pricing cards (pay once vs two payments)
-and an application form with real inputs. Honest-loud copy voice. Single dark theme.
-3 pages (home / program / apply), order 32.
-
 ## Brief: candor (Marketing, statement), BUILT
 
 The statement brand, Squarespace Cedar Group inspired: a deep pine full-viewport hero holding
@@ -818,15 +803,6 @@ sections with numbered serif service rows, a house-position pine band ("We will 
 are the wrong hire"), a fee table with a thick top rule and fixed prices, roman-numeral working
 principles, and a start page that sets expectations for the first call. Serif everywhere,
 no photos, single theme. 3 pages (home / work / start), order 31.
-
-## Brief: cobalt (Marketing + Local business, bright), BUILT
-
-The trades site, Squarespace-Oranssi inspired: solid cobalt masthead band with giant Barlow
-Condensed caps ("We build. It lasts."), white-framed job photos with hard offset shadows,
-hazard-stripe dividers (repeating orange/ink gradient), stamped fact plates (est. 1998 / 600+
-jobs / 10-year warranty / 40 km radius), numbered service slabs with included-points lists, a
-dark recent-jobs band, an orange free-quote strip, and a quote page with real form inputs plus
-a how-it-goes steps rail. Single bright theme. 3 pages (home / services / quote), order 30.
 
 ## Follow-ups
 
