@@ -56,6 +56,7 @@ Rules that apply to every template:
 | bureau | agency mega-type: acid highlight marks, typographic case covers, numbered service mega-list |
 | scrap  | zine paste-up: torn rotated panels, masking tape, xerox photos, ransom headlines, staples |
 | affiche | poster wall: full-viewport swiss posters, diagonal bands, vertical rails, catalog table |
+| annum  | year timeline: full-bleed photo hero, spine timeline with year dots and big photos, ledger |
 
 New briefs must claim an archetype not on this list, and the list grows as templates ship.
 
@@ -108,6 +109,7 @@ Five template slots per category, each with a different theme.
 | plinth   | minimal | architects, type-only project index with drawing-sheet furniture (built: 3 pages) |
 | scrap    | paper | graphic designer, cut-and-paste zine: torn panels, tape, xerox, ransom type (built: 3 pages, order 27) |
 | affiche  | bright | design studio, site as a series of swiss posters, type only (built: 3 pages, order 28) |
+| annum    | warm light + dark | maker's one-project-a-year photo timeline, user-spec (built: 3 pages, order 29) |
 
 ### Manufacturing & Industrial (steel blue, gray, safety-orange accents)
 | Codename | Theme | Concept |
@@ -758,6 +760,17 @@ vertical type rails on the poster edges, diagonal red bands, a red-circle manife
 Werkverzeichnis catalog table with red numbers (deliberately smaller and denser than plinth's
 giant index rows). German-flavored copy. Light, no toggle, no photos. 3 pages
 (home / arbeit / kontakt), order 28.
+
+## Brief: annum (Portfolio, warm light + dark) — BUILT
+
+The one-thing-a-year maker portfolio, built to the user's spec: image-heavy hero + personal
+projects timeline. Full-bleed workshop-sparks hero with gradient shade and huge Bricolage
+Grotesque headline ("One thing a year."), a spine timeline with amber year dots, big rounded
+photos, status chips and material chips per project (balm, allotment, cabin, bike frame,
+stools, ceramics), a stats band (6 years / 6 things / 0 abandoned), an amber "2027 is
+unclaimed" CTA card, a year-by-year ledger page with a type-only "prehistory" section, and an
+about page with portrait and numbered house rules. Bricolage Grotesque + Inter, warm bone
+palette with amber accent, light/dark toggle. 3 pages (home / ledger / about), order 29.
 
 ## Follow-ups
 
