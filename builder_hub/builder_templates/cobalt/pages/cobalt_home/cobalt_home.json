@@ -2341,7 +2341,7 @@
    "builder_script": "cobalt_styles"
   }
  ],
- "creation": "2026-07-17 10:45:42.802969",
+ "creation": "2026-07-17 10:53:09.804058",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -2351,13 +2351,12 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Extensions, roofing, renovations and new builds. Fixed quotes, tidy sites, three generations.",
- "modified": "2026-07-17 10:46:03.614228",
+ "modified": "2026-07-17 10:53:09.804058",
  "modified_by": "Administrator",
  "name": "cobalt_home",
  "owner": "Administrator",
  "page_name": "cobalt_home",
  "page_title": "Hallberg & Sons · Builders, Stavanger",
- "preview": "/builder_assets/cobalt/cobalt_home/preview.webp",
  "project_folder": null,
  "published": 0,
  "published_at": null,

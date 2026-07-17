@@ -59,6 +59,7 @@ Rules that apply to every template:
 | annum  | year timeline: split ledger hero, spine timeline with year dots and big photos, ledger |
 | cobalt | site hoarding: solid cobalt masthead, hazard-stripe dividers, numbered service slabs, framed job photos, quote form |
 | candor | statement screens: full-viewport one-color statement hero, cropped mega wordmark, serif fee table, no photos |
+| hustle | creator course: flame skew marks, curriculum rows with week chips, receipts wall, guarantee band, application form |
 
 New briefs must claim an archetype not on this list, and the list grows as templates ship.
 
@@ -787,6 +788,16 @@ ceramics), a stats band (6 years / 6 things / 0 abandoned), an amber "2027 is un
 card, a year-by-year ledger page with a type-only "prehistory" section, and an about page
 with portrait and numbered house rules. Bricolage Grotesque + Inter, cool paper palette with
 moss green accent (user-picked over amber, indigo, oxblood, brass), light/dark toggle. 3 pages (home / ledger / about), order 29.
+
+## Brief: hustle (Marketing + Technology, dark loud), BUILT
+
+The creator-course site ("turn your hustle into a business" energy): near-black ground with a
+single flame-orange accent, Bebas Neue shouts with skewed highlight marks, a flame-framed
+instructor portrait with hard offset shadow, a proof strip (2,300 alumni / $11M tracked),
+numbered curriculum rows with week chips, a "receipts, not testimonials" results wall with
+big metrics, a full-refund guarantee band, cohort pricing cards (pay once vs two payments)
+and an application form with real inputs. Honest-loud copy voice. Single dark theme.
+3 pages (home / program / apply), order 32.
 
 ## Brief: candor (Marketing, statement), BUILT
 

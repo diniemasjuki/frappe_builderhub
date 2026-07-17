@@ -1,0 +1,1792 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--a49a2d43-06df-42d7-8b7e-904a6c3a22ff, #0F0F13)",
+    "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Inter",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "b4a5e8cf2b",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "c96d50b35f",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "f388ae62a6",
+       "blockName": "Nav Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "937e4ea025",
+         "blockName": "Brand",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "hustle_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "a72d7951c5",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "97a6b8b0c9",
+         "blockName": "Nav Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "935b8de04c",
+           "blockName": "The program",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "hustle_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "1b8fdd9238",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "3c62eab6f0",
+           "blockName": "Results",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "hustle_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "3e3a8f06ab",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "e0ffde40e3",
+           "blockName": "Nav CTA",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "hustle_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "8f7c62920a",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "hustle_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "2586597560",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "hustle_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "e1b90d1c85",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "hustle_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1100px",
+      "padding": "0 30px",
+      "paddingBottom": "36px",
+      "width": "100%"
+     },
+     "blockId": "247f10c7c5",
+     "blockName": "Section · Program Head",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+        "fontFamily": "Bebas Neue",
+        "fontSize": "84px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "letterSpacing": "0.015em",
+        "lineHeight": "0.92",
+        "minWidth": "10px",
+        "paddingTop": "56px",
+        "width": "fit-content"
+       },
+       "blockId": "51ce3ddf0d",
+       "blockName": "Program Headline",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Six weeks,<br><span style=\"background: #FF5A26; color: #0F0F13; display: inline-block; padding: 0 0.12em; transform: skew(-6deg);\">zero</span> fluff.",
+       "mobileStyles": {
+        "fontSize": "44px",
+        "paddingTop": "34px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {
+        "fontSize": "62px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+        "fontFamily": "Inter",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.7",
+        "marginTop": "16px",
+        "maxWidth": "540px",
+        "minWidth": "10px",
+        "width": "100%"
+       },
+       "blockId": "33e711ae53",
+       "blockName": "Program Sub",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Two live calls a week, homework that is actually your business, and a community that reviews your outreach before your prospects do.",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 18px",
+      "paddingBottom": "24px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1100px",
+      "padding": "0 30px",
+      "paddingBottom": "50px",
+      "width": "100%"
+     },
+     "blockId": "cfead8f3a6",
+     "blockName": "Section · Program Modules",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "borderBottomColor": "var(--ca079a9c-311a-47d8-87ed-1c73fe048459, #26262F)",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": "1px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "width": "100%"
+       },
+       "blockId": "dc2eafc328",
+       "blockName": "Program Rows",
+       "children": [
+        {
+         "attributes": {
+          "href": "program"
+         },
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "borderTopColor": "var(--ca079a9c-311a-47d8-87ed-1c73fe048459, #26262F)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "0px",
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": "18px",
+          "padding": "24px 6px",
+          "textDecoration": "none",
+          "width": "100%"
+         },
+         "blockId": "bb403e5e63",
+         "blockName": "Mod · 01",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--026fbf06-dd85-473f-882f-2e638f526075, #FF5A26)",
+            "flexShrink": 0,
+            "fontFamily": "Bebas Neue",
+            "fontSize": "40px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.015em",
+            "lineHeight": "0.92",
+            "minWidth": "10px",
+            "width": "64px"
+           },
+           "blockId": "845ca66961",
+           "blockName": "Mod No · 01",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "01",
+           "mobileStyles": {
+            "fontSize": "30px",
+            "width": "44px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "minWidth": "0px",
+            "width": "100%"
+           },
+           "blockId": "522d9bfbb9",
+           "blockName": "Mod Copy · 01",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "14px",
+              "justifyContent": "space-between",
+              "width": "100%"
+             },
+             "blockId": "c5a0c3bfbd",
+             "blockName": "Mod Head · 01",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+                "fontFamily": "Bebas Neue",
+                "fontSize": "34px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "letterSpacing": "0.015em",
+                "lineHeight": "0.92",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "26a6b90cf6",
+               "blockName": "Mod Title · 01",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Find the offer",
+               "mobileStyles": {
+                "fontSize": "26px"
+               },
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--5b2e542f-a72c-48ba-8ef4-667286b71568, #191921)",
+                "borderColor": "var(--ca079a9c-311a-47d8-87ed-1c73fe048459, #26262F)",
+                "borderRadius": "999px",
+                "borderStyle": "solid",
+                "borderWidth": "1px",
+                "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+                "flexShrink": 0,
+                "fontFamily": "Inter",
+                "fontSize": "10px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "0.12em",
+                "lineHeight": "1.5",
+                "minWidth": "10px",
+                "padding": "6px 12px",
+                "textTransform": "uppercase",
+                "width": "fit-content"
+               },
+               "blockId": "57e3d0b385",
+               "blockName": "Mod Weeks · 01",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Week 1 and 2",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {
+              "alignItems": "flex-start",
+              "flexDirection": "column",
+              "gap": "8px"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+              "fontFamily": "Inter",
+              "fontSize": "14.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "marginTop": "8px",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "a126355691",
+             "blockName": "Mod Blurb · 01",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Stop selling hours. We carve one productized offer out of what you already do well.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "hu-mod"
+         ],
+         "customAttributes": {},
+         "element": "a",
+         "mobileStyles": {
+          "gap": "12px",
+          "padding": "18px 2px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "href": "program"
+         },
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "borderTopColor": "var(--ca079a9c-311a-47d8-87ed-1c73fe048459, #26262F)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": "18px",
+          "padding": "24px 6px",
+          "textDecoration": "none",
+          "width": "100%"
+         },
+         "blockId": "fe1d557fe8",
+         "blockName": "Mod · 02",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--026fbf06-dd85-473f-882f-2e638f526075, #FF5A26)",
+            "flexShrink": 0,
+            "fontFamily": "Bebas Neue",
+            "fontSize": "40px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.015em",
+            "lineHeight": "0.92",
+            "minWidth": "10px",
+            "width": "64px"
+           },
+           "blockId": "b4fb38253c",
+           "blockName": "Mod No · 02",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "02",
+           "mobileStyles": {
+            "fontSize": "30px",
+            "width": "44px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "minWidth": "0px",
+            "width": "100%"
+           },
+           "blockId": "66c60d91c7",
+           "blockName": "Mod Copy · 02",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "14px",
+              "justifyContent": "space-between",
+              "width": "100%"
+             },
+             "blockId": "6826512555",
+             "blockName": "Mod Head · 02",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+                "fontFamily": "Bebas Neue",
+                "fontSize": "34px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "letterSpacing": "0.015em",
+                "lineHeight": "0.92",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "9fecb5265d",
+               "blockName": "Mod Title · 02",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Price it like rent",
+               "mobileStyles": {
+                "fontSize": "26px"
+               },
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--5b2e542f-a72c-48ba-8ef4-667286b71568, #191921)",
+                "borderColor": "var(--ca079a9c-311a-47d8-87ed-1c73fe048459, #26262F)",
+                "borderRadius": "999px",
+                "borderStyle": "solid",
+                "borderWidth": "1px",
+                "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+                "flexShrink": 0,
+                "fontFamily": "Inter",
+                "fontSize": "10px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "0.12em",
+                "lineHeight": "1.5",
+                "minWidth": "10px",
+                "padding": "6px 12px",
+                "textTransform": "uppercase",
+                "width": "fit-content"
+               },
+               "blockId": "395369ddaa",
+               "blockName": "Mod Weeks · 02",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Week 3",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {
+              "alignItems": "flex-start",
+              "flexDirection": "column",
+              "gap": "8px"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+              "fontFamily": "Inter",
+              "fontSize": "14.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "marginTop": "8px",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "914b72423f",
+             "blockName": "Mod Blurb · 02",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "A number your landlord would respect. Anchoring, packaging, and saying it out loud without flinching.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "hu-mod"
+         ],
+         "customAttributes": {},
+         "element": "a",
+         "mobileStyles": {
+          "gap": "12px",
+          "padding": "18px 2px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "href": "program"
+         },
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "borderTopColor": "var(--ca079a9c-311a-47d8-87ed-1c73fe048459, #26262F)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": "18px",
+          "padding": "24px 6px",
+          "textDecoration": "none",
+          "width": "100%"
+         },
+         "blockId": "eabd9ca137",
+         "blockName": "Mod · 03",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--026fbf06-dd85-473f-882f-2e638f526075, #FF5A26)",
+            "flexShrink": 0,
+            "fontFamily": "Bebas Neue",
+            "fontSize": "40px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.015em",
+            "lineHeight": "0.92",
+            "minWidth": "10px",
+            "width": "64px"
+           },
+           "blockId": "0ee687266f",
+           "blockName": "Mod No · 03",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "03",
+           "mobileStyles": {
+            "fontSize": "30px",
+            "width": "44px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "minWidth": "0px",
+            "width": "100%"
+           },
+           "blockId": "21c82484ae",
+           "blockName": "Mod Copy · 03",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "14px",
+              "justifyContent": "space-between",
+              "width": "100%"
+             },
+             "blockId": "d986976115",
+             "blockName": "Mod Head · 03",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+                "fontFamily": "Bebas Neue",
+                "fontSize": "34px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "letterSpacing": "0.015em",
+                "lineHeight": "0.92",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "23bd4a9850",
+               "blockName": "Mod Title · 03",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Sell without cringe",
+               "mobileStyles": {
+                "fontSize": "26px"
+               },
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--5b2e542f-a72c-48ba-8ef4-667286b71568, #191921)",
+                "borderColor": "var(--ca079a9c-311a-47d8-87ed-1c73fe048459, #26262F)",
+                "borderRadius": "999px",
+                "borderStyle": "solid",
+                "borderWidth": "1px",
+                "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+                "flexShrink": 0,
+                "fontFamily": "Inter",
+                "fontSize": "10px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "0.12em",
+                "lineHeight": "1.5",
+                "minWidth": "10px",
+                "padding": "6px 12px",
+                "textTransform": "uppercase",
+                "width": "fit-content"
+               },
+               "blockId": "fe2b2631d0",
+               "blockName": "Mod Weeks · 03",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Week 4 and 5",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {
+              "alignItems": "flex-start",
+              "flexDirection": "column",
+              "gap": "8px"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+              "fontFamily": "Inter",
+              "fontSize": "14.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "marginTop": "8px",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "e042d01c9d",
+             "blockName": "Mod Blurb · 03",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Outreach scripts that sound like you, a pipeline in a spreadsheet, and the follow-up cadence that isn't stalking.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "hu-mod"
+         ],
+         "customAttributes": {},
+         "element": "a",
+         "mobileStyles": {
+          "gap": "12px",
+          "padding": "18px 2px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "href": "program"
+         },
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "borderTopColor": "var(--ca079a9c-311a-47d8-87ed-1c73fe048459, #26262F)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "gap": "18px",
+          "padding": "24px 6px",
+          "textDecoration": "none",
+          "width": "100%"
+         },
+         "blockId": "fb9efd8f09",
+         "blockName": "Mod · 04",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--026fbf06-dd85-473f-882f-2e638f526075, #FF5A26)",
+            "flexShrink": 0,
+            "fontFamily": "Bebas Neue",
+            "fontSize": "40px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.015em",
+            "lineHeight": "0.92",
+            "minWidth": "10px",
+            "width": "64px"
+           },
+           "blockId": "452451c782",
+           "blockName": "Mod No · 04",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "04",
+           "mobileStyles": {
+            "fontSize": "30px",
+            "width": "44px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "minWidth": "0px",
+            "width": "100%"
+           },
+           "blockId": "b0b693db67",
+           "blockName": "Mod Copy · 04",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "14px",
+              "justifyContent": "space-between",
+              "width": "100%"
+             },
+             "blockId": "6945cb0065",
+             "blockName": "Mod Head · 04",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+                "fontFamily": "Bebas Neue",
+                "fontSize": "34px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "letterSpacing": "0.015em",
+                "lineHeight": "0.92",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "74e2042f5a",
+               "blockName": "Mod Title · 04",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Deliver on rails",
+               "mobileStyles": {
+                "fontSize": "26px"
+               },
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "backgroundColor": "var(--5b2e542f-a72c-48ba-8ef4-667286b71568, #191921)",
+                "borderColor": "var(--ca079a9c-311a-47d8-87ed-1c73fe048459, #26262F)",
+                "borderRadius": "999px",
+                "borderStyle": "solid",
+                "borderWidth": "1px",
+                "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+                "flexShrink": 0,
+                "fontFamily": "Inter",
+                "fontSize": "10px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "0.12em",
+                "lineHeight": "1.5",
+                "minWidth": "10px",
+                "padding": "6px 12px",
+                "textTransform": "uppercase",
+                "width": "fit-content"
+               },
+               "blockId": "efc88b02b8",
+               "blockName": "Mod Weeks · 04",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Week 6",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {
+              "alignItems": "flex-start",
+              "flexDirection": "column",
+              "gap": "8px"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+              "fontFamily": "Inter",
+              "fontSize": "14.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "marginTop": "8px",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "48795b38d3",
+             "blockName": "Mod Blurb · 04",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Onboarding, scope walls, and the Tuesday-only meeting policy. Keep the margin you just created.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "hu-mod"
+         ],
+         "customAttributes": {},
+         "element": "a",
+         "mobileStyles": {
+          "gap": "12px",
+          "padding": "18px 2px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 18px",
+      "paddingBottom": "34px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1100px",
+      "padding": "0 30px",
+      "paddingBottom": "54px",
+      "width": "100%"
+     },
+     "blockId": "afa6ea4d43",
+     "blockName": "Section · Format",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+        "fontFamily": "Inter",
+        "fontSize": "11.5px",
+        "fontWeight": "700",
+        "height": "fit-content",
+        "letterSpacing": "0.12em",
+        "lineHeight": "1.5",
+        "minWidth": "10px",
+        "paddingBottom": "16px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "97dcbeffcb",
+       "blockName": "Format Heading",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "How it runs",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "16px",
+        "width": "100%"
+       },
+       "blockId": "017bcba8b5",
+       "blockName": "Format Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--5b2e542f-a72c-48ba-8ef4-667286b71568, #191921)",
+          "borderColor": "var(--ca079a9c-311a-47d8-87ed-1c73fe048459, #26262F)",
+          "borderRadius": "14px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "minWidth": "0px",
+          "padding": "22px 22px 24px",
+          "width": "100%"
+         },
+         "blockId": "48393a90a4",
+         "blockName": "How · Live, twice a ",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+            "fontFamily": "Bebas Neue",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.015em",
+            "lineHeight": "0.92",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "7a0ead9b7a",
+           "blockName": "How T · Live, twice ",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Live, twice a week",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+            "fontFamily": "Inter",
+            "fontSize": "13.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "marginTop": "6px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "0d21633ba2",
+           "blockName": "How B · Live, twice ",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Tuesday teardown, Friday office hours. Both recorded, neither optional the first time.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--5b2e542f-a72c-48ba-8ef4-667286b71568, #191921)",
+          "borderColor": "var(--ca079a9c-311a-47d8-87ed-1c73fe048459, #26262F)",
+          "borderRadius": "14px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "minWidth": "0px",
+          "padding": "22px 22px 24px",
+          "width": "100%"
+         },
+         "blockId": "c38bd2b29d",
+         "blockName": "How · Homework = you",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+            "fontFamily": "Bebas Neue",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.015em",
+            "lineHeight": "0.92",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "95c7ea4a57",
+           "blockName": "How T · Homework = y",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Homework = your business",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+            "fontFamily": "Inter",
+            "fontSize": "13.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "marginTop": "6px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "77b9966ad3",
+           "blockName": "How B · Homework = y",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "No fake case studies. The offer you write in week 1 is the one you sell in week 5.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--5b2e542f-a72c-48ba-8ef4-667286b71568, #191921)",
+          "borderColor": "var(--ca079a9c-311a-47d8-87ed-1c73fe048459, #26262F)",
+          "borderRadius": "14px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "minWidth": "0px",
+          "padding": "22px 22px 24px",
+          "width": "100%"
+         },
+         "blockId": "7d5f0fd2d1",
+         "blockName": "How · The group chat",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+            "fontFamily": "Bebas Neue",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.015em",
+            "lineHeight": "0.92",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "42c17a103b",
+           "blockName": "How T · The group ch",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The group chat that works",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+            "fontFamily": "Inter",
+            "fontSize": "13.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "marginTop": "6px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "bfc1c3e6c8",
+           "blockName": "How B · The group ch",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Forty people, one channel, moderated hard. Wins posted with numbers or not at all.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "14px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 18px",
+      "paddingBottom": "36px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1100px",
+      "padding": "0 30px",
+      "width": "100%"
+     },
+     "blockId": "74f6235672",
+     "blockName": "Section · Fit",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "16px",
+        "paddingBottom": "56px",
+        "width": "100%"
+       },
+       "blockId": "d2a420584f",
+       "blockName": "Fit Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderColor": "var(--ca079a9c-311a-47d8-87ed-1c73fe048459, #26262F)",
+          "borderRadius": "14px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "minWidth": "0px",
+          "padding": "22px 22px 24px",
+          "width": "100%"
+         },
+         "blockId": "4469eb44c3",
+         "blockName": "Fit Yes Col",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--026fbf06-dd85-473f-882f-2e638f526075, #FF5A26)",
+            "fontFamily": "Inter",
+            "fontSize": "11.5px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.12em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "6105ee1e5b",
+           "blockName": "Fit Yes Heading",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "For you if",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#C9C9D4",
+            "fontFamily": "Inter",
+            "fontSize": "14.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "marginTop": "10px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "3f9305fa49",
+           "blockName": "Fit Yes",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "You freelance full-time · you have at least three past clients · you can give it five hours a week · you are tired of proposals.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderColor": "var(--ca079a9c-311a-47d8-87ed-1c73fe048459, #26262F)",
+          "borderRadius": "14px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "minWidth": "0px",
+          "padding": "22px 22px 24px",
+          "width": "100%"
+         },
+         "blockId": "83ce57fe51",
+         "blockName": "Fit No Col",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+            "fontFamily": "Inter",
+            "fontSize": "11.5px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.12em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "142597f76d",
+           "blockName": "Fit No Heading",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Not for you if",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+            "fontFamily": "Inter",
+            "fontSize": "14.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "marginTop": "10px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "a5951d145a",
+           "blockName": "Fit No",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "You want passive income · you haven't done the work yet · you collect courses · you need permission, not a system.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "14px",
+        "paddingBottom": "36px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 18px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "backgroundColor": "var(--026fbf06-dd85-473f-882f-2e638f526075, #FF5A26)",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "width": "100%"
+     },
+     "blockId": "d9c203a123",
+     "blockName": "Band · Guarantee",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "32px",
+        "justifyContent": "space-between",
+        "maxWidth": "1100px",
+        "padding": "40px 30px",
+        "width": "100%"
+       },
+       "blockId": "e08292cd09",
+       "blockName": "Guarantee Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "#0F0F13",
+          "fontFamily": "Bebas Neue",
+          "fontSize": "40px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "letterSpacing": "0.015em",
+          "lineHeight": "1.05",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "8781c71f67",
+         "blockName": "Guarantee Headline",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Finish the six weeks. No pipeline? <span style=\"background: #FF5A26; color: #0F0F13; display: inline-block; padding: 0 0.12em; transform: skew(-6deg);\">Full refund.</span>",
+         "mobileStyles": {
+          "fontSize": "28px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "#4A1D0C",
+          "flexShrink": 0,
+          "fontFamily": "Inter",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.7",
+          "maxWidth": "360px",
+          "minWidth": "10px",
+          "width": "100%"
+         },
+         "blockId": "fe29ab898f",
+         "blockName": "Guarantee Sub",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Show your homework, get your money back. Four people have asked in eleven cohorts.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "alignItems": "flex-start",
+        "flexDirection": "column",
+        "gap": "14px",
+        "padding": "28px 18px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "68b2666ce9",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "3345afb6be",
+       "blockName": "Footer Inner",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "fc538792c8",
+         "blockName": "Footer Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "7ef0be06a1",
+           "blockName": "Footer Left",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "a3b0551d03",
+             "blockName": "Footer Brand",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "hustle_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "73f49caddf",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "bc453703bf",
+             "blockName": "Footer Line",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "hustle_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "60e14057d3",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "hustle_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "9c6d1b64f8",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "5b45c01c8d",
+           "blockName": "Footer Right",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "69d326304b",
+             "blockName": "Footer Mail",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "hustle_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "30c0132b64",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "17961bb1ae",
+             "blockName": "Footer Fine",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "hustle_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "e6e77e0801",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "hustle_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "6947098ead",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "hustle_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "a9cc0e0492",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "hustle_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "d4f3923dfd",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "hustle_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "hustle_styles"
+  }
+ ],
+ "creation": "2026-07-17 10:53:09.637393",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Six weeks, zero fluff: find the offer, price it like rent, sell without cringe, deliver on rails.",
+ "modified": "2026-07-17 10:54:18.347973",
+ "modified_by": "Administrator",
+ "name": "hustle_program",
+ "owner": "Administrator",
+ "page_name": "hustle_program",
+ "page_title": "The program · HU$TLE SCHOOL",
+ "preview": "/builder_assets/hustle/hustle_program/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/hustle/program",
+ "template_group": "hustle"
+}

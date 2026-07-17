@@ -260,10 +260,13 @@
              "attributes": {},
              "baseStyles": {
               "display": "flex",
+              "flexBasis": "0px",
               "flexDirection": "column",
-              "flexShrink": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
               "gap": "7px",
-              "width": "100%"
+              "minWidth": "0px",
+              "width": "auto"
              },
              "blockId": "b7cdc1cbe1",
              "blockName": "Field Name",
@@ -323,7 +326,10 @@
              "classes": [],
              "customAttributes": {},
              "element": "div",
-             "mobileStyles": {},
+             "mobileStyles": {
+              "flexBasis": "auto",
+              "width": "100%"
+             },
              "rawStyles": {},
              "tabletStyles": {}
             },
@@ -331,10 +337,13 @@
              "attributes": {},
              "baseStyles": {
               "display": "flex",
+              "flexBasis": "0px",
               "flexDirection": "column",
-              "flexShrink": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
               "gap": "7px",
-              "width": "100%"
+              "minWidth": "0px",
+              "width": "auto"
              },
              "blockId": "1b62310d13",
              "blockName": "Field Phone",
@@ -394,7 +403,10 @@
              "classes": [],
              "customAttributes": {},
              "element": "div",
-             "mobileStyles": {},
+             "mobileStyles": {
+              "flexBasis": "auto",
+              "width": "100%"
+             },
              "rawStyles": {},
              "tabletStyles": {}
             }
@@ -412,10 +424,13 @@
            "attributes": {},
            "baseStyles": {
             "display": "flex",
+            "flexBasis": "0px",
             "flexDirection": "column",
-            "flexShrink": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
             "gap": "7px",
-            "width": "100%"
+            "minWidth": "0px",
+            "width": "auto"
            },
            "blockId": "e77e2a71d9",
            "blockName": "Field Address",
@@ -475,7 +490,10 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "mobileStyles": {},
+           "mobileStyles": {
+            "flexBasis": "auto",
+            "width": "100%"
+           },
            "rawStyles": {},
            "tabletStyles": {}
           },
@@ -483,10 +501,13 @@
            "attributes": {},
            "baseStyles": {
             "display": "flex",
+            "flexBasis": "0px",
             "flexDirection": "column",
-            "flexShrink": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
             "gap": "7px",
-            "width": "100%"
+            "minWidth": "0px",
+            "width": "auto"
            },
            "blockId": "4e8d128b12",
            "blockName": "Field Message",
@@ -547,7 +568,10 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "mobileStyles": {},
+           "mobileStyles": {
+            "flexBasis": "auto",
+            "width": "100%"
+           },
            "rawStyles": {},
            "tabletStyles": {}
           },
@@ -1413,7 +1437,7 @@
    "builder_script": "cobalt_styles"
   }
  ],
- "creation": "2026-07-17 10:45:42.802969",
+ "creation": "2026-07-17 10:53:09.804058",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -1423,7 +1447,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Free site visit, fixed quote inside 48 hours. Tell Hallberg & Sons what you're planning.",
- "modified": "2026-07-17 10:46:03.614228",
+ "modified": "2026-07-17 10:54:21.122210",
  "modified_by": "Administrator",
  "name": "cobalt_quote",
  "owner": "Administrator",

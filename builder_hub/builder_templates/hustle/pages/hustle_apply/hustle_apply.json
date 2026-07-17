@@ -1,0 +1,1589 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--a49a2d43-06df-42d7-8b7e-904a6c3a22ff, #0F0F13)",
+    "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Inter",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "1b3a4e333f",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "9712805d81",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "8d89ad8e73",
+       "blockName": "Nav Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "d14a229c6d",
+         "blockName": "Brand",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "hustle_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "a72d7951c5",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "49f888db2c",
+         "blockName": "Nav Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "22807bd76d",
+           "blockName": "The program",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "hustle_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "1b8fdd9238",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "cd424ea132",
+           "blockName": "Results",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "hustle_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "3e3a8f06ab",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "8314c1ee85",
+           "blockName": "Nav CTA",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "hustle_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "8f7c62920a",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "hustle_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "2586597560",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "hustle_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "e1b90d1c85",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "hustle_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1100px",
+      "padding": "0 30px",
+      "paddingBottom": "38px",
+      "width": "100%"
+     },
+     "blockId": "3f7696f9f3",
+     "blockName": "Section · Apply Head",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+        "fontFamily": "Bebas Neue",
+        "fontSize": "84px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "letterSpacing": "0.015em",
+        "lineHeight": "0.92",
+        "minWidth": "10px",
+        "paddingTop": "56px",
+        "width": "fit-content"
+       },
+       "blockId": "b882595582",
+       "blockName": "Apply Headline",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Cohort 6.<br><span style=\"background: #FF5A26; color: #0F0F13; display: inline-block; padding: 0 0.12em; transform: skew(-6deg);\">40 seats.</span>",
+       "mobileStyles": {
+        "fontSize": "44px",
+        "paddingTop": "34px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {
+        "fontSize": "62px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+        "fontFamily": "Inter",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.7",
+        "marginTop": "16px",
+        "maxWidth": "540px",
+        "minWidth": "10px",
+        "width": "100%"
+       },
+       "blockId": "9c63b7dc31",
+       "blockName": "Apply Sub",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Applications close August 22 or when the seats go, whichever is first. Cohort 5 closed nine days early.",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 18px",
+      "paddingBottom": "26px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1100px",
+      "padding": "0 30px",
+      "paddingBottom": "50px",
+      "width": "100%"
+     },
+     "blockId": "6acbc8bd1a",
+     "blockName": "Section · Pricing",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "18px",
+        "width": "100%"
+       },
+       "blockId": "b2a1b7b2b9",
+       "blockName": "Pricing Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--5b2e542f-a72c-48ba-8ef4-667286b71568, #191921)",
+          "borderColor": "var(--026fbf06-dd85-473f-882f-2e638f526075, #FF5A26)",
+          "borderRadius": "16px",
+          "borderStyle": "solid",
+          "borderWidth": "2px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "4px",
+          "minWidth": "0px",
+          "padding": "26px 26px 28px",
+          "width": "100%"
+         },
+         "blockId": "e7690a1c20",
+         "blockName": "Price · Pay once",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "12px",
+            "justifyContent": "space-between",
+            "width": "100%"
+           },
+           "blockId": "1e701abb90",
+           "blockName": "Price Head · Pay once",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+              "fontFamily": "Inter",
+              "fontSize": "11.5px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.12em",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "dc680f2a94",
+             "blockName": "Price T · Pay once",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Pay once",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--026fbf06-dd85-473f-882f-2e638f526075, #FF5A26)",
+              "borderRadius": "999px",
+              "color": "#0F0F13",
+              "fontFamily": "Inter",
+              "fontSize": "9.5px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.12em",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "padding": "5px 10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "0f2e2b720b",
+             "blockName": "Price Hot",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "most take this",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--026fbf06-dd85-473f-882f-2e638f526075, #FF5A26)",
+            "fontFamily": "Bebas Neue",
+            "fontSize": "58px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.015em",
+            "lineHeight": "0.92",
+            "marginTop": "12px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "27cf0460ab",
+           "blockName": "Price V · Pay once",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "$1,490",
+           "mobileStyles": {
+            "fontSize": "44px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+            "fontFamily": "Inter",
+            "fontSize": "10px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.12em",
+            "lineHeight": "1.5",
+            "marginTop": "4px",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "5ce8d6cf83",
+           "blockName": "Price N · Pay once",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "everything, one payment",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "7px",
+            "marginTop": "18px",
+            "width": "100%"
+           },
+           "blockId": "721137caff",
+           "blockName": "Price Feats · Pay once",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#C9C9D4",
+              "fontFamily": "Inter",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "c09765937e",
+             "blockName": "Feat · Pay once · all six weeks,",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "• all six weeks, live",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#C9C9D4",
+              "fontFamily": "Inter",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "beefcc03e7",
+             "blockName": "Feat · Pay once · lifetime commu",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "• lifetime community seat",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#C9C9D4",
+              "fontFamily": "Inter",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "c6e2fa2598",
+             "blockName": "Feat · Pay once · scripts, templ",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "• scripts, templates, teardowns",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#C9C9D4",
+              "fontFamily": "Inter",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "f9662adb0f",
+             "blockName": "Feat · Pay once · the refund gua",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "• the refund guarantee",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "mailto:hey@hustle.school"
+           },
+           "baseStyles": {
+            "backgroundColor": "var(--026fbf06-dd85-473f-882f-2e638f526075, #FF5A26)",
+            "color": "#0F0F13",
+            "fontFamily": "Inter",
+            "fontSize": "14.5px",
+            "fontWeight": "800",
+            "height": "fit-content",
+            "letterSpacing": "0.03em",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "padding": "17px 26px",
+            "textDecoration": "none",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "70e41c15ec",
+           "blockName": "Price CTA · Pay once",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "Apply now",
+           "mobileStyles": {},
+           "rawStyles": {
+            "hover:background-color": "#F5F5F7",
+            "transition": "background-color 0.15s ease-out"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--5b2e542f-a72c-48ba-8ef4-667286b71568, #191921)",
+          "borderColor": "var(--ca079a9c-311a-47d8-87ed-1c73fe048459, #26262F)",
+          "borderRadius": "16px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "4px",
+          "minWidth": "0px",
+          "padding": "26px 26px 28px",
+          "width": "100%"
+         },
+         "blockId": "08904dcdba",
+         "blockName": "Price · Two payments",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "12px",
+            "justifyContent": "space-between",
+            "width": "100%"
+           },
+           "blockId": "f033e63a95",
+           "blockName": "Price Head · Two payments",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+              "fontFamily": "Inter",
+              "fontSize": "11.5px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.12em",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "0ec14b7dd6",
+             "blockName": "Price T · Two payments",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Two payments",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "height": "1px",
+              "width": "1px"
+             },
+             "blockId": "45e9724628",
+             "blockName": "Price Spacer · Two payments",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+            "fontFamily": "Bebas Neue",
+            "fontSize": "58px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.015em",
+            "lineHeight": "0.92",
+            "marginTop": "12px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "3da5fe0996",
+           "blockName": "Price V · Two payments",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "$790",
+           "mobileStyles": {
+            "fontSize": "44px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+            "fontFamily": "Inter",
+            "fontSize": "10px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.12em",
+            "lineHeight": "1.5",
+            "marginTop": "4px",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "e72076e55a",
+           "blockName": "Price N · Two payments",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "×2, thirty days apart",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "7px",
+            "marginTop": "18px",
+            "width": "100%"
+           },
+           "blockId": "f45375afef",
+           "blockName": "Price Feats · Two payments",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#C9C9D4",
+              "fontFamily": "Inter",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "2994f1df30",
+             "blockName": "Feat · Two payments · same everythin",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "• same everything",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#C9C9D4",
+              "fontFamily": "Inter",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "7d44450619",
+             "blockName": "Feat · Two payments · same guarantee",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "• same guarantee",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#C9C9D4",
+              "fontFamily": "Inter",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "39a97bee17",
+             "blockName": "Feat · Two payments · slightly worse",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "• slightly worse at math",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#C9C9D4",
+              "fontFamily": "Inter",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "b64f16c00d",
+             "blockName": "Feat · Two payments · we respect the",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "• we respect the cash flow",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "mailto:hey@hustle.school"
+           },
+           "baseStyles": {
+            "borderColor": "#2E2E3A",
+            "borderStyle": "solid",
+            "borderWidth": "1.5px",
+            "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+            "fontFamily": "Inter",
+            "fontSize": "14px",
+            "fontWeight": "800",
+            "height": "fit-content",
+            "letterSpacing": "0.03em",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "padding": "15px 24px",
+            "textDecoration": "none",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "91aadb97c2",
+           "blockName": "Price CTA · Two payments",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "Apply now",
+           "mobileStyles": {},
+           "rawStyles": {
+            "hover:border-color": "#FF5A26",
+            "transition": "border-color 0.15s ease-out"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "14px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 18px",
+      "paddingBottom": "34px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1100px",
+      "padding": "0 30px",
+      "paddingBottom": "56px",
+      "width": "100%"
+     },
+     "blockId": "0fe089ecba",
+     "blockName": "Section · Form",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+        "fontFamily": "Inter",
+        "fontSize": "11.5px",
+        "fontWeight": "700",
+        "height": "fit-content",
+        "letterSpacing": "0.12em",
+        "lineHeight": "1.5",
+        "minWidth": "10px",
+        "paddingBottom": "16px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "114e17f7f8",
+       "blockName": "Form Heading",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "The application",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--5b2e542f-a72c-48ba-8ef4-667286b71568, #191921)",
+        "borderColor": "var(--ca079a9c-311a-47d8-87ed-1c73fe048459, #26262F)",
+        "borderRadius": "16px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "gap": "16px",
+        "padding": "28px 28px 30px",
+        "width": "100%"
+       },
+       "blockId": "429c05cf82",
+       "blockName": "Apply Form",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "14px",
+          "width": "100%"
+         },
+         "blockId": "f098b8d60a",
+         "blockName": "Form Row 1",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexBasis": "0px",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "gap": "7px",
+            "minWidth": "0px",
+            "width": "auto"
+           },
+           "blockId": "453fd64f38",
+           "blockName": "Field Name",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+              "fontFamily": "Inter",
+              "fontSize": "10.5px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.12em",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "84e9ef4739",
+             "blockName": "Label · Name",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Name",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "name": "name",
+              "placeholder": "Sam Ochoa"
+             },
+             "baseStyles": {
+              "backgroundColor": "#14141A",
+              "borderColor": "#2E2E3A",
+              "borderRadius": "10px",
+              "borderStyle": "solid",
+              "borderWidth": "1px",
+              "color": "#F5F5F7",
+              "fontFamily": "Inter",
+              "fontSize": "14px",
+              "padding": "13px 14px",
+              "width": "100%"
+             },
+             "blockId": "c5d10e00b5",
+             "blockName": "Input · Name",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "input",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexBasis": "auto",
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexBasis": "0px",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "gap": "7px",
+            "minWidth": "0px",
+            "width": "auto"
+           },
+           "blockId": "599f2f3eb1",
+           "blockName": "Field Email",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+              "fontFamily": "Inter",
+              "fontSize": "10.5px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.12em",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "11664597ad",
+             "blockName": "Label · Email",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Email",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "name": "email",
+              "placeholder": "sam@freelance.studio"
+             },
+             "baseStyles": {
+              "backgroundColor": "#14141A",
+              "borderColor": "#2E2E3A",
+              "borderRadius": "10px",
+              "borderStyle": "solid",
+              "borderWidth": "1px",
+              "color": "#F5F5F7",
+              "fontFamily": "Inter",
+              "fontSize": "14px",
+              "padding": "13px 14px",
+              "width": "100%"
+             },
+             "blockId": "dfb591bc59",
+             "blockName": "Input · Email",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "input",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexBasis": "auto",
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexDirection": "column"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "7px",
+          "minWidth": "0px",
+          "width": "auto"
+         },
+         "blockId": "a98a1de288",
+         "blockName": "Field Sell",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+            "fontFamily": "Inter",
+            "fontSize": "10.5px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.12em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "505ec3cafe",
+           "blockName": "Label · What do you sell today?",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "What do you sell today?",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "name": "what_do_you_sell_today?",
+            "placeholder": "Brand identities for restaurants, about $4k each..."
+           },
+           "baseStyles": {
+            "backgroundColor": "#14141A",
+            "borderColor": "#2E2E3A",
+            "borderRadius": "10px",
+            "borderStyle": "solid",
+            "borderWidth": "1px",
+            "color": "#F5F5F7",
+            "fontFamily": "Inter",
+            "fontSize": "14px",
+            "padding": "13px 14px",
+            "width": "100%"
+           },
+           "blockId": "9f85d65d20",
+           "blockName": "Input · What do you sell today?",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "input",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "7px",
+          "minWidth": "0px",
+          "width": "auto"
+         },
+         "blockId": "b7e5bb6058",
+         "blockName": "Field Why",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--934ea6b2-a872-4a0b-80fc-43b223417952, #F5F5F7)",
+            "fontFamily": "Inter",
+            "fontSize": "10.5px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.12em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "f2830e4dd4",
+           "blockName": "Label · Why now?",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Why now?",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "name": "why_now?",
+            "placeholder": "Booked out three months but my rate hasn't moved since 2024..."
+           },
+           "baseStyles": {
+            "backgroundColor": "#14141A",
+            "borderColor": "#2E2E3A",
+            "borderRadius": "10px",
+            "borderStyle": "solid",
+            "borderWidth": "1px",
+            "color": "#F5F5F7",
+            "fontFamily": "Inter",
+            "fontSize": "14px",
+            "minHeight": "110px",
+            "padding": "13px 14px",
+            "width": "100%"
+           },
+           "blockId": "a2ecd72ba9",
+           "blockName": "Input · Why now?",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "textarea",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--026fbf06-dd85-473f-882f-2e638f526075, #FF5A26)",
+          "borderRadius": "10px",
+          "borderStyle": "none",
+          "color": "#0F0F13",
+          "fontFamily": "Inter",
+          "fontSize": "14.5px",
+          "fontWeight": "800",
+          "letterSpacing": "0.03em",
+          "padding": "16px 26px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "ba1ee5dfcd",
+         "blockName": "Submit Button",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "button",
+         "innerHTML": "Send application",
+         "mobileStyles": {},
+         "rawStyles": {
+          "cursor": "pointer",
+          "hover:background-color": "#F5F5F7",
+          "transition": "background-color 0.15s ease-out"
+         },
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--4871f470-cd70-4681-8651-a8830b42b7ac, #9A9AA6)",
+          "fontFamily": "Inter",
+          "fontSize": "12.5px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.7",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "d183635a5b",
+         "blockName": "Form Fine",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "We read every application and reply inside three days, including the no's.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "padding": "20px 16px 22px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 18px",
+      "paddingBottom": "38px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "backgroundColor": "var(--026fbf06-dd85-473f-882f-2e638f526075, #FF5A26)",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "width": "100%"
+     },
+     "blockId": "15394f841a",
+     "blockName": "Band · Guarantee",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "32px",
+        "justifyContent": "space-between",
+        "maxWidth": "1100px",
+        "padding": "40px 30px",
+        "width": "100%"
+       },
+       "blockId": "1378646ef7",
+       "blockName": "Guarantee Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "#0F0F13",
+          "fontFamily": "Bebas Neue",
+          "fontSize": "40px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "letterSpacing": "0.015em",
+          "lineHeight": "1.05",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "8f0a3e74c6",
+         "blockName": "Guarantee Headline",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Finish the six weeks. No pipeline? <span style=\"background: #FF5A26; color: #0F0F13; display: inline-block; padding: 0 0.12em; transform: skew(-6deg);\">Full refund.</span>",
+         "mobileStyles": {
+          "fontSize": "28px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "#4A1D0C",
+          "flexShrink": 0,
+          "fontFamily": "Inter",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.7",
+          "maxWidth": "360px",
+          "minWidth": "10px",
+          "width": "100%"
+         },
+         "blockId": "71133979fe",
+         "blockName": "Guarantee Sub",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Show your homework, get your money back. Four people have asked in eleven cohorts.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "alignItems": "flex-start",
+        "flexDirection": "column",
+        "gap": "14px",
+        "padding": "28px 18px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "23a59ed6d0",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "f568869479",
+       "blockName": "Footer Inner",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "65fc98a1e3",
+         "blockName": "Footer Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "05c75234ff",
+           "blockName": "Footer Left",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "f48f011491",
+             "blockName": "Footer Brand",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "hustle_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "73f49caddf",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "6dec21ce85",
+             "blockName": "Footer Line",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "hustle_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "60e14057d3",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "hustle_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "9c6d1b64f8",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "11ae93ee67",
+           "blockName": "Footer Right",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "36c0afc8ae",
+             "blockName": "Footer Mail",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "hustle_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "30c0132b64",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "a5b1085a48",
+             "blockName": "Footer Fine",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "hustle_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "e6e77e0801",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "hustle_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "6947098ead",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "hustle_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "a9cc0e0492",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "hustle_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "d4f3923dfd",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "hustle_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "hustle_styles"
+  }
+ ],
+ "creation": "2026-07-17 10:53:09.637393",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Cohort 6, 40 seats, starts Sept 1. Pay once or twice, same guarantee: no pipeline, full refund.",
+ "modified": "2026-07-17 10:54:18.347973",
+ "modified_by": "Administrator",
+ "name": "hustle_apply",
+ "owner": "Administrator",
+ "page_name": "hustle_apply",
+ "page_title": "Apply · HU$TLE SCHOOL",
+ "preview": "/builder_assets/hustle/hustle_apply/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/hustle/apply",
+ "template_group": "hustle"
+}
