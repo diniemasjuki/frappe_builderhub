@@ -1,0 +1,20 @@
+{
+ "categories": [
+  "Marketing",
+  "Local business"
+ ],
+ "description": "A no-nonsense trades site: cobalt masthead, hazard stripes, fixed-quote form.",
+ "order": 30,
+ "pages": [
+  {
+   "name": "cobalt_home"
+  },
+  {
+   "name": "cobalt_services"
+  },
+  {
+   "name": "cobalt_quote"
+  }
+ ],
+ "title": "Cobalt"
+}

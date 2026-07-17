@@ -1,0 +1,12 @@
+{
+ "creation": "2026-07-17 10:45:42.802969",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 0,
+ "modified": "2026-07-17 10:45:42.802969",
+ "modified_by": "Administrator",
+ "name": "cobalt_styles",
+ "owner": "Administrator",
+ "script": "\nhtml { scroll-behavior: smooth; }\n::selection { background: #FF7A1A; color: #101423; }\n.cb-slab { transition: border-color 0.15s ease-out, transform 0.15s ease-out; }\n.cb-slab:hover { border-color: #2036C8; transform: translateY(-2px); }\ninput::placeholder, textarea::placeholder { color: #9AA1B5; }\n",
+ "script_type": "CSS"
+}

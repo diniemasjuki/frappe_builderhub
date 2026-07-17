@@ -57,6 +57,7 @@ Rules that apply to every template:
 | scrap  | zine paste-up: torn rotated panels, masking tape, xerox photos, ransom headlines, staples |
 | affiche | poster wall: full-viewport swiss posters, diagonal bands, vertical rails, catalog table |
 | annum  | year timeline: split ledger hero, spine timeline with year dots and big photos, ledger |
+| cobalt | site hoarding: solid cobalt masthead, hazard-stripe dividers, numbered service slabs, framed job photos, quote form |
 
 New briefs must claim an archetype not on this list, and the list grows as templates ship.
 
@@ -115,6 +116,11 @@ crossovers), encore, aurora (Technology + Marketing).
 | scrap    | paper | graphic designer, cut-and-paste zine: torn panels, tape, xerox, ransom type (built: 3 pages, order 27) |
 | affiche  | bright | design studio, site as a series of swiss posters, type only (built: 3 pages, order 28) |
 | annum    | moss light + dark | maker's one-project-a-year photo timeline, user-spec (built: 3 pages, order 29) |
+
+### Trades & Contractors (cobalt, safety orange), cobalt BUILT Jul 2026
+| Codename | Theme | Concept |
+|----------|-------|---------|
+| cobalt   | bright | builder/contractor crew, cobalt + hazard stripes, fixed-quote form (built: 3 pages, order 30, Marketing + Local business) |
 
 ### Manufacturing & Industrial (steel blue, gray, safety-orange accents)
 | Codename | Theme | Concept |
@@ -780,6 +786,15 @@ ceramics), a stats band (6 years / 6 things / 0 abandoned), an amber "2027 is un
 card, a year-by-year ledger page with a type-only "prehistory" section, and an about page
 with portrait and numbered house rules. Bricolage Grotesque + Inter, cool paper palette with
 moss green accent (user-picked over amber, indigo, oxblood, brass), light/dark toggle. 3 pages (home / ledger / about), order 29.
+
+## Brief: cobalt (Marketing + Local business, bright), BUILT
+
+The trades site, Squarespace-Oranssi inspired: solid cobalt masthead band with giant Barlow
+Condensed caps ("We build. It lasts."), white-framed job photos with hard offset shadows,
+hazard-stripe dividers (repeating orange/ink gradient), stamped fact plates (est. 1998 / 600+
+jobs / 10-year warranty / 40 km radius), numbered service slabs with included-points lists, a
+dark recent-jobs band, an orange free-quote strip, and a quote page with real form inputs plus
+a how-it-goes steps rail. Single bright theme. 3 pages (home / services / quote), order 30.
 
 ## Follow-ups
 
