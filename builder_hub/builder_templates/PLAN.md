@@ -810,20 +810,6 @@ slow simmer), a brigade page, house rules taped above the stove, a scissors tear
 CTA and a gingham footer band. Young Serif + Albert Sans + Kalam on linen. Single warm theme.
 3 pages (home / menu / kitchen), order 32.
 
-## Brief: arcade (Marketing + Technology, dark neon), BUILT
-
-The retro arcade cabinet, built to the "what would a top agency ship" bar: a full-viewport
-CRT screen hero (rounded bezel, scanline overlay, radial vignette, phosphor glow title) with a
-box-shadow pixel-art space invader that bobs, a blinking INSERT COIN prompt and a pulsing
-PRESS START button; features as a LEVEL SELECT grid with difficulty stars and hover SELECT
-prompts; testimonials as a HIGH SCORES table (initials + scores + achievements, 5th place
-blinking YOU); a FINAL BOSS band with an animated HP bar; a game-manual page (controls as
-keycaps, power-ups, dashed cheat-code card with the Konami import); coin-slot pricing
-(free play / arcade / tournament) and a troubleshooting FAQ. Press Start 2P + Outfit,
-CRT black with neon pink/cyan/coin yellow. Single dark theme. All sprites are single divs
-with box-shadow pixel maps; all motion is pure CSS keyframes. 3 pages (home / manual / play),
-order 30.
-
 ## Brief: candor (Marketing, statement), BUILT
 
 The statement brand, Squarespace Cedar Group inspired: a deep pine full-viewport hero holding
