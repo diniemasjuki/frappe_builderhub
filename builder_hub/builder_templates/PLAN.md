@@ -58,6 +58,7 @@ Rules that apply to every template:
 | affiche | poster wall: full-viewport swiss posters, diagonal bands, vertical rails, catalog table |
 | annum  | year timeline: split ledger hero, spine timeline with year dots and big photos, ledger |
 | cobalt | site hoarding: solid cobalt masthead, hazard-stripe dividers, numbered service slabs, framed job photos, quote form |
+| candor | statement screens: full-viewport one-color statement hero, cropped mega wordmark, serif fee table, no photos |
 
 New briefs must claim an archetype not on this list, and the list grows as templates ship.
 
@@ -786,6 +787,15 @@ ceramics), a stats band (6 years / 6 things / 0 abandoned), an amber "2027 is un
 card, a year-by-year ledger page with a type-only "prehistory" section, and an about page
 with portrait and numbered house rules. Bricolage Grotesque + Inter, cool paper palette with
 moss green accent (user-picked over amber, indigo, oxblood, brass), light/dark toggle. 3 pages (home / ledger / about), order 29.
+
+## Brief: candor (Marketing, statement), BUILT
+
+The statement brand, Squarespace Cedar Group inspired: a deep pine full-viewport hero holding
+one giant Source Serif statement with a mega wordmark cropped off the bottom edge, cream
+sections with numbered serif service rows, a house-position pine band ("We will tell you if we
+are the wrong hire"), a fee table with a thick top rule and fixed prices, roman-numeral working
+principles, and a start page that sets expectations for the first call. Serif everywhere,
+no photos, single theme. 3 pages (home / work / start), order 31.
 
 ## Brief: cobalt (Marketing + Local business, bright), BUILT
 
