@@ -1640,7 +1640,7 @@
    "builder_script": "recipe_styles"
   }
  ],
- "creation": "2026-07-17 11:37:57.929436",
+ "creation": "2026-07-17 11:46:26.572326",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -1650,7 +1650,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "The brigade, the house rules, and how to book the free tasting. Two seatings per quarter.",
- "modified": "2026-07-17 11:39:08.080801",
+ "modified": "2026-07-17 11:47:24.323589",
  "modified_by": "Administrator",
  "name": "recipe_kitchen",
  "owner": "Administrator",

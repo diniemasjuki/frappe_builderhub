@@ -263,6 +263,7 @@
           "borderRadius": "10px",
           "borderStyle": "solid",
           "borderWidth": "2.5px",
+          "bottom": "24px",
           "color": "var(--7b6e8ba4-fe72-40cb-8225-206782b93d28, #D9432F)",
           "fontFamily": "Albert Sans",
           "fontSize": "11px",
@@ -276,7 +277,6 @@
           "position": "absolute",
           "right": "30px",
           "textTransform": "uppercase",
-          "top": "26px",
           "width": "fit-content",
           "zIndex": "3"
          },
@@ -292,7 +292,7 @@
          },
          "rawStyles": {
           "mask-image": "radial-gradient(circle at 30% 40%, black 60%, rgba(0,0,0,0.55) 100%)",
-          "transform": "rotate(9deg)"
+          "transform": "rotate(-6deg)"
          },
          "tabletStyles": {}
         },
@@ -1809,7 +1809,7 @@
    "builder_script": "recipe_styles"
   }
  ],
- "creation": "2026-07-17 11:37:57.929436",
+ "creation": "2026-07-17 11:46:26.572326",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -1819,7 +1819,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Three dishes, honestly priced: the Rebrand (a soufflé), the Launch (flash-fried), the Retainer (slow simmer).",
- "modified": "2026-07-17 11:39:08.080801",
+ "modified": "2026-07-17 11:47:24.323589",
  "modified_by": "Administrator",
  "name": "recipe_menu",
  "owner": "Administrator",

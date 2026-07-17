@@ -21,7 +21,8 @@ Rules that apply to every template:
   Retired, do not reuse: forge, grain, copper, ware, beacon, signal, quip, hex, prism,
   tally, intake, prospect (the Jul 2026 SaaS/app-UI batch and its prospectus follow-up were
   all retired; the user's direction is Framer-grade polish or a conceit that lands),
-  commit (original conference starter, retired Jul 17 2026), cobalt and hustle
+  commit (original conference starter, retired Jul 17 2026), arcade (CRT cabinet, strong
+  execution but retired on user preference), cobalt and hustle
   (Jul 2026 marketing batch, retired same week: competent genre executions without a strong
   conceit; the bar is what a top design agency would ship).
 - Templates need not be themed (light/dark toggle optional): app-UI and product templates may
@@ -59,7 +60,6 @@ Rules that apply to every template:
 | scrap  | zine paste-up: torn rotated panels, masking tape, xerox photos, ransom headlines, staples |
 | affiche | poster wall: full-viewport swiss posters, diagonal bands, vertical rails, catalog table |
 | annum  | year timeline: split ledger hero, spine timeline with year dots and big photos, ledger |
-| arcade | arcade cabinet: CRT screen hero with scanlines, box-shadow pixel sprites, level select, high scores, coin slots |
 | recipe | recipe cards: ruled index cards with red margin rules, dog-ears, chef's margin notes, stamps, tear-off coupon |
 | candor | statement screens: full-viewport one-color statement hero, cropped mega wordmark, serif fee table, no photos |
 | fetch  | product bento: super-rounded pastel tiles, blob photo frames, star reviews, size table, guarantee card |
