@@ -59,6 +59,7 @@ Rules that apply to every template:
 | scrap  | zine paste-up: torn rotated panels, masking tape, xerox photos, ransom headlines, staples |
 | affiche | poster wall: full-viewport swiss posters, diagonal bands, vertical rails, catalog table |
 | annum  | year timeline: split ledger hero, spine timeline with year dots and big photos, ledger |
+| arcade | arcade cabinet: CRT screen hero with scanlines, box-shadow pixel sprites, level select, high scores, coin slots |
 | candor | statement screens: full-viewport one-color statement hero, cropped mega wordmark, serif fee table, no photos |
 | fetch  | product bento: super-rounded pastel tiles, blob photo frames, star reviews, size table, guarantee card |
 
@@ -794,6 +795,20 @@ full-width lake field-test photo band with a claim chip, star-rating review card
 verified goodest dogs, a size table with honest fit notes, material spec tiles, and a
 break-it-we-replace-it-forever guarantee card. Single bright theme. 3 pages
 (home / collar / help), order 33.
+
+## Brief: arcade (Marketing + Technology, dark neon), BUILT
+
+The retro arcade cabinet, built to the "what would a top agency ship" bar: a full-viewport
+CRT screen hero (rounded bezel, scanline overlay, radial vignette, phosphor glow title) with a
+box-shadow pixel-art space invader that bobs, a blinking INSERT COIN prompt and a pulsing
+PRESS START button; features as a LEVEL SELECT grid with difficulty stars and hover SELECT
+prompts; testimonials as a HIGH SCORES table (initials + scores + achievements, 5th place
+blinking YOU); a FINAL BOSS band with an animated HP bar; a game-manual page (controls as
+keycaps, power-ups, dashed cheat-code card with the Konami import); coin-slot pricing
+(free play / arcade / tournament) and a troubleshooting FAQ. Press Start 2P + Outfit,
+CRT black with neon pink/cyan/coin yellow. Single dark theme. All sprites are single divs
+with box-shadow pixel maps; all motion is pure CSS keyframes. 3 pages (home / manual / play),
+order 30.
 
 ## Brief: candor (Marketing, statement), BUILT
 

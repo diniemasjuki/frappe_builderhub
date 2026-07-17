@@ -1,0 +1,12 @@
+{
+ "creation": "2026-07-17 11:31:38.772435",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 0,
+ "modified": "2026-07-17 11:31:38.772435",
+ "modified_by": "Administrator",
+ "name": "arcade_styles",
+ "owner": "Administrator",
+ "script": "\nhtml { scroll-behavior: smooth; color-scheme: dark; }\n::selection { background: #FF2E88; color: #0A0714; }\n.ar-scan { background: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.22) 0px, rgba(0, 0, 0, 0.22) 2px, transparent 2px, transparent 5px); pointer-events: none; }\n.ar-glow { text-shadow: 0 0 6px rgba(255, 46, 136, 0.9), 0 0 24px rgba(255, 46, 136, 0.55), 0 0 60px rgba(255, 46, 136, 0.3); }\n@keyframes ar-blink { 0%, 54% { opacity: 1; } 55%, 100% { opacity: 0; } }\n.ar-blink { animation: ar-blink 1.3s step-end infinite; }\n@keyframes ar-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }\n.ar-bob { animation: ar-bob 2.6s ease-in-out infinite; }\n@keyframes ar-spin { 0%, 100% { transform: scaleX(1); } 50% { transform: scaleX(0.2); } }\n.ar-spin { animation: ar-spin 1.8s ease-in-out infinite; }\n@keyframes ar-pulse { 0%, 100% { box-shadow: 0 0 0 rgba(255, 46, 136, 0.6); } 50% { box-shadow: 0 0 34px rgba(255, 46, 136, 0.9); } }\n.ar-start { margin-top: 26px; animation: ar-pulse 2s ease-in-out infinite; transition: transform 0.12s ease-out; }\n.ar-start:hover { transform: scale(1.05); }\n.ar-tile { transition: border-color 0.15s ease-out, transform 0.15s ease-out; }\n.ar-tile:hover { border-color: #2EE6D6; transform: translateY(-3px); }\n.ar-tile .ar-tile-sel { opacity: 0; transition: opacity 0.15s ease-out; }\n.ar-tile:hover .ar-tile-sel { opacity: 1; }\n@keyframes ar-hp { 0%, 100% { opacity: 1; } 50% { opacity: 0.65; } }\n.ar-hp { animation: ar-hp 1.6s ease-in-out infinite; }\n",
+ "script_type": "CSS"
+}

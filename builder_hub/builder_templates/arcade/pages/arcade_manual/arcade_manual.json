@@ -1,0 +1,1733 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--5161ef9e-423d-4b1d-85c4-b6803cb98d69, #0A0714)",
+    "color": "var(--82ff3039-15b4-4b8f-8ffb-cb357de630c5, #F4F1FF)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Outfit",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "74b5dff37a",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "33cf2dbfc8",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "45c632788d",
+       "blockName": "Nav Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "01d4635527",
+         "blockName": "Brand Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "5b42901f96",
+           "blockName": "Nav Coin",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "2a7a535ef5",
+             "blockName": "Nav Coin Pixel",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "arcade_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "a1f0de4254",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "arcade_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "39b388d4a8",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "88b6d6e793",
+           "blockName": "Brand",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "arcade_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "1b2591dff3",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "arcade_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "a7fc6a9453",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "3139fb59eb",
+         "blockName": "Nav Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "2bdb47a8af",
+           "blockName": "Manual",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "arcade_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "f97f89b725",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "fd5a9bb8a3",
+           "blockName": "High scores",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "arcade_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "d469089eb1",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "c8cce30f72",
+           "blockName": "Nav CTA",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "arcade_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "e9aa2ea84e",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "arcade_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "bb71b34d6e",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "arcade_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "0ea6f6d9e7",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "arcade_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1080px",
+      "padding": "0 28px",
+      "paddingBottom": "40px",
+      "width": "100%"
+     },
+     "blockId": "9740de351d",
+     "blockName": "Section · Manual Head",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "20px",
+        "paddingTop": "52px",
+        "width": "100%"
+       },
+       "blockId": "5f10920cb8",
+       "blockName": "Manual Head Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "height": "28px",
+          "width": "28px"
+         },
+         "blockId": "0feeaa9bb4",
+         "blockName": "Manual Coin",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "height": "4px",
+            "width": "4px"
+           },
+           "blockId": "dc89ab8502",
+           "blockName": "Manual Coin Pixel",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {
+            "box-shadow": "4px 0px 0 #FFD23F, 8px 0px 0 #FFD23F, 12px 0px 0 #FFD23F, 16px 0px 0 #FFD23F, 20px 0px 0 #FFD23F, 0px 4px 0 #FFD23F, 24px 4px 0 #FFD23F, 0px 8px 0 #FFD23F, 8px 8px 0 #FFD23F, 12px 8px 0 #FFD23F, 16px 8px 0 #FFD23F, 24px 8px 0 #FFD23F, 0px 12px 0 #FFD23F, 8px 12px 0 #FFD23F, 16px 12px 0 #FFD23F, 24px 12px 0 #FFD23F, 0px 16px 0 #FFD23F, 8px 16px 0 #FFD23F, 12px 16px 0 #FFD23F, 16px 16px 0 #FFD23F, 24px 16px 0 #FFD23F, 0px 20px 0 #FFD23F, 24px 20px 0 #FFD23F, 4px 24px 0 #FFD23F, 8px 24px 0 #FFD23F, 12px 24px 0 #FFD23F, 16px 24px 0 #FFD23F, 20px 24px 0 #FFD23F"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "ar-spin"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--82ff3039-15b4-4b8f-8ffb-cb357de630c5, #F4F1FF)",
+          "fontFamily": "Press Start 2P",
+          "fontSize": "22px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "2e0d39cff8",
+         "blockName": "Manual Headline",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "OFFICIAL GAME MANUAL",
+         "mobileStyles": {
+          "fontSize": "14px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "gap": "12px",
+        "paddingTop": "32px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "#8B84AD",
+        "fontFamily": "Outfit",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.7",
+        "marginTop": "16px",
+        "maxWidth": "540px",
+        "minWidth": "10px",
+        "width": "100%"
+       },
+       "blockId": "530a12a24f",
+       "blockName": "Manual Sub",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Everything in Sidequest maps to something your team already does, minus the misery. Keep this manual near the cabinet.",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 16px",
+      "paddingBottom": "28px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1080px",
+      "padding": "0 28px",
+      "paddingBottom": "52px",
+      "width": "100%"
+     },
+     "blockId": "92b31fe747",
+     "blockName": "Section · Controls",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--82ff3039-15b4-4b8f-8ffb-cb357de630c5, #F4F1FF)",
+        "fontFamily": "Press Start 2P",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.5",
+        "minWidth": "10px",
+        "paddingBottom": "20px",
+        "width": "fit-content"
+       },
+       "blockId": "ce9eff914f",
+       "blockName": "Controls Heading",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "CONTROLS",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--e8cb89d4-a56f-4930-8d8e-bf50a9989d62, #151029)",
+        "borderColor": "#2A2347",
+        "borderRadius": "16px",
+        "borderStyle": "solid",
+        "borderWidth": "2px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "gap": "22px",
+        "padding": "26px 26px 28px",
+        "width": "100%"
+       },
+       "blockId": "53e9554022",
+       "blockName": "Controls List",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "18px",
+          "width": "100%"
+         },
+         "blockId": "9ca573adea",
+         "blockName": "Control · Q",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--82ff3039-15b4-4b8f-8ffb-cb357de630c5, #F4F1FF)",
+            "borderRadius": "8px",
+            "color": "#0A0714",
+            "flexShrink": 0,
+            "fontFamily": "Press Start 2P",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.5",
+            "minWidth": "52px",
+            "padding": "13px 12px",
+            "textAlign": "center",
+            "width": "fit-content"
+           },
+           "blockId": "9b0ed9d3ac",
+           "blockName": "Key · Q",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Q",
+           "mobileStyles": {},
+           "rawStyles": {
+            "box-shadow": "0 4px 0 #8B84AD"
+           },
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "minWidth": "0px",
+            "width": "100%"
+           },
+           "blockId": "028e239db9",
+           "blockName": "Act Col · Q",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--1abcbbf1-b945-4f6e-855a-f8296f0bbefc, #2EE6D6)",
+              "fontFamily": "Press Start 2P",
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "c9fc0d2a65",
+             "blockName": "Act · Q",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "New quest",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#8B84AD",
+              "fontFamily": "Outfit",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "marginTop": "6px",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "e4f6b33021",
+             "blockName": "AB · Q",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Any teammate files a quest in one line. Templates load the details.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "18px",
+          "width": "100%"
+         },
+         "blockId": "b7508b3262",
+         "blockName": "Control · TAB",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--82ff3039-15b4-4b8f-8ffb-cb357de630c5, #F4F1FF)",
+            "borderRadius": "8px",
+            "color": "#0A0714",
+            "flexShrink": 0,
+            "fontFamily": "Press Start 2P",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.5",
+            "minWidth": "52px",
+            "padding": "13px 12px",
+            "textAlign": "center",
+            "width": "fit-content"
+           },
+           "blockId": "e9cb854fa3",
+           "blockName": "Key · TAB",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "TAB",
+           "mobileStyles": {},
+           "rawStyles": {
+            "box-shadow": "0 4px 0 #8B84AD"
+           },
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "minWidth": "0px",
+            "width": "100%"
+           },
+           "blockId": "e244894bf3",
+           "blockName": "Act Col · TAB",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--1abcbbf1-b945-4f6e-855a-f8296f0bbefc, #2EE6D6)",
+              "fontFamily": "Press Start 2P",
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "abb972d93c",
+             "blockName": "Act · TAB",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Party view",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#8B84AD",
+              "fontFamily": "Outfit",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "marginTop": "6px",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "91b963ae21",
+             "blockName": "AB · TAB",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Who's on what, at a glance. No status meeting survives contact with this key.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "18px",
+          "width": "100%"
+         },
+         "blockId": "91385524cc",
+         "blockName": "Control · S",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--82ff3039-15b4-4b8f-8ffb-cb357de630c5, #F4F1FF)",
+            "borderRadius": "8px",
+            "color": "#0A0714",
+            "flexShrink": 0,
+            "fontFamily": "Press Start 2P",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.5",
+            "minWidth": "52px",
+            "padding": "13px 12px",
+            "textAlign": "center",
+            "width": "fit-content"
+           },
+           "blockId": "07660be785",
+           "blockName": "Key · S",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "S",
+           "mobileStyles": {},
+           "rawStyles": {
+            "box-shadow": "0 4px 0 #8B84AD"
+           },
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "minWidth": "0px",
+            "width": "100%"
+           },
+           "blockId": "6583613481",
+           "blockName": "Act Col · S",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--1abcbbf1-b945-4f6e-855a-f8296f0bbefc, #2EE6D6)",
+              "fontFamily": "Press Start 2P",
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "97591e54e0",
+             "blockName": "Act · S",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Snooze",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#8B84AD",
+              "fontFamily": "Outfit",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "marginTop": "6px",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "778a765533",
+             "blockName": "AB · S",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Not now, not never. Snoozed quests respawn on the date you pick.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "18px",
+          "width": "100%"
+         },
+         "blockId": "38e6dbf724",
+         "blockName": "Control · ⏎",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--82ff3039-15b4-4b8f-8ffb-cb357de630c5, #F4F1FF)",
+            "borderRadius": "8px",
+            "color": "#0A0714",
+            "flexShrink": 0,
+            "fontFamily": "Press Start 2P",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.5",
+            "minWidth": "52px",
+            "padding": "13px 12px",
+            "textAlign": "center",
+            "width": "fit-content"
+           },
+           "blockId": "ba7d166550",
+           "blockName": "Key · ⏎",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "⏎",
+           "mobileStyles": {},
+           "rawStyles": {
+            "box-shadow": "0 4px 0 #8B84AD"
+           },
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "minWidth": "0px",
+            "width": "100%"
+           },
+           "blockId": "e1ed3c7fea",
+           "blockName": "Act Col · ⏎",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--1abcbbf1-b945-4f6e-855a-f8296f0bbefc, #2EE6D6)",
+              "fontFamily": "Press Start 2P",
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "3fc0cb3092",
+             "blockName": "Act · ⏎",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Ship",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#8B84AD",
+              "fontFamily": "Outfit",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "marginTop": "6px",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "a3f67c8892",
+             "blockName": "AB · ⏎",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Closes the quest, awards XP, drafts the release note. The good button.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "padding": "18px 14px 20px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 16px",
+      "paddingBottom": "36px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1080px",
+      "padding": "0 28px",
+      "paddingBottom": "52px",
+      "width": "100%"
+     },
+     "blockId": "fdf02d1b29",
+     "blockName": "Section · Powerups",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--82ff3039-15b4-4b8f-8ffb-cb357de630c5, #F4F1FF)",
+        "fontFamily": "Press Start 2P",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.5",
+        "minWidth": "10px",
+        "paddingBottom": "20px",
+        "width": "fit-content"
+       },
+       "blockId": "4226b36fb3",
+       "blockName": "Powerups Heading",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "POWER-UPS",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "14px",
+        "width": "100%"
+       },
+       "blockId": "0b3d565427",
+       "blockName": "Powerups Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--e8cb89d4-a56f-4930-8d8e-bf50a9989d62, #151029)",
+          "borderColor": "#2A2347",
+          "borderRadius": "16px",
+          "borderStyle": "solid",
+          "borderWidth": "2px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "minWidth": "0px",
+          "padding": "20px 18px 22px",
+          "width": "100%"
+         },
+         "blockId": "574e8113bb",
+         "blockName": "Powerup · GITHUB LINK",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--1abcbbf1-b945-4f6e-855a-f8296f0bbefc, #2EE6D6)",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "2a2915208f",
+           "blockName": "PU Icon · GITHUB LINK",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "▲",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--1abcbbf1-b945-4f6e-855a-f8296f0bbefc, #2EE6D6)",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "10px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "marginTop": "10px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "469e6c43b4",
+           "blockName": "PU Title · GITHUB LINK",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "GITHUB LINK",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#8B84AD",
+            "fontFamily": "Outfit",
+            "fontSize": "12.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "marginTop": "6px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "3a3bf3aa27",
+           "blockName": "PU B · GITHUB LINK",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "PRs close quests automatically. Merge = XP.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--e8cb89d4-a56f-4930-8d8e-bf50a9989d62, #151029)",
+          "borderColor": "#2A2347",
+          "borderRadius": "16px",
+          "borderStyle": "solid",
+          "borderWidth": "2px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "minWidth": "0px",
+          "padding": "20px 18px 22px",
+          "width": "100%"
+         },
+         "blockId": "23f8cbfeb8",
+         "blockName": "Powerup · SLACK HORN",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--dba52f9a-6008-4b67-8301-6fbd2603d7ed, #FFD23F)",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "8552798805",
+           "blockName": "PU Icon · SLACK HORN",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "▲",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--dba52f9a-6008-4b67-8301-6fbd2603d7ed, #FFD23F)",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "10px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "marginTop": "10px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "8cf156d2bd",
+           "blockName": "PU Title · SLACK HORN",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "SLACK HORN",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#8B84AD",
+            "fontFamily": "Outfit",
+            "fontSize": "12.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "marginTop": "6px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "54010a9d87",
+           "blockName": "PU B · SLACK HORN",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Ship announcements with your team's chosen victory sound.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--e8cb89d4-a56f-4930-8d8e-bf50a9989d62, #151029)",
+          "borderColor": "#2A2347",
+          "borderRadius": "16px",
+          "borderStyle": "solid",
+          "borderWidth": "2px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "minWidth": "0px",
+          "padding": "20px 18px 22px",
+          "width": "100%"
+         },
+         "blockId": "c5920a9fe4",
+         "blockName": "Powerup · FOCUS SHIELD",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--1faaf7da-fce7-4575-8f81-dda220815046, #FF2E88)",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "cd12edbab9",
+           "blockName": "PU Icon · FOCUS SHIELD",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "▲",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--1faaf7da-fce7-4575-8f81-dda220815046, #FF2E88)",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "10px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "marginTop": "10px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "7ce161600a",
+           "blockName": "PU Title · FOCUS SHIELD",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "FOCUS SHIELD",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#8B84AD",
+            "fontFamily": "Outfit",
+            "fontSize": "12.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "marginTop": "6px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "037ba78c6b",
+           "blockName": "PU B · FOCUS SHIELD",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Blocks new quests from landing on a teammate mid-boss.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--e8cb89d4-a56f-4930-8d8e-bf50a9989d62, #151029)",
+          "borderColor": "#2A2347",
+          "borderRadius": "16px",
+          "borderStyle": "solid",
+          "borderWidth": "2px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "minWidth": "0px",
+          "padding": "20px 18px 22px",
+          "width": "100%"
+         },
+         "blockId": "ebde54b478",
+         "blockName": "Powerup · 2P CO-OP",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#9D6BFF",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "dc07a1aeda",
+           "blockName": "PU Icon · 2P CO-OP",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "▲",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#9D6BFF",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "10px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "marginTop": "10px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "90214a7da0",
+           "blockName": "PU Title · 2P CO-OP",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "2P CO-OP",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#8B84AD",
+            "fontFamily": "Outfit",
+            "fontSize": "12.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "marginTop": "6px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "dc87749ebe",
+           "blockName": "PU B · 2P CO-OP",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Pair on any quest; XP is split evenly, friendship is not.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "12px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 16px",
+      "paddingBottom": "36px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1080px",
+      "padding": "0 28px",
+      "paddingBottom": "56px",
+      "width": "100%"
+     },
+     "blockId": "5cafb9ab9e",
+     "blockName": "Section · Cheats",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "#100C22",
+        "borderColor": "var(--dba52f9a-6008-4b67-8301-6fbd2603d7ed, #FFD23F)",
+        "borderRadius": "16px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "padding": "26px 26px 28px",
+        "width": "100%"
+       },
+       "blockId": "db74816c77",
+       "blockName": "Cheats Inner",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--82ff3039-15b4-4b8f-8ffb-cb357de630c5, #F4F1FF)",
+          "fontFamily": "Press Start 2P",
+          "fontSize": "15px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "5bbf56c403",
+         "blockName": "Cheats Heading",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "CHEAT CODES",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "#8B84AD",
+          "fontFamily": "Outfit",
+          "fontSize": "13px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.7",
+          "marginTop": "8px",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "02fab5129a",
+         "blockName": "Cheats Sub",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Entered by your admin, effective immediately:",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "marginTop": "16px",
+          "width": "100%"
+         },
+         "blockId": "4fab8e38ab",
+         "blockName": "Cheats List",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--dba52f9a-6008-4b67-8301-6fbd2603d7ed, #FFD23F)",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "11px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "2",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "d0893400a3",
+           "blockName": "Cheat 1",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "↑ ↑ ↓ ↓ ← → ← → B A",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#8B84AD",
+            "fontFamily": "Outfit",
+            "fontSize": "13.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "36fcf34a41",
+           "blockName": "Cheat 1 B",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Imports your entire Jira in under an hour. Yes, all of it. Yes, even that project.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--1abcbbf1-b945-4f6e-855a-f8296f0bbefc, #2EE6D6)",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "11px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "2",
+            "marginTop": "14px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "8e5b9475d0",
+           "blockName": "Cheat 2",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "SELECT + START",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#8B84AD",
+            "fontFamily": "Outfit",
+            "fontSize": "13.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "16b1bb1bb2",
+           "blockName": "Cheat 2 B",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Invites the whole team at once. Everyone starts at level 1; the intern will pass you by Thursday.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "padding": "18px 14px 20px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 16px",
+      "paddingBottom": "38px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "466294445f",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "05c4517609",
+       "blockName": "Footer Inner",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "a6ef39d695",
+         "blockName": "Footer Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "1a2e45617d",
+           "blockName": "Footer Left",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "6ac95ba51c",
+             "blockName": "Footer Brand",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "arcade_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "a3260eed28",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "6bc7d72519",
+             "blockName": "Footer Line",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "arcade_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "3a71507c39",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "arcade_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "382efa9172",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "84444d2e30",
+           "blockName": "Footer Right",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "1537cf006c",
+             "blockName": "Footer Mail",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "arcade_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "0b0962fb72",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "6a0e64125b",
+             "blockName": "Footer Konami",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "arcade_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "47bc8cbfe2",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "arcade_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "1b178c23fb",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "arcade_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "ca17c32d10",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "55d7ebeb1f",
+         "blockName": "Footer Fine",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "arcade_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "ce4c93576b",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "arcade_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "098618a394",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "arcade_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "arcade_styles"
+  }
+ ],
+ "creation": "2026-07-17 11:31:38.772435",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Controls, power-ups and cheat codes: how Sidequest maps to the work your team already does.",
+ "modified": "2026-07-17 11:32:44.094326",
+ "modified_by": "Administrator",
+ "name": "arcade_manual",
+ "owner": "Administrator",
+ "page_name": "arcade_manual",
+ "page_title": "Game manual · SIDEQUEST",
+ "preview": "/builder_assets/arcade/arcade_manual/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/arcade/manual",
+ "template_group": "arcade"
+}

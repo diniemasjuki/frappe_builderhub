@@ -1,0 +1,1767 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--5161ef9e-423d-4b1d-85c4-b6803cb98d69, #0A0714)",
+    "color": "var(--82ff3039-15b4-4b8f-8ffb-cb357de630c5, #F4F1FF)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Outfit",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "6bae1cd59b",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "09be61d11b",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "6573bb23bb",
+       "blockName": "Nav Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "e5f6528798",
+         "blockName": "Brand Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "e581e848ba",
+           "blockName": "Nav Coin",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "02d0af9f23",
+             "blockName": "Nav Coin Pixel",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "arcade_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "a1f0de4254",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "arcade_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "39b388d4a8",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "29ddaa668c",
+           "blockName": "Brand",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "arcade_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "1b2591dff3",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "arcade_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "a7fc6a9453",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "3e007aeaee",
+         "blockName": "Nav Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "3ca62320b0",
+           "blockName": "Manual",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "arcade_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "f97f89b725",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "9601fcee79",
+           "blockName": "High scores",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "arcade_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "d469089eb1",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "9a58ac21e9",
+           "blockName": "Nav CTA",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "arcade_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "e9aa2ea84e",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "arcade_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "bb71b34d6e",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "arcade_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "0ea6f6d9e7",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "arcade_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "760px",
+      "padding": "0 28px",
+      "paddingBottom": "40px",
+      "width": "100%"
+     },
+     "blockId": "8d0e491722",
+     "blockName": "Section · Play Head",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--82ff3039-15b4-4b8f-8ffb-cb357de630c5, #F4F1FF)",
+        "fontFamily": "Press Start 2P",
+        "fontSize": "26px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.5",
+        "minWidth": "10px",
+        "paddingTop": "52px",
+        "textAlign": "center",
+        "width": "100%"
+       },
+       "blockId": "8c29af0042",
+       "blockName": "Play Headline",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "INSERT COIN",
+       "mobileStyles": {
+        "fontSize": "17px",
+        "paddingTop": "32px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "#8B84AD",
+        "fontFamily": "Outfit",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.7",
+        "marginTop": "14px",
+        "minWidth": "10px",
+        "textAlign": "center",
+        "width": "100%"
+       },
+       "blockId": "0607d90ef9",
+       "blockName": "Play Sub",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Three ways to play. Every plan includes the whole game; the coins just change how many players fit in the cabinet.",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 16px",
+      "paddingBottom": "28px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1080px",
+      "padding": "0 28px",
+      "paddingBottom": "56px",
+      "width": "100%"
+     },
+     "blockId": "376eebf263",
+     "blockName": "Section · Slots",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "16px",
+        "width": "100%"
+       },
+       "blockId": "ce21ececd6",
+       "blockName": "Slots Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--e8cb89d4-a56f-4930-8d8e-bf50a9989d62, #151029)",
+          "borderColor": "#2A2347",
+          "borderRadius": "18px",
+          "borderStyle": "solid",
+          "borderWidth": "2px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "2px",
+          "minWidth": "0px",
+          "padding": "26px 24px 28px",
+          "width": "100%"
+         },
+         "blockId": "c6337462ae",
+         "blockName": "Slot · FREE PLAY",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "12px",
+            "width": "100%"
+           },
+           "blockId": "c3c19833c3",
+           "blockName": "Slot Head · FREE PLAY",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "height": "21px",
+              "width": "21px"
+             },
+             "blockId": "f749bfc37a",
+             "blockName": "Slot Coin · FREE PLAY",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "height": "3px",
+                "width": "3px"
+               },
+               "blockId": "d0eefcf8ad",
+               "blockName": "Slot Coin · FREE PLAY Pixel",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {
+                "box-shadow": "3px 0px 0 #FFD23F, 6px 0px 0 #FFD23F, 9px 0px 0 #FFD23F, 12px 0px 0 #FFD23F, 15px 0px 0 #FFD23F, 0px 3px 0 #FFD23F, 18px 3px 0 #FFD23F, 0px 6px 0 #FFD23F, 6px 6px 0 #FFD23F, 9px 6px 0 #FFD23F, 12px 6px 0 #FFD23F, 18px 6px 0 #FFD23F, 0px 9px 0 #FFD23F, 6px 9px 0 #FFD23F, 12px 9px 0 #FFD23F, 18px 9px 0 #FFD23F, 0px 12px 0 #FFD23F, 6px 12px 0 #FFD23F, 9px 12px 0 #FFD23F, 12px 12px 0 #FFD23F, 18px 12px 0 #FFD23F, 0px 15px 0 #FFD23F, 18px 15px 0 #FFD23F, 3px 18px 0 #FFD23F, 6px 18px 0 #FFD23F, 9px 18px 0 #FFD23F, 12px 18px 0 #FFD23F, 15px 18px 0 #FFD23F"
+               },
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#8B84AD",
+              "fontFamily": "Press Start 2P",
+              "fontSize": "11px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "3ee4198deb",
+             "blockName": "Slot T · FREE PLAY",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "FREE PLAY",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--82ff3039-15b4-4b8f-8ffb-cb357de630c5, #F4F1FF)",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.5",
+            "marginTop": "18px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "41c87bc6aa",
+           "blockName": "Slot P · FREE PLAY",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "$0",
+           "mobileStyles": {
+            "fontSize": "22px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#8B84AD",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "8px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.5",
+            "marginTop": "8px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "40fa55f9c7",
+           "blockName": "Slot Per · FREE PLAY",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "FOREVER · 3 PLAYERS",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "8px",
+            "marginTop": "20px",
+            "width": "100%"
+           },
+           "blockId": "8564d94bbf",
+           "blockName": "Slot F · FREE PLAY",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#B9B3D6",
+              "fontFamily": "Outfit",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "280991b733",
+             "blockName": "SF · FREE PLAY · every featur",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "+ every feature, no timer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#B9B3D6",
+              "fontFamily": "Outfit",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "a0ac446f13",
+             "blockName": "SF · FREE PLAY · 3 party memb",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "+ 3 party members",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#B9B3D6",
+              "fontFamily": "Outfit",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "f2b3da5096",
+             "blockName": "SF · FREE PLAY · community hi",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "+ community high-score board",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "mailto:press-start@sidequest.gg"
+           },
+           "baseStyles": {
+            "backgroundColor": "#2A2347",
+            "color": "#0A0714",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "13px",
+            "height": "fit-content",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "padding": "18px 26px",
+            "textDecoration": "none",
+            "width": "fit-content"
+           },
+           "blockId": "72ddddef8e",
+           "blockName": "Slot CTA · FREE PLAY",
+           "children": [],
+           "classes": [
+            "ar-start"
+           ],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "PLAY",
+           "mobileStyles": {
+            "fontSize": "11px",
+            "padding": "15px 18px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--e8cb89d4-a56f-4930-8d8e-bf50a9989d62, #151029)",
+          "borderColor": "var(--1faaf7da-fce7-4575-8f81-dda220815046, #FF2E88)",
+          "borderRadius": "18px",
+          "borderStyle": "solid",
+          "borderWidth": "2px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "2px",
+          "minWidth": "0px",
+          "padding": "26px 24px 28px",
+          "width": "100%"
+         },
+         "blockId": "cc527e6849",
+         "blockName": "Slot · ARCADE",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "12px",
+            "width": "100%"
+           },
+           "blockId": "e137fb6cd1",
+           "blockName": "Slot Head · ARCADE",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "height": "21px",
+              "width": "21px"
+             },
+             "blockId": "ed09f797f0",
+             "blockName": "Slot Coin · ARCADE",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "height": "3px",
+                "width": "3px"
+               },
+               "blockId": "11e3f6a1b6",
+               "blockName": "Slot Coin · ARCADE Pixel",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {
+                "box-shadow": "3px 0px 0 #FFD23F, 6px 0px 0 #FFD23F, 9px 0px 0 #FFD23F, 12px 0px 0 #FFD23F, 15px 0px 0 #FFD23F, 0px 3px 0 #FFD23F, 18px 3px 0 #FFD23F, 0px 6px 0 #FFD23F, 6px 6px 0 #FFD23F, 9px 6px 0 #FFD23F, 12px 6px 0 #FFD23F, 18px 6px 0 #FFD23F, 0px 9px 0 #FFD23F, 6px 9px 0 #FFD23F, 12px 9px 0 #FFD23F, 18px 9px 0 #FFD23F, 0px 12px 0 #FFD23F, 6px 12px 0 #FFD23F, 9px 12px 0 #FFD23F, 12px 12px 0 #FFD23F, 18px 12px 0 #FFD23F, 0px 15px 0 #FFD23F, 18px 15px 0 #FFD23F, 3px 18px 0 #FFD23F, 6px 18px 0 #FFD23F, 9px 18px 0 #FFD23F, 12px 18px 0 #FFD23F, 15px 18px 0 #FFD23F"
+               },
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [
+              "ar-spin"
+             ],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--1faaf7da-fce7-4575-8f81-dda220815046, #FF2E88)",
+              "fontFamily": "Press Start 2P",
+              "fontSize": "11px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "1e8297be2d",
+             "blockName": "Slot T · ARCADE",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "ARCADE",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--82ff3039-15b4-4b8f-8ffb-cb357de630c5, #F4F1FF)",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.5",
+            "marginTop": "18px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "1c49534b38",
+           "blockName": "Slot P · ARCADE",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "$12",
+           "mobileStyles": {
+            "fontSize": "22px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#8B84AD",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "8px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.5",
+            "marginTop": "8px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "5599f90a93",
+           "blockName": "Slot Per · ARCADE",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "PER PLAYER / MONTH",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "8px",
+            "marginTop": "20px",
+            "width": "100%"
+           },
+           "blockId": "dc9312d4cb",
+           "blockName": "Slot F · ARCADE",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#B9B3D6",
+              "fontFamily": "Outfit",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "74d949a4de",
+             "blockName": "SF · ARCADE · unlimited pa",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "+ unlimited party size",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#B9B3D6",
+              "fontFamily": "Outfit",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "ce820b0301",
+             "blockName": "SF · ARCADE · co-op mode +",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "+ co-op mode + focus shield",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#B9B3D6",
+              "fontFamily": "Outfit",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "531a31c0b6",
+             "blockName": "SF · ARCADE · custom victo",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "+ custom victory sounds",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#B9B3D6",
+              "fontFamily": "Outfit",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "bb857432b2",
+             "blockName": "SF · ARCADE · priority sup",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "+ priority support, human",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "mailto:press-start@sidequest.gg"
+           },
+           "baseStyles": {
+            "backgroundColor": "var(--1faaf7da-fce7-4575-8f81-dda220815046, #FF2E88)",
+            "color": "#0A0714",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "13px",
+            "height": "fit-content",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "padding": "18px 26px",
+            "textDecoration": "none",
+            "width": "fit-content"
+           },
+           "blockId": "1c2e50c807",
+           "blockName": "Slot CTA · ARCADE",
+           "children": [],
+           "classes": [
+            "ar-start"
+           ],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "PLAY",
+           "mobileStyles": {
+            "fontSize": "11px",
+            "padding": "15px 18px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {
+          "box-shadow": "0 0 30px var(--1faaf7da-fce7-4575-8f81-dda220815046, #FF2E88)22"
+         },
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--e8cb89d4-a56f-4930-8d8e-bf50a9989d62, #151029)",
+          "borderColor": "#2A2347",
+          "borderRadius": "18px",
+          "borderStyle": "solid",
+          "borderWidth": "2px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "2px",
+          "minWidth": "0px",
+          "padding": "26px 24px 28px",
+          "width": "100%"
+         },
+         "blockId": "e00b486f40",
+         "blockName": "Slot · TOURNAMENT",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "12px",
+            "width": "100%"
+           },
+           "blockId": "0ba1b9fea4",
+           "blockName": "Slot Head · TOURNAMENT",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "height": "21px",
+              "width": "21px"
+             },
+             "blockId": "9914e62ea9",
+             "blockName": "Slot Coin · TOURNAMENT",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "height": "3px",
+                "width": "3px"
+               },
+               "blockId": "04ac9dec28",
+               "blockName": "Slot Coin · TOURNAMENT Pixel",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {
+                "box-shadow": "3px 0px 0 #FFD23F, 6px 0px 0 #FFD23F, 9px 0px 0 #FFD23F, 12px 0px 0 #FFD23F, 15px 0px 0 #FFD23F, 0px 3px 0 #FFD23F, 18px 3px 0 #FFD23F, 0px 6px 0 #FFD23F, 6px 6px 0 #FFD23F, 9px 6px 0 #FFD23F, 12px 6px 0 #FFD23F, 18px 6px 0 #FFD23F, 0px 9px 0 #FFD23F, 6px 9px 0 #FFD23F, 12px 9px 0 #FFD23F, 18px 9px 0 #FFD23F, 0px 12px 0 #FFD23F, 6px 12px 0 #FFD23F, 9px 12px 0 #FFD23F, 12px 12px 0 #FFD23F, 18px 12px 0 #FFD23F, 0px 15px 0 #FFD23F, 18px 15px 0 #FFD23F, 3px 18px 0 #FFD23F, 6px 18px 0 #FFD23F, 9px 18px 0 #FFD23F, 12px 18px 0 #FFD23F, 15px 18px 0 #FFD23F"
+               },
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--1abcbbf1-b945-4f6e-855a-f8296f0bbefc, #2EE6D6)",
+              "fontFamily": "Press Start 2P",
+              "fontSize": "11px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "185fbf2125",
+             "blockName": "Slot T · TOURNAMENT",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "TOURNAMENT",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--82ff3039-15b4-4b8f-8ffb-cb357de630c5, #F4F1FF)",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.5",
+            "marginTop": "18px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "5ac661a947",
+           "blockName": "Slot P · TOURNAMENT",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "$49",
+           "mobileStyles": {
+            "fontSize": "22px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#8B84AD",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "8px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.5",
+            "marginTop": "8px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "583966edf5",
+           "blockName": "Slot Per · TOURNAMENT",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "PER PLAYER / MONTH",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "8px",
+            "marginTop": "20px",
+            "width": "100%"
+           },
+           "blockId": "7d5b1ae2ab",
+           "blockName": "Slot F · TOURNAMENT",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#B9B3D6",
+              "fontFamily": "Outfit",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "9d1d467901",
+             "blockName": "SF · TOURNAMENT · everything i",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "+ everything in Arcade",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#B9B3D6",
+              "fontFamily": "Outfit",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "3c0cd6ef31",
+             "blockName": "SF · TOURNAMENT · SSO + audit ",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "+ SSO + audit logs",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#B9B3D6",
+              "fontFamily": "Outfit",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "04b877a090",
+             "blockName": "SF · TOURNAMENT · dedicated su",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "+ dedicated success sherpa",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#B9B3D6",
+              "fontFamily": "Outfit",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "93ab4fe179",
+             "blockName": "SF · TOURNAMENT · your logo on",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "+ your logo on the cabinet",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "mailto:press-start@sidequest.gg"
+           },
+           "baseStyles": {
+            "backgroundColor": "#2A2347",
+            "color": "#0A0714",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "13px",
+            "height": "fit-content",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "padding": "18px 26px",
+            "textDecoration": "none",
+            "width": "fit-content"
+           },
+           "blockId": "760a2b1fd6",
+           "blockName": "Slot CTA · TOURNAMENT",
+           "children": [],
+           "classes": [
+            "ar-start"
+           ],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "PLAY",
+           "mobileStyles": {
+            "fontSize": "11px",
+            "padding": "15px 18px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "12px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "#8B84AD",
+        "fontFamily": "Press Start 2P",
+        "fontSize": "8px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.5",
+        "marginTop": "18px",
+        "minWidth": "10px",
+        "textAlign": "center",
+        "width": "100%"
+       },
+       "blockId": "09f59201fa",
+       "blockName": "Slots Fine",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "NO CONTINUES REQUIRED · CANCEL ANY TIME",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 16px",
+      "paddingBottom": "36px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1080px",
+      "padding": "0 28px",
+      "paddingBottom": "56px",
+      "width": "100%"
+     },
+     "blockId": "171a9541c6",
+     "blockName": "Section · Trouble",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--82ff3039-15b4-4b8f-8ffb-cb357de630c5, #F4F1FF)",
+        "fontFamily": "Press Start 2P",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.5",
+        "minWidth": "10px",
+        "paddingBottom": "16px",
+        "width": "fit-content"
+       },
+       "blockId": "fdb06a903f",
+       "blockName": "Trouble Heading",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "TROUBLESHOOTING",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--e8cb89d4-a56f-4930-8d8e-bf50a9989d62, #151029)",
+        "borderColor": "#2A2347",
+        "borderRadius": "16px",
+        "borderStyle": "solid",
+        "borderWidth": "2px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "padding": "10px 22px",
+        "width": "100%"
+       },
+       "blockId": "01c2c174a5",
+       "blockName": "Trouble List",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderTopColor": "#2A2347",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "0px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "padding": "18px 4px",
+          "width": "100%"
+         },
+         "blockId": "6700063750",
+         "blockName": "Trouble · The screen says my",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--dba52f9a-6008-4b67-8301-6fbd2603d7ed, #FFD23F)",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "11px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.9",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "5162335a6e",
+           "blockName": "TQ · The screen says ",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "▸ The screen says my team is 'too big to fail'.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#8B84AD",
+            "fontFamily": "Outfit",
+            "fontSize": "13.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "marginTop": "6px",
+            "maxWidth": "720px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "9152cad83f",
+           "blockName": "TA · The screen says ",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "That's the Tournament tier easter egg. It means SSO is on and the audit log is running.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderTopColor": "#2A2347",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "padding": "18px 4px",
+          "width": "100%"
+         },
+         "blockId": "e8630b6011",
+         "blockName": "Trouble · A player refuses t",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--dba52f9a-6008-4b67-8301-6fbd2603d7ed, #FFD23F)",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "11px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.9",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "f5d990f529",
+           "blockName": "TQ · A player refuses",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "▸ A player refuses to play.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#8B84AD",
+            "fontFamily": "Outfit",
+            "fontSize": "13.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "marginTop": "6px",
+            "maxWidth": "720px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "1629314af6",
+           "blockName": "TA · A player refuses",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Give them the Ship key for a week. The ⏎ sound has converted every holdout so far. Current streak: 100%.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderTopColor": "#2A2347",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "padding": "18px 4px",
+          "width": "100%"
+         },
+         "blockId": "55002e86f3",
+         "blockName": "Trouble · We already have Ji",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--dba52f9a-6008-4b67-8301-6fbd2603d7ed, #FFD23F)",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "11px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.9",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "4ac9d82106",
+           "blockName": "TQ · We already have ",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "▸ We already have Jira.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#8B84AD",
+            "fontFamily": "Outfit",
+            "fontSize": "13.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "marginTop": "6px",
+            "maxWidth": "720px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "7ad646ac3c",
+           "blockName": "TA · We already have ",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The Konami import eats Jira for breakfast. Under an hour, nothing lost, feelings optional.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderTopColor": "#2A2347",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "padding": "18px 4px",
+          "width": "100%"
+         },
+         "blockId": "ae7eb6c9d3",
+         "blockName": "Trouble · Is the XP thing...",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--dba52f9a-6008-4b67-8301-6fbd2603d7ed, #FFD23F)",
+            "fontFamily": "Press Start 2P",
+            "fontSize": "11px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.9",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "3c6f46cb8e",
+           "blockName": "TQ · Is the XP thing.",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "▸ Is the XP thing... serious?",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#8B84AD",
+            "fontFamily": "Outfit",
+            "fontSize": "13.5px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "marginTop": "6px",
+            "maxWidth": "720px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "fa5b026f09",
+           "blockName": "TA · Is the XP thing.",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Deadly. XP maps to real cycle-time data your manager can chart. The confetti is just better than a burndown.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "padding": "6px 14px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 16px",
+      "paddingBottom": "38px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "3189c49416",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "c80aece74a",
+       "blockName": "Footer Inner",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "ad4a2468da",
+         "blockName": "Footer Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "b042320468",
+           "blockName": "Footer Left",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "e80de8584f",
+             "blockName": "Footer Brand",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "arcade_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "a3260eed28",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "283cbc0073",
+             "blockName": "Footer Line",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "arcade_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "3a71507c39",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "arcade_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "382efa9172",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "edddfa3faf",
+           "blockName": "Footer Right",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "4d335970ef",
+             "blockName": "Footer Mail",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "arcade_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "0b0962fb72",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "897c57ac51",
+             "blockName": "Footer Konami",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "arcade_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "47bc8cbfe2",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "arcade_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "1b178c23fb",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "arcade_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "ca17c32d10",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "b9faa6d7fe",
+         "blockName": "Footer Fine",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "arcade_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "ce4c93576b",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "arcade_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "098618a394",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "arcade_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "arcade_styles"
+  }
+ ],
+ "creation": "2026-07-17 11:31:38.772435",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Free play forever for 3 players. Arcade $12, Tournament $49. No continues required.",
+ "modified": "2026-07-17 11:32:44.094326",
+ "modified_by": "Administrator",
+ "name": "arcade_play",
+ "owner": "Administrator",
+ "page_name": "arcade_play",
+ "page_title": "Insert coin · SIDEQUEST",
+ "preview": "/builder_assets/arcade/arcade_play/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/arcade/play",
+ "template_group": "arcade"
+}
