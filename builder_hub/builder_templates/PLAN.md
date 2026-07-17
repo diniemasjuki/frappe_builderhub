@@ -56,7 +56,7 @@ Rules that apply to every template:
 | bureau | agency mega-type: acid highlight marks, typographic case covers, numbered service mega-list |
 | scrap  | zine paste-up: torn rotated panels, masking tape, xerox photos, ransom headlines, staples |
 | affiche | poster wall: full-viewport swiss posters, diagonal bands, vertical rails, catalog table |
-| annum  | year timeline: full-bleed photo hero, spine timeline with year dots and big photos, ledger |
+| annum  | year timeline: split ledger hero, spine timeline with year dots and big photos, ledger |
 
 New briefs must claim an archetype not on this list, and the list grows as templates ship.
 
