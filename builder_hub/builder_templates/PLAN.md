@@ -764,13 +764,17 @@ giant index rows). German-flavored copy. Light, no toggle, no photos. 3 pages
 ## Brief: annum (Portfolio, warm light + dark) — BUILT
 
 The one-thing-a-year maker portfolio, built to the user's spec: image-heavy hero + personal
-projects timeline. Full-bleed workshop-sparks hero with gradient shade and huge Bricolage
-Grotesque headline ("One thing a year."), a spine timeline with amber year dots, big rounded
-photos, status chips and material chips per project (balm, allotment, cabin, bike frame,
-stools, ceramics), a stats band (6 years / 6 things / 0 abandoned), an amber "2027 is
-unclaimed" CTA card, a year-by-year ledger page with a type-only "prehistory" section, and an
-about page with portrait and numbered house rules. Bricolage Grotesque + Inter, warm bone
-palette with amber accent, light/dark toggle. 3 pages (home / ledger / about), order 29.
+projects timeline. Split ledger hero (user-picked over the first full-bleed-overlay version):
+text on solid bone at left with a huge stacked Bricolage Grotesque headline and a clickable
+year ledger (2026 to 2021, anchor links into the timeline with hover arrows), full-height
+workshop-sparks photo column at right with a fig caption chip. Ledger-style nav: brand lockup
+with sub-line, numbered links (01/02/03), a pulsing "now making: salve" status chip, and a
+2px year-progress rule under the bar. Then a spine timeline with amber year dots, big rounded
+photos, status and material chips per project (balm, allotment, cabin, bike frame, stools,
+ceramics), a stats band (6 years / 6 things / 0 abandoned), an amber "2027 is unclaimed" CTA
+card, a year-by-year ledger page with a type-only "prehistory" section, and an about page
+with portrait and numbered house rules. Bricolage Grotesque + Inter, warm bone palette with
+amber accent, light/dark toggle. 3 pages (home / ledger / about), order 29.
 
 ## Follow-ups
 

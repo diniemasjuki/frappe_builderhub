@@ -14,7 +14,7 @@
     "minHeight": "100vh",
     "width": "100%"
    },
-   "blockId": "c39af2bb25",
+   "blockId": "81b403e543",
    "blockName": "Root",
    "children": [
     {
@@ -33,27 +33,27 @@
          "attributes": {},
          "baseStyles": {},
          "blockId": "49c75196eb",
-         "blockName": "Brand",
-         "children": [],
-         "classes": [],
-         "customAttributes": {},
-         "isChildOfComponent": "annum_nav",
-         "mobileStyles": {},
-         "rawStyles": {},
-         "referenceBlockId": "1eb70ce8ce",
-         "tabletStyles": {}
-        },
-        {
-         "attributes": {},
-         "baseStyles": {},
-         "blockId": "fcc5430561",
-         "blockName": "Nav Links",
+         "blockName": "Brand Lockup",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
+           "blockId": "fcc5430561",
+           "blockName": "Brand",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "annum_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "1eb70ce8ce",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
            "blockId": "55a56e1e03",
-           "blockName": "Timeline",
+           "blockName": "Brand Sub",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -62,26 +62,27 @@
            "rawStyles": {},
            "referenceBlockId": "b6a23b7793",
            "tabletStyles": {}
-          },
-          {
-           "attributes": {},
-           "baseStyles": {},
-           "blockId": "1b8773e670",
-           "blockName": "Ledger",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
-           "isChildOfComponent": "annum_nav",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "referenceBlockId": "0c92b2d979",
-           "tabletStyles": {}
-          },
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "annum_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "0c92b2d979",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "1b8773e670",
+         "blockName": "Nav Links",
+         "children": [
           {
            "attributes": {},
            "baseStyles": {},
            "blockId": "27e44dbccb",
-           "blockName": "About",
+           "blockName": "Nav · Timeline",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -95,43 +96,28 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "d1a0310405",
-           "blockName": "Theme Toggle",
-           "children": [
-            {
-             "attributes": {},
-             "baseStyles": {},
-             "blockId": "ec6f1cac27",
-             "blockName": "Theme · ti-sun",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "isChildOfComponent": "annum_nav",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "90b830ace1",
-             "tabletStyles": {}
-            },
-            {
-             "attributes": {},
-             "baseStyles": {},
-             "blockId": "243f7869e4",
-             "blockName": "Theme · ti-moon",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "isChildOfComponent": "annum_nav",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "103359ad76",
-             "tabletStyles": {}
-            }
-           ],
+           "blockName": "Nav · Ledger",
+           "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "annum_nav",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "783ff9909f",
+           "referenceBlockId": "90b830ace1",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "ec6f1cac27",
+           "blockName": "Nav · About",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "annum_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "103359ad76",
            "tabletStyles": {}
           }
          ],
@@ -140,7 +126,108 @@
          "isChildOfComponent": "annum_nav",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "58e32d8cf6",
+         "referenceBlockId": "783ff9909f",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "243f7869e4",
+         "blockName": "Nav Right",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "ce5f127199",
+           "blockName": "Status Chip",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "48c30d9aa8",
+             "blockName": "Status Dot",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "annum_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "58e32d8cf6",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "9296cf3561",
+             "blockName": "Status Text",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "annum_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "7362b0b417",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "annum_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "540b9973f0",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "89fb209018",
+           "blockName": "Theme Toggle",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "ad7378e86f",
+             "blockName": "Theme · ti-sun",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "annum_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "fc0e58f676",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "31ee0895db",
+             "blockName": "Theme · ti-moon",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "annum_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "1c84619b94",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "annum_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "52e2aa872a",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "annum_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "0749ea69f2",
          "tabletStyles": {}
         }
        ],
@@ -149,7 +236,36 @@
        "isChildOfComponent": "annum_nav",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "7362b0b417",
+       "referenceBlockId": "a6b6a08d20",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "e67fbc4821",
+       "blockName": "Year Rule",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "e3b6c0c8d5",
+         "blockName": "Year Rule Fill",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "annum_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "6fcf56b3a6",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "annum_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "1d0a866983",
        "tabletStyles": {}
       }
      ],
@@ -2386,31 +2502,31 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "ce5f127199",
+     "blockId": "76059994d9",
      "blockName": "Footer",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "48c30d9aa8",
+       "blockId": "c39af2bb25",
        "blockName": "Footer Inner",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "9296cf3561",
+         "blockId": "bef478087d",
          "blockName": "Footer Row",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "89fb209018",
+           "blockId": "9690cd4385",
            "blockName": "Footer Left",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "ad7378e86f",
+             "blockId": "aa6cff9720",
              "blockName": "Footer Name",
              "children": [],
              "classes": [],
@@ -2418,13 +2534,13 @@
              "isChildOfComponent": "annum_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "fc0e58f676",
+             "referenceBlockId": "41cee09a32",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "31ee0895db",
+             "blockId": "23388a59c0",
              "blockName": "Footer Line",
              "children": [],
              "classes": [],
@@ -2432,7 +2548,7 @@
              "isChildOfComponent": "annum_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "1c84619b94",
+             "referenceBlockId": "bb32fd618a",
              "tabletStyles": {}
             }
            ],
@@ -2441,19 +2557,19 @@
            "isChildOfComponent": "annum_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "52e2aa872a",
+           "referenceBlockId": "82ff1f2d64",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "e67fbc4821",
+           "blockId": "e4d47ae9c0",
            "blockName": "Footer Right",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "e3b6c0c8d5",
+             "blockId": "b413079383",
              "blockName": "Footer Mail",
              "children": [],
              "classes": [],
@@ -2461,13 +2577,13 @@
              "isChildOfComponent": "annum_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "0749ea69f2",
+             "referenceBlockId": "c81c5ed532",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "76059994d9",
+             "blockId": "368a2df026",
              "blockName": "Footer Fine",
              "children": [],
              "classes": [],
@@ -2475,7 +2591,7 @@
              "isChildOfComponent": "annum_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "a6b6a08d20",
+             "referenceBlockId": "14db903f72",
              "tabletStyles": {}
             }
            ],
@@ -2484,7 +2600,7 @@
            "isChildOfComponent": "annum_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "6fcf56b3a6",
+           "referenceBlockId": "eb0d3b6ff7",
            "tabletStyles": {}
           }
          ],
@@ -2493,7 +2609,7 @@
          "isChildOfComponent": "annum_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "1d0a866983",
+         "referenceBlockId": "e444112bc5",
          "tabletStyles": {}
         }
        ],
@@ -2502,7 +2618,7 @@
        "isChildOfComponent": "annum_footer",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "ef9a072f60",
+       "referenceBlockId": "34bf20648d",
        "tabletStyles": {}
       }
      ],
@@ -2535,7 +2651,7 @@
    "builder_script": "annum_styles"
   }
  ],
- "creation": "2026-07-17 07:21:24.217273",
+ "creation": "2026-07-17 09:21:53.319485",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -2545,7 +2661,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Every year on the record since 2018, including the twelve-side-project year that created the rule.",
- "modified": "2026-07-17 07:22:49.569554",
+ "modified": "2026-07-17 09:22:43.212990",
  "modified_by": "Administrator",
  "name": "annum_ledger",
  "owner": "Administrator",

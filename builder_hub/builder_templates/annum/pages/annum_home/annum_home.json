@@ -14,46 +14,46 @@
     "minHeight": "100vh",
     "width": "100%"
    },
-   "blockId": "3d9ff13b95",
+   "blockId": "2cd72fddf2",
    "blockName": "Root",
    "children": [
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "a7c3bf22d0",
+     "blockId": "48008da55f",
      "blockName": "Navbar",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "cc76de3e91",
+       "blockId": "9b23860919",
        "blockName": "Nav Row",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "ce109b2b32",
-         "blockName": "Brand",
-         "children": [],
-         "classes": [],
-         "customAttributes": {},
-         "isChildOfComponent": "annum_nav",
-         "mobileStyles": {},
-         "rawStyles": {},
-         "referenceBlockId": "1eb70ce8ce",
-         "tabletStyles": {}
-        },
-        {
-         "attributes": {},
-         "baseStyles": {},
-         "blockId": "a793b6ea36",
-         "blockName": "Nav Links",
+         "blockId": "b5bb8509f5",
+         "blockName": "Brand Lockup",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "d15d34455f",
-           "blockName": "Timeline",
+           "blockId": "ebef4c20a1",
+           "blockName": "Brand",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "annum_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "1eb70ce8ce",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "124d986e2a",
+           "blockName": "Brand Sub",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -62,26 +62,27 @@
            "rawStyles": {},
            "referenceBlockId": "b6a23b7793",
            "tabletStyles": {}
-          },
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "annum_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "0c92b2d979",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "61608d14f6",
+         "blockName": "Nav Links",
+         "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "03d550267c",
-           "blockName": "Ledger",
-           "children": [],
-           "classes": [],
-           "customAttributes": {},
-           "isChildOfComponent": "annum_nav",
-           "mobileStyles": {},
-           "rawStyles": {},
-           "referenceBlockId": "0c92b2d979",
-           "tabletStyles": {}
-          },
-          {
-           "attributes": {},
-           "baseStyles": {},
-           "blockId": "440be7c24a",
-           "blockName": "About",
+           "blockId": "eae89a3796",
+           "blockName": "Nav · Timeline",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -94,44 +95,29 @@
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "8fe1acc322",
-           "blockName": "Theme Toggle",
-           "children": [
-            {
-             "attributes": {},
-             "baseStyles": {},
-             "blockId": "0497f50704",
-             "blockName": "Theme · ti-sun",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "isChildOfComponent": "annum_nav",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "90b830ace1",
-             "tabletStyles": {}
-            },
-            {
-             "attributes": {},
-             "baseStyles": {},
-             "blockId": "9c8983ee93",
-             "blockName": "Theme · ti-moon",
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "isChildOfComponent": "annum_nav",
-             "mobileStyles": {},
-             "rawStyles": {},
-             "referenceBlockId": "103359ad76",
-             "tabletStyles": {}
-            }
-           ],
+           "blockId": "70b2a39ad8",
+           "blockName": "Nav · Ledger",
+           "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "annum_nav",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "783ff9909f",
+           "referenceBlockId": "90b830ace1",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "401df904af",
+           "blockName": "Nav · About",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "annum_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "103359ad76",
            "tabletStyles": {}
           }
          ],
@@ -140,7 +126,108 @@
          "isChildOfComponent": "annum_nav",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "58e32d8cf6",
+         "referenceBlockId": "783ff9909f",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "e2d635532b",
+         "blockName": "Nav Right",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "e956a37192",
+           "blockName": "Status Chip",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "b3cdcd73fb",
+             "blockName": "Status Dot",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "annum_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "58e32d8cf6",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "355159caf6",
+             "blockName": "Status Text",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "annum_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "7362b0b417",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "annum_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "540b9973f0",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "b603e63a63",
+           "blockName": "Theme Toggle",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "3f35ed8219",
+             "blockName": "Theme · ti-sun",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "annum_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "fc0e58f676",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "785e4e2773",
+             "blockName": "Theme · ti-moon",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "annum_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "1c84619b94",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "annum_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "52e2aa872a",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "annum_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "0749ea69f2",
          "tabletStyles": {}
         }
        ],
@@ -149,7 +236,36 @@
        "isChildOfComponent": "annum_nav",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "7362b0b417",
+       "referenceBlockId": "a6b6a08d20",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "a83e92f5a9",
+       "blockName": "Year Rule",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "37fd053e05",
+         "blockName": "Year Rule Fill",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "annum_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "6fcf56b3a6",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "annum_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "1d0a866983",
        "tabletStyles": {}
       }
      ],
@@ -164,182 +280,775 @@
     {
      "attributes": {},
      "baseStyles": {
+      "alignItems": "stretch",
       "display": "flex",
-      "flexDirection": "column",
+      "flexDirection": "row",
       "flexShrink": 0,
+      "gap": "0px",
       "minHeight": "88vh",
-      "overflow": "hidden",
-      "position": "relative",
       "width": "100%"
      },
-     "blockId": "0ad4ebb5a4",
+     "blockId": "9107df090f",
      "blockName": "Hero",
      "children": [
       {
-       "attributes": {
-        "alt": "Workshop sparks at dusk",
-        "src": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=2000"
-       },
-       "baseStyles": {
-        "display": "block",
-        "flexShrink": 0,
-        "height": "100%",
-        "left": "0px",
-        "objectFit": "cover",
-        "position": "absolute",
-        "top": "0px",
-        "width": "100%"
-       },
-       "blockId": "4d44f41f35",
-       "blockName": "Hero Photo",
-       "children": [],
-       "classes": [],
-       "customAttributes": {},
-       "element": "img",
-       "mobileStyles": {},
-       "rawStyles": {},
-       "tabletStyles": {}
-      },
-      {
        "attributes": {},
        "baseStyles": {
-        "height": "100%",
-        "left": "0px",
-        "position": "absolute",
-        "top": "0px",
-        "width": "100%"
-       },
-       "blockId": "d0c3d8bb2e",
-       "blockName": "Hero Shade",
-       "children": [],
-       "classes": [],
-       "customAttributes": {},
-       "element": "div",
-       "mobileStyles": {},
-       "rawStyles": {
-        "background": "linear-gradient(180deg, rgba(15, 12, 10, 0.25) 0%, rgba(15, 12, 10, 0.2) 45%, rgba(15, 12, 10, 0.72) 100%)"
-       },
-       "tabletStyles": {}
-      },
-      {
-       "attributes": {},
-       "baseStyles": {
-        "bottom": "0px",
+        "alignItems": "center",
         "display": "flex",
+        "flexBasis": "0px",
         "flexDirection": "column",
-        "flexShrink": 0,
-        "left": "0px",
-        "margin": "0 auto",
-        "maxWidth": "1160px",
-        "padding": "0 28px 64px",
-        "position": "absolute",
-        "right": "0px",
+        "flexGrow": 1.05,
+        "flexShrink": 1,
+        "justifyContent": "center",
+        "minWidth": "0px",
+        "padding": "72px 40px 64px",
         "width": "100%"
        },
-       "blockId": "7b9723c077",
+       "blockId": "183a10e267",
        "blockName": "Hero Copy",
        "children": [
         {
          "attributes": {},
          "baseStyles": {
-          "color": "#E8B48C",
-          "fontFamily": "Inter",
-          "fontSize": "11.5px",
-          "fontWeight": "600",
-          "height": "fit-content",
-          "letterSpacing": "0.12em",
-          "lineHeight": "1.5",
-          "minWidth": "10px",
-          "textTransform": "uppercase",
-          "width": "fit-content"
-         },
-         "blockId": "313de89b40",
-         "blockName": "Hero Kicker",
-         "children": [],
-         "classes": [],
-         "customAttributes": {},
-         "element": "p",
-         "innerHTML": "Jonas Riis · designer by day, maker by year",
-         "mobileStyles": {},
-         "rawStyles": {},
-         "tabletStyles": {}
-        },
-        {
-         "attributes": {},
-         "baseStyles": {
-          "color": "#FFFFFF",
-          "fontFamily": "Bricolage Grotesque",
-          "fontSize": "96px",
-          "fontWeight": "700",
-          "height": "fit-content",
-          "letterSpacing": "-0.025em",
-          "lineHeight": "1.04",
-          "marginTop": "16px",
-          "minWidth": "10px",
-          "width": "fit-content"
-         },
-         "blockId": "bda5192f9a",
-         "blockName": "Hero Headline",
-         "children": [],
-         "classes": [],
-         "customAttributes": {},
-         "element": "p",
-         "innerHTML": "One thing<br>a year.",
-         "mobileStyles": {
-          "fontSize": "44px"
-         },
-         "rawStyles": {},
-         "tabletStyles": {
-          "fontSize": "72px"
-         }
-        },
-        {
-         "attributes": {},
-         "baseStyles": {
-          "color": "rgba(255, 255, 255, 0.82)",
-          "fontFamily": "Inter",
-          "fontSize": "16.5px",
-          "fontWeight": "400",
-          "height": "fit-content",
-          "lineHeight": "1.7",
-          "marginTop": "18px",
-          "maxWidth": "560px",
-          "minWidth": "10px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "maxWidth": "480px",
           "width": "100%"
          },
-         "blockId": "841fbb2a86",
-         "blockName": "Hero Sub",
-         "children": [],
+         "blockId": "1e791b5cd4",
+         "blockName": "Hero Copy Inner",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #C2551C)",
+            "fontFamily": "Inter",
+            "fontSize": "11.5px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.12em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "4d44f41f35",
+           "blockName": "Hero Kicker",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Jonas Riis · designer by day, maker by year",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1B1712)",
+            "fontFamily": "Bricolage Grotesque",
+            "fontSize": "84px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "-0.025em",
+            "lineHeight": "1.04",
+            "marginTop": "20px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "d0c3d8bb2e",
+           "blockName": "Hero Headline",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "One<br>thing<br>a year.",
+           "mobileStyles": {
+            "fontSize": "46px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {
+            "fontSize": "64px"
+           }
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+            "fontFamily": "Inter",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "marginTop": "22px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "313de89b40",
+           "blockName": "Hero Sub",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Every January I pick one project with my hands in mind and my calendar against me. It ships by December 31 or it doesn't count. Six years in, six things exist.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderBottomColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "marginTop": "34px",
+            "width": "100%"
+           },
+           "blockId": "cc8a54090e",
+           "blockName": "Hero Ledger",
+           "children": [
+            {
+             "attributes": {
+              "href": "#y2026"
+             },
+             "baseStyles": {
+              "alignItems": "center",
+              "borderTopColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderTopStyle": "solid",
+              "borderTopWidth": "0px",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "14px",
+              "padding": "13px 6px",
+              "textDecoration": "none",
+              "width": "100%"
+             },
+             "blockId": "7b9723c077",
+             "blockName": "Hero Year · 2026",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #C2551C)",
+                "flexShrink": 0,
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "16px",
+                "fontWeight": "800",
+                "height": "fit-content",
+                "letterSpacing": "-0.025em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "56px"
+               },
+               "blockId": "bda5192f9a",
+               "blockName": "HY Year · 2026",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "2026",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1B1712)",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontFamily": "Inter",
+                "fontSize": "15px",
+                "fontWeight": "600",
+                "height": "fit-content",
+                "lineHeight": "1.4",
+                "minWidth": "0px",
+                "width": "auto"
+               },
+               "blockId": "841fbb2a86",
+               "blockName": "HY Title · 2026",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Salve",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+                "flexShrink": 0,
+                "fontFamily": "Inter",
+                "fontSize": "15px",
+                "height": "fit-content",
+                "lineHeight": "1.4",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "fba09a8e6c",
+               "blockName": "HY Arrow · 2026",
+               "children": [],
+               "classes": [
+                "an-yr-arrow"
+               ],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "→",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [
+              "an-yr"
+             ],
+             "customAttributes": {},
+             "element": "a",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "href": "#y2025"
+             },
+             "baseStyles": {
+              "alignItems": "center",
+              "borderTopColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderTopStyle": "solid",
+              "borderTopWidth": "1px",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "14px",
+              "padding": "13px 6px",
+              "textDecoration": "none",
+              "width": "100%"
+             },
+             "blockId": "5cba1b3a00",
+             "blockName": "Hero Year · 2025",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #C2551C)",
+                "flexShrink": 0,
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "16px",
+                "fontWeight": "800",
+                "height": "fit-content",
+                "letterSpacing": "-0.025em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "56px"
+               },
+               "blockId": "0ad4ebb5a4",
+               "blockName": "HY Year · 2025",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "2025",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1B1712)",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontFamily": "Inter",
+                "fontSize": "15px",
+                "fontWeight": "600",
+                "height": "fit-content",
+                "lineHeight": "1.4",
+                "minWidth": "0px",
+                "width": "auto"
+               },
+               "blockId": "43220f2d86",
+               "blockName": "HY Title · 2025",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "The Plot",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+                "flexShrink": 0,
+                "fontFamily": "Inter",
+                "fontSize": "15px",
+                "height": "fit-content",
+                "lineHeight": "1.4",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "c6e9c5ca4e",
+               "blockName": "HY Arrow · 2025",
+               "children": [],
+               "classes": [
+                "an-yr-arrow"
+               ],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "→",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [
+              "an-yr"
+             ],
+             "customAttributes": {},
+             "element": "a",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "href": "#y2024"
+             },
+             "baseStyles": {
+              "alignItems": "center",
+              "borderTopColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderTopStyle": "solid",
+              "borderTopWidth": "1px",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "14px",
+              "padding": "13px 6px",
+              "textDecoration": "none",
+              "width": "100%"
+             },
+             "blockId": "04282e3408",
+             "blockName": "Hero Year · 2024",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #C2551C)",
+                "flexShrink": 0,
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "16px",
+                "fontWeight": "800",
+                "height": "fit-content",
+                "letterSpacing": "-0.025em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "56px"
+               },
+               "blockId": "dec2f6930d",
+               "blockName": "HY Year · 2024",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "2024",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1B1712)",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontFamily": "Inter",
+                "fontSize": "15px",
+                "fontWeight": "600",
+                "height": "fit-content",
+                "lineHeight": "1.4",
+                "minWidth": "0px",
+                "width": "auto"
+               },
+               "blockId": "6617a53f6a",
+               "blockName": "HY Title · 2024",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Hytte",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+                "flexShrink": 0,
+                "fontFamily": "Inter",
+                "fontSize": "15px",
+                "height": "fit-content",
+                "lineHeight": "1.4",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "a771068fb3",
+               "blockName": "HY Arrow · 2024",
+               "children": [],
+               "classes": [
+                "an-yr-arrow"
+               ],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "→",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [
+              "an-yr"
+             ],
+             "customAttributes": {},
+             "element": "a",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "href": "#y2023"
+             },
+             "baseStyles": {
+              "alignItems": "center",
+              "borderTopColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderTopStyle": "solid",
+              "borderTopWidth": "1px",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "14px",
+              "padding": "13px 6px",
+              "textDecoration": "none",
+              "width": "100%"
+             },
+             "blockId": "7ccd608576",
+             "blockName": "Hero Year · 2023",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #C2551C)",
+                "flexShrink": 0,
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "16px",
+                "fontWeight": "800",
+                "height": "fit-content",
+                "letterSpacing": "-0.025em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "56px"
+               },
+               "blockId": "2a9826364b",
+               "blockName": "HY Year · 2023",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "2023",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1B1712)",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontFamily": "Inter",
+                "fontSize": "15px",
+                "fontWeight": "600",
+                "height": "fit-content",
+                "lineHeight": "1.4",
+                "minWidth": "0px",
+                "width": "auto"
+               },
+               "blockId": "2dbfdfd90f",
+               "blockName": "HY Title · 2023",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Frame No. 1",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+                "flexShrink": 0,
+                "fontFamily": "Inter",
+                "fontSize": "15px",
+                "height": "fit-content",
+                "lineHeight": "1.4",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "9346c8147c",
+               "blockName": "HY Arrow · 2023",
+               "children": [],
+               "classes": [
+                "an-yr-arrow"
+               ],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "→",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [
+              "an-yr"
+             ],
+             "customAttributes": {},
+             "element": "a",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "href": "#y2022"
+             },
+             "baseStyles": {
+              "alignItems": "center",
+              "borderTopColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderTopStyle": "solid",
+              "borderTopWidth": "1px",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "14px",
+              "padding": "13px 6px",
+              "textDecoration": "none",
+              "width": "100%"
+             },
+             "blockId": "d317fa3387",
+             "blockName": "Hero Year · 2022",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #C2551C)",
+                "flexShrink": 0,
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "16px",
+                "fontWeight": "800",
+                "height": "fit-content",
+                "letterSpacing": "-0.025em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "56px"
+               },
+               "blockId": "80c571d838",
+               "blockName": "HY Year · 2022",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "2022",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1B1712)",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontFamily": "Inter",
+                "fontSize": "15px",
+                "fontWeight": "600",
+                "height": "fit-content",
+                "lineHeight": "1.4",
+                "minWidth": "0px",
+                "width": "auto"
+               },
+               "blockId": "04e1a3f6a0",
+               "blockName": "HY Title · 2022",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Stool School",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+                "flexShrink": 0,
+                "fontFamily": "Inter",
+                "fontSize": "15px",
+                "height": "fit-content",
+                "lineHeight": "1.4",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "656102823a",
+               "blockName": "HY Arrow · 2022",
+               "children": [],
+               "classes": [
+                "an-yr-arrow"
+               ],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "→",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [
+              "an-yr"
+             ],
+             "customAttributes": {},
+             "element": "a",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "href": "#y2021"
+             },
+             "baseStyles": {
+              "alignItems": "center",
+              "borderTopColor": "var(--80e81e7e-980d-4d5a-81f5-e80c75408034, #E7E1D6)",
+              "borderTopStyle": "solid",
+              "borderTopWidth": "1px",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "14px",
+              "padding": "13px 6px",
+              "textDecoration": "none",
+              "width": "100%"
+             },
+             "blockId": "21e1820421",
+             "blockName": "Hero Year · 2021",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--ac7730a3-d81b-4bd6-8649-796593b099df, #C2551C)",
+                "flexShrink": 0,
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "16px",
+                "fontWeight": "800",
+                "height": "fit-content",
+                "letterSpacing": "-0.025em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "56px"
+               },
+               "blockId": "c22619e54e",
+               "blockName": "HY Year · 2021",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "2021",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--38e17868-3b9c-45e6-8877-c753d827ed69, #1B1712)",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontFamily": "Inter",
+                "fontSize": "15px",
+                "fontWeight": "600",
+                "height": "fit-content",
+                "lineHeight": "1.4",
+                "minWidth": "0px",
+                "width": "auto"
+               },
+               "blockId": "84a4ceaf04",
+               "blockName": "HY Title · 2021",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Mud Year",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--853e8f01-f346-4423-801f-39f4bd8f4b31, #756D60)",
+                "flexShrink": 0,
+                "fontFamily": "Inter",
+                "fontSize": "15px",
+                "height": "fit-content",
+                "lineHeight": "1.4",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "94c084ac3a",
+               "blockName": "HY Arrow · 2021",
+               "children": [],
+               "classes": [
+                "an-yr-arrow"
+               ],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "→",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [
+              "an-yr"
+             ],
+             "customAttributes": {},
+             "element": "a",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
          "classes": [],
          "customAttributes": {},
-         "element": "p",
-         "innerHTML": "Every January I pick one project with my hands in mind and my calendar against me. It ships by December 31 or it doesn't count. Six years in, six things exist.",
-         "mobileStyles": {},
-         "rawStyles": {},
-         "tabletStyles": {}
-        },
-        {
-         "attributes": {},
-         "baseStyles": {
-          "color": "#E8B48C",
-          "fontFamily": "Inter",
-          "fontSize": "11.5px",
-          "fontWeight": "600",
-          "height": "fit-content",
-          "letterSpacing": "0.12em",
-          "lineHeight": "1.5",
-          "marginTop": "26px",
-          "minWidth": "10px",
-          "textTransform": "uppercase",
-          "width": "fit-content"
-         },
-         "blockId": "fba09a8e6c",
-         "blockName": "Hero Hint",
-         "children": [],
-         "classes": [],
-         "customAttributes": {},
-         "element": "p",
-         "innerHTML": "scroll: 2026 back to 2021 ↓",
+         "element": "div",
          "mobileStyles": {},
          "rawStyles": {},
          "tabletStyles": {}
@@ -349,7 +1058,96 @@
        "customAttributes": {},
        "element": "div",
        "mobileStyles": {
-        "padding": "0 18px 40px"
+        "flexBasis": "auto",
+        "padding": "40px 18px 36px",
+        "width": "100%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {
+        "padding": "56px 30px 48px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexBasis": "0px",
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "minHeight": "600px",
+        "minWidth": "0px",
+        "overflow": "hidden",
+        "position": "relative"
+       },
+       "blockId": "fe072f7cf4",
+       "blockName": "Hero Photo Pane",
+       "children": [
+        {
+         "attributes": {
+          "alt": "Workshop sparks at dusk",
+          "src": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=2000"
+         },
+         "baseStyles": {
+          "display": "block",
+          "flexShrink": 0,
+          "height": "100%",
+          "left": "0px",
+          "objectFit": "cover",
+          "position": "absolute",
+          "top": "0px",
+          "width": "100%"
+         },
+         "blockId": "3686706a66",
+         "blockName": "Hero Photo",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "rgba(15, 12, 10, 0.55)",
+          "borderRadius": "999px",
+          "bottom": "22px",
+          "color": "rgba(255, 255, 255, 0.85)",
+          "fontFamily": "Inter",
+          "fontSize": "11.5px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "0.12em",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "padding": "8px 14px",
+          "position": "absolute",
+          "right": "22px",
+          "textTransform": "uppercase",
+          "width": "fit-content",
+          "zIndex": "2"
+         },
+         "blockId": "efe949fae5",
+         "blockName": "Hero Fig",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "fig. 2026, in progress",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexBasis": "auto",
+        "minHeight": "320px",
+        "width": "100%"
        },
        "rawStyles": {},
        "tabletStyles": {}
@@ -359,7 +1157,8 @@
      "customAttributes": {},
      "element": "div",
      "mobileStyles": {
-      "minHeight": "70vh"
+      "flexDirection": "column",
+      "minHeight": "0vh"
      },
      "rawStyles": {},
      "tabletStyles": {}
@@ -374,7 +1173,7 @@
       "padding": "0 28px",
       "width": "100%"
      },
-     "blockId": "83e1389e75",
+     "blockId": "b5b9e9453e",
      "blockName": "Section · Timeline",
      "children": [
       {
@@ -389,7 +1188,7 @@
         "padding": "78px 0 46px",
         "width": "100%"
        },
-       "blockId": "5cba1b3a00",
+       "blockId": "487eb28a79",
        "blockName": "Timeline Head",
        "children": [
         {
@@ -405,7 +1204,7 @@
           "minWidth": "10px",
           "width": "fit-content"
          },
-         "blockId": "43220f2d86",
+         "blockId": "cb3e09ad40",
          "blockName": "Timeline Heading",
          "children": [],
          "classes": [],
@@ -432,7 +1231,7 @@
           "textTransform": "uppercase",
           "width": "fit-content"
          },
-         "blockId": "c6e9c5ca4e",
+         "blockId": "d04113951f",
          "blockName": "Timeline Count",
          "children": [],
          "classes": [],
@@ -465,7 +1264,7 @@
         "paddingLeft": "42px",
         "width": "100%"
        },
-       "blockId": "9dee884898",
+       "blockId": "d4051bcf76",
        "blockName": "Timeline",
        "children": [
         {
@@ -478,7 +1277,7 @@
           "position": "relative",
           "width": "100%"
          },
-         "blockId": "c22619e54e",
+         "blockId": "fdfa2779e1",
          "blockName": "Entry · 2026",
          "children": [
           {
@@ -495,7 +1294,7 @@
             "top": "6px",
             "width": "15px"
            },
-           "blockId": "dec2f6930d",
+           "blockId": "db82544c87",
            "blockName": "Dot · 2026",
            "children": [],
            "classes": [],
@@ -510,6 +1309,26 @@
            "tabletStyles": {}
           },
           {
+           "attributes": {
+            "id": "y2026"
+           },
+           "baseStyles": {
+            "height": "0px",
+            "marginTop": "-90px",
+            "paddingTop": "90px",
+            "width": "100%"
+           },
+           "blockId": "a1bc765fff",
+           "blockName": "Anchor · 2026",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
            "attributes": {},
            "baseStyles": {
             "alignItems": "center",
@@ -520,7 +1339,7 @@
             "justifyContent": "space-between",
             "width": "100%"
            },
-           "blockId": "04282e3408",
+           "blockId": "bbca489f11",
            "blockName": "Year Row · 2026",
            "children": [
             {
@@ -536,7 +1355,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "6617a53f6a",
+             "blockId": "63f9f217fb",
              "blockName": "Year · 2026",
              "children": [],
              "classes": [],
@@ -567,7 +1386,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "a771068fb3",
+             "blockId": "b1877ba96d",
              "blockName": "Status · 2026",
              "children": [],
              "classes": [],
@@ -601,7 +1420,7 @@
             "overflow": "hidden",
             "width": "100%"
            },
-           "blockId": "2dbfdfd90f",
+           "blockId": "af1a9aea51",
            "blockName": "Photo Wrap · 2026",
            "children": [
             {
@@ -616,7 +1435,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "2a9826364b",
+             "blockId": "8eb6b309fe",
              "blockName": "Image · Salve",
              "children": [],
              "classes": [],
@@ -654,7 +1473,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "9346c8147c",
+           "blockId": "2475721918",
            "blockName": "Title · 2026",
            "children": [],
            "classes": [],
@@ -681,7 +1500,7 @@
             "minWidth": "10px",
             "width": "100%"
            },
-           "blockId": "7ccd608576",
+           "blockId": "2206b558af",
            "blockName": "Blurb · 2026",
            "children": [],
            "classes": [],
@@ -704,7 +1523,7 @@
             "marginTop": "14px",
             "width": "100%"
            },
-           "blockId": "d317fa3387",
+           "blockId": "829c4830b5",
            "blockName": "Chips · 2026",
            "children": [
             {
@@ -726,7 +1545,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "80c571d838",
+             "blockId": "d9fbd4a989",
              "blockName": "Chip · 2026 · beeswax + ca",
              "children": [],
              "classes": [],
@@ -756,7 +1575,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "04e1a3f6a0",
+             "blockId": "432b83147b",
              "blockName": "Chip · 2026 · batch of 200",
              "children": [],
              "classes": [],
@@ -786,7 +1605,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "656102823a",
+             "blockId": "fddfbef156",
              "blockName": "Chip · 2026 · label set le",
              "children": [],
              "classes": [],
@@ -825,7 +1644,7 @@
           "position": "relative",
           "width": "100%"
          },
-         "blockId": "487eb28a79",
+         "blockId": "66e7db3135",
          "blockName": "Entry · 2025",
          "children": [
           {
@@ -842,7 +1661,7 @@
             "top": "6px",
             "width": "15px"
            },
-           "blockId": "84a4ceaf04",
+           "blockId": "6052ae4a6f",
            "blockName": "Dot · 2025",
            "children": [],
            "classes": [],
@@ -857,6 +1676,26 @@
            "tabletStyles": {}
           },
           {
+           "attributes": {
+            "id": "y2025"
+           },
+           "baseStyles": {
+            "height": "0px",
+            "marginTop": "-90px",
+            "paddingTop": "90px",
+            "width": "100%"
+           },
+           "blockId": "11d39c70a5",
+           "blockName": "Anchor · 2025",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
            "attributes": {},
            "baseStyles": {
             "alignItems": "center",
@@ -867,7 +1706,7 @@
             "justifyContent": "space-between",
             "width": "100%"
            },
-           "blockId": "cc8a54090e",
+           "blockId": "89f0d5a822",
            "blockName": "Year Row · 2025",
            "children": [
             {
@@ -883,7 +1722,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "94c084ac3a",
+             "blockId": "6fae7c8391",
              "blockName": "Year · 2025",
              "children": [],
              "classes": [],
@@ -914,7 +1753,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "21e1820421",
+             "blockId": "2d3632fa59",
              "blockName": "Status · 2025",
              "children": [],
              "classes": [],
@@ -948,7 +1787,7 @@
             "overflow": "hidden",
             "width": "100%"
            },
-           "blockId": "183a10e267",
+           "blockId": "9c522b15e2",
            "blockName": "Photo Wrap · 2025",
            "children": [
             {
@@ -963,7 +1802,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "1e791b5cd4",
+             "blockId": "c7874b019d",
              "blockName": "Image · The Plot",
              "children": [],
              "classes": [],
@@ -1001,7 +1840,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "3686706a66",
+           "blockId": "2de94e7e17",
            "blockName": "Title · 2025",
            "children": [],
            "classes": [],
@@ -1028,7 +1867,7 @@
             "minWidth": "10px",
             "width": "100%"
            },
-           "blockId": "efe949fae5",
+           "blockId": "df0730f119",
            "blockName": "Blurb · 2025",
            "children": [],
            "classes": [],
@@ -1051,7 +1890,7 @@
             "marginTop": "14px",
             "width": "100%"
            },
-           "blockId": "d04113951f",
+           "blockId": "c686f9f167",
            "blockName": "Chips · 2025",
            "children": [
             {
@@ -1073,7 +1912,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "fe072f7cf4",
+             "blockId": "4efe851280",
              "blockName": "Chip · 2025 · 14 crops",
              "children": [],
              "classes": [],
@@ -1103,7 +1942,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "9107df090f",
+             "blockId": "f0e0b42a9d",
              "blockName": "Chip · 2025 · compost from",
              "children": [],
              "classes": [],
@@ -1133,7 +1972,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "cb3e09ad40",
+             "blockId": "947054f3de",
              "blockName": "Chip · 2025 · shed rebuilt",
              "children": [],
              "classes": [],
@@ -1172,7 +2011,7 @@
           "position": "relative",
           "width": "100%"
          },
-         "blockId": "829c4830b5",
+         "blockId": "ccaa07c226",
          "blockName": "Entry · 2024",
          "children": [
           {
@@ -1189,7 +2028,7 @@
             "top": "6px",
             "width": "15px"
            },
-           "blockId": "db82544c87",
+           "blockId": "3d0205cc4d",
            "blockName": "Dot · 2024",
            "children": [],
            "classes": [],
@@ -1204,6 +2043,26 @@
            "tabletStyles": {}
           },
           {
+           "attributes": {
+            "id": "y2024"
+           },
+           "baseStyles": {
+            "height": "0px",
+            "marginTop": "-90px",
+            "paddingTop": "90px",
+            "width": "100%"
+           },
+           "blockId": "37c102998a",
+           "blockName": "Anchor · 2024",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
            "attributes": {},
            "baseStyles": {
             "alignItems": "center",
@@ -1214,7 +2073,7 @@
             "justifyContent": "space-between",
             "width": "100%"
            },
-           "blockId": "b1877ba96d",
+           "blockId": "60fb29e83d",
            "blockName": "Year Row · 2024",
            "children": [
             {
@@ -1230,7 +2089,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "a1bc765fff",
+             "blockId": "e83f0344f0",
              "blockName": "Year · 2024",
              "children": [],
              "classes": [],
@@ -1261,7 +2120,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "63f9f217fb",
+             "blockId": "6f77dfea47",
              "blockName": "Status · 2024",
              "children": [],
              "classes": [],
@@ -1295,7 +2154,7 @@
             "overflow": "hidden",
             "width": "100%"
            },
-           "blockId": "8eb6b309fe",
+           "blockId": "3f0a6d735f",
            "blockName": "Photo Wrap · 2024",
            "children": [
             {
@@ -1310,7 +2169,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "bbca489f11",
+             "blockId": "7f7ac64f23",
              "blockName": "Image · Hytte",
              "children": [],
              "classes": [],
@@ -1348,7 +2207,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "af1a9aea51",
+           "blockId": "ac10f40e21",
            "blockName": "Title · 2024",
            "children": [],
            "classes": [],
@@ -1375,7 +2234,7 @@
             "minWidth": "10px",
             "width": "100%"
            },
-           "blockId": "2475721918",
+           "blockId": "87a882cfea",
            "blockName": "Blurb · 2024",
            "children": [],
            "classes": [],
@@ -1398,7 +2257,7 @@
             "marginTop": "14px",
             "width": "100%"
            },
-           "blockId": "fddfbef156",
+           "blockId": "314a2da427",
            "blockName": "Chips · 2024",
            "children": [
             {
@@ -1420,7 +2279,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "2206b558af",
+             "blockId": "b8c9f65476",
              "blockName": "Chip · 2024 · 8 weekends",
              "children": [],
              "classes": [],
@@ -1450,7 +2309,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "d9fbd4a989",
+             "blockId": "84bffa5777",
              "blockName": "Chip · 2024 · roof + floor",
              "children": [],
              "classes": [],
@@ -1480,7 +2339,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "432b83147b",
+             "blockId": "4515b2e7ce",
              "blockName": "Chip · 2024 · two argument",
              "children": [],
              "classes": [],
@@ -1519,7 +2378,7 @@
           "position": "relative",
           "width": "100%"
          },
-         "blockId": "947054f3de",
+         "blockId": "17570377ef",
          "blockName": "Entry · 2023",
          "children": [
           {
@@ -1536,7 +2395,7 @@
             "top": "6px",
             "width": "15px"
            },
-           "blockId": "fdfa2779e1",
+           "blockId": "4a7ebef100",
            "blockName": "Dot · 2023",
            "children": [],
            "classes": [],
@@ -1551,6 +2410,26 @@
            "tabletStyles": {}
           },
           {
+           "attributes": {
+            "id": "y2023"
+           },
+           "baseStyles": {
+            "height": "0px",
+            "marginTop": "-90px",
+            "paddingTop": "90px",
+            "width": "100%"
+           },
+           "blockId": "c3b17f84a9",
+           "blockName": "Anchor · 2023",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
            "attributes": {},
            "baseStyles": {
             "alignItems": "center",
@@ -1561,7 +2440,7 @@
             "justifyContent": "space-between",
             "width": "100%"
            },
-           "blockId": "6fae7c8391",
+           "blockId": "4bac84dcd8",
            "blockName": "Year Row · 2023",
            "children": [
             {
@@ -1577,7 +2456,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "6052ae4a6f",
+             "blockId": "848d1dc58e",
              "blockName": "Year · 2023",
              "children": [],
              "classes": [],
@@ -1608,7 +2487,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "11d39c70a5",
+             "blockId": "41a9b0049f",
              "blockName": "Status · 2023",
              "children": [],
              "classes": [],
@@ -1642,7 +2521,7 @@
             "overflow": "hidden",
             "width": "100%"
            },
-           "blockId": "89f0d5a822",
+           "blockId": "37999308b0",
            "blockName": "Photo Wrap · 2023",
            "children": [
             {
@@ -1657,7 +2536,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "2d3632fa59",
+             "blockId": "31024af42e",
              "blockName": "Image · Frame No. 1",
              "children": [],
              "classes": [],
@@ -1695,7 +2574,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "c7874b019d",
+           "blockId": "5098daa262",
            "blockName": "Title · 2023",
            "children": [],
            "classes": [],
@@ -1722,7 +2601,7 @@
             "minWidth": "10px",
             "width": "100%"
            },
-           "blockId": "9c522b15e2",
+           "blockId": "234b7ba95d",
            "blockName": "Blurb · 2023",
            "children": [],
            "classes": [],
@@ -1745,7 +2624,7 @@
             "marginTop": "14px",
             "width": "100%"
            },
-           "blockId": "f0e0b42a9d",
+           "blockId": "81a5d4ca26",
            "blockName": "Chips · 2023",
            "children": [
             {
@@ -1767,7 +2646,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "2de94e7e17",
+             "blockId": "90d6e3fde4",
              "blockName": "Chip · 2023 · columbus tub",
              "children": [],
              "classes": [],
@@ -1797,7 +2676,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "df0730f119",
+             "blockId": "9dee884898",
              "blockName": "Chip · 2023 · brazed lugs",
              "children": [],
              "classes": [],
@@ -1827,7 +2706,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "4efe851280",
+             "blockId": "83e1389e75",
              "blockName": "Chip · 2023 · 11 months of",
              "children": [],
              "classes": [],
@@ -1866,7 +2745,7 @@
           "position": "relative",
           "width": "100%"
          },
-         "blockId": "84bffa5777",
+         "blockId": "9f40a80bdc",
          "blockName": "Entry · 2022",
          "children": [
           {
@@ -1883,7 +2762,7 @@
             "top": "6px",
             "width": "15px"
            },
-           "blockId": "c686f9f167",
+           "blockId": "29116aa950",
            "blockName": "Dot · 2022",
            "children": [],
            "classes": [],
@@ -1898,6 +2777,26 @@
            "tabletStyles": {}
           },
           {
+           "attributes": {
+            "id": "y2022"
+           },
+           "baseStyles": {
+            "height": "0px",
+            "marginTop": "-90px",
+            "paddingTop": "90px",
+            "width": "100%"
+           },
+           "blockId": "28870a7663",
+           "blockName": "Anchor · 2022",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
            "attributes": {},
            "baseStyles": {
             "alignItems": "center",
@@ -1908,7 +2807,7 @@
             "justifyContent": "space-between",
             "width": "100%"
            },
-           "blockId": "37c102998a",
+           "blockId": "f342a2ffb8",
            "blockName": "Year Row · 2022",
            "children": [
             {
@@ -1924,7 +2823,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "66e7db3135",
+             "blockId": "d756b1411f",
              "blockName": "Year · 2022",
              "children": [],
              "classes": [],
@@ -1955,7 +2854,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "3d0205cc4d",
+             "blockId": "a8dfbb5e91",
              "blockName": "Status · 2022",
              "children": [],
              "classes": [],
@@ -1989,7 +2888,7 @@
             "overflow": "hidden",
             "width": "100%"
            },
-           "blockId": "6f77dfea47",
+           "blockId": "8f2fa2a387",
            "blockName": "Photo Wrap · 2022",
            "children": [
             {
@@ -2004,7 +2903,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "e83f0344f0",
+             "blockId": "ebcbd5612e",
              "blockName": "Image · Stool School",
              "children": [],
              "classes": [],
@@ -2042,7 +2941,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "60fb29e83d",
+           "blockId": "e25f231249",
            "blockName": "Title · 2022",
            "children": [],
            "classes": [],
@@ -2069,7 +2968,7 @@
             "minWidth": "10px",
             "width": "100%"
            },
-           "blockId": "7f7ac64f23",
+           "blockId": "be39056ed5",
            "blockName": "Blurb · 2022",
            "children": [],
            "classes": [],
@@ -2092,7 +2991,7 @@
             "marginTop": "14px",
             "width": "100%"
            },
-           "blockId": "b8c9f65476",
+           "blockId": "6599cfde9e",
            "blockName": "Chips · 2022",
            "children": [
             {
@@ -2114,7 +3013,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "3f0a6d735f",
+             "blockId": "f1c96da270",
              "blockName": "Chip · 2022 · 9 stools",
              "children": [],
              "classes": [],
@@ -2144,7 +3043,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "ac10f40e21",
+             "blockId": "93a5395a1f",
              "blockName": "Chip · 2022 · ash + oak",
              "children": [],
              "classes": [],
@@ -2174,7 +3073,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "87a882cfea",
+             "blockId": "e760ac7f7a",
              "blockName": "Chip · 2022 · hand tools o",
              "children": [],
              "classes": [],
@@ -2213,7 +3112,7 @@
           "position": "relative",
           "width": "100%"
          },
-         "blockId": "90d6e3fde4",
+         "blockId": "4610527bf1",
          "blockName": "Entry · 2021",
          "children": [
           {
@@ -2230,7 +3129,7 @@
             "top": "6px",
             "width": "15px"
            },
-           "blockId": "4515b2e7ce",
+           "blockId": "e2a09f6daf",
            "blockName": "Dot · 2021",
            "children": [],
            "classes": [],
@@ -2245,6 +3144,26 @@
            "tabletStyles": {}
           },
           {
+           "attributes": {
+            "id": "y2021"
+           },
+           "baseStyles": {
+            "height": "0px",
+            "marginTop": "-90px",
+            "paddingTop": "90px",
+            "width": "100%"
+           },
+           "blockId": "bc15a0ece1",
+           "blockName": "Anchor · 2021",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
            "attributes": {},
            "baseStyles": {
             "alignItems": "center",
@@ -2255,7 +3174,7 @@
             "justifyContent": "space-between",
             "width": "100%"
            },
-           "blockId": "4a7ebef100",
+           "blockId": "cc76de3e91",
            "blockName": "Year Row · 2021",
            "children": [
             {
@@ -2271,7 +3190,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "314a2da427",
+             "blockId": "2467aef6db",
              "blockName": "Year · 2021",
              "children": [],
              "classes": [],
@@ -2302,7 +3221,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "ccaa07c226",
+             "blockId": "a7c3bf22d0",
              "blockName": "Status · 2021",
              "children": [],
              "classes": [],
@@ -2336,7 +3255,7 @@
             "overflow": "hidden",
             "width": "100%"
            },
-           "blockId": "848d1dc58e",
+           "blockId": "a793b6ea36",
            "blockName": "Photo Wrap · 2021",
            "children": [
             {
@@ -2351,7 +3270,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "c3b17f84a9",
+             "blockId": "ce109b2b32",
              "blockName": "Image · Mud Year",
              "children": [],
              "classes": [],
@@ -2389,7 +3308,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "41a9b0049f",
+           "blockId": "d15d34455f",
            "blockName": "Title · 2021",
            "children": [],
            "classes": [],
@@ -2416,7 +3335,7 @@
             "minWidth": "10px",
             "width": "100%"
            },
-           "blockId": "4bac84dcd8",
+           "blockId": "03d550267c",
            "blockName": "Blurb · 2021",
            "children": [],
            "classes": [],
@@ -2439,7 +3358,7 @@
             "marginTop": "14px",
             "width": "100%"
            },
-           "blockId": "234b7ba95d",
+           "blockId": "9c8983ee93",
            "blockName": "Chips · 2021",
            "children": [
             {
@@ -2461,7 +3380,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "31024af42e",
+             "blockId": "440be7c24a",
              "blockName": "Chip · 2021 · 300 thrown",
              "children": [],
              "classes": [],
@@ -2491,7 +3410,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "37999308b0",
+             "blockId": "8fe1acc322",
              "blockName": "Chip · 2021 · 12 kept",
              "children": [],
              "classes": [],
@@ -2521,7 +3440,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "5098daa262",
+             "blockId": "0497f50704",
              "blockName": "Chip · 2021 · one kiln ren",
              "children": [],
              "classes": [],
@@ -2580,7 +3499,7 @@
       "padding": "0 28px",
       "width": "100%"
      },
-     "blockId": "93a5395a1f",
+     "blockId": "d10829fa0a",
      "blockName": "Section · Why",
      "children": [
       {
@@ -2596,7 +3515,7 @@
         "padding": "46px 0 0",
         "width": "100%"
        },
-       "blockId": "f1c96da270",
+       "blockId": "c46fcbbf40",
        "blockName": "Why Inner",
        "children": [
         {
@@ -2609,7 +3528,7 @@
           "gap": "28px",
           "width": "100%"
          },
-         "blockId": "e25f231249",
+         "blockId": "b70c0fb992",
          "blockName": "Stats Row",
          "children": [
           {
@@ -2623,7 +3542,7 @@
             "minWidth": "0px",
             "width": "100%"
            },
-           "blockId": "29116aa950",
+           "blockId": "bd279b6d77",
            "blockName": "Stat · years running",
            "children": [
             {
@@ -2639,7 +3558,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "81a5d4ca26",
+             "blockId": "f4772f8a26",
              "blockName": "Stat N · years running",
              "children": [],
              "classes": [],
@@ -2667,7 +3586,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "17570377ef",
+             "blockId": "aed880875f",
              "blockName": "Stat L · years running",
              "children": [],
              "classes": [],
@@ -2700,7 +3619,7 @@
             "minWidth": "0px",
             "width": "100%"
            },
-           "blockId": "a8dfbb5e91",
+           "blockId": "526896d081",
            "blockName": "Stat · things that exist",
            "children": [
             {
@@ -2716,7 +3635,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "28870a7663",
+             "blockId": "a5799736ec",
              "blockName": "Stat N · things that exist",
              "children": [],
              "classes": [],
@@ -2744,7 +3663,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "d756b1411f",
+             "blockId": "59c849a4ec",
              "blockName": "Stat L · things that exist",
              "children": [],
              "classes": [],
@@ -2777,7 +3696,7 @@
             "minWidth": "0px",
             "width": "100%"
            },
-           "blockId": "8f2fa2a387",
+           "blockId": "1a556cbd0b",
            "blockName": "Stat · abandoned in march",
            "children": [
             {
@@ -2793,7 +3712,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "f342a2ffb8",
+             "blockId": "3d9ff13b95",
              "blockName": "Stat N · abandoned in march",
              "children": [],
              "classes": [],
@@ -2821,7 +3740,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "ebcbd5612e",
+             "blockId": "0230554895",
              "blockName": "Stat L · abandoned in march",
              "children": [],
              "classes": [],
@@ -2868,7 +3787,7 @@
           "minWidth": "10px",
           "width": "100%"
          },
-         "blockId": "be39056ed5",
+         "blockId": "52f2242dd6",
          "blockName": "Why Copy",
          "children": [],
          "classes": [],
@@ -2910,7 +3829,7 @@
       "padding": "0 28px",
       "width": "100%"
      },
-     "blockId": "2467aef6db",
+     "blockId": "db57b4261b",
      "blockName": "Section · CTA",
      "children": [
       {
@@ -2925,7 +3844,7 @@
         "padding": "44px 44px 40px",
         "width": "100%"
        },
-       "blockId": "bc15a0ece1",
+       "blockId": "25417ed485",
        "blockName": "CTA Card",
        "children": [
         {
@@ -2941,7 +3860,7 @@
           "minWidth": "10px",
           "width": "fit-content"
          },
-         "blockId": "e760ac7f7a",
+         "blockId": "3bd9f8513b",
          "blockName": "CTA Headline",
          "children": [],
          "classes": [],
@@ -2966,7 +3885,7 @@
           "marginTop": "18px",
           "width": "100%"
          },
-         "blockId": "e2a09f6daf",
+         "blockId": "c589161e56",
          "blockName": "CTA Row",
          "children": [
           {
@@ -2982,7 +3901,7 @@
             "minWidth": "10px",
             "width": "100%"
            },
-           "blockId": "6599cfde9e",
+           "blockId": "696a5f5fc4",
            "blockName": "CTA Sub",
            "children": [],
            "classes": [],
@@ -3011,7 +3930,7 @@
             "textDecoration": "none",
             "width": "fit-content"
            },
-           "blockId": "9f40a80bdc",
+           "blockId": "d3a5a70b02",
            "blockName": "CTA Link",
            "children": [],
            "classes": [],
@@ -3061,31 +3980,31 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "4610527bf1",
+     "blockId": "86b22c1c3d",
      "blockName": "Footer",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "d4051bcf76",
+       "blockId": "48e0ef7baa",
        "blockName": "Footer Inner",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "b5b9e9453e",
+         "blockId": "12e5faa439",
          "blockName": "Footer Row",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "f4772f8a26",
+           "blockId": "80af2361b4",
            "blockName": "Footer Left",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "aed880875f",
+             "blockId": "da3c7d2497",
              "blockName": "Footer Name",
              "children": [],
              "classes": [],
@@ -3093,13 +4012,13 @@
              "isChildOfComponent": "annum_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "fc0e58f676",
+             "referenceBlockId": "41cee09a32",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "bd279b6d77",
+             "blockId": "c337c85fe6",
              "blockName": "Footer Line",
              "children": [],
              "classes": [],
@@ -3107,7 +4026,7 @@
              "isChildOfComponent": "annum_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "1c84619b94",
+             "referenceBlockId": "bb32fd618a",
              "tabletStyles": {}
             }
            ],
@@ -3116,19 +4035,19 @@
            "isChildOfComponent": "annum_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "52e2aa872a",
+           "referenceBlockId": "82ff1f2d64",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "a5799736ec",
+           "blockId": "5b9078fcb1",
            "blockName": "Footer Right",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "59c849a4ec",
+             "blockId": "eaeecb1b93",
              "blockName": "Footer Mail",
              "children": [],
              "classes": [],
@@ -3136,13 +4055,13 @@
              "isChildOfComponent": "annum_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "0749ea69f2",
+             "referenceBlockId": "c81c5ed532",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "526896d081",
+             "blockId": "796445dee2",
              "blockName": "Footer Fine",
              "children": [],
              "classes": [],
@@ -3150,7 +4069,7 @@
              "isChildOfComponent": "annum_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "a6b6a08d20",
+             "referenceBlockId": "14db903f72",
              "tabletStyles": {}
             }
            ],
@@ -3159,7 +4078,7 @@
            "isChildOfComponent": "annum_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "6fcf56b3a6",
+           "referenceBlockId": "eb0d3b6ff7",
            "tabletStyles": {}
           }
          ],
@@ -3168,7 +4087,7 @@
          "isChildOfComponent": "annum_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "1d0a866983",
+         "referenceBlockId": "e444112bc5",
          "tabletStyles": {}
         }
        ],
@@ -3177,7 +4096,7 @@
        "isChildOfComponent": "annum_footer",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "ef9a072f60",
+       "referenceBlockId": "34bf20648d",
        "tabletStyles": {}
       }
      ],
@@ -3210,7 +4129,7 @@
    "builder_script": "annum_styles"
   }
  ],
- "creation": "2026-07-17 07:21:24.217273",
+ "creation": "2026-07-17 09:21:53.319485",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -3220,7 +4139,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Jonas Riis makes one personal project a year: a balm, a garden, a cabin, a bike frame, a stool, 300 pots.",
- "modified": "2026-07-17 07:22:49.569554",
+ "modified": "2026-07-17 09:22:43.212990",
  "modified_by": "Administrator",
  "name": "annum_home",
  "owner": "Administrator",

@@ -1,12 +1,12 @@
 {
- "creation": "2026-07-17 07:21:24.217273",
+ "creation": "2026-07-17 09:21:53.319485",
  "docstatus": 0,
  "doctype": "Builder Client Script",
  "idx": 0,
- "modified": "2026-07-17 07:21:24.217273",
+ "modified": "2026-07-17 09:21:53.319485",
  "modified_by": "Administrator",
  "name": "annum_styles",
  "owner": "Administrator",
- "script": "\nhtml { scroll-behavior: smooth; }\n::selection { background: #C2551C; color: #FAF7F2; }\n.an-photo img { transition: transform 0.4s ease-out; }\n.an-photo:hover img { transform: scale(1.02); }\nhtml[data-theme=\"dark\"] .an-nav { background-color: rgba(20, 18, 16, 0.8) !important; }\n",
+ "script": "\nhtml { scroll-behavior: smooth; }\n::selection { background: #C2551C; color: #FAF7F2; }\n.an-photo img { transition: transform 0.4s ease-out; }\n.an-photo:hover img { transform: scale(1.02); }\n.an-yr { transition: background-color 0.15s ease-out; }\n.an-yr:hover { background-color: rgba(194, 85, 28, 0.07); }\n.an-yr .an-yr-arrow { transition: transform 0.15s ease-out; }\n.an-yr:hover .an-yr-arrow { transform: translateX(4px); color: #C2551C; }\n@keyframes an-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }\n.an-pulse { animation: an-pulse 2.4s ease-in-out infinite; }\nhtml[data-theme=\"dark\"] .an-nav { background-color: rgba(20, 18, 16, 0.8) !important; }\n",
  "script_type": "CSS"
 }
