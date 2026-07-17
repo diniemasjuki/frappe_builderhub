@@ -11,7 +11,7 @@ sharing a set of Builder Components and Variables. Groups are bundled as fixture
 
 ## Templates
 
-Twenty-seven multi-page template groups. Each group owns a distinct structural
+Thirty-one multi-page template groups. Each group owns a distinct structural
 archetype and shares a navbar/footer, palette (as Builder Variables) and client
 scripts across its pages. Themed groups ship a light/dark toggle; single-theme
 groups (dark posters, paper zines) are one look by design.
@@ -29,6 +29,10 @@ per-template briefs.
 | **Fronds**<br>An earthy starter site for boutique brands.<br><sub>Pages: Landing · About · Contact · Also in: Local business</sub> | <img src="builder_hub/www/builder_assets/fronds/fronds_landing/preview.webp" width="360"> |
 | **Verge**<br>A dark music artist site with poster covers and a tour list.<br><sub>Pages: Home · Shows · About · Also in: Portfolio</sub> | <img src="builder_hub/www/builder_assets/verge/verge_home/preview.webp" width="360"> |
 | **Bureau**<br>A bold agency site: mega type, typographic case covers, an acid accent.<br><sub>Pages: Home · Work · Contact · Also in: Portfolio</sub> | <img src="builder_hub/www/builder_assets/bureau/bureau_home/preview.webp" width="360"> |
+| **Cobalt**<br>A no-nonsense trades site: cobalt masthead, hazard stripes, fixed-quote form.<br><sub>Pages: Home · Services · Quote · Also in: Local business</sub> | <img src="builder_hub/www/builder_assets/cobalt/cobalt_home/preview.webp" width="360"> |
+| **Candor**<br>A statement-first advisory site: one color, giant serif, a fee table, no photos.<br><sub>Pages: Home · Work · Start</sub> | <img src="builder_hub/www/builder_assets/candor/candor_home/preview.webp" width="360"> |
+| **Hustle**<br>A loud creator-course site: dark ground, flame marks, curriculum rows, receipts wall.<br><sub>Pages: Home · Program · Apply · Also in: Technology</sub> | <img src="builder_hub/www/builder_assets/hustle/hustle_home/preview.webp" width="360"> |
+| **Fetch**<br>A playful one-product site: rounded color blocks, big dog photos, forever guarantee.<br><sub>Pages: Home · Collar · Help</sub> | <img src="builder_hub/www/builder_assets/fetch/fetch_home/preview.webp" width="360"> |
 
 ### Portfolio
 
@@ -78,8 +82,6 @@ per-template briefs.
 |---|---|
 | **Encore**<br>A SaaS site staged as a product keynote: spotlight, demo, reveals, one more thing.<br><sub>Pages: Home · Pricing · Backstage · Also in: Marketing</sub> | <img src="builder_hub/www/builder_assets/encore/encore_home/preview.webp" width="360"> |
 | **Aurora**<br>A dark, glowing SaaS landing: gradient hero, glass bento grid, testimonial wall.<br><sub>Pages: Home · Pricing · Contact · Also in: Marketing</sub> | <img src="builder_hub/www/builder_assets/aurora/aurora_home/preview.webp" width="360"> |
-
- · Pricing · Contact</sub> | <img src="builder_hub/www/builder_assets/aurora/aurora_home/preview.webp" width="360"> |
 
 ## How it works
 
