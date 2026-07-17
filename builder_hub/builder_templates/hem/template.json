@@ -1,6 +1,7 @@
 {
  "categories": [
-  "Fashion"
+  "Fashion",
+  "Local business"
  ],
  "description": "A minimal atelier site framed by a hairline border, with numbered services.",
  "order": 13,

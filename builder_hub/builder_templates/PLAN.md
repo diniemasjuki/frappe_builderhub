@@ -66,6 +66,11 @@ Industry categories replace the current gallery taxonomy (Marketing / Editorial 
 Local business). Existing groups get re-tagged into these when the first new template ships.
 Five template slots per category, each with a different theme.
 
+Templates can carry MULTIPLE picker categories (Jul 17 2026): the gallery lists a group under
+every category in its manifest. Current multi-category groups: fronds, verge, bureau (Marketing
+crossovers), hem, tulle, denim, pleat (Fashion crossovers), margin, affiche (Portfolio
+crossovers), encore, aurora (Technology + Marketing).
+
 ### Education (trustworthy blues and greens, friendly)
 | Codename | Theme | Concept |
 |----------|-------|---------|

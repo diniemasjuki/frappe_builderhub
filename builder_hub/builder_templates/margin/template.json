@@ -1,6 +1,7 @@
 {
  "categories": [
-  "Portfolio"
+  "Portfolio",
+  "Editorial"
  ],
  "description": "A writer's site with a reading column and numbered margin notes.",
  "order": 22,
