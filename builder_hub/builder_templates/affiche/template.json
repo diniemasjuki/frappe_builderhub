@@ -1,0 +1,19 @@
+{
+ "categories": [
+  "Portfolio"
+ ],
+ "description": "A Swiss poster portfolio: every section is a full-screen typographic poster.",
+ "order": 28,
+ "pages": [
+  {
+   "name": "affiche_home"
+  },
+  {
+   "name": "affiche_arbeit"
+  },
+  {
+   "name": "affiche_kontakt"
+  }
+ ],
+ "title": "Affiche"
+}
