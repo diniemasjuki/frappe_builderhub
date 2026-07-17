@@ -60,6 +60,7 @@ Rules that apply to every template:
 | affiche | poster wall: full-viewport swiss posters, diagonal bands, vertical rails, catalog table |
 | annum  | year timeline: split ledger hero, spine timeline with year dots and big photos, ledger |
 | arcade | arcade cabinet: CRT screen hero with scanlines, box-shadow pixel sprites, level select, high scores, coin slots |
+| recipe | recipe cards: ruled index cards with red margin rules, dog-ears, chef's margin notes, stamps, tear-off coupon |
 | candor | statement screens: full-viewport one-color statement hero, cropped mega wordmark, serif fee table, no photos |
 | fetch  | product bento: super-rounded pastel tiles, blob photo frames, star reviews, size table, guarantee card |
 
@@ -795,6 +796,19 @@ full-width lake field-test photo band with a claim chip, star-rating review card
 verified goodest dogs, a size table with honest fit notes, material spec tiles, and a
 break-it-we-replace-it-forever guarantee card. Single bright theme. 3 pages
 (home / collar / help), order 33.
+
+## Brief: recipe (Marketing, warm craft), BUILT
+
+The agency-as-recipe-cards site, same agency-grade bar: ruled index cards (multi-layer CSS
+background: blue rules + double red margin line) with all content set right of the margin,
+dog-ear corner folds (CSS border triangles with a drop shadow), a rotated TESTED TWICE rubber
+stamp with a mask-image fade, a subtle grease-stain radial blob, Kalam handwritten chef's
+notes in a method margin column, timing chips (prep 2 weeks / cook 90 days / difficulty:
+honest), checkbox ingredient lists (you bring / we bring), star-rated "clean plates"
+testimonial cards, a tasting menu of services as priced recipe cards (soufflé / flash-fried /
+slow simmer), a brigade page, house rules taped above the stove, a scissors tear-off coupon
+CTA and a gingham footer band. Young Serif + Albert Sans + Kalam on linen. Single warm theme.
+3 pages (home / menu / kitchen), order 32.
 
 ## Brief: arcade (Marketing + Technology, dark neon), BUILT
 
