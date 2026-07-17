@@ -60,6 +60,7 @@ Rules that apply to every template:
 | cobalt | site hoarding: solid cobalt masthead, hazard-stripe dividers, numbered service slabs, framed job photos, quote form |
 | candor | statement screens: full-viewport one-color statement hero, cropped mega wordmark, serif fee table, no photos |
 | hustle | creator course: flame skew marks, curriculum rows with week chips, receipts wall, guarantee band, application form |
+| fetch  | product bento: super-rounded pastel tiles, blob photo frames, star reviews, size table, guarantee card |
 
 New briefs must claim an archetype not on this list, and the list grows as templates ship.
 
@@ -788,6 +789,16 @@ ceramics), a stats band (6 years / 6 things / 0 abandoned), an amber "2027 is un
 card, a year-by-year ledger page with a type-only "prehistory" section, and an about page
 with portrait and numbered house rules. Bricolage Grotesque + Inter, cool paper palette with
 moss green accent (user-picked over amber, indigo, oxblood, brass), light/dark toggle. 3 pages (home / ledger / about), order 29.
+
+## Brief: fetch (Marketing, playful), BUILT
+
+The single-product DTC site (Squarespace Wesley Pets inspired): one dog collar for one
+audience. Cream ground, Baloo 2 rounded display type, super-rounded (24 to 32px) pastel color
+tiles in butter/sky/tangerine, a beagle hero in a butter frame with a deadpan caption, a
+full-width lake field-test photo band with a claim chip, star-rating review cards from
+verified goodest dogs, a size table with honest fit notes, material spec tiles, and a
+break-it-we-replace-it-forever guarantee card. Single bright theme. 3 pages
+(home / collar / help), order 33.
 
 ## Brief: hustle (Marketing + Technology, dark loud), BUILT
 
