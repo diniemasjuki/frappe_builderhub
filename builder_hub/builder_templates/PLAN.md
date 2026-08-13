@@ -21,7 +21,10 @@ Rules that apply to every template:
   Retired, do not reuse: forge, grain, copper, ware, beacon, signal, quip, hex, prism,
   tally, intake, prospect (the Jul 2026 SaaS/app-UI batch and its prospectus follow-up were
   all retired; the user's direction is Framer-grade polish or a conceit that lands),
-  commit (original conference starter, retired Jul 17 2026).
+  commit (original conference starter, retired Jul 17 2026), arcade (CRT cabinet, strong
+  execution but retired on user preference), cobalt and hustle
+  (Jul 2026 marketing batch, retired same week: competent genre executions without a strong
+  conceit; the bar is what a top design agency would ship).
 - Templates need not be themed (light/dark toggle optional): app-UI and product templates may
   ship a single neutral look, but every color still goes through Builder Variables so the whole
   template rethemes by editing the palette.
@@ -57,6 +60,9 @@ Rules that apply to every template:
 | scrap  | zine paste-up: torn rotated panels, masking tape, xerox photos, ransom headlines, staples |
 | affiche | poster wall: full-viewport swiss posters, diagonal bands, vertical rails, catalog table |
 | annum  | year timeline: split ledger hero, spine timeline with year dots and big photos, ledger |
+| recipe | recipe cards: ruled index cards with red margin rules, dog-ears, chef's margin notes, stamps, tear-off coupon |
+| candor | statement screens: full-viewport one-color statement hero, cropped mega wordmark, serif fee table, no photos |
+| fetch  | product bento: super-rounded pastel tiles, blob photo frames, star reviews, size table, guarantee card |
 
 New briefs must claim an archetype not on this list, and the list grows as templates ship.
 
@@ -65,6 +71,11 @@ New briefs must claim an archetype not on this list, and the list grows as templ
 Industry categories replace the current gallery taxonomy (Marketing / Editorial / Portfolio /
 Local business). Existing groups get re-tagged into these when the first new template ships.
 Five template slots per category, each with a different theme.
+
+Templates can carry MULTIPLE picker categories (Jul 17 2026): the gallery lists a group under
+every category in its manifest. Current multi-category groups: fronds, verge, bureau (Marketing
+crossovers), hem, tulle, denim, pleat (Fashion crossovers), margin, affiche (Portfolio
+crossovers), encore, aurora (Technology + Marketing).
 
 ### Education (trustworthy blues and greens, friendly)
 | Codename | Theme | Concept |
@@ -775,6 +786,38 @@ ceramics), a stats band (6 years / 6 things / 0 abandoned), an amber "2027 is un
 card, a year-by-year ledger page with a type-only "prehistory" section, and an about page
 with portrait and numbered house rules. Bricolage Grotesque + Inter, cool paper palette with
 moss green accent (user-picked over amber, indigo, oxblood, brass), light/dark toggle. 3 pages (home / ledger / about), order 29.
+
+## Brief: fetch (Marketing, playful), BUILT
+
+The single-product DTC site (Squarespace Wesley Pets inspired): one dog collar for one
+audience. Cream ground, Baloo 2 rounded display type, super-rounded (24 to 32px) pastel color
+tiles in butter/sky/tangerine, a beagle hero in a butter frame with a deadpan caption, a
+full-width lake field-test photo band with a claim chip, star-rating review cards from
+verified goodest dogs, a size table with honest fit notes, material spec tiles, and a
+break-it-we-replace-it-forever guarantee card. Single bright theme. 3 pages
+(home / collar / help), order 33.
+
+## Brief: recipe (Marketing, warm craft), BUILT
+
+The agency-as-recipe-cards site, same agency-grade bar: ruled index cards (multi-layer CSS
+background: blue rules + double red margin line) with all content set right of the margin,
+dog-ear corner folds (CSS border triangles with a drop shadow), a rotated TESTED TWICE rubber
+stamp with a mask-image fade, a subtle grease-stain radial blob, Kalam handwritten chef's
+notes in a method margin column, timing chips (prep 2 weeks / cook 90 days / difficulty:
+honest), checkbox ingredient lists (you bring / we bring), star-rated "clean plates"
+testimonial cards, a tasting menu of services as priced recipe cards (soufflé / flash-fried /
+slow simmer), a brigade page, house rules taped above the stove, a scissors tear-off coupon
+CTA and a gingham footer band. Young Serif + Albert Sans + Kalam on linen. Single warm theme.
+3 pages (home / menu / kitchen), order 32.
+
+## Brief: candor (Marketing, statement), BUILT
+
+The statement brand, Squarespace Cedar Group inspired: a deep pine full-viewport hero holding
+one giant Source Serif statement with a mega wordmark cropped off the bottom edge, cream
+sections with numbered serif service rows, a house-position pine band ("We will tell you if we
+are the wrong hire"), a fee table with a thick top rule and fixed prices, roman-numeral working
+principles, and a start page that sets expectations for the first call. Serif everywhere,
+no photos, single theme. 3 pages (home / work / start), order 31.
 
 ## Follow-ups
 

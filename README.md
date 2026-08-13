@@ -11,12 +11,14 @@ sharing a set of Builder Components and Variables. Groups are bundled as fixture
 
 ## Templates
 
-Twenty-seven multi-page template groups. Each group owns a distinct structural
+Thirty multi-page template groups. Each group owns a distinct structural
 archetype and shares a navbar/footer, palette (as Builder Variables) and client
 scripts across its pages. Themed groups ship a light/dark toggle; single-theme
 groups (dark posters, paper zines) are one look by design.
 
-Each group carries one picker category in its `template.json` manifest.
+Each group carries one or more picker categories in its `template.json` manifest
+(the gallery lists a group under every category it has; below, each appears once
+under its primary category).
 `builder_templates/PLAN.md` tracks the archetype registry, category matrix and
 per-template briefs.
 
@@ -24,9 +26,12 @@ per-template briefs.
 
 | Template | Preview |
 |---|---|
-| **Fronds**<br>An earthy starter site for boutique brands.<br><sub>Pages: Landing · About · Contact</sub> | <img src="builder_hub/www/builder_assets/fronds/fronds_landing/preview.webp" width="360"> |
-| **Verge**<br>A dark music artist site with poster covers and a tour list.<br><sub>Pages: Home · Shows · About</sub> | <img src="builder_hub/www/builder_assets/verge/verge_home/preview.webp" width="360"> |
-| **Bureau**<br>A bold agency site: mega type, typographic case covers, an acid accent.<br><sub>Pages: Home · Work · Contact</sub> | <img src="builder_hub/www/builder_assets/bureau/bureau_home/preview.webp" width="360"> |
+| **Fronds**<br>An earthy starter site for boutique brands.<br><sub>Pages: Landing · About · Contact · Also in: Local business</sub> | <img src="builder_hub/www/builder_assets/fronds/fronds_landing/preview.webp" width="360"> |
+| **Verge**<br>A dark music artist site with poster covers and a tour list.<br><sub>Pages: Home · Shows · About · Also in: Portfolio</sub> | <img src="builder_hub/www/builder_assets/verge/verge_home/preview.webp" width="360"> |
+| **Bureau**<br>A bold agency site: mega type, typographic case covers, an acid accent.<br><sub>Pages: Home · Work · Contact · Also in: Portfolio</sub> | <img src="builder_hub/www/builder_assets/bureau/bureau_home/preview.webp" width="360"> |
+| **Candor**<br>A statement-first advisory site: one color, giant serif, a fee table, no photos.<br><sub>Pages: Home · Work · Start</sub> | <img src="builder_hub/www/builder_assets/candor/candor_home/preview.webp" width="360"> |
+| **Recipe**<br>An agency as recipe cards: ruled index cards, chef's notes, a tear-off coupon.<br><sub>Pages: Home · Menu · Kitchen</sub> | <img src="builder_hub/www/builder_assets/recipe/recipe_home/preview.webp" width="360"> |
+| **Fetch**<br>A playful one-product site: rounded color blocks, big dog photos, forever guarantee.<br><sub>Pages: Home · Collar · Help</sub> | <img src="builder_hub/www/builder_assets/fetch/fetch_home/preview.webp" width="360"> |
 
 ### Portfolio
 
@@ -39,10 +44,10 @@ per-template briefs.
 | **Canvas**<br>A designer portfolio presented as a live design file, comments left in.<br><sub>Pages: Home · Work · About</sub> | <img src="builder_hub/www/builder_assets/canvas/canvas_home/preview.webp" width="360"> |
 | **Vitae**<br>A consultant's CV presented as a crisp paper sheet on a desk.<br><sub>Pages: Home · Engagements · Contact</sub> | <img src="builder_hub/www/builder_assets/vitae/vitae_home/preview.webp" width="360"> |
 | **Reel**<br>A filmmaker portfolio of letterboxed stills with timecode captions.<br><sub>Pages: Films · Film · About</sub> | <img src="builder_hub/www/builder_assets/reel/reel_films/preview.webp" width="360"> |
-| **Margin**<br>A writer's site with a reading column and numbered margin notes.<br><sub>Pages: Home · Essays · About</sub> | <img src="builder_hub/www/builder_assets/margin/margin_home/preview.webp" width="360"> |
+| **Margin**<br>A writer's site with a reading column and numbered margin notes.<br><sub>Pages: Home · Essays · About · Also in: Editorial</sub> | <img src="builder_hub/www/builder_assets/margin/margin_home/preview.webp" width="360"> |
 | **Plinth**<br>A minimal architect portfolio: a type-only index with hover thumbnails.<br><sub>Pages: Home · Project · Profile</sub> | <img src="builder_hub/www/builder_assets/plinth/plinth_home/preview.webp" width="360"> |
 | **Scrap**<br>A cut-and-paste zine portfolio: torn panels, tape, xerox photos, marker notes.<br><sub>Pages: Home · Werk · About</sub> | <img src="builder_hub/www/builder_assets/scrap/scrap_home/preview.webp" width="360"> |
-| **Affiche**<br>A Swiss poster portfolio: every section is a full-screen typographic poster.<br><sub>Pages: Home · Arbeit · Kontakt</sub> | <img src="builder_hub/www/builder_assets/affiche/affiche_home/preview.webp" width="360"> |
+| **Affiche**<br>A Swiss poster portfolio: every section is a full-screen typographic poster.<br><sub>Pages: Home · Arbeit · Kontakt · Also in: Marketing</sub> | <img src="builder_hub/www/builder_assets/affiche/affiche_home/preview.webp" width="360"> |
 | **Annum**<br>A one-project-a-year portfolio: full-bleed hero, photo timeline, honest ledger.<br><sub>Pages: Home · Ledger · About</sub> | <img src="builder_hub/www/builder_assets/annum/annum_home/preview.webp" width="360"> |
 
 ### Editorial
@@ -64,18 +69,18 @@ per-template briefs.
 
 | Template | Preview |
 |---|---|
-| **Hem**<br>A minimal atelier site framed by a hairline border, with numbered services.<br><sub>Pages: Home · Services · Studio</sub> | <img src="builder_hub/www/builder_assets/hem/hem_home/preview.webp" width="360"> |
+| **Hem**<br>A minimal atelier site framed by a hairline border, with numbered services.<br><sub>Pages: Home · Services · Studio · Also in: Local business</sub> | <img src="builder_hub/www/builder_assets/hem/hem_home/preview.webp" width="360"> |
 | **Silk**<br>A dark evening-wear house with mirrored splits and a champagne hairline.<br><sub>Pages: Home · Collection · House · Appointments</sub> | <img src="builder_hub/www/builder_assets/silk/silk_home/preview.webp" width="360"> |
-| **Tulle**<br>A blush bridal boutique with layered tissue panels and script accents.<br><sub>Pages: Home · Dresses · Visit</sub> | <img src="builder_hub/www/builder_assets/tulle/tulle_home/preview.webp" width="360"> |
-| **Denim**<br>A loud streetwear drop site with thick borders, tickers and price stickers.<br><sub>Pages: Home · Drops · Story · Stockists</sub> | <img src="builder_hub/www/builder_assets/denim/denim_home/preview.webp" width="360"> |
-| **Pleat**<br>An editorial lookbook shot as magazine spreads with folio bars.<br><sub>Pages: Home · Looks · Studio</sub> | <img src="builder_hub/www/builder_assets/pleat/pleat_home/preview.webp" width="360"> |
+| **Tulle**<br>A blush bridal boutique with layered tissue panels and script accents.<br><sub>Pages: Home · Dresses · Visit · Also in: Local business</sub> | <img src="builder_hub/www/builder_assets/tulle/tulle_home/preview.webp" width="360"> |
+| **Denim**<br>A loud streetwear drop site with thick borders, tickers and price stickers.<br><sub>Pages: Home · Drops · Story · Stockists · Also in: Marketing</sub> | <img src="builder_hub/www/builder_assets/denim/denim_home/preview.webp" width="360"> |
+| **Pleat**<br>An editorial lookbook shot as magazine spreads with folio bars.<br><sub>Pages: Home · Looks · Studio · Also in: Editorial</sub> | <img src="builder_hub/www/builder_assets/pleat/pleat_home/preview.webp" width="360"> |
 
 ### Technology
 
 | Template | Preview |
 |---|---|
-| **Encore**<br>A SaaS site staged as a product keynote: spotlight, demo, reveals, one more thing.<br><sub>Pages: Home · Pricing · Backstage</sub> | <img src="builder_hub/www/builder_assets/encore/encore_home/preview.webp" width="360"> |
-| **Aurora**<br>A dark, glowing SaaS landing: gradient hero, glass bento grid, testimonial wall.<br><sub>Pages: Home · Pricing · Contact</sub> | <img src="builder_hub/www/builder_assets/aurora/aurora_home/preview.webp" width="360"> |
+| **Encore**<br>A SaaS site staged as a product keynote: spotlight, demo, reveals, one more thing.<br><sub>Pages: Home · Pricing · Backstage · Also in: Marketing</sub> | <img src="builder_hub/www/builder_assets/encore/encore_home/preview.webp" width="360"> |
+| **Aurora**<br>A dark, glowing SaaS landing: gradient hero, glass bento grid, testimonial wall.<br><sub>Pages: Home · Pricing · Contact · Also in: Marketing</sub> | <img src="builder_hub/www/builder_assets/aurora/aurora_home/preview.webp" width="360"> |
 
 ## How it works
 
