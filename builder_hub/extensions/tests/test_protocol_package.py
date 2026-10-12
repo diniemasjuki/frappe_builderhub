@@ -215,6 +215,8 @@ class PackageTests(unittest.TestCase):
 			b'<svg xmlns="http://www.w3.org/2000/svg"><image href="https://example.com/x.png"/></svg>',
 			b'<svg xmlns="http://www.w3.org/2000/svg"><foreignObject/></svg>',
 			b'<svg xmlns="http://www.w3.org/2000/svg"><style>@import "https://example.com/x.css";</style></svg>',
+			b'<svg xmlns="http://www.w3.org/2000/svg"><a href="#s"><animate attributeName="href" values="#s;javascript:alert(1)"/></a></svg>',
+			b'<svg xmlns="http://www.w3.org/2000/svg"><a href="#s"><set attributeName="href" to="#s"/></a></svg>',
 		)
 		for content in unsafe:
 			with self.subTest(content=content), self.assertRaises(ProtocolValidationError):

@@ -29,6 +29,8 @@ from builder_hub.extensions.protocol import (
 EXTERNAL_SVG_REFERENCE = re.compile(
 	r"(?:url\s*\(\s*['\"]?\s*(?!#)|^\s*(?:https?:|//|data:|javascript:))", re.I
 )
+# animate and set can assign a javascript: URL to href after validation
+FORBIDDEN_SVG_ELEMENTS = {"script", "foreignobject", "animate", "set"}
 
 
 @dataclass(frozen=True)
@@ -97,7 +99,7 @@ def _parse_svg(text: str, name: str) -> ET.Element:
 
 def _validate_svg_element(element: ET.Element, name: str) -> None:
 	tag = _local_name(element.tag).lower()
-	if tag in {"script", "foreignobject"}:
+	if tag in FORBIDDEN_SVG_ELEMENTS:
 		raise ProtocolValidationError("unsafe_svg", f"{name} contains a forbidden {tag} element.")
 	for attribute, value in element.attrib.items():
 		attribute = _local_name(attribute).lower()
