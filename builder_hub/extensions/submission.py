@@ -51,11 +51,12 @@ def request_publication(
 			_validate_categories(categories),
 			client=client,
 		)
-		_assert_identity_available(publication)
+		request_name = _get_open_request(publication)
+		_assert_identity_available(publication, request_name)
 	except ProtocolValidationError as error:
 		frappe.throw(_(error.message))
 
-	request = _create_request(publication)
+	request = _save_request(publication, request_name)
 	return {
 		"request": request.name,
 		"extension_name": request.extension_name,
@@ -156,34 +157,49 @@ def reject_publication_request(request_name: str, reason: str) -> dict:
 	return {"request": request.name, "status": request.status}
 
 
-def _create_request(publication: ValidatedPublication):
+def _get_open_request(publication: ValidatedPublication) -> str | None:
+	"""A pending or rejected request for the repository, which a new submission replaces."""
+	return frappe.db.get_value(
+		"Hub Publication Request",
+		{"github_repository_id": str(publication.repository["id"]), "status": ("!=", "Approved")},
+		"name",
+	)
+
+
+def _save_request(publication: ValidatedPublication, request_name: str | None):
+	values = _get_request_values(publication)
+	if not request_name:
+		return frappe.get_doc({"doctype": "Hub Publication Request", **values}).insert(ignore_permissions=True)
+	request = frappe.get_doc("Hub Publication Request", request_name)
+	request.update({**values, "review_reason": None, "reviewed_by": None, "reviewed_on": None})
+	return request.save(ignore_permissions=True)
+
+
+def _get_request_values(publication: ValidatedPublication) -> dict:
 	release = publication.release
 	package = release.package
-	return frappe.get_doc(
-		{
-			"doctype": "Hub Publication Request",
-			"repository_url": get_validated_repository_url(publication.repository),
-			"extension_name": package.manifest["name"],
-			"publisher_id": publication.publisher_id,
-			"publisher_name": publication.publisher_name,
-			"github_owner": publication.repository["owner"]["login"],
-			"github_account_id": str(publication.repository["owner"]["id"]),
-			"github_repository_id": str(publication.repository["id"]),
-			"license": publication.license_id,
-			"categories": frappe.as_json(publication.categories),
-			"version": package.manifest["version"],
-			"manifest": frappe.as_json(package.manifest),
-			"readme": release.contract["readme"],
-			"github_release_url": release.release_data["html_url"],
-			"github_release_id": str(release.release_data["id"]),
-			"github_asset_id": str(release.asset["id"]),
-			"package_url": release.asset["browser_download_url"],
-			"package_size": package.package_size,
-			"package_sha256": package.package_sha256,
-			"release_notes": release.release_data.get("body") or "",
-			"status": "Pending Review",
-		}
-	).insert(ignore_permissions=True)
+	return {
+		"repository_url": get_validated_repository_url(publication.repository),
+		"extension_name": package.manifest["name"],
+		"publisher_id": publication.publisher_id,
+		"publisher_name": publication.publisher_name,
+		"github_owner": publication.repository["owner"]["login"],
+		"github_account_id": str(publication.repository["owner"]["id"]),
+		"github_repository_id": str(publication.repository["id"]),
+		"license": publication.license_id,
+		"categories": frappe.as_json(publication.categories),
+		"version": package.manifest["version"],
+		"manifest": frappe.as_json(package.manifest),
+		"readme": release.contract["readme"],
+		"github_release_url": release.release_data["html_url"],
+		"github_release_id": str(release.release_data["id"]),
+		"github_asset_id": str(release.asset["id"]),
+		"package_url": release.asset["browser_download_url"],
+		"package_size": package.package_size,
+		"package_sha256": package.package_sha256,
+		"release_notes": release.release_data.get("body") or "",
+		"status": "Pending Review",
+	}
 
 
 def _create_or_update_publisher(publication: ValidatedPublication):
@@ -265,7 +281,7 @@ def _assert_request_unchanged(request, publication: ValidatedPublication) -> Non
 	if any(request.get(fieldname) != value for fieldname, value in values.items()):
 		raise ProtocolValidationError(
 			"publication_changed",
-			"The repository or release changed after submission. Submit a new request.",
+			"The repository or release changed after submission. Submit the repository again.",
 		)
 
 

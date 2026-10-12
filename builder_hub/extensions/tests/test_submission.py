@@ -129,9 +129,37 @@ class PublicationRequestTests(IntegrationTestCase):
 		with self.assertRaisesRegex(frappe.ValidationError, "HTTP 502"):
 			request_publication(self.repository_url, client=self.client)
 
-	def test_duplicate_repository_request_is_rejected(self):
+	def test_resubmission_replaces_the_pending_request(self):
 		frappe.set_user("Guest")
-		request_publication(self.repository_url, client=self.client)
+		first = request_publication(self.repository_url, client=self.client)
+		self.client.release = self._release()
+		second = request_publication(self.repository_url, client=self.client)
+		self.assertEqual(second["request"], first["request"])
+		self.assertEqual(
+			frappe.db.get_value("Hub Publication Request", first["request"], "github_release_id"),
+			str(self.client.release["id"]),
+		)
+		frappe.set_user("Administrator")
+		approve_publication_request(first["request"], client=self.client)
+
+	def test_resubmission_reopens_a_rejected_request(self):
+		frappe.set_user("Guest")
+		first = request_publication(self.repository_url, client=self.client)
+		frappe.set_user("Administrator")
+		reject_publication_request(first["request"], "Fix the icon.")
+		frappe.set_user("Guest")
+		second = request_publication(self.repository_url, client=self.client)
+		request = frappe.get_doc("Hub Publication Request", second["request"])
+		self.assertEqual(request.name, first["request"])
+		self.assertEqual(request.status, "Pending Review")
+		self.assertIsNone(request.review_reason)
+
+	def test_approved_repository_cannot_be_submitted_again(self):
+		frappe.set_user("Guest")
+		result = request_publication(self.repository_url, client=self.client)
+		frappe.set_user("Administrator")
+		approve_publication_request(result["request"], client=self.client)
+		frappe.set_user("Guest")
 		with self.assertRaisesRegex(frappe.ValidationError, "already"):
 			request_publication(self.repository_url, client=self.client)
 
