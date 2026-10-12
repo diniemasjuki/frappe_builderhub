@@ -26,11 +26,6 @@ from builder_hub.extensions.protocol import (
 	validate_manifest,
 )
 
-IMPORT_PATTERN = re.compile(
-	r"(?:\bimport\s*(?:[^'\";]*?\sfrom\s*)?|\bexport\s+[^'\";]*?\sfrom\s*|\bimport\s*\()"
-	r"['\"]([^'\"]+)['\"]"
-)
-URL_PATTERN = re.compile(r"\bnew\s+URL\s*\(\s*['\"]([^'\"]+)['\"]\s*,\s*import\.meta\.url")
 EXTERNAL_SVG_REFERENCE = re.compile(
 	r"(?:url\s*\(\s*['\"]?\s*(?!#)|^\s*(?:https?:|//|data:|javascript:))", re.I
 )
@@ -63,7 +58,6 @@ def validate_package(
 			manifest = _read_manifest(archive, entries)
 			_validate_package_files(entries, manifest.get("icon"))
 			_validate_package_identity(manifest, expected_name, expected_version)
-			_validate_relative_imports(archive, entries)
 			svgs = _read_validated_svgs(archive, entries)
 	except zipfile.BadZipFile:
 		raise ProtocolValidationError("invalid_zip", "The extension package is not a valid ZIP file.")
@@ -239,28 +233,6 @@ def _read_entry(
 	if len(content) > limit:
 		raise ProtocolValidationError(code, f"Package file is too large: {entry.filename}.")
 	return content
-
-
-def _validate_relative_imports(archive: zipfile.ZipFile, entries: dict[str, zipfile.ZipInfo]) -> None:
-	for name, entry in entries.items():
-		if not name.endswith(".js"):
-			continue
-		source = _decode_javascript(_read_entry(archive, entry, MAX_FILE_SIZE, code="file_too_large"), name)
-		for specifier in [*IMPORT_PATTERN.findall(source), *URL_PATTERN.findall(source)]:
-			if not specifier.startswith("."):
-				continue
-			target = posixpath.normpath(posixpath.join(posixpath.dirname(name), specifier))
-			if target not in entries:
-				raise ProtocolValidationError(
-					"missing_import", f"{name} imports a file that is not in the package: {specifier}."
-				)
-
-
-def _decode_javascript(content: bytes, name: str) -> str:
-	try:
-		return content.decode("utf-8")
-	except UnicodeDecodeError:
-		raise ProtocolValidationError("invalid_javascript", f"{name} must contain UTF-8 JavaScript.")
 
 
 def _sha256(path: Path) -> str:

@@ -195,18 +195,6 @@ class PackageTests(unittest.TestCase):
 			self.package({"manifest.json": json.dumps(manifest(version="2.0.0", icon=None)), "main.js": ""}),
 		)
 
-	def test_rejects_a_relative_import_of_a_missing_file(self):
-		base_manifest = json.dumps(manifest(icon=None))
-		sources = {
-			"main.js": 'import "../escape.js";',
-			"chunks/a.js": 'import "./missing.js";',
-			"chunks/b.js": 'const url = new URL("../assets/missing.png", import.meta.url);',
-		}
-		for name, source in sources.items():
-			files = {"manifest.json": base_manifest, "main.js": "", name: source}
-			with self.subTest(name=name):
-				self.assert_code("missing_import", self.package(files))
-
 	def test_enforces_package_file_and_icon_size_limits(self):
 		path = self.package()
 		with patch("builder_hub.extensions.package.MAX_PACKAGE_SIZE", 1):
