@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from unittest.mock import patch
+
 import frappe
 from builder.export_import_standard_page import sync_standard_builder_pages
 from frappe.tests import IntegrationTestCase
@@ -8,7 +10,9 @@ from frappe.website.serve import get_response_content
 
 class SubmitPageTests(IntegrationTestCase):
 	def test_standard_page_serves_the_publication_form(self):
-		frappe.delete_doc("Builder Page", "extensions-submit", force=True, ignore_missing=True)
+		# in developer mode, deleting a standard page also deletes its files in builder_files
+		with patch.dict(frappe.conf, {"developer_mode": 0}):
+			frappe.delete_doc("Builder Page", "extensions-submit", force=True, ignore_missing=True)
 		sync_standard_builder_pages("builder_hub")
 		frappe.set_user("Guest")
 
