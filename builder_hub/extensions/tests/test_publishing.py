@@ -5,11 +5,14 @@ import os
 import tempfile
 import zipfile
 from pathlib import Path
+from types import SimpleNamespace
+from unittest.mock import patch
 
 import frappe
 from frappe.tests import IntegrationTestCase
 
-from builder_hub.extensions import publishing
+from builder_hub.extensions import publishing, tasks
+from builder_hub.extensions.github import GitHubResponse
 from builder_hub.extensions.protocol import ProtocolValidationError, expected_package_name
 
 
@@ -21,6 +24,18 @@ class PackageClient:
 	def download_asset(self, url: str) -> str:
 		self.downloaded_paths.append(self.package_path)
 		return self.package_path
+
+
+class ReleaseListClient:
+	def __init__(self, repository: dict, releases: list[dict]):
+		self.repository = repository
+		self.releases = releases
+
+	def get_repository(self, repository_id: str) -> dict:
+		return self.repository
+
+	def get_releases(self, repository: dict, etag: str | None = None) -> GitHubResponse:
+		return GitHubResponse(self.releases, "release-list-etag", 200)
 
 
 class PublishingTests(IntegrationTestCase):
@@ -186,3 +201,19 @@ class PublishingTests(IntegrationTestCase):
 				release_data=changed,
 			)
 		self.assertEqual(raised.exception.code, "release_asset_changed")
+
+	def check_repository_with_import_status(self, status: str) -> str | None:
+		frappe.db.set_value("Hub Extension", self.extension_name, "status", "Published")
+		client = ReleaseListClient(self.repository(), [self.github_release("1.0.0")])
+		with (
+			patch.object(tasks, "get_repository_contract"),
+			patch.object(tasks, "import_release", return_value=SimpleNamespace(status=status)),
+		):
+			tasks.check_repository(self.extension_name, client=client)
+		return frappe.db.get_value("Hub Extension", self.extension_name, "github_etag")
+
+	def test_release_check_keeps_etag_after_final_import(self):
+		self.assertEqual(self.check_repository_with_import_status("Published"), "release-list-etag")
+
+	def test_release_check_drops_etag_while_an_import_needs_a_retry(self):
+		self.assertIsNone(self.check_repository_with_import_status("Validating"))

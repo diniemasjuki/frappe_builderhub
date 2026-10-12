@@ -80,8 +80,10 @@ def check_repository(extension_name: str, *, client: GitHubClient | None = None)
 			)
 			imported.append({"version": version, "status": release.status})
 
+		# a stored ETag would turn the retry of a Validating release into a 304
+		needs_retry = any(item["status"] == "Validating" for item in imported)
 		extension.db_set(
-			{"last_checked_on": now_datetime(), "github_etag": response.etag or extension.github_etag},
+			{"last_checked_on": now_datetime(), "github_etag": None if needs_retry else response.etag},
 			update_modified=False,
 		)
 		return {"extension": extension.name, "checked": True, "unchanged": False, "imported": imported}
