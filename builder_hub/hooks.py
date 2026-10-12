@@ -210,8 +210,11 @@ scheduler_events = {
 # ----------------
 # before_request = ["builder_hub.utils.before_request"]
 # after_request = ["builder_hub.utils.after_request"]
-after_request = ["builder_hub.api.allow_template_embedding"]
-after_request.append("builder_hub.extensions.responses.set_extension_icon_cache_headers")
+after_request = [
+	"builder_hub.api.allow_template_embedding",
+	"builder_hub.assets.set_asset_cache_headers",
+	"builder_hub.extensions.responses.set_extension_icon_cache_headers",
+]
 
 # Job Events
 # ----------
