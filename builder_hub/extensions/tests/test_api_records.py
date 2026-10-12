@@ -100,20 +100,18 @@ class ExtensionAPIRecordTests(IntegrationTestCase):
 		self.assertTrue(item["icon"].endswith("/files/extension-icons/" + ("a" * 64) + ".svg"))
 
 	def test_catalog_paginates_and_reports_total_count(self):
-		from builder_hub.extensions.protocol import CATALOG_PAGE_SIZE
+		items = [{"name": "a"}, {"name": "b"}, {"name": "c"}]
+		with patch.object(api, "_get_catalog", return_value=items), patch.object(api, "CATALOG_PAGE_SIZE", 2):
+			first_page = api.get_catalog(1, page=1)
+			second_page = api.get_catalog(1, page=2)
 
-		full = api.get_catalog(1)["extensions"]
-
-		first_page = api.get_catalog(1, page=1)
-		self.assertEqual(first_page["extensions"], full[:CATALOG_PAGE_SIZE])
-		self.assertEqual(first_page["page"], 1)
-		self.assertEqual(first_page["total_count"], len(full))
-		self.assertEqual(first_page["has_more"], len(full) > CATALOG_PAGE_SIZE)
-
-		last_page_number = -(-len(full) // CATALOG_PAGE_SIZE)
-		last_page = api.get_catalog(1, page=last_page_number)
-		self.assertEqual(last_page["extensions"], full[(last_page_number - 1) * CATALOG_PAGE_SIZE :])
-		self.assertFalse(last_page["has_more"])
+		self.assertEqual(first_page["extensions"], items[:2])
+		self.assertEqual(first_page["total_count"], 3)
+		self.assertTrue(first_page["has_more"])
+		self.assertEqual(second_page["extensions"], items[2:])
+		self.assertEqual(second_page["page"], 2)
+		self.assertEqual(second_page["total_count"], 3)
+		self.assertFalse(second_page["has_more"])
 
 	def test_catalog_pages_share_one_build(self):
 		with patch.object(api, "_publisher", wraps=api._publisher) as publisher_lookup:
