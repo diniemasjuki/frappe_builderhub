@@ -33,11 +33,21 @@ def get_info() -> dict:
 
 @frappe.whitelist(allow_guest=True)
 def get_catalog(protocol_version: int | str = 1, page: int | str = 1) -> dict:
-	return _get_catalog(_protocol_version(protocol_version), get_url(), _page(page))
+	page = _page(page)
+	items = _get_catalog(_protocol_version(protocol_version), get_url())
+	start = (page - 1) * CATALOG_PAGE_SIZE
+	return {
+		"schema_version": SCHEMA_VERSION,
+		"extensions": items[start : start + CATALOG_PAGE_SIZE],
+		"page": page,
+		"total_count": len(items),
+		"has_more": start + CATALOG_PAGE_SIZE < len(items),
+	}
 
 
 @redis_cache(ttl=600)
-def _get_catalog(protocol_version: int, base_url: str, page: int) -> dict:
+def _get_catalog(protocol_version: int, base_url: str) -> list[dict]:
+	"""One cached list for every page, so a page request does not build the catalog again."""
 	items = []
 	for extension in frappe.get_all(
 		"Hub Extension",
@@ -52,14 +62,7 @@ def _get_catalog(protocol_version: int, base_url: str, page: int) -> dict:
 		release = _latest_release(extension.name, protocol_version)
 		if release:
 			items.append(_catalog_item(extension, publisher, release, base_url))
-	start = (page - 1) * CATALOG_PAGE_SIZE
-	return {
-		"schema_version": SCHEMA_VERSION,
-		"extensions": items[start : start + CATALOG_PAGE_SIZE],
-		"page": page,
-		"total_count": len(items),
-		"has_more": start + CATALOG_PAGE_SIZE < len(items),
-	}
+	return items
 
 
 @frappe.whitelist(allow_guest=True)
@@ -246,7 +249,7 @@ def _public_extension(extension_name: str):
 	row = frappe.db.get_value(
 		"Hub Extension",
 		extension_name,
-		_extension_fields(),
+		[*_extension_fields(), "readme"],
 		as_dict=True,
 	)
 	if not row or row.status not in {"Published", "Deprecated"}:
@@ -312,7 +315,6 @@ def _extension_fields() -> list[str]:
 		"publisher",
 		"label",
 		"description",
-		"readme",
 		"repository_url",
 		"license",
 		"categories",

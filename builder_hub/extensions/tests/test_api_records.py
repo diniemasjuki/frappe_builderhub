@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from unittest.mock import patch
 
 import frappe
 from frappe.tests import IntegrationTestCase
@@ -113,6 +114,13 @@ class ExtensionAPIRecordTests(IntegrationTestCase):
 		last_page = api.get_catalog(1, page=last_page_number)
 		self.assertEqual(last_page["extensions"], full[(last_page_number - 1) * CATALOG_PAGE_SIZE :])
 		self.assertFalse(last_page["has_more"])
+
+	def test_catalog_pages_share_one_build(self):
+		with patch.object(api, "_publisher", wraps=api._publisher) as publisher_lookup:
+			api.get_catalog(1, page=1)
+			lookups = publisher_lookup.call_count
+			api.get_catalog(1, page=2)
+		self.assertEqual(publisher_lookup.call_count, lookups)
 
 	def test_catalog_rejects_invalid_page(self):
 		with self.assertRaises(frappe.ValidationError):
