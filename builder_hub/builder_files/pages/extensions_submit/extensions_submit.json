@@ -700,7 +700,11 @@
          },
          "blockId": "d3ylf8x4e",
          "blockName": "divider",
-         "element": "div"
+         "element": "div",
+         "tabletStyles": {
+          "__last_display": "flex",
+          "display": "none"
+         }
         },
         {
          "baseStyles": {
@@ -708,8 +712,9 @@
           "flexDirection": "column",
           "flexShrink": 0,
           "height": "fit-content",
+          "maxWidth": "100%",
           "overflow": "hidden",
-          "width": "fit-content"
+          "width": "440px"
          },
          "blockId": "owl157188",
          "blockName": "container",
@@ -726,6 +731,9 @@
            "blockName": "Form Column",
            "children": [
             {
+             "attributes": {
+              "data-publication-form": ""
+             },
              "baseStyles": {
               "backgroundColor": "#FFFFFF",
               "border": "1px solid #E2E2E2",
@@ -953,10 +961,6 @@
                "element": "div"
               }
              ],
-             "clientScript": {
-              "css": "input::placeholder { color: #999999; }",
-              "js": "const form = this;\nconst button = form.querySelector(\"button[type=submit]\");\nconst result = form.querySelector(\"[data-publication-result]\");\nconst label = button.innerHTML;\nconst spinner = `<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M21 12a9 9 0 1 1-6.2-8.56\"/></svg>`;\nconst icons = {\n\tsuccess: `<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#43AC79\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"m9 12 2 2 4-4\"/></svg>`,\n\terror: `<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#E03434\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"m15 9-6 6\"/><path d=\"m9 9 6 6\"/></svg>`,\n};\n\nfunction setBusy(isBusy) {\n\tbutton.disabled = isBusy;\n\tbutton.style.pointerEvents = isBusy ? \"none\" : \"\";\n\tbutton.innerHTML = isBusy ? `${spinner}<span>Checking repository…</span>` : label;\n\tif (isBusy) {\n\t\tbutton.querySelector(\"svg\").animate(\n\t\t\t[{ transform: \"rotate(0deg)\" }, { transform: \"rotate(360deg)\" }],\n\t\t\t{ duration: 800, iterations: Infinity },\n\t\t);\n\t}\n}\n\nfunction showResult(message, isError) {\n\tconst text = document.createElement(\"span\");\n\ttext.textContent = message;\n\tresult.innerHTML = icons[isError ? \"error\" : \"success\"];\n\tresult.append(text);\n\tresult.style.display = \"grid\";\n\tresult.style.backgroundColor = isError ? \"#FFE7E7\" : \"#E4FAEB\";\n}\n\nfunction getErrorMessage(body) {\n\ttry {\n\t\treturn JSON.parse(JSON.parse(body._server_messages)[0]).message;\n\t} catch (error) {\n\t\treturn \"The publication request could not be submitted.\";\n\t}\n}\n\nform.addEventListener(\"submit\", async (event) => {\n\tevent.preventDefault();\n\tconst data = new FormData(form);\n\tconst categories = String(data.get(\"categories\") || \"\")\n\t\t.split(\",\")\n\t\t.map((category) => category.trim())\n\t\t.filter(Boolean);\n\tsetBusy(true);\n\tresult.style.display = \"none\";\n\ttry {\n\t\tconst response = await fetch(\"/api/method/builder_hub.extensions.api.request_publication\", {\n\t\t\tmethod: \"POST\",\n\t\t\theaders: {\n\t\t\t\t\"Content-Type\": \"application/json\",\n\t\t\t\t\"X-Frappe-CSRF-Token\": frappe.csrf_token || \"\",\n\t\t\t},\n\t\t\tbody: JSON.stringify({\n\t\t\t\trepository_url: data.get(\"repository_url\"),\n\t\t\t\tcategories: JSON.stringify(categories),\n\t\t\t}),\n\t\t});\n\t\tconst body = await response.json();\n\t\tif (!response.ok) throw new Error(getErrorMessage(body));\n\t\tshowResult(`Request received for ${body.message.extension_name}. A maintainer will review it.`, false);\n\t\tform.reset();\n\t} catch (error) {\n\t\tshowResult(error.message, true);\n\t} finally {\n\t\tsetBusy(false);\n\t}\n});"
-             },
              "element": "form",
              "mobileStyles": {
               "padding": "16px"
@@ -966,7 +970,10 @@
            "element": "div"
           }
          ],
-         "element": "div"
+         "element": "div",
+         "mobileStyles": {
+          "width": "100%"
+         }
         }
        ],
        "element": "div",
@@ -986,7 +993,14 @@
    "originalElement": "body"
   }
  ],
- "client_scripts": [],
+ "client_scripts": [
+  {
+   "builder_script": "extensions_submit_form"
+  },
+  {
+   "builder_script": "extensions_submit_styles"
+  }
+ ],
  "creation": "2026-09-24 17:29:04.019563",
  "disable_indexing": 0,
  "docstatus": 0,
@@ -997,16 +1011,16 @@
  "is_standard": 1,
  "is_template": 0,
  "meta_description": "Submit a public GitHub repository to publish a Builder extension on Builder Hub.",
- "modified": "2026-10-14 12:04:12.295572",
+ "modified": "2026-10-14 12:37:49.477748",
  "modified_by": "Administrator",
  "name": "extensions-submit",
  "owner": "Administrator",
  "page_name": "extensions-submit",
  "page_title": "Publish a Builder extension",
- "preview": "/files/extensions-submit-preview.webp?v=d97f2",
+ "preview": "/files/extensions-submit-preview.webp?v=65f47",
  "project_folder": "builder_hub",
  "published": 1,
- "published_at": "2026-10-14 12:04:03.732711",
+ "published_at": "2026-10-14 12:37:49.462738",
  "route": "extensions/submit",
  "staging": 0
 }
