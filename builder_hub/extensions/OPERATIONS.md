@@ -9,7 +9,7 @@ The site configuration key `builder_hub_github_token` should contain a fine-grai
 3. Confirm that the repository is public, active, owned by the publisher account ID, and contains `manifest.json`, `README.md`, and `LICENSE` on its default branch.
 4. Confirm that the published GitHub release has the exact SemVer tag and exactly one correctly named `.builderext` asset.
 5. Ask the author to publish a new version if an existing published asset must change. Published release assets and stored hashes are immutable.
-6. After correcting a repository-only problem, use the listing action that calls `request_release_check` or run `builder_hub.extensions.tasks.check_repository` for the listing.
+6. After correcting a repository-only problem, click **Actions > Check for New Releases** on the Hub Extension form, or run `builder_hub.extensions.tasks.check_repository` for the listing.
 
 The Redis counters under `builder_hub:extensions:metrics:*` track checks, check failures, validation failures, and GitHub rate-limit failures. Logs use the `builder_hub.extensions` logger and never include the configured token.
 
