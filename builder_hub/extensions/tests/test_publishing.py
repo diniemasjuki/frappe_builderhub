@@ -218,13 +218,12 @@ class PublishingTests(IntegrationTestCase):
 	def test_release_check_drops_etag_while_an_import_needs_a_retry(self):
 		self.assertIsNone(self.check_repository_with_import_status("Validating"))
 
-	def test_manual_release_check_queues_once_per_interval(self):
-		frappe.cache.delete_value(f"builder_hub:extensions:manual_check:{self.extension_name}")
+	def test_manual_release_check_queues_every_request(self):
 		with patch.object(tasks, "enqueue_repository_check") as enqueue:
 			self.assertTrue(tasks.request_release_check(self.extension_name)["queued"])
-			with self.assertRaises(frappe.ValidationError):
-				tasks.request_release_check(self.extension_name)
-		enqueue.assert_called_once_with(self.extension_name, self.repository_id)
+			self.assertTrue(tasks.request_release_check(self.extension_name)["queued"])
+		self.assertEqual(enqueue.call_count, 2)
+		enqueue.assert_called_with(self.extension_name, self.repository_id)
 
 	def test_manual_release_check_requires_a_maintainer(self):
 		frappe.set_user("Guest")

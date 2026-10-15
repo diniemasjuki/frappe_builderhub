@@ -12,8 +12,6 @@ from builder_hub.extensions.github import GitHubClient, get_repository_contract,
 from builder_hub.extensions.protocol import SEMVER_PATTERN, ProtocolValidationError, semver_key
 from builder_hub.extensions.publishing import import_release, is_maintainer
 
-MANUAL_CHECK_INTERVAL = 15 * 60
-
 
 def check_releases() -> None:
 	"""Hourly scheduler entry: queue one deduplicated job for each active listing."""
@@ -113,10 +111,6 @@ def request_release_check(extension_name: str) -> dict:
 	if not is_maintainer():
 		frappe.throw(_("A Builder Hub maintainer must request a release check."), frappe.PermissionError)
 	extension = frappe.get_doc("Hub Extension", extension_name)
-	key = f"builder_hub:extensions:manual_check:{extension.name}"
-	if frappe.cache.get_value(key):
-		frappe.throw(_("A release check was requested recently. Try again later."))
-	frappe.cache.set_value(key, 1, expires_in_sec=MANUAL_CHECK_INTERVAL)
 	enqueue_repository_check(extension.name, extension.github_repository_id)
 	return {"extension": extension.name, "queued": True}
 
