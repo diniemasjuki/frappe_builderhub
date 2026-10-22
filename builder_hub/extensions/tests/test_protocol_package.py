@@ -27,7 +27,6 @@ def manifest(**changes):
 		"version": "1.2.0",
 		"entry": "main.js",
 		"icon": "icon.svg",
-		"permissions": ["page.edit", "token.write"],
 	}
 	value.update(changes)
 	return value
@@ -38,7 +37,7 @@ class ProtocolTests(unittest.TestCase):
 		self.assertEqual(validate_manifest(manifest()), manifest())
 
 	def test_rejects_every_missing_required_field(self):
-		for fieldname in ("v", "name", "label", "description", "version", "entry", "permissions"):
+		for fieldname in ("v", "name", "label", "description", "version", "entry"):
 			value = manifest()
 			del value[fieldname]
 			with (
@@ -47,25 +46,21 @@ class ProtocolTests(unittest.TestCase):
 			):
 				validate_manifest(value)
 
-	def test_rejects_unknown_network_field_and_permission(self):
-		with self.assertRaisesRegex(ProtocolValidationError, "network"):
-			validate_manifest(manifest(network={"access": True}))
-		with self.assertRaisesRegex(ProtocolValidationError, "Unsupported"):
-			validate_manifest(manifest(permissions=["network.access"]))
+	def test_rejects_unknown_fields(self):
+		"""A sandboxed manifest's permissions are unknown too: Builder cannot run that package."""
+		for fieldname in ("network", "capabilities", "permissions"):
+			with (
+				self.subTest(fieldname=fieldname),
+				self.assertRaisesRegex(ProtocolValidationError, f"unsupported field: {fieldname}"),
+			):
+				validate_manifest(manifest(**{fieldname: ["page.edit"]}))
 
-	def test_rejects_the_old_capabilities_field(self):
-		value = manifest(capabilities=["page.edit"])
-		del value["permissions"]
-		with self.assertRaisesRegex(ProtocolValidationError, "permissions"):
-			validate_manifest(value)
-
-	def test_rejects_wrong_identity_entry_icon_and_duplicate_permission(self):
+	def test_rejects_wrong_identity_entry_and_icon(self):
 		invalid = (
 			manifest(name="Acme/icons"),
 			manifest(version="v1.2.0"),
 			manifest(entry="dist/main.js"),
 			manifest(icon="assets/icon.svg"),
-			manifest(permissions=["page.edit", "page.edit"]),
 		)
 		for value in invalid:
 			with self.subTest(value=value), self.assertRaises(ProtocolValidationError):
@@ -134,7 +129,7 @@ class PackageTests(unittest.TestCase):
 			"main.js": 'const panel = () => import("./chunks/panel-1a2b.js");\n'
 			'const logo = new URL("./assets/logo-3c4d.svg", import.meta.url);',
 			"chunks/": "",
-			"chunks/panel-1a2b.js": 'import { sdk } from "../main.js";\nimport "frappe-builder-extension-sdk";',
+			"chunks/panel-1a2b.js": 'import { leftPanelTabs } from "builder";\nimport { ref } from "vue";',
 			"assets/": "",
 			"assets/main-5e6f.css": ".panel { color: red; }",
 			"assets/logo-3c4d.svg": '<svg xmlns="http://www.w3.org/2000/svg"/>',

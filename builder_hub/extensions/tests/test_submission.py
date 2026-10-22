@@ -62,7 +62,6 @@ class PublicationRequestTests(IntegrationTestCase):
 			"description": "Insert public icons.",
 			"version": "1.0.0",
 			"entry": "main.js",
-			"permissions": ["page.edit"],
 		}
 		self.package = Path(self.temporary.name) / "extension.builderext"
 		with zipfile.ZipFile(self.package, "w", zipfile.ZIP_DEFLATED) as archive:

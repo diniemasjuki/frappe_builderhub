@@ -64,7 +64,6 @@ class ExtensionAPIRecordTests(IntegrationTestCase):
 				"description": "Add icons.",
 				"version": version,
 				"entry": "main.js",
-				"permissions": ["page.edit"],
 			}
 			if manifest == "default"
 			else manifest

@@ -27,20 +27,7 @@ SEMVER_PATTERN = re.compile(
 	r"(?:\+([0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*))?$"
 )
 
-# The permissions Builder gates a bridge method by. Keep in step with
-# `PERMISSIONS` in `builder/extensions/constants.py`.
-SUPPORTED_PERMISSIONS = frozenset(
-	{
-		"page.edit",
-		"page.write",
-		"token.write",
-		"data.access",
-		"schema.write",
-		"method.call",
-	}
-)
-
-# The files Builder serves to an extension frame. Keep in step with
+# The files the editor loads from a package. Keep in step with
 # `ASSET_TYPES` in `builder/extensions/constants.py`. No HTML or XML.
 ALLOWED_SUFFIXES = frozenset(
 	{
@@ -61,9 +48,8 @@ ALLOWED_SUFFIXES = frozenset(
 # Build output folders beside the root files. The entry imports these by relative path.
 PACKAGE_FOLDERS = frozenset({"chunks", "assets"})
 
-MANIFEST_V1_REQUIRED_FIELDS = frozenset(
-	{"v", "name", "label", "description", "version", "entry", "permissions"}
-)
+# Keep in step with `MANIFEST_REQUIRED_FIELDS` in `builder/extensions/package.py`.
+MANIFEST_V1_REQUIRED_FIELDS = frozenset({"v", "name", "label", "description", "version", "entry"})
 MANIFEST_V1_OPTIONAL_FIELDS = frozenset({"icon"})
 MANIFEST_V1_FIELDS = MANIFEST_V1_REQUIRED_FIELDS | MANIFEST_V1_OPTIONAL_FIELDS
 
@@ -88,7 +74,6 @@ def validate_manifest(manifest: object) -> dict:
 	_validate_manifest_fields(manifest)
 	_validate_manifest_identity(manifest)
 	_validate_manifest_icon(manifest.get("icon"))
-	_validate_permissions(manifest["permissions"])
 	return manifest
 
 
@@ -132,22 +117,6 @@ def _validate_manifest_icon(icon: object) -> None:
 		return
 	if not isinstance(icon, str) or not icon or "/" in icon or "\\" in icon or not icon.endswith(".svg"):
 		raise ProtocolValidationError("invalid_icon", "Manifest icon must name one root SVG file.")
-
-
-def _validate_permissions(permissions: object) -> None:
-	if not isinstance(permissions, list) or any(not isinstance(item, str) for item in permissions):
-		raise ProtocolValidationError(
-			"invalid_permissions", "Manifest permissions must be a list of supported permission names."
-		)
-	if len(permissions) != len(set(permissions)):
-		raise ProtocolValidationError(
-			"duplicate_permission", "Manifest permissions must not contain duplicates."
-		)
-	unsupported = sorted(set(permissions) - SUPPORTED_PERMISSIONS)
-	if unsupported:
-		raise ProtocolValidationError(
-			"unsupported_permission", f"Unsupported extension permission: {unsupported[0]}."
-		)
 
 
 def semver_key(version: str) -> tuple:

@@ -86,7 +86,6 @@ class PublishingTests(IntegrationTestCase):
 			"description": "Imported icon package.",
 			"version": version,
 			"entry": "main.js",
-			"permissions": ["page.edit"],
 		}
 		value.update(changes)
 		return value
