@@ -10,8 +10,8 @@ import frappe
 
 RENAMES = {
 	"Builder Hub Publisher": "Hub Publisher",
-	"Builder Hub Plugin": "Hub Plugin",
-	"Builder Hub Plugin Release": "Hub Plugin Release",
+	"Builder Hub Extension": "Hub Plugin",
+	"Builder Hub Extension Release": "Hub Plugin Release",
 	"Builder Hub Publication Request": "Hub Publication Request",
 }
 
