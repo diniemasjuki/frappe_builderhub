@@ -7,7 +7,7 @@ frappe.ui.form.on("Hub Publication Request", {
 		form.add_custom_button(
 			__("Approve"),
 			() => review_request(form, "approve_publication_request"),
-			__("Actions"),
+			__("Actions")
 		);
 		form.add_custom_button(
 			__("Reject"),
@@ -20,10 +20,10 @@ frappe.ui.form.on("Hub Publication Request", {
 						reqd: 1,
 					},
 					({ reason }) => review_request(form, "reject_publication_request", reason),
-					__("Reject publication request"),
+					__("Reject publication request")
 				);
 			},
-			__("Actions"),
+			__("Actions")
 		);
 	},
 });
@@ -31,7 +31,7 @@ frappe.ui.form.on("Hub Publication Request", {
 function review_request(form, action, reason = null) {
 	return frappe
 		.call({
-			method: `builder_hub.extensions.api.${action}`,
+			method: `builder_hub.plugins.api.${action}`,
 			args: { request_name: form.doc.name, reason },
 			freeze: true,
 		})

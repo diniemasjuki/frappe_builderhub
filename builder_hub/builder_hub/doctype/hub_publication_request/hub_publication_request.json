@@ -6,7 +6,7 @@
  "engine": "InnoDB",
  "field_order": [
   "repository_url",
-  "extension_name",
+  "plugin_name",
   "publisher_id",
   "publisher_name",
   "github_owner",
@@ -28,12 +28,12 @@
   "review_reason",
   "reviewed_by",
   "reviewed_on",
-  "published_extension",
+  "published_plugin",
   "published_release"
  ],
  "fields": [
   {"fieldname": "repository_url", "fieldtype": "Data", "in_list_view": 1, "label": "Repository URL", "options": "URL", "read_only": 1, "reqd": 1},
-  {"fieldname": "extension_name", "fieldtype": "Data", "in_list_view": 1, "label": "Extension Name", "read_only": 1, "reqd": 1, "unique": 1},
+  {"fieldname": "plugin_name", "fieldtype": "Data", "in_list_view": 1, "label": "Plugin Name", "read_only": 1, "reqd": 1, "unique": 1},
   {"fieldname": "publisher_id", "fieldtype": "Data", "label": "Publisher ID", "read_only": 1, "reqd": 1},
   {"fieldname": "publisher_name", "fieldtype": "Data", "label": "Publisher Name", "read_only": 1, "reqd": 1},
   {"fieldname": "github_owner", "fieldtype": "Data", "label": "GitHub Owner", "read_only": 1, "reqd": 1},
@@ -55,8 +55,8 @@
   {"fieldname": "review_reason", "fieldtype": "Small Text", "label": "Review Reason", "read_only": 1},
   {"fieldname": "reviewed_by", "fieldtype": "Link", "label": "Reviewed By", "options": "User", "read_only": 1},
   {"fieldname": "reviewed_on", "fieldtype": "Datetime", "label": "Reviewed On", "read_only": 1},
-  {"fieldname": "published_extension", "fieldtype": "Link", "label": "Published Extension", "options": "Hub Extension", "read_only": 1},
-  {"fieldname": "published_release", "fieldtype": "Link", "label": "Published Release", "options": "Hub Extension Release", "read_only": 1}
+  {"fieldname": "published_plugin", "fieldtype": "Link", "label": "Published Plugin", "options": "Hub Plugin", "read_only": 1},
+  {"fieldname": "published_release", "fieldtype": "Link", "label": "Published Release", "options": "Hub Plugin Release", "read_only": 1}
  ],
  "index_web_pages_for_search": 0,
  "module": "Builder Hub",

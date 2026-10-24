@@ -1,1 +1,0 @@
-"""Builder Hub extension distribution."""

@@ -167,7 +167,7 @@ after_migrate = "builder_hub.install.after_migrate"
 # 	],
 # }
 scheduler_events = {
-	"hourly": ["builder_hub.extensions.tasks.check_releases"],
+	"hourly": ["builder_hub.plugins.tasks.check_releases"],
 }
 
 # Testing
@@ -213,7 +213,7 @@ scheduler_events = {
 after_request = [
 	"builder_hub.api.allow_template_embedding",
 	"builder_hub.assets.set_asset_cache_headers",
-	"builder_hub.extensions.responses.set_extension_icon_cache_headers",
+	"builder_hub.plugins.responses.set_plugin_icon_cache_headers",
 ]
 
 # Job Events
