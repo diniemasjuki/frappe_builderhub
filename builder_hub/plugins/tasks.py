@@ -8,7 +8,7 @@ import frappe
 from frappe.utils import now_datetime
 
 from builder_hub.plugins.github import GitHubClient, get_repository_contract, validate_repository
-from builder_hub.plugins.protocol import SEMVER_PATTERN, ProtocolValidationError, semver_key
+from builder_hub.plugins.protocol import ProtocolValidationError, semver_key, version_from_tag
 from builder_hub.plugins.publishing import import_release, increment_metric, require_maintainer
 
 
@@ -95,14 +95,12 @@ def import_new_releases(plugin, client: GitHubClient, repository: dict, releases
 
 def get_release_index(releases: list[dict]) -> dict[str, dict]:
 	"""Index published GitHub releases with valid SemVer tags in precedence order."""
-	available = {
-		release["tag_name"]: release
-		for release in releases
-		if isinstance(release.get("tag_name"), str)
-		and SEMVER_PATTERN.fullmatch(release["tag_name"])
-		and not release.get("draft")
-		and not release.get("prerelease")
-	}
+	available = {}
+	# a bare tag wins when a version has both forms
+	for release in sorted(releases, key=lambda release: str(release.get("tag_name")).startswith("v")):
+		version = version_from_tag(release.get("tag_name"))
+		if version and not release.get("draft") and not release.get("prerelease"):
+			available.setdefault(version, release)
 	return {version: available[version] for version in sorted(available, key=semver_key)}
 
 

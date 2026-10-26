@@ -91,10 +91,15 @@ class GitHubClient:
 		return content
 
 	def get_release(self, repository: dict, version: str) -> dict:
-		return self.api_json(
-			f"{repository_path(repository)}/releases/tags/{quote(version, safe='')}",
-			not_found=f"The repository has no published GitHub release with the tag {version}. Publish a release for the version in manifest.json, then submit again.",
-		).data
+		for tag in (version, f"v{version}"):
+			try:
+				return self.api_json(
+					f"{repository_path(repository)}/releases/tags/{quote(tag, safe='')}",
+					not_found=f"The repository has no published GitHub release with the tag {version} or v{version}. Publish a release for the version in manifest.json, then submit again.",
+				).data
+			except ProtocolValidationError as error:
+				if error.code != "github_not_found" or tag != version:
+					raise
 
 	def get_releases(self, repository: dict, etag: str | None = None) -> GitHubResponse:
 		return self.api_json(

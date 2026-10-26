@@ -117,6 +117,14 @@ def validate_manifest_icon(icon: object) -> None:
 		raise ProtocolValidationError("invalid_icon", "Manifest icon must name one root SVG file.")
 
 
+def version_from_tag(tag: object) -> str | None:
+	"""The SemVer version a release tag names, with or without a leading `v`."""
+	if not isinstance(tag, str):
+		return None
+	version = tag.removeprefix("v")
+	return version if SEMVER_PATTERN.fullmatch(version) else None
+
+
 def semver_key(version: str) -> tuple:
 	"""A deterministic SemVer precedence key; build metadata does not affect precedence."""
 	match = SEMVER_PATTERN.fullmatch(version)

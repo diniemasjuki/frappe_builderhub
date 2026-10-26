@@ -19,6 +19,7 @@ from builder_hub.plugins.package import ValidatedPackage, validate_package
 from builder_hub.plugins.protocol import (
 	ProtocolValidationError,
 	expected_package_name,
+	version_from_tag,
 )
 
 TRANSIENT_ERROR_CODES = frozenset(
@@ -301,9 +302,10 @@ def update_listing_from_contract(plugin, contract: dict) -> None:
 
 
 def validate_release(release: dict, plugin_name: str, version: str) -> dict:
-	if release.get("tag_name") != version:
+	if version_from_tag(release.get("tag_name")) != version:
 		raise ProtocolValidationError(
-			"release_tag_mismatch", "GitHub release tag must exactly equal the SemVer version."
+			"release_tag_mismatch",
+			"GitHub release tag must equal the SemVer version, with or without a leading v.",
 		)
 	if release.get("draft") or release.get("prerelease"):
 		raise ProtocolValidationError(

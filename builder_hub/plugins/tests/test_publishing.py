@@ -152,6 +152,16 @@ class PublishingTests(IntegrationTestCase):
 		self.assertFalse(package.exists(), "temporary package must be deleted")
 		return release
 
+	def test_release_tag_may_carry_a_v_prefix(self):
+		release = {**self.github_release("1.0.0"), "tag_name": "v1.0.0"}
+
+		publishing.validate_release(release, self.plugin_name, "1.0.0")
+
+		release["tag_name"] = "v1.0.1"
+		with self.assertRaises(ProtocolValidationError) as raised:
+			publishing.validate_release(release, self.plugin_name, "1.0.0")
+		self.assertEqual(raised.exception.code, "release_tag_mismatch")
+
 	def test_first_and_later_release_use_same_import_and_publication_flow(self):
 		first = self.import_version("1.0.0", first_release=True)
 		self.assertEqual(first.status, "Pending Review")
