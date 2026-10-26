@@ -140,8 +140,8 @@ def preview_plugin(repository_url: str) -> dict:
 
 
 @frappe.whitelist(methods=["POST"])
-def add_plugin(repository_url: str) -> dict:
-	return submission.add_plugin(repository_url)
+def add_plugin(repository_url: str, expected: dict | str) -> dict:
+	return submission.add_plugin(repository_url, frappe.parse_json(expected))
 
 
 @frappe.whitelist()

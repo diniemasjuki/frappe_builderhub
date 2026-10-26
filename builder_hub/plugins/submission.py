@@ -40,6 +40,7 @@ class ValidatedPublication:
 			"plugin_name": manifest["name"],
 			"version": manifest["version"],
 			"publisher_id": self.publisher_id,
+			"package_sha256": self.release.package.package_sha256,
 		}
 
 
@@ -49,9 +50,12 @@ def preview_plugin(repository_url: str, *, client: GitHubClient | None = None) -
 	return get_available_publication(repository_url, client).summary
 
 
-def add_plugin(repository_url: str, *, client: GitHubClient | None = None) -> dict:
+def add_plugin(repository_url: str, expected: dict, *, client: GitHubClient | None = None) -> dict:
+	"""Publish the plugin only if it still matches the summary the maintainer confirmed."""
 	require_maintainer()
 	publication = get_available_publication(repository_url, client)
+	if publication.summary != expected:
+		frappe.throw(_("The repository changed after the check. Check it again."))
 	create_or_update_publisher(publication)
 	plugin = create_listing(publication)
 	release = import_validated_release(plugin.name, publication.release, first_release=True)

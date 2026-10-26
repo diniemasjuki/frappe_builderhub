@@ -85,15 +85,15 @@ class PublicationRequestTests(IntegrationTestCase):
 
 	def test_preview_checks_the_repository_without_creating_records(self):
 		summary = preview_plugin(self.repository_url, client=self.client)
-		self.assertEqual(
-			summary,
-			{"plugin_name": self.plugin_name, "version": "1.0.0", "publisher_id": self.publisher_id},
-		)
+		self.assertEqual(summary["plugin_name"], self.plugin_name)
+		self.assertEqual(summary["version"], "1.0.0")
+		self.assertEqual(summary["publisher_id"], self.publisher_id)
+		self.assertEqual(len(summary["package_sha256"]), 64)
 		self.assertFalse(frappe.db.exists("Hub Publisher", self.publisher_id))
 		self.assertFalse(frappe.db.exists("Hub Plugin", self.plugin_name))
 
 	def test_add_publishes_the_plugin(self):
-		result = add_plugin(self.repository_url, client=self.client)
+		result = self.add_previewed_plugin()
 		self.assertEqual(result["status"], "Published")
 		self.assertEqual(frappe.db.get_value("Hub Publisher", self.publisher_id, "status"), "Active")
 		self.assertEqual(frappe.db.get_value("Hub Plugin", self.plugin_name, "status"), "Published")
@@ -112,8 +112,17 @@ class PublicationRequestTests(IntegrationTestCase):
 		with self.assertRaisesRegex(frappe.ValidationError, "HTTP 502"):
 			preview_plugin(self.repository_url, client=self.client)
 
+	def test_add_refuses_a_package_that_changed_after_the_preview(self):
+		expected = preview_plugin(self.repository_url, client=self.client)
+		with zipfile.ZipFile(self.package, "w") as archive:
+			archive.writestr("manifest.json", json.dumps(self.manifest))
+			archive.writestr("main.js", "export const ready = false;")
+		with self.assertRaisesRegex(frappe.ValidationError, "changed after the check"):
+			add_plugin(self.repository_url, expected, client=self.client)
+		self.assertFalse(frappe.db.exists("Hub Plugin", self.plugin_name))
+
 	def test_added_repository_cannot_be_added_again(self):
-		add_plugin(self.repository_url, client=self.client)
+		self.add_previewed_plugin()
 		with self.assertRaisesRegex(frappe.ValidationError, "already"):
 			preview_plugin(self.repository_url, client=self.client)
 
@@ -129,12 +138,12 @@ class PublicationRequestTests(IntegrationTestCase):
 			}
 		).insert(ignore_permissions=True)
 		with self.assertRaisesRegex(frappe.ValidationError, "different GitHub account"):
-			add_plugin(self.repository_url, client=self.client)
+			add_plugin(self.repository_url, {}, client=self.client)
 
 	def test_new_publisher_must_use_repository_owner_namespace(self):
 		self.client.repository["owner"]["login"] = "actual-owner"
 		with self.assertRaisesRegex(frappe.ValidationError, "actual-owner namespace"):
-			add_plugin(self.repository_url, client=self.client)
+			add_plugin(self.repository_url, {}, client=self.client)
 
 	def test_existing_github_account_keeps_its_publisher_namespace(self):
 		frappe.get_doc(
@@ -156,7 +165,12 @@ class PublicationRequestTests(IntegrationTestCase):
 		with self.assertRaises(frappe.PermissionError):
 			preview_plugin(self.repository_url, client=self.client)
 		with self.assertRaises(frappe.PermissionError):
-			add_plugin(self.repository_url, client=self.client)
+			add_plugin(self.repository_url, {}, client=self.client)
+
+	def add_previewed_plugin(self) -> dict:
+		return add_plugin(
+			self.repository_url, preview_plugin(self.repository_url, client=self.client), client=self.client
+		)
 
 	def github_repository(self) -> dict:
 		return {

@@ -29,17 +29,17 @@ function confirm_plugin(repository_url) {
 				message.publisher_id,
 			]),
 			() =>
-				call_plugin_method("add_plugin", repository_url).then(({ message }) =>
-					frappe.set_route("Form", "Hub Plugin", message.plugin)
+				call_plugin_method("add_plugin", repository_url, { expected: message }).then(
+					({ message }) => frappe.set_route("Form", "Hub Plugin", message.plugin)
 				)
 		);
 	});
 }
 
-function call_plugin_method(method, repository_url) {
+function call_plugin_method(method, repository_url, args = {}) {
 	return frappe.call({
 		method: `builder_hub.plugins.api.${method}`,
-		args: { repository_url },
+		args: { repository_url, ...args },
 		freeze: true,
 	});
 }
