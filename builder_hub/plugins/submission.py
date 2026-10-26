@@ -12,6 +12,7 @@ from frappe.utils import now_datetime
 from builder_hub.plugins.github import (
 	GitHubClient,
 	get_repository_contract,
+	get_repository_license,
 	get_validated_repository_url,
 	parse_repository_url,
 	validate_public_repository,
@@ -21,11 +22,23 @@ from builder_hub.plugins.publishing import (
 	ValidatedReleaseImport,
 	approve_first_release,
 	import_validated_release,
-	is_maintainer,
+	require_maintainer,
 	validate_release_source,
 )
 
 CATEGORY = re.compile(r"^[a-z0-9][a-z0-9-]{0,49}$")
+# A maintainer reviews these values. Approval refuses a release that changed them.
+REVIEWED_FIELDS = (
+	"plugin_name",
+	"publisher_id",
+	"github_account_id",
+	"github_repository_id",
+	"license",
+	"version",
+	"github_release_id",
+	"github_asset_id",
+	"package_sha256",
+)
 
 
 @dataclass(frozen=True)
@@ -48,15 +61,15 @@ def request_publication(
 	try:
 		publication = validate_publication(
 			repository_url,
-			_validate_categories(categories),
+			validate_categories(categories),
 			client=client,
 		)
-		request_name = _get_open_request(publication)
-		_assert_identity_available(publication, request_name)
+		request_name = get_open_request(publication)
+		assert_identity_available(publication, request_name)
 	except ProtocolValidationError as error:
 		frappe.throw(_(error.message))
 
-	request = _save_request(publication, request_name)
+	request = save_request(publication, request_name)
 	return {
 		"request": request.name,
 		"plugin_name": request.plugin_name,
@@ -80,10 +93,10 @@ def validate_publication(
 		raise ProtocolValidationError("invalid_repository", "GitHub returned an invalid repository owner.")
 	validate_public_repository(repository)
 
-	license_id = _repository_license(repository)
+	license_id = get_repository_license(repository)
 	contract = get_repository_contract(client, repository, license_id)
 	manifest = contract["manifest"]
-	publisher_id, publisher_name = _resolve_publisher(owner_id, owner_login)
+	publisher_id, publisher_name = resolve_publisher(owner_id, owner_login)
 	if manifest["name"].split("/", 1)[0] != publisher_id:
 		raise ProtocolValidationError(
 			"publisher_owner_mismatch",
@@ -112,52 +125,55 @@ def approve_publication_request(
 	*,
 	client: GitHubClient | None = None,
 ) -> dict:
-	_require_maintainer()
+	require_maintainer()
 	request = frappe.get_doc("Hub Publication Request", request_name)
 	if request.status != "Pending Review":
 		frappe.throw(_("Only a pending publication request can be approved."))
 	try:
 		publication = validate_publication(
 			request.repository_url,
-			_validate_categories(request.categories),
+			validate_categories(request.categories),
 			client=client,
 		)
-		_assert_request_unchanged(request, publication)
+		assert_request_unchanged(request, publication)
 	except ProtocolValidationError as error:
 		frappe.throw(_(error.message))
 
-	_create_or_update_publisher(publication)
-	plugin = _create_listing(publication)
+	create_or_update_publisher(publication)
+	plugin = create_listing(publication)
 	release = import_validated_release(plugin.name, publication.release, first_release=True)
 	if release.status != "Pending Review":
 		frappe.throw(_("The first release could not be prepared for review."))
 	result = approve_first_release(release.name)
-	request.status = "Approved"
-	request.review_reason = reason
-	request.reviewed_by = frappe.session.user
-	request.reviewed_on = now_datetime()
-	request.published_plugin = plugin.name
-	request.published_release = release.name
-	request.save(ignore_permissions=True)
+	save_review(request, "Approved", reason, published_plugin=plugin.name, published_release=release.name)
 	return {"request": request.name, **result}
 
 
 def reject_publication_request(request_name: str, reason: str) -> dict:
-	_require_maintainer()
+	require_maintainer()
 	if not reason or not reason.strip():
 		frappe.throw(_("A rejection reason is required."))
 	request = frappe.get_doc("Hub Publication Request", request_name)
 	if request.status != "Pending Review":
 		frappe.throw(_("Only a pending publication request can be rejected."))
-	request.status = "Rejected"
-	request.review_reason = reason.strip()
-	request.reviewed_by = frappe.session.user
-	request.reviewed_on = now_datetime()
-	request.save(ignore_permissions=True)
+	save_review(request, "Rejected", reason.strip())
 	return {"request": request.name, "status": request.status}
 
 
-def _get_open_request(publication: ValidatedPublication) -> str | None:
+def save_review(request, status: str, reason: str | None, **values) -> None:
+	request.update(
+		{
+			"status": status,
+			"review_reason": reason,
+			"reviewed_by": frappe.session.user,
+			"reviewed_on": now_datetime(),
+			**values,
+		}
+	)
+	request.save(ignore_permissions=True)
+
+
+def get_open_request(publication: ValidatedPublication) -> str | None:
 	"""A pending or rejected request for the repository, which a new submission replaces."""
 	return frappe.db.get_value(
 		"Hub Publication Request",
@@ -166,8 +182,8 @@ def _get_open_request(publication: ValidatedPublication) -> str | None:
 	)
 
 
-def _save_request(publication: ValidatedPublication, request_name: str | None):
-	values = _get_request_values(publication)
+def save_request(publication: ValidatedPublication, request_name: str | None):
+	values = get_request_values(publication)
 	if not request_name:
 		return frappe.get_doc({"doctype": "Hub Publication Request", **values}).insert(
 			ignore_permissions=True
@@ -177,7 +193,7 @@ def _save_request(publication: ValidatedPublication, request_name: str | None):
 	return request.save(ignore_permissions=True)
 
 
-def _get_request_values(publication: ValidatedPublication) -> dict:
+def get_request_values(publication: ValidatedPublication) -> dict:
 	release = publication.release
 	package = release.package
 	return {
@@ -204,7 +220,7 @@ def _get_request_values(publication: ValidatedPublication) -> dict:
 	}
 
 
-def _create_or_update_publisher(publication: ValidatedPublication):
+def create_or_update_publisher(publication: ValidatedPublication):
 	owner = publication.repository["owner"]
 	if frappe.db.exists("Hub Publisher", publication.publisher_id):
 		publisher = frappe.get_doc("Hub Publisher", publication.publisher_id)
@@ -226,7 +242,7 @@ def _create_or_update_publisher(publication: ValidatedPublication):
 	).insert(ignore_permissions=True)
 
 
-def _create_listing(publication: ValidatedPublication):
+def create_listing(publication: ValidatedPublication):
 	manifest = publication.release.package.manifest
 	return frappe.get_doc(
 		{
@@ -245,7 +261,7 @@ def _create_listing(publication: ValidatedPublication):
 	).insert(ignore_permissions=True)
 
 
-def _assert_identity_available(
+def assert_identity_available(
 	publication: ValidatedPublication,
 	request_name: str | None = None,
 ) -> None:
@@ -266,28 +282,17 @@ def _assert_identity_available(
 			raise ProtocolValidationError("request_exists", message)
 
 
-def _assert_request_unchanged(request, publication: ValidatedPublication) -> None:
-	_assert_identity_available(publication, request.name)
-	release = publication.release
-	values = {
-		"plugin_name": release.package.manifest["name"],
-		"publisher_id": publication.publisher_id,
-		"github_account_id": str(publication.repository["owner"]["id"]),
-		"github_repository_id": str(publication.repository["id"]),
-		"license": publication.license_id,
-		"version": release.package.manifest["version"],
-		"github_release_id": str(release.release_data["id"]),
-		"github_asset_id": str(release.asset["id"]),
-		"package_sha256": release.package.package_sha256,
-	}
-	if any(request.get(fieldname) != value for fieldname, value in values.items()):
+def assert_request_unchanged(request, publication: ValidatedPublication) -> None:
+	assert_identity_available(publication, request.name)
+	values = get_request_values(publication)
+	if any(request.get(fieldname) != values[fieldname] for fieldname in REVIEWED_FIELDS):
 		raise ProtocolValidationError(
 			"publication_changed",
 			"The repository or release changed after submission. Submit the repository again.",
 		)
 
 
-def _resolve_publisher(owner_id: str, owner_login: str) -> tuple[str, str]:
+def resolve_publisher(owner_id: str, owner_login: str) -> tuple[str, str]:
 	publisher_id = frappe.db.get_value("Hub Publisher", {"github_account_id": owner_id}, "publisher_id")
 	if not publisher_id:
 		publisher_id = owner_login.lower()
@@ -304,16 +309,7 @@ def _resolve_publisher(owner_id: str, owner_login: str) -> tuple[str, str]:
 	return publisher.publisher_id, publisher.display_name
 
 
-def _repository_license(repository: dict) -> str:
-	license_id = (repository.get("license") or {}).get("spdx_id")
-	if not license_id or license_id == "NOASSERTION":
-		raise ProtocolValidationError(
-			"license_mismatch", "The repository must declare a recognized SPDX license."
-		)
-	return license_id
-
-
-def _validate_categories(categories: list[str] | str | None) -> list[str]:
+def validate_categories(categories: list[str] | str | None) -> list[str]:
 	if categories in (None, ""):
 		categories = []
 	elif isinstance(categories, str):
@@ -326,8 +322,3 @@ def _validate_categories(categories: list[str] | str | None) -> list[str]:
 	if any(not isinstance(item, str) or not CATEGORY.fullmatch(item) for item in categories):
 		frappe.throw(_("Each category must be a lowercase ID."))
 	return categories
-
-
-def _require_maintainer() -> None:
-	if not is_maintainer():
-		frappe.throw(_("A Builder Hub maintainer must perform this action."), frappe.PermissionError)

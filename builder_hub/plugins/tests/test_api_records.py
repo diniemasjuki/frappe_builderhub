@@ -46,14 +46,14 @@ class PluginAPIRecordTests(IntegrationTestCase):
 		self.release_120 = self._release("1.2.0", 1)
 		self.release_1100 = self._release("1.10.0", 1)
 		self.release_protocol_2 = self._release("2.0.0", 2, manifest=None)
-		api._get_catalog.clear_cache()
+		api.get_catalog_items.clear_cache()
 
 	def tearDown(self):
 		frappe.set_user("Administrator")
 		frappe.db.delete("Hub Plugin Release", {"plugin": self.plugin_name})
 		frappe.db.delete("Hub Plugin", self.plugin_name)
 		frappe.db.delete("Hub Publisher", self.publisher_id)
-		api._get_catalog.clear_cache()
+		api.get_catalog_items.clear_cache()
 
 	def _release(self, version, protocol_version, manifest="default"):
 		manifest_value = (
@@ -100,7 +100,10 @@ class PluginAPIRecordTests(IntegrationTestCase):
 
 	def test_catalog_paginates_and_reports_total_count(self):
 		items = [{"name": "a"}, {"name": "b"}, {"name": "c"}]
-		with patch.object(api, "_get_catalog", return_value=items), patch.object(api, "CATALOG_PAGE_SIZE", 2):
+		with (
+			patch.object(api, "get_catalog_items", return_value=items),
+			patch.object(api, "CATALOG_PAGE_SIZE", 2),
+		):
 			first_page = api.get_catalog(1, page=1)
 			second_page = api.get_catalog(1, page=2)
 
@@ -113,7 +116,7 @@ class PluginAPIRecordTests(IntegrationTestCase):
 		self.assertFalse(second_page["has_more"])
 
 	def test_catalog_pages_share_one_build(self):
-		with patch.object(api, "_publisher", wraps=api._publisher) as publisher_lookup:
+		with patch.object(api, "get_publisher", wraps=api.get_publisher) as publisher_lookup:
 			api.get_catalog(1, page=1)
 			lookups = publisher_lookup.call_count
 			api.get_catalog(1, page=2)

@@ -71,13 +71,13 @@ def validate_manifest(manifest: object) -> dict:
 		raise ProtocolValidationError("manifest_not_object", "manifest.json must contain a JSON object.")
 
 	manifest = dict(manifest)
-	_validate_manifest_fields(manifest)
-	_validate_manifest_identity(manifest)
-	_validate_manifest_icon(manifest.get("icon"))
+	validate_manifest_fields(manifest)
+	validate_manifest_identity(manifest)
+	validate_manifest_icon(manifest.get("icon"))
 	return manifest
 
 
-def _validate_manifest_fields(manifest: dict) -> None:
+def validate_manifest_fields(manifest: dict) -> None:
 	missing = sorted(MANIFEST_V1_REQUIRED_FIELDS - manifest.keys())
 	if missing:
 		raise ProtocolValidationError(
@@ -96,13 +96,13 @@ def _validate_manifest_fields(manifest: dict) -> None:
 		)
 
 
-def _validate_manifest_identity(manifest: dict) -> None:
+def validate_manifest_identity(manifest: dict) -> None:
 	name = manifest["name"]
 	if not isinstance(name, str) or not PLUGIN_NAME_PATTERN.fullmatch(name):
 		raise ProtocolValidationError("invalid_name", "Manifest name must use the publisher/name format.")
 
-	_validate_plain_text(manifest["label"], "label", 80)
-	_validate_plain_text(manifest["description"], "description", 240)
+	validate_plain_text(manifest["label"], "label", 80)
+	validate_plain_text(manifest["description"], "description", 240)
 
 	version = manifest["version"]
 	if not isinstance(version, str) or not SEMVER_PATTERN.fullmatch(version):
@@ -112,7 +112,7 @@ def _validate_manifest_identity(manifest: dict) -> None:
 		raise ProtocolValidationError("invalid_entry", "Manifest entry must equal main.js.")
 
 
-def _validate_manifest_icon(icon: object) -> None:
+def validate_manifest_icon(icon: object) -> None:
 	if icon is None:
 		return
 	if not isinstance(icon, str) or not icon or "/" in icon or "\\" in icon or not icon.endswith(".svg"):
@@ -139,7 +139,7 @@ def expected_package_name(plugin_name: str, version: str) -> str:
 	return f"{plugin_name.replace('/', '-')}-{version}.builderplugin"
 
 
-def _validate_plain_text(value: object, fieldname: str, maximum: int) -> None:
+def validate_plain_text(value: object, fieldname: str, maximum: int) -> None:
 	if not isinstance(value, str) or not 1 <= len(value) <= maximum or value != value.strip():
 		raise ProtocolValidationError(
 			f"invalid_{fieldname}", f"Manifest {fieldname} must contain 1 through {maximum} characters."

@@ -38,7 +38,6 @@ class ValidatedPackage:
 	manifest: dict
 	package_sha256: str
 	package_size: int
-	icon_name: str | None
 	icon_content: bytes | None
 
 
@@ -53,40 +52,39 @@ def validate_package(
 	if package_size > MAX_PACKAGE_SIZE:
 		raise ProtocolValidationError("package_too_large", "The compressed package exceeds 10 MB.")
 
-	package_sha256 = _sha256(path)
+	package_sha256 = sha256(path)
 	try:
 		with zipfile.ZipFile(path) as archive:
-			entries = _inspect_archive(archive)
-			manifest = _read_manifest(archive, entries)
-			_validate_package_files(entries, manifest.get("icon"))
-			_validate_package_identity(manifest, expected_name, expected_version)
-			svgs = _read_validated_svgs(archive, entries)
+			entries = inspect_archive(archive)
+			manifest = read_manifest(archive, entries)
+			validate_package_files(entries, manifest.get("icon"))
+			validate_package_identity(manifest, expected_name, expected_version)
+			svgs = read_validated_svgs(archive, entries)
 	except zipfile.BadZipFile:
 		raise ProtocolValidationError("invalid_zip", "The plugin package is not a valid ZIP file.")
 
-	icon_name = manifest.get("icon")
-	return ValidatedPackage(manifest, package_sha256, package_size, icon_name, svgs.get(icon_name))
+	return ValidatedPackage(manifest, package_sha256, package_size, svgs.get(manifest.get("icon")))
 
 
 def validate_svg(content: bytes, name: str = "SVG") -> None:
 	if len(content) > MAX_ICON_SIZE:
 		raise ProtocolValidationError("unsafe_svg", f"{name} is too large.")
-	text = _decode_svg(content, name)
-	root = _parse_svg(text, name)
-	if _local_name(root.tag).lower() != "svg":
+	text = decode_svg(content, name)
+	root = parse_svg(text, name)
+	if local_name(root.tag).lower() != "svg":
 		raise ProtocolValidationError("unsafe_svg", f"{name} does not have an SVG root element.")
 	for element in root.iter():
-		_validate_svg_element(element, name)
+		validate_svg_element(element, name)
 
 
-def _decode_svg(content: bytes, name: str) -> str:
+def decode_svg(content: bytes, name: str) -> str:
 	try:
 		return content.decode("utf-8", errors="strict")
 	except UnicodeDecodeError:
 		raise ProtocolValidationError("unsafe_svg", f"{name} is not valid UTF-8 SVG.")
 
 
-def _parse_svg(text: str, name: str) -> ET.Element:
+def parse_svg(text: str, name: str) -> ET.Element:
 	if re.search(r"<!DOCTYPE|<!ENTITY", text, flags=re.I):
 		raise ProtocolValidationError("unsafe_svg", f"{name} contains a forbidden declaration.")
 	if re.search(r"<\?xml-stylesheet|@import", text, flags=re.I) or EXTERNAL_SVG_REFERENCE.search(text):
@@ -97,12 +95,12 @@ def _parse_svg(text: str, name: str) -> ET.Element:
 		raise ProtocolValidationError("unsafe_svg", f"{name} is not valid UTF-8 SVG.")
 
 
-def _validate_svg_element(element: ET.Element, name: str) -> None:
-	tag = _local_name(element.tag).lower()
+def validate_svg_element(element: ET.Element, name: str) -> None:
+	tag = local_name(element.tag).lower()
 	if tag in FORBIDDEN_SVG_ELEMENTS:
 		raise ProtocolValidationError("unsafe_svg", f"{name} contains a forbidden {tag} element.")
 	for attribute, value in element.attrib.items():
-		attribute = _local_name(attribute).lower()
+		attribute = local_name(attribute).lower()
 		value = value.strip()
 		if attribute.startswith("on"):
 			raise ProtocolValidationError("unsafe_svg", f"{name} contains an event attribute.")
@@ -112,7 +110,7 @@ def _validate_svg_element(element: ET.Element, name: str) -> None:
 			raise ProtocolValidationError("unsafe_svg", f"{name} contains an external reference.")
 
 
-def _inspect_archive(archive: zipfile.ZipFile) -> dict[str, zipfile.ZipInfo]:
+def inspect_archive(archive: zipfile.ZipFile) -> dict[str, zipfile.ZipInfo]:
 	infos = archive.infolist()
 	if len(infos) > MAX_PACKAGE_FILES:
 		raise ProtocolValidationError(
@@ -122,10 +120,10 @@ def _inspect_archive(archive: zipfile.ZipFile) -> dict[str, zipfile.ZipInfo]:
 	entries: dict[str, zipfile.ZipInfo] = {}
 	extracted_size = 0
 	for entry in infos:
-		normalized = _normalized_path(entry.filename)
+		normalized = normalized_path(entry.filename)
 		if entry.is_dir():
 			continue
-		_validate_file_entry(entry, normalized, entries)
+		validate_file_entry(entry, normalized, entries)
 		extracted_size += entry.file_size
 		if extracted_size > MAX_EXTRACTED_SIZE:
 			raise ProtocolValidationError("package_too_large", "The extracted package exceeds 30 MB.")
@@ -137,7 +135,7 @@ def _inspect_archive(archive: zipfile.ZipFile) -> dict[str, zipfile.ZipInfo]:
 	return entries
 
 
-def _validate_package_files(entries: dict[str, zipfile.ZipInfo], icon_name: str | None) -> None:
+def validate_package_files(entries: dict[str, zipfile.ZipInfo], icon_name: str | None) -> None:
 	if icon_name and icon_name not in entries:
 		raise ProtocolValidationError("missing_icon", "The manifest icon is missing from the package.")
 	root_files = {"manifest.json", "main.js"}
@@ -151,12 +149,12 @@ def _validate_package_files(entries: dict[str, zipfile.ZipInfo], icon_name: str 
 			)
 
 
-def _validate_file_entry(
+def validate_file_entry(
 	entry: zipfile.ZipInfo,
 	normalized: str,
 	existing_entries: dict[str, zipfile.ZipInfo],
 ) -> None:
-	if _is_symlink(entry):
+	if is_symlink(entry):
 		raise ProtocolValidationError("symlink", f"ZIP entry is a symbolic link: {entry.filename}.")
 	if normalized in existing_entries:
 		raise ProtocolValidationError("duplicate_path", f"ZIP contains duplicate path: {normalized}.")
@@ -170,7 +168,7 @@ def _validate_file_entry(
 		raise ProtocolValidationError("file_too_large", f"Package file is too large: {normalized}.")
 
 
-def _normalized_path(name: str) -> str:
+def normalized_path(name: str) -> str:
 	if "\x00" in name:
 		raise ProtocolValidationError("unsafe_path", "A ZIP path contains a null byte.")
 	name = unicodedata.normalize("NFC", name.replace("\\", "/"))
@@ -189,12 +187,12 @@ def _normalized_path(name: str) -> str:
 	return normalized
 
 
-def _is_symlink(entry: zipfile.ZipInfo) -> bool:
+def is_symlink(entry: zipfile.ZipInfo) -> bool:
 	return stat.S_IFMT(entry.external_attr >> 16) == stat.S_IFLNK
 
 
-def _read_manifest(archive: zipfile.ZipFile, entries: dict[str, zipfile.ZipInfo]) -> dict:
-	content = _read_entry(archive, entries["manifest.json"], 128 * 1024)
+def read_manifest(archive: zipfile.ZipFile, entries: dict[str, zipfile.ZipInfo]) -> dict:
+	content = read_entry(archive, entries["manifest.json"], 128 * 1024)
 	try:
 		manifest = json.loads(content.decode("utf-8"))
 	except UnicodeDecodeError, json.JSONDecodeError:
@@ -202,7 +200,7 @@ def _read_manifest(archive: zipfile.ZipFile, entries: dict[str, zipfile.ZipInfo]
 	return validate_manifest(manifest)
 
 
-def _validate_package_identity(manifest: dict, expected_name: str, expected_version: str) -> None:
+def validate_package_identity(manifest: dict, expected_name: str, expected_version: str) -> None:
 	if manifest["name"] != expected_name:
 		raise ProtocolValidationError(
 			"identity_mismatch", "The package manifest name does not match the plugin listing."
@@ -213,17 +211,17 @@ def _validate_package_identity(manifest: dict, expected_name: str, expected_vers
 		)
 
 
-def _read_validated_svgs(archive: zipfile.ZipFile, entries: dict[str, zipfile.ZipInfo]) -> dict[str, bytes]:
+def read_validated_svgs(archive: zipfile.ZipFile, entries: dict[str, zipfile.ZipInfo]) -> dict[str, bytes]:
 	"""Every SVG, not only the icon: Builder serves them all from the site's origin."""
 	svgs = {}
 	for name, entry in entries.items():
 		if name.endswith(".svg"):
-			svgs[name] = _read_entry(archive, entry, MAX_ICON_SIZE, code="unsafe_svg")
+			svgs[name] = read_entry(archive, entry, MAX_ICON_SIZE, code="unsafe_svg")
 			validate_svg(svgs[name], name)
 	return svgs
 
 
-def _read_entry(
+def read_entry(
 	archive: zipfile.ZipFile,
 	entry: zipfile.ZipInfo,
 	limit: int,
@@ -237,7 +235,7 @@ def _read_entry(
 	return content
 
 
-def _sha256(path: Path) -> str:
+def sha256(path: Path) -> str:
 	digest = hashlib.sha256()
 	with path.open("rb") as package:
 		for chunk in iter(lambda: package.read(1024 * 1024), b""):
@@ -245,5 +243,5 @@ def _sha256(path: Path) -> str:
 	return digest.hexdigest()
 
 
-def _local_name(name: str) -> str:
+def local_name(name: str) -> str:
 	return name.rsplit("}", 1)[-1]

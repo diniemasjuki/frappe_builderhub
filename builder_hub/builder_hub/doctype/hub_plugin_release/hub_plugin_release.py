@@ -39,9 +39,9 @@ class HubPluginRelease(Document):
 				frappe.throw(_("Release manifest identity does not match the record."))
 		if self.package_sha256 and not re.fullmatch(r"[0-9a-f]{64}", self.package_sha256):
 			frappe.throw(_("Package SHA-256 must contain 64 lowercase hexadecimal characters."))
-		self._validate_immutable_publication()
+		self.validate_immutable_publication()
 
-	def _validate_immutable_publication(self):
+	def validate_immutable_publication(self):
 		if self.is_new():
 			return
 		before = self.get_doc_before_save()

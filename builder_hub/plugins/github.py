@@ -5,10 +5,10 @@ from __future__ import annotations
 import base64
 import ipaddress
 import json
-import os
 import socket
 import tempfile
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Any
 from urllib.parse import quote, urlparse
 
@@ -46,22 +46,32 @@ class GitHubResponse:
 
 class GitHubClient:
 	def __init__(self, token: str | None = None, session: requests.Session | None = None):
-		self.token = token if token is not None else _configured_token()
+		self.token = token if token is not None else configured_token()
+		if not self.token and not frappe.conf.developer_mode:
+			raise ProtocolValidationError(
+				"github_token_missing",
+				"Builder Hub cannot read GitHub because builder_hub_github_token is not set in the site config.",
+			)
 		self.session = session or requests.Session()
 
 	def get_repository(self, repository_id: str) -> dict:
-		return self._api_json(f"/repositories/{quote(str(repository_id), safe='')}").data
+		return self.api_json(
+			f"/repositories/{quote(str(repository_id), safe='')}",
+			not_found=f"GitHub repository {repository_id} was not found. It was deleted or made private.",
+		).data
 
 	def get_repository_by_name(self, owner: str, name: str) -> dict:
-		owner = quote(owner, safe="")
-		name = quote(name, safe="")
-		return self._api_json(f"/repos/{owner}/{name}").data
+		return self.api_json(
+			f"/repos/{quote(owner, safe='')}/{quote(name, safe='')}",
+			not_found=f"GitHub repository {owner}/{name} was not found. Check the URL, and make sure the repository is public.",
+		).data
 
 	def get_repository_file(self, repository: dict, path: str) -> bytes:
-		owner = quote(repository["owner"]["login"], safe="")
-		name = quote(repository["name"], safe="")
-		path = quote(path, safe="/")
-		response = self._api_json(f"/repos/{owner}/{name}/contents/{path}", limit=CONTENT_RESPONSE_LIMIT)
+		response = self.api_json(
+			f"{repository_path(repository)}/contents/{quote(path, safe='/')}",
+			limit=CONTENT_RESPONSE_LIMIT,
+			not_found=f"The repository has no {path} file at the root of its default branch.",
+		)
 		data = response.data
 		if not isinstance(data, dict) or data.get("type") != "file" or data.get("encoding") != "base64":
 			raise ProtocolValidationError(
@@ -81,22 +91,17 @@ class GitHubClient:
 		return content
 
 	def get_release(self, repository: dict, version: str) -> dict:
-		owner = quote(repository["owner"]["login"], safe="")
-		name = quote(repository["name"], safe="")
-		version = quote(version, safe="")
-		return self._api_json(f"/repos/{owner}/{name}/releases/tags/{version}").data
-
-	def get_repository_permission(self, repository: dict, username: str) -> dict:
-		owner = quote(repository["owner"]["login"], safe="")
-		name = quote(repository["name"], safe="")
-		username = quote(username, safe="")
-		return self._api_json(f"/repos/{owner}/{name}/collaborators/{username}/permission").data
+		return self.api_json(
+			f"{repository_path(repository)}/releases/tags/{quote(version, safe='')}",
+			not_found=f"The repository has no published GitHub release with the tag {version}. Publish a release for the version in manifest.json, then submit again.",
+		).data
 
 	def get_releases(self, repository: dict, etag: str | None = None) -> GitHubResponse:
-		owner = quote(repository["owner"]["login"], safe="")
-		name = quote(repository["name"], safe="")
-		return self._api_json(
-			f"/repos/{owner}/{name}/releases?per_page=100", etag=etag, allow_not_modified=True
+		return self.api_json(
+			f"{repository_path(repository)}/releases?per_page=100",
+			etag=etag,
+			allow_not_modified=True,
+			not_found=f"GitHub repository {repository['owner']['login']}/{repository['name']} was not found.",
 		)
 
 	def download_asset(self, url: str) -> str:
@@ -106,36 +111,33 @@ class GitHubClient:
 		try:
 			with temporary:
 				for redirect in range(MAX_REDIRECTS + 1):
-					response = self._get_asset_response(current_url)
+					response = self.get_asset_response(current_url)
 					try:
-						next_url = _get_redirect_url(response, redirect)
+						next_url = get_redirect_url(response, redirect)
 						if next_url:
 							current_url = next_url
 							continue
-						_validate_asset_response(response)
-						_write_limited_response(
-							response,
-							temporary,
-							MAX_PACKAGE_SIZE,
-							"package_too_large",
-							"package_download_failed",
+						validate_asset_response(response)
+						temporary.writelines(
+							iter_limited_chunks(
+								response, MAX_PACKAGE_SIZE, "package_too_large", "package_download_failed"
+							)
 						)
 						return path
 					finally:
 						response.close()
 		except requests.RequestException:
-			if os.path.exists(path):
-				os.unlink(path)
+			Path(path).unlink(missing_ok=True)
 			raise ProtocolValidationError(
 				"package_download_failed", "GitHub package download could not be completed."
 			)
 		except Exception:
-			_delete_file(path)
+			Path(path).unlink(missing_ok=True)
 			raise
 
-	def _get_asset_response(self, url: str):
-		_validate_asset_url(url)
-		headers = self._headers(auth=urlparse(url).hostname == "github.com")
+	def get_asset_response(self, url: str):
+		validate_asset_url(url)
+		headers = self.get_headers(auth=urlparse(url).hostname == "github.com")
 		return self.session.get(
 			url,
 			headers=headers,
@@ -144,33 +146,34 @@ class GitHubClient:
 			timeout=(CONNECT_TIMEOUT, RESPONSE_TIMEOUT),
 		)
 
-	def _api_json(
+	def api_json(
 		self,
 		path: str,
 		*,
 		etag: str | None = None,
 		allow_not_modified: bool = False,
 		limit: int = API_RESPONSE_LIMIT,
+		not_found: str = "GitHub could not find the requested resource.",
 	) -> GitHubResponse:
 		url = f"{API_ROOT}{path}"
-		headers = self._headers(auth=True)
+		headers = self.get_headers(auth=True)
 		if etag:
 			headers["If-None-Match"] = etag
-		response = self._get_api_response(url, headers)
+		response = self.get_api_response(url, headers)
 		try:
 			if response.status_code == 304 and allow_not_modified:
 				return GitHubResponse(None, etag, 304)
-			_validate_api_response(response)
-			content = _read_limited_response(
-				response, limit, "github_response_too_large", "github_request_failed"
+			validate_api_response(response, not_found, has_token=bool(self.token))
+			content = b"".join(
+				iter_limited_chunks(response, limit, "github_response_too_large", "github_request_failed")
 			)
 			response_etag = response.headers.get("ETag")
 			status_code = response.status_code
 		finally:
 			response.close()
-		return GitHubResponse(_decode_api_json(content), response_etag, status_code)
+		return GitHubResponse(decode_api_json(content), response_etag, status_code)
 
-	def _get_api_response(self, url: str, headers: dict[str, str]):
+	def get_api_response(self, url: str, headers: dict[str, str]):
 		try:
 			return self.session.get(
 				url,
@@ -184,7 +187,7 @@ class GitHubClient:
 				"github_request_failed", "GitHub API request could not be completed."
 			)
 
-	def _headers(self, *, auth: bool) -> dict[str, str]:
+	def get_headers(self, *, auth: bool) -> dict[str, str]:
 		headers = {
 			"Accept": "application/vnd.github+json",
 			"User-Agent": "Builder-Hub-Plugins/1",
@@ -195,7 +198,7 @@ class GitHubClient:
 		return headers
 
 
-def _get_redirect_url(response, redirect: int) -> str | None:
+def get_redirect_url(response, redirect: int) -> str | None:
 	if not response.is_redirect:
 		return None
 	if redirect == MAX_REDIRECTS:
@@ -203,7 +206,7 @@ def _get_redirect_url(response, redirect: int) -> str | None:
 	return response.headers.get("Location", "")
 
 
-def _validate_asset_response(response) -> None:
+def validate_asset_response(response) -> None:
 	if response.status_code != 200:
 		raise ProtocolValidationError(
 			"package_download_failed",
@@ -211,40 +214,44 @@ def _validate_asset_response(response) -> None:
 		)
 
 
-def _validate_api_response(response) -> None:
-	if response.status_code == 403 and response.headers.get("X-RateLimit-Remaining") == "0":
-		raise ProtocolValidationError("github_rate_limited", "GitHub API rate limit was reached.")
+def validate_api_response(response, not_found: str, *, has_token: bool) -> None:
+	if is_rate_limited(response):
+		message = "Builder Hub reached its GitHub API rate limit. Try again later."
+		if not has_token:
+			message += " Set builder_hub_github_token in the site config to raise the limit."
+		raise ProtocolValidationError("github_rate_limited", message)
 	# its own code, so an optional file can tell "not there" from "GitHub failed"
 	if response.status_code == 404:
-		raise ProtocolValidationError("github_not_found", "GitHub API request failed with HTTP 404.")
+		raise ProtocolValidationError("github_not_found", not_found)
+	if response.status_code == 401:
+		raise ProtocolValidationError(
+			"github_request_failed",
+			"GitHub rejected builder_hub_github_token. Replace it with a valid token.",
+		)
+	if response.status_code == 403:
+		raise ProtocolValidationError("github_request_failed", "GitHub refused access to this repository.")
+	if response.status_code >= 500:
+		raise ProtocolValidationError(
+			"github_request_failed",
+			f"GitHub is unavailable (HTTP {response.status_code}). Try again later.",
+		)
 	if response.status_code != 200:
 		raise ProtocolValidationError(
 			"github_request_failed", f"GitHub API request failed with HTTP {response.status_code}."
 		)
 
 
-def _write_limited_response(
-	response,
-	output,
-	limit: int,
-	size_error_code: str,
-	request_error_code: str,
-) -> None:
-	for chunk in _iter_limited_chunks(response, limit, size_error_code, request_error_code):
-		output.write(chunk)
+def is_rate_limited(response) -> bool:
+	# GitHub sends 403 or 429 for its primary and secondary rate limits
+	if response.status_code == 429:
+		return True
+	return response.status_code == 403 and (
+		response.headers.get("X-RateLimit-Remaining") == "0" or "Retry-After" in response.headers
+	)
 
 
-def _read_limited_response(
-	response,
-	limit: int,
-	size_error_code: str,
-	request_error_code: str,
-) -> bytes:
-	return b"".join(_iter_limited_chunks(response, limit, size_error_code, request_error_code))
-
-
-def _iter_limited_chunks(response, limit: int, size_error_code: str, request_error_code: str):
-	_validate_content_length(response, limit, size_error_code)
+def iter_limited_chunks(response, limit: int, size_error_code: str, request_error_code: str):
+	validate_content_length(response, limit, size_error_code)
 	total = 0
 	try:
 		for chunk in response.iter_content(chunk_size=64 * 1024):
@@ -258,7 +265,7 @@ def _iter_limited_chunks(response, limit: int, size_error_code: str, request_err
 		raise ProtocolValidationError(request_error_code, "GitHub response could not be read.")
 
 
-def _validate_content_length(response, limit: int, error_code: str) -> None:
+def validate_content_length(response, limit: int, error_code: str) -> None:
 	length = response.headers.get("Content-Length")
 	if not length:
 		return
@@ -270,16 +277,11 @@ def _validate_content_length(response, limit: int, error_code: str) -> None:
 		raise ProtocolValidationError(error_code, "GitHub response exceeded its size limit.")
 
 
-def _decode_api_json(content: bytes):
+def decode_api_json(content: bytes):
 	try:
 		return json.loads(content)
 	except json.JSONDecodeError:
 		raise ProtocolValidationError("invalid_github_response", "GitHub API returned invalid JSON.")
-
-
-def _delete_file(path: str) -> None:
-	if os.path.exists(path):
-		os.unlink(path)
 
 
 def validate_repository(repository: dict, publisher_account_id: str) -> None:
@@ -302,27 +304,23 @@ def validate_public_repository(repository: dict) -> None:
 		raise ProtocolValidationError("invalid_repository", "The GitHub repository has no default branch.")
 
 
-def repository_url(repository: dict) -> str:
-	return repository.get("html_url") or ""
-
-
 def get_validated_repository_url(repository: dict) -> str:
-	url = repository_url(repository)
+	url = repository.get("html_url") or ""
 	if not url.startswith("https://github.com/"):
 		raise ProtocolValidationError("invalid_repository", "GitHub returned an invalid repository URL.")
 	return url
 
 
 def get_repository_contract(client: GitHubClient, repository: dict, license_id: str) -> dict:
-	files = _get_required_repository_files(client, repository)
+	files = get_required_repository_files(client, repository)
 	try:
 		manifest = validate_manifest(json.loads(files["manifest.json"].decode("utf-8")))
 	except UnicodeDecodeError, json.JSONDecodeError:
 		raise ProtocolValidationError(
 			"invalid_repository_json", "Repository manifest.json must contain UTF-8 JSON."
 		)
-	_validate_repository_license(repository, license_id, files["LICENSE"])
-	readme = _get_description_file(client, repository) or files["README.md"]
+	validate_repository_license(repository, license_id, files["LICENSE"])
+	readme = get_optional_repository_file(client, repository, "DESCRIPTION.md") or files["README.md"]
 	return {
 		"manifest": manifest,
 		"readme": readme.decode("utf-8", errors="replace"),
@@ -346,33 +344,38 @@ def parse_repository_url(url: str) -> tuple[str, str]:
 	return parts[0], name
 
 
-def _get_required_repository_files(client: GitHubClient, repository: dict) -> dict[str, bytes]:
+def get_required_repository_files(client: GitHubClient, repository: dict) -> dict[str, bytes]:
 	files = {}
 	for name in ("manifest.json", "README.md", "LICENSE"):
 		try:
 			files[name] = client.get_repository_file(repository, name)
 		except ProtocolValidationError as error:
-			if error.code in ("github_request_failed", "github_not_found"):
-				raise ProtocolValidationError(
-					"missing_repository_file", f"Required repository file is missing: {name}."
-				)
+			if error.code == "github_not_found":
+				raise ProtocolValidationError("missing_repository_file", error.message)
 			raise
 	return files
 
 
-def _get_description_file(client: GitHubClient, repository: dict) -> bytes | None:
-	"""The optional DESCRIPTION.md, which authors write for users when the README is for developers."""
+def get_optional_repository_file(client: GitHubClient, repository: dict, name: str) -> bytes | None:
 	try:
-		return client.get_repository_file(repository, "DESCRIPTION.md")
+		return client.get_repository_file(repository, name)
 	except ProtocolValidationError as error:
 		if error.code == "github_not_found":
 			return None
 		raise
 
 
-def _validate_repository_license(repository: dict, license_id: str, license_content: bytes) -> None:
-	repository_license = (repository.get("license") or {}).get("spdx_id")
-	if not repository_license or repository_license == "NOASSERTION" or repository_license != license_id:
+def get_repository_license(repository: dict) -> str:
+	license_id = (repository.get("license") or {}).get("spdx_id")
+	if not license_id or license_id == "NOASSERTION":
+		raise ProtocolValidationError(
+			"license_mismatch", "The repository must declare a recognized SPDX license."
+		)
+	return license_id
+
+
+def validate_repository_license(repository: dict, license_id: str, license_content: bytes) -> None:
+	if get_repository_license(repository) != license_id:
 		raise ProtocolValidationError(
 			"license_mismatch", "The repository license does not match the submitted SPDX license ID."
 		)
@@ -380,11 +383,15 @@ def _validate_repository_license(repository: dict, license_id: str, license_cont
 		raise ProtocolValidationError("license_mismatch", "The repository LICENSE file is empty.")
 
 
-def _configured_token() -> str | None:
+def repository_path(repository: dict) -> str:
+	return f"/repos/{quote(repository['owner']['login'], safe='')}/{quote(repository['name'], safe='')}"
+
+
+def configured_token() -> str | None:
 	return frappe.conf.get("builder_hub_github_token") or frappe.conf.get("github_token")
 
 
-def _validate_asset_url(url: str) -> None:
+def validate_asset_url(url: str) -> None:
 	parsed = urlparse(url)
 	host = (parsed.hostname or "").lower().rstrip(".")
 	if parsed.scheme != "https" or host not in ASSET_HOSTS or parsed.username or parsed.password:

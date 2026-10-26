@@ -11,7 +11,7 @@ from frappe.rate_limiter import rate_limit
 from frappe.utils import get_datetime, get_url
 from frappe.utils.caching import redis_cache
 
-from builder_hub.plugins import publishing, submission
+from builder_hub.plugins import publishing, submission, tasks
 from builder_hub.plugins.protocol import (
 	CATALOG_PAGE_SIZE,
 	PLUGIN_NAME_PATTERN,
@@ -20,6 +20,9 @@ from builder_hub.plugins.protocol import (
 	SEMVER_PATTERN,
 	semver_key,
 )
+
+PUBLIC_STATUSES = ("Published", "Deprecated")
+RELEASE_SUMMARY_FIELDS = ("version", "protocol_version", "package_size", "package_sha256", "published_on")
 
 
 @frappe.whitelist(allow_guest=True)
@@ -33,8 +36,8 @@ def get_info() -> dict:
 
 @frappe.whitelist(allow_guest=True)
 def get_catalog(protocol_version: int | str = 1, page: int | str = 1) -> dict:
-	page = _page(page)
-	items = _get_catalog(_protocol_version(protocol_version), get_url())
+	page = positive_integer(page, "page")
+	items = get_catalog_items(positive_integer(protocol_version, "protocol_version"), get_url())
 	start = (page - 1) * CATALOG_PAGE_SIZE
 	return {
 		"schema_version": SCHEMA_VERSION,
@@ -46,67 +49,39 @@ def get_catalog(protocol_version: int | str = 1, page: int | str = 1) -> dict:
 
 
 @redis_cache(ttl=600)
-def _get_catalog(protocol_version: int, base_url: str) -> list[dict]:
+def get_catalog_items(protocol_version: int, base_url: str) -> list[dict]:
 	"""One cached list for every page, so a page request does not build the catalog again."""
 	items = []
 	for plugin in frappe.get_all(
 		"Hub Plugin",
-		filters={"status": ("in", ["Published", "Deprecated"])},
-		fields=_plugin_fields(),
+		filters={"status": ("in", PUBLIC_STATUSES)},
+		fields=plugin_fields(),
 		order_by="plugin_name asc",
 		ignore_permissions=True,
 	):
-		publisher = _publisher(plugin.publisher)
+		publisher = get_publisher(plugin.publisher)
 		if not publisher or publisher.status != "Active":
 			continue
-		release = _latest_release(plugin.name, protocol_version)
-		if release:
-			items.append(_catalog_item(plugin, publisher, release, base_url))
+		releases = published_releases(plugin.name, protocol_version, RELEASE_SUMMARY_FIELDS)
+		if releases:
+			items.append(
+				{**listing(plugin, publisher, base_url), "latest_release": release_summary(releases[0])}
+			)
 	return items
 
 
 @frappe.whitelist(allow_guest=True)
 def get_plugin(name: str, protocol_version: int | str = 1) -> dict:
-	protocol_version = _protocol_version(protocol_version)
-	plugin = _public_plugin(name)
-	publisher = _publisher(plugin.publisher)
-	if not publisher or publisher.status != "Active":
-		_not_found()
-	releases = frappe.get_all(
-		"Hub Plugin Release",
-		filters={
-			"plugin": plugin.name,
-			"status": "Published",
-			"protocol_version": ("<=", protocol_version),
-		},
-		fields=[
-			"version",
-			"protocol_version",
-			"package_size",
-			"package_sha256",
-			"release_notes",
-			"status",
-			"published_on",
-		],
-		ignore_permissions=True,
+	protocol_version = positive_integer(protocol_version, "protocol_version")
+	plugin, publisher = public_listing(name)
+	releases = published_releases(
+		plugin.name, protocol_version, (*RELEASE_SUMMARY_FIELDS, "release_notes", "status")
 	)
-	releases.sort(key=lambda row: semver_key(row.version), reverse=True)
-	latest = releases[0] if releases else None
-	detail = _catalog_item(plugin, publisher, latest, get_url(), include_latest=False)
-	detail["readme"] = plugin.readme or ""
 	return {
 		"schema_version": SCHEMA_VERSION,
-		"plugin": detail,
+		"plugin": {**listing(plugin, publisher, get_url()), "readme": plugin.readme or ""},
 		"releases": [
-			{
-				"version": row.version,
-				"protocol_version": row.protocol_version,
-				"package_size": row.package_size,
-				"package_sha256": row.package_sha256,
-				"release_notes": row.release_notes or "",
-				"status": row.status,
-				"published_on": _iso(row.published_on),
-			}
+			{**release_summary(row), "release_notes": row.release_notes or "", "status": row.status}
 			for row in releases
 		],
 	}
@@ -114,14 +89,11 @@ def get_plugin(name: str, protocol_version: int | str = 1) -> dict:
 
 @frappe.whitelist(allow_guest=True)
 def get_plugin_release(plugin_name: str, version: str) -> dict:
-	_validate_identity(plugin_name, version)
-	plugin = _public_plugin(plugin_name)
-	publisher = _publisher(plugin.publisher)
-	if not publisher or publisher.status != "Active":
-		_not_found()
+	validate_identity(plugin_name, version)
+	public_listing(plugin_name)
 	name = f"{plugin_name}@{version}"
 	if not frappe.db.exists("Hub Plugin Release", name):
-		_not_found()
+		not_found()
 	release = frappe.get_doc("Hub Plugin Release", name)
 	if release.status != "Published":
 		frappe.throw(_("This release is not available for installation."), frappe.PermissionError)
@@ -131,60 +103,51 @@ def get_plugin_release(plugin_name: str, version: str) -> dict:
 			"plugin_name": release.plugin,
 			"version": release.version,
 			"protocol_version": release.protocol_version,
-			"manifest": _json(release.manifest, {}),
+			"manifest": parse_json_value(release.manifest, {}),
 			"github_release_url": release.github_release_url,
 			"package_url": release.package_url,
 			"package_size": release.package_size,
 			"package_sha256": release.package_sha256,
 			"status": release.status,
-			"published_on": _iso(release.published_on),
+			"published_on": iso(release.published_on),
 		},
 	}
 
 
 @frappe.whitelist(allow_guest=True, methods=["POST"])
 def get_release_status(releases: list[dict] | str) -> dict:
-	releases = _json(releases, None)
+	releases = parse_json_value(releases, None)
 	if not isinstance(releases, list):
 		frappe.throw(_("releases must be a JSON list."))
 	if len(releases) > 100:
 		frappe.throw(_("At most 100 release identities can be checked at once."))
-	results = []
-	for identity in releases:
-		if not isinstance(identity, dict):
-			frappe.throw(_("Each release identity must be an object."))
-		plugin_name = identity.get("plugin_name")
-		version = identity.get("version")
-		_validate_identity(plugin_name, version)
-		plugin = frappe.db.get_value(
-			"Hub Plugin",
-			plugin_name,
-			["name", "publisher", "status", "replacement"],
-			as_dict=True,
-		)
-		release = frappe.db.get_value(
-			"Hub Plugin Release",
-			f"{plugin_name}@{version}",
-			["status"],
-			as_dict=True,
-		)
-		found = bool(plugin and release)
-		plugin_status = plugin.status if plugin else None
-		if plugin:
-			publisher_status = frappe.db.get_value("Hub Publisher", plugin.publisher, "status")
-			if publisher_status == "Blocked":
-				plugin_status = "Blocked"
-		results.append(
-			{
-				"plugin_name": plugin_name,
-				"version": version,
-				"found": found,
-				"plugin_status": plugin_status,
-				"release_status": release.status if release else None,
-				"replacement": plugin.replacement if plugin else None,
-			}
-		)
-	return {"schema_version": SCHEMA_VERSION, "releases": results}
+	return {
+		"schema_version": SCHEMA_VERSION,
+		"releases": [get_release_identity_status(identity) for identity in releases],
+	}
+
+
+def get_release_identity_status(identity) -> dict:
+	if not isinstance(identity, dict):
+		frappe.throw(_("Each release identity must be an object."))
+	plugin_name = identity.get("plugin_name")
+	version = identity.get("version")
+	validate_identity(plugin_name, version)
+	plugin = frappe.db.get_value(
+		"Hub Plugin", plugin_name, ["name", "publisher", "status", "replacement"], as_dict=True
+	)
+	release_status = frappe.db.get_value("Hub Plugin Release", f"{plugin_name}@{version}", "status")
+	plugin_status = plugin.status if plugin else None
+	if plugin and frappe.db.get_value("Hub Publisher", plugin.publisher, "status") == "Blocked":
+		plugin_status = "Blocked"
+	return {
+		"plugin_name": plugin_name,
+		"version": version,
+		"found": bool(plugin and release_status),
+		"plugin_status": plugin_status,
+		"release_status": release_status,
+		"replacement": plugin.replacement if plugin else None,
+	}
 
 
 @frappe.whitelist(allow_guest=True, methods=["POST"])
@@ -218,9 +181,7 @@ def reject_first_release(release_name: str, reason: str) -> dict:
 
 @frappe.whitelist()
 def request_release_check(plugin_name: str) -> dict:
-	from builder_hub.plugins.tasks import request_release_check as enqueue_check
-
-	return enqueue_check(plugin_name)
+	return tasks.request_release_check(plugin_name)
 
 
 @frappe.whitelist()
@@ -243,21 +204,20 @@ def block_publisher(publisher_id: str) -> dict:
 	return publishing.block_publisher(publisher_id)
 
 
-def _public_plugin(plugin_name: str):
+def public_listing(plugin_name: str):
 	if not isinstance(plugin_name, str) or not PLUGIN_NAME_PATTERN.fullmatch(plugin_name):
-		_not_found()
-	row = frappe.db.get_value(
-		"Hub Plugin",
-		plugin_name,
-		[*_plugin_fields(), "readme"],
-		as_dict=True,
-	)
-	if not row or row.status not in {"Published", "Deprecated"}:
-		_not_found()
-	return row
+		not_found()
+	plugin = frappe.db.get_value("Hub Plugin", plugin_name, [*plugin_fields(), "readme"], as_dict=True)
+	if not plugin or plugin.status not in PUBLIC_STATUSES:
+		not_found()
+	publisher = get_publisher(plugin.publisher)
+	if not publisher or publisher.status != "Active":
+		not_found()
+	return plugin, publisher
 
 
-def _latest_release(plugin_name: str, protocol_version: int):
+def published_releases(plugin_name: str, protocol_version: int, fields) -> list:
+	"""Published releases the client can install, newest first."""
 	releases = frappe.get_all(
 		"Hub Plugin Release",
 		filters={
@@ -265,14 +225,14 @@ def _latest_release(plugin_name: str, protocol_version: int):
 			"status": "Published",
 			"protocol_version": ("<=", protocol_version),
 		},
-		fields=["version", "protocol_version", "package_size", "package_sha256", "published_on"],
+		fields=list(fields),
 		ignore_permissions=True,
 	)
-	return max(releases, key=lambda row: semver_key(row.version), default=None)
+	return sorted(releases, key=lambda row: semver_key(row.version), reverse=True)
 
 
-def _catalog_item(plugin, publisher, release, base_url: str, *, include_latest: bool = True) -> dict:
-	item = {
+def listing(plugin, publisher, base_url: str) -> dict:
+	return {
 		"name": plugin.plugin_name,
 		"label": plugin.label,
 		"description": plugin.description,
@@ -283,23 +243,21 @@ def _catalog_item(plugin, publisher, release, base_url: str, *, include_latest: 
 		},
 		"repository_url": plugin.repository_url,
 		"license": plugin.license,
-		"categories": _json(plugin.categories, []),
-		"icon": _absolute_url(plugin.icon, base_url),
+		"categories": parse_json_value(plugin.categories, []),
+		"icon": absolute_url(plugin.icon, base_url),
 		"status": plugin.status,
 		"replacement": plugin.replacement or None,
 	}
-	if include_latest:
-		item["latest_release"] = {
-			"version": release.version,
-			"protocol_version": release.protocol_version,
-			"package_size": release.package_size,
-			"package_sha256": release.package_sha256,
-			"published_on": _iso(release.published_on),
-		}
-	return item
 
 
-def _publisher(name: str):
+def release_summary(release) -> dict:
+	return {
+		**{fieldname: release[fieldname] for fieldname in RELEASE_SUMMARY_FIELDS},
+		"published_on": iso(release.published_on),
+	}
+
+
+def get_publisher(name: str):
 	return frappe.db.get_value(
 		"Hub Publisher",
 		name,
@@ -308,7 +266,7 @@ def _publisher(name: str):
 	)
 
 
-def _plugin_fields() -> list[str]:
+def plugin_fields() -> list[str]:
 	return [
 		"name",
 		"plugin_name",
@@ -324,40 +282,30 @@ def _plugin_fields() -> list[str]:
 	]
 
 
-def _protocol_version(value) -> int:
+def positive_integer(value, fieldname: str) -> int:
 	try:
 		value = int(value)
 	except (TypeError, ValueError):
-		frappe.throw(_("protocol_version must be a positive integer."))
+		value = 0
 	if value < 1 or value > 2_147_483_647:
-		frappe.throw(_("protocol_version must be a positive integer."))
+		frappe.throw(_("{0} must be a positive integer.").format(fieldname))
 	return value
 
 
-def _page(value) -> int:
-	try:
-		value = int(value)
-	except (TypeError, ValueError):
-		frappe.throw(_("page must be a positive integer."))
-	if value < 1:
-		frappe.throw(_("page must be a positive integer."))
-	return value
-
-
-def _validate_identity(plugin_name, version) -> None:
+def validate_identity(plugin_name, version) -> None:
 	if not isinstance(plugin_name, str) or not PLUGIN_NAME_PATTERN.fullmatch(plugin_name):
 		frappe.throw(_("Invalid plugin name."))
 	if not isinstance(version, str) or not SEMVER_PATTERN.fullmatch(version):
 		frappe.throw(_("Invalid release version."))
 
 
-def _absolute_url(path: str | None, base_url: str) -> str | None:
+def absolute_url(path: str | None, base_url: str) -> str | None:
 	if path and path.startswith("/"):
 		return base_url.rstrip("/") + path
 	return path
 
 
-def _iso(value) -> str | None:
+def iso(value) -> str | None:
 	if not value:
 		return None
 	date = get_datetime(value)
@@ -366,7 +314,7 @@ def _iso(value) -> str | None:
 	return date.astimezone(UTC).isoformat().replace("+00:00", "Z")
 
 
-def _json(value, default):
+def parse_json_value(value, default):
 	if value in (None, ""):
 		return default
 	if isinstance(value, str):
@@ -377,5 +325,5 @@ def _json(value, default):
 	return value
 
 
-def _not_found():
+def not_found():
 	frappe.throw(_("Plugin or release not found."), frappe.DoesNotExistError)

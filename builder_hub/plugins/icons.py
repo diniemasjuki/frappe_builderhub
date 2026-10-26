@@ -19,11 +19,11 @@ def store_catalog_icon(content: bytes) -> str:
 	if path.exists():
 		path.chmod(0o644)
 	else:
-		_write_icon(path, content)
+		write_icon(path, content)
 	return f"/files/plugin-icons/{filename}"
 
 
-def _write_icon(path: Path, content: bytes) -> None:
+def write_icon(path: Path, content: bytes) -> None:
 	with tempfile.NamedTemporaryFile(dir=path.parent, prefix=".plugin-icon-", delete=False) as output:
 		temporary = Path(output.name)
 		output.write(content)

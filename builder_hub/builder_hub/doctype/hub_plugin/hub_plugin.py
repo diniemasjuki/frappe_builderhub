@@ -7,6 +7,7 @@ from frappe import _
 from frappe.model.document import Document
 
 from builder_hub.plugins.protocol import PLUGIN_NAME_PATTERN
+from builder_hub.plugins.publishing import is_maintainer
 
 
 class HubPlugin(Document):
@@ -36,16 +37,9 @@ class HubPlugin(Document):
 			if (
 				before
 				and any(before.get(fieldname) != self.get(fieldname) for fieldname in protected)
-				and not _is_maintainer()
+				and not is_maintainer()
 			):
 				frappe.throw(_("A Builder Hub maintainer must review protected listing changes."))
 
 	def on_trash(self):
 		frappe.throw(_("Plugin records are permanent. Set the listing to Removed instead."))
-
-
-def _is_maintainer() -> bool:
-	roles = set(frappe.get_roles())
-	return frappe.session.user == "Administrator" or bool(
-		roles.intersection({"System Manager", "Builder Hub Maintainer"})
-	)

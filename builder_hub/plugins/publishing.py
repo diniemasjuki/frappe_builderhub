@@ -2,8 +2,8 @@
 
 from __future__ import annotations
 
-import os
 from dataclasses import dataclass
+from pathlib import Path
 
 import frappe
 from frappe import _
@@ -54,13 +54,13 @@ def import_release(
 	"""Idempotently validate and record one exact GitHub release."""
 	plugin = frappe.get_doc("Hub Plugin", plugin_name)
 	publisher = frappe.get_doc("Hub Publisher", plugin.publisher)
-	release = _get_or_create_release(plugin.name, version)
+	release = get_or_create_release(plugin.name, version)
 	if release.status in {"Published", "Yanked", "Blocked"}:
-		return _reuse_immutable_release(release, release_data)
+		return reuse_immutable_release(release, release_data)
 
 	client = client or GitHubClient()
 	try:
-		validated_import = _validate_release_import(
+		validated_import = validate_release_import(
 			plugin,
 			publisher,
 			release,
@@ -70,9 +70,9 @@ def import_release(
 			contract,
 			release_data,
 		)
-		return _store_validated_release(plugin, release, validated_import, first_release)
+		return store_validated_release(plugin, release, validated_import, first_release)
 	except ProtocolValidationError as error:
-		return _record_import_failure(release, error)
+		return record_import_failure(release, error)
 
 
 def validate_release_source(
@@ -86,9 +86,9 @@ def validate_release_source(
 ) -> ValidatedReleaseImport:
 	"""Validate one repository release without creating registry records."""
 	release_data = release_data or client.get_release(repository, version)
-	asset = _validate_release(release_data, plugin_name, version)
-	package = _download_and_validate_package(client, asset, plugin_name, version)
-	_validate_current_manifest(package, contract)
+	asset = validate_release(release_data, plugin_name, version)
+	package = download_and_validate_package(client, asset, plugin_name, version)
+	validate_current_manifest(package, contract)
 	return ValidatedReleaseImport(release_data, asset, package, contract)
 
 
@@ -100,20 +100,20 @@ def import_validated_release(
 ):
 	"""Store a release that was validated in the current request."""
 	plugin = frappe.get_doc("Hub Plugin", plugin_name)
-	release = _get_or_create_release(plugin.name, validated_import.package.manifest["version"])
+	release = get_or_create_release(plugin.name, validated_import.package.manifest["version"])
 	if release.status in {"Published", "Yanked", "Blocked"}:
 		return release
-	return _store_validated_release(plugin, release, validated_import, first_release)
+	return store_validated_release(plugin, release, validated_import, first_release)
 
 
-def _reuse_immutable_release(release, release_data: dict | None):
+def reuse_immutable_release(release, release_data: dict | None):
 	if release_data:
-		asset = _validate_release(release_data, release.plugin, release.version)
-		_assert_unchanged_asset(release, release_data, asset)
+		asset = validate_release(release_data, release.plugin, release.version)
+		assert_unchanged_asset(release, release_data, asset)
 	return release
 
 
-def _validate_release_import(
+def validate_release_import(
 	plugin,
 	publisher,
 	release,
@@ -138,43 +138,31 @@ def _validate_release_import(
 		version,
 		release_data=release_data,
 	)
-	_assert_unchanged_asset(release, validated_import.release_data, validated_import.asset)
+	assert_unchanged_asset(release, validated_import.release_data, validated_import.asset)
 	return validated_import
 
 
-def _store_validated_release(plugin, release, validated_import, first_release: bool):
-	_apply_validated_release(
-		release,
-		validated_import.release_data,
-		validated_import.asset,
-		validated_import.package,
-		validated_import.contract,
-		first_release,
-	)
+def store_validated_release(plugin, release, validated_import, first_release: bool):
+	apply_validated_release(release, validated_import, first_release)
 	if validated_import.package.icon_content:
 		icon_url = store_catalog_icon(validated_import.package.icon_content)
 		if plugin.icon != icon_url:
 			plugin.db_set("icon", icon_url, update_modified=False)
-	_update_listing_from_contract(plugin, validated_import.contract)
+	update_listing_from_contract(plugin, validated_import.contract)
 	return release.reload()
 
 
-def _download_and_validate_package(
+def download_and_validate_package(
 	client: GitHubClient, asset: dict, plugin_name: str, version: str
 ) -> ValidatedPackage:
-	temporary_path = client.download_asset(asset["browser_download_url"])
+	temporary_path = Path(client.download_asset(asset["browser_download_url"]))
 	try:
-		return validate_package(
-			temporary_path,
-			expected_name=plugin_name,
-			expected_version=version,
-		)
+		return validate_package(temporary_path, expected_name=plugin_name, expected_version=version)
 	finally:
-		if os.path.exists(temporary_path):
-			os.unlink(temporary_path)
+		temporary_path.unlink(missing_ok=True)
 
 
-def _validate_current_manifest(package: ValidatedPackage, contract: dict) -> None:
+def validate_current_manifest(package: ValidatedPackage, contract: dict) -> None:
 	if (
 		package.manifest["version"] == contract["manifest"]["version"]
 		and package.manifest != contract["manifest"]
@@ -184,9 +172,9 @@ def _validate_current_manifest(package: ValidatedPackage, contract: dict) -> Non
 		)
 
 
-def _record_import_failure(release, error: ProtocolValidationError):
+def record_import_failure(release, error: ProtocolValidationError):
 	transient = error.code in TRANSIENT_ERROR_CODES
-	_metric(_failure_metric(error.code, transient))
+	increment_metric(failure_metric(error.code, transient))
 	if not release.published_on:
 		release.status = "Validating" if transient else "Rejected"
 		release.validation_errors = frappe.as_json([error.as_dict()])
@@ -194,70 +182,70 @@ def _record_import_failure(release, error: ProtocolValidationError):
 	return release
 
 
-def _failure_metric(error_code: str, transient: bool) -> str:
+def failure_metric(error_code: str, transient: bool) -> str:
 	if error_code == "github_rate_limited":
 		return "github_rate_limits"
 	return "check_failures" if transient else "validation_failures"
 
 
 def approve_first_release(release_name: str) -> dict:
-	_require_maintainer()
+	require_maintainer()
 	release = frappe.get_doc("Hub Plugin Release", release_name)
 	plugin = frappe.get_doc("Hub Plugin", release.plugin)
 	if release.status != "Pending Review" or plugin.status != "Pending Review":
 		frappe.throw(_("Only a pending first release can be published."))
-	_set_status(plugin, "Published")
+	set_status(plugin, "Published")
 	release.published_on = now_datetime()
-	_set_status(release, "Published", save=True)
+	set_status(release, "Published", save=True)
 	clear_public_caches()
 	return {"plugin": plugin.name, "release": release.name, "status": "Published"}
 
 
 def reject_first_release(release_name: str, reason: str) -> dict:
-	_require_maintainer()
+	require_maintainer()
 	if not reason or not reason.strip():
 		frappe.throw(_("A rejection reason is required."))
 	release = frappe.get_doc("Hub Plugin Release", release_name)
 	if release.status != "Pending Review":
 		frappe.throw(_("Only a pending release can be rejected."))
 	release.validation_errors = frappe.as_json([{"code": "maintainer_rejected", "message": reason.strip()}])
-	_set_status(release, "Rejected", save=True)
+	set_status(release, "Rejected", save=True)
 	return {"release": release.name, "status": release.status}
 
 
 def yank_release(release_name: str) -> dict:
-	_require_maintainer()
+	require_maintainer()
 	release = frappe.get_doc("Hub Plugin Release", release_name)
 	if release.status != "Published":
 		frappe.throw(_("Only a published release can be yanked."))
-	_set_status(release, "Yanked", save=True)
+	set_status(release, "Yanked", save=True)
 	clear_public_caches()
 	return {"release": release.name, "status": release.status}
 
 
 def block_release(release_name: str) -> dict:
-	_require_maintainer()
+	require_maintainer()
 	release = frappe.get_doc("Hub Plugin Release", release_name)
-	_set_status(release, "Blocked", save=True)
+	set_status(release, "Blocked", save=True)
 	clear_public_caches()
 	return {"release": release.name, "status": release.status}
 
 
 def block_plugin(plugin_name: str) -> dict:
-	_require_maintainer()
+	require_maintainer()
 	plugin = frappe.get_doc("Hub Plugin", plugin_name)
-	_set_status(plugin, "Blocked")
+	set_status(plugin, "Blocked")
 	for release_name in frappe.get_all("Hub Plugin Release", filters={"plugin": plugin.name}, pluck="name"):
 		release = frappe.get_doc("Hub Plugin Release", release_name)
-		_set_status(release, "Blocked", save=True)
+		set_status(release, "Blocked", save=True)
 	clear_public_caches()
 	return {"plugin": plugin.name, "status": plugin.status}
 
 
 def block_publisher(publisher_id: str) -> dict:
-	_require_maintainer()
+	require_maintainer()
 	publisher = frappe.get_doc("Hub Publisher", publisher_id)
-	_set_status(publisher, "Blocked")
+	set_status(publisher, "Blocked")
 	for plugin_name in frappe.get_all("Hub Plugin", filters={"publisher": publisher.name}, pluck="name"):
 		block_plugin(plugin_name)
 	clear_public_caches()
@@ -265,7 +253,7 @@ def block_publisher(publisher_id: str) -> dict:
 
 
 def clear_public_caches() -> None:
-	frappe.cache.delete_keys("builder_hub.plugins.api._get_catalog")
+	frappe.cache.delete_keys("builder_hub.plugins.api.get_catalog_items")
 
 
 def is_maintainer() -> bool:
@@ -275,22 +263,20 @@ def is_maintainer() -> bool:
 	)
 
 
-def _apply_validated_release(
-	release,
-	release_data: dict,
-	asset: dict,
-	validated: ValidatedPackage,
-	contract: dict,
-	first_release: bool,
-) -> None:
-	release.protocol_version = validated.manifest["v"]
-	release.manifest = frappe.as_json(validated.manifest)
+def apply_validated_release(release, validated_import: ValidatedReleaseImport, first_release: bool) -> None:
+	release_data, asset, package = (
+		validated_import.release_data,
+		validated_import.asset,
+		validated_import.package,
+	)
+	release.protocol_version = package.manifest["v"]
+	release.manifest = frappe.as_json(package.manifest)
 	release.github_release_id = str(release_data["id"])
 	release.github_release_url = release_data["html_url"]
 	release.github_asset_id = str(asset["id"])
 	release.package_url = asset["browser_download_url"]
-	release.package_sha256 = validated.package_sha256
-	release.package_size = validated.package_size
+	release.package_sha256 = package.package_sha256
+	release.package_size = package.package_size
 	release.release_notes = release_data.get("body") or ""
 	release.validation_errors = frappe.as_json([])
 	if first_release:
@@ -308,7 +294,7 @@ def _apply_validated_release(
 		clear_public_caches()
 
 
-def _update_listing_from_contract(plugin, contract: dict) -> None:
+def update_listing_from_contract(plugin, contract: dict) -> None:
 	manifest = contract["manifest"]
 	plugin.label = manifest["label"]
 	plugin.description = manifest["description"]
@@ -316,7 +302,7 @@ def _update_listing_from_contract(plugin, contract: dict) -> None:
 	plugin.save(ignore_permissions=True)
 
 
-def _validate_release(release: dict, plugin_name: str, version: str) -> dict:
+def validate_release(release: dict, plugin_name: str, version: str) -> dict:
 	if release.get("tag_name") != version:
 		raise ProtocolValidationError(
 			"release_tag_mismatch", "GitHub release tag must exactly equal the SemVer version."
@@ -339,7 +325,7 @@ def _validate_release(release: dict, plugin_name: str, version: str) -> dict:
 	return asset
 
 
-def _assert_unchanged_asset(release, release_data: dict, asset: dict) -> None:
+def assert_unchanged_asset(release, release_data: dict, asset: dict) -> None:
 	if not release.github_asset_id:
 		return
 	values = {
@@ -354,7 +340,7 @@ def _assert_unchanged_asset(release, release_data: dict, asset: dict) -> None:
 			)
 
 
-def _get_or_create_release(plugin_name: str, version: str):
+def get_or_create_release(plugin_name: str, version: str):
 	name = f"{plugin_name}@{version}"
 	if frappe.db.exists("Hub Plugin Release", name):
 		release = frappe.get_doc("Hub Plugin Release", name)
@@ -374,7 +360,7 @@ def _get_or_create_release(plugin_name: str, version: str):
 	).insert(ignore_permissions=True)
 
 
-def _set_status(doc, status: str, *, save: bool = False) -> None:
+def set_status(doc, status: str, *, save: bool = False) -> None:
 	doc.status = status
 	if save:
 		doc.save(ignore_permissions=True)
@@ -382,12 +368,12 @@ def _set_status(doc, status: str, *, save: bool = False) -> None:
 		doc.db_set("status", status)
 
 
-def _require_maintainer() -> None:
+def require_maintainer() -> None:
 	if not is_maintainer():
 		frappe.throw(_("A Builder Hub maintainer must perform this action."), frappe.PermissionError)
 
 
-def _metric(name: str) -> None:
+def increment_metric(name: str) -> None:
 	try:
 		frappe.cache.incrby(f"builder_hub:plugins:metrics:{name}", 1)
 	except Exception:

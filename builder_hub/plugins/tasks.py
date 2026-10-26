@@ -5,12 +5,11 @@ from __future__ import annotations
 import hashlib
 
 import frappe
-from frappe import _
 from frappe.utils import now_datetime
 
 from builder_hub.plugins.github import GitHubClient, get_repository_contract, validate_repository
 from builder_hub.plugins.protocol import SEMVER_PATTERN, ProtocolValidationError, semver_key
-from builder_hub.plugins.publishing import import_release, is_maintainer
+from builder_hub.plugins.publishing import import_release, increment_metric, require_maintainer
 
 
 def check_releases() -> None:
@@ -41,7 +40,7 @@ def enqueue_repository_check(plugin_name: str, repository_id: str | None = None)
 
 def check_repository(plugin_name: str, *, client: GitHubClient | None = None) -> dict:
 	"""Check one stable repository ID and import every new declared release."""
-	_metric("checks")
+	increment_metric("checks")
 	plugin = frappe.get_doc("Hub Plugin", plugin_name)
 	if plugin.status not in {"Published", "Deprecated"}:
 		return {"plugin": plugin.name, "checked": False, "reason": "inactive_listing"}
@@ -58,22 +57,7 @@ def check_repository(plugin_name: str, *, client: GitHubClient | None = None) ->
 			plugin.db_set("last_checked_on", now_datetime(), update_modified=False)
 			return {"plugin": plugin.name, "checked": True, "unchanged": True, "imported": []}
 
-		contract = get_repository_contract(client, repository, plugin.license)
-		imported = []
-		for version, release_data in get_release_index(response.data or []).items():
-			existing_status = frappe.db.get_value("Hub Plugin Release", f"{plugin.name}@{version}", "status")
-			if existing_status in {"Published", "Pending Review", "Yanked", "Blocked"}:
-				continue
-			release = import_release(
-				plugin.name,
-				version,
-				client=client,
-				repository=repository,
-				contract=contract,
-				release_data=release_data,
-			)
-			imported.append({"version": version, "status": release.status})
-
+		imported = import_new_releases(plugin, client, repository, response.data or [])
 		# a stored ETag would turn the retry of a Validating release into a 304
 		needs_retry = any(item["status"] == "Validating" for item in imported)
 		plugin.db_set(
@@ -82,12 +66,31 @@ def check_repository(plugin_name: str, *, client: GitHubClient | None = None) ->
 		)
 		return {"plugin": plugin.name, "checked": True, "unchanged": False, "imported": imported}
 	except ProtocolValidationError as error:
-		_metric("github_rate_limits" if error.code == "github_rate_limited" else "check_failures")
+		increment_metric("github_rate_limits" if error.code == "github_rate_limited" else "check_failures")
 		plugin.db_set("last_checked_on", now_datetime(), update_modified=False)
 		frappe.logger("builder_hub.plugins").warning(
 			"Plugin release check failed for %s: %s (%s)", plugin.name, error.message, error.code
 		)
 		return {"plugin": plugin.name, "checked": False, "error": error.as_dict()}
+
+
+def import_new_releases(plugin, client: GitHubClient, repository: dict, releases: list[dict]) -> list[dict]:
+	contract = get_repository_contract(client, repository, plugin.license)
+	imported = []
+	for version, release_data in get_release_index(releases).items():
+		existing_status = frappe.db.get_value("Hub Plugin Release", f"{plugin.name}@{version}", "status")
+		if existing_status in {"Published", "Pending Review", "Yanked", "Blocked"}:
+			continue
+		release = import_release(
+			plugin.name,
+			version,
+			client=client,
+			repository=repository,
+			contract=contract,
+			release_data=release_data,
+		)
+		imported.append({"version": version, "status": release.status})
+	return imported
 
 
 def get_release_index(releases: list[dict]) -> dict[str, dict]:
@@ -104,15 +107,7 @@ def get_release_index(releases: list[dict]) -> dict[str, dict]:
 
 
 def request_release_check(plugin_name: str) -> dict:
-	if not is_maintainer():
-		frappe.throw(_("A Builder Hub maintainer must request a release check."), frappe.PermissionError)
+	require_maintainer()
 	plugin = frappe.get_doc("Hub Plugin", plugin_name)
 	enqueue_repository_check(plugin.name, plugin.github_repository_id)
 	return {"plugin": plugin.name, "queued": True}
-
-
-def _metric(name: str) -> None:
-	try:
-		frappe.cache.incrby(f"builder_hub:plugins:metrics:{name}", 1)
-	except Exception:
-		frappe.logger("builder_hub.plugins").debug("Could not increment plugin metric", exc_info=True)

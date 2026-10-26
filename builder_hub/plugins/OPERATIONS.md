@@ -1,6 +1,6 @@
 # Builder Hub plugin operations
 
-The site configuration key `builder_hub_github_token` should contain a fine-grained GitHub token with read-only access to public repository metadata and releases. The token is never returned by the API or sent to redirected asset hosts.
+The site configuration key `builder_hub_github_token` should contain a fine-grained GitHub token with read-only access to public repository metadata and releases. The token is never returned by the API or sent to redirected asset hosts. Outside developer mode, submissions and release checks fail until the token is set.
 
 ## Failed imports
 

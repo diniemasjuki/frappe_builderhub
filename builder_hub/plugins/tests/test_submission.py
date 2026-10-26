@@ -31,7 +31,7 @@ class PublicationClient:
 
 	def get_repository_file(self, repository: dict, path: str) -> bytes:
 		if path not in self.files:
-			raise ProtocolValidationError("github_not_found", "GitHub API request failed with HTTP 404.")
+			raise ProtocolValidationError("github_not_found", f"The repository has no {path} file.")
 		if isinstance(self.files[path], ProtocolValidationError):
 			raise self.files[path]
 		return self.files[path]
@@ -77,7 +77,7 @@ class PublicationRequestTests(IntegrationTestCase):
 			self._release(),
 			self.package,
 		)
-		api._get_catalog.clear_cache()
+		api.get_catalog_items.clear_cache()
 
 	def tearDown(self):
 		frappe.set_user("Administrator")
@@ -85,7 +85,7 @@ class PublicationRequestTests(IntegrationTestCase):
 		frappe.db.delete("Hub Plugin", self.plugin_name)
 		frappe.db.delete("Hub Publication Request", {"plugin_name": self.plugin_name})
 		frappe.db.delete("Hub Publisher", self.publisher_id)
-		api._get_catalog.clear_cache()
+		api.get_catalog_items.clear_cache()
 		self.temporary.cleanup()
 
 	def test_guest_request_and_admin_approval_publish_the_plugin(self):
@@ -123,6 +123,20 @@ class PublicationRequestTests(IntegrationTestCase):
 	def test_github_failure_is_not_read_as_a_missing_description(self):
 		self.client.files["DESCRIPTION.md"] = ProtocolValidationError(
 			"github_request_failed", "GitHub API request failed with HTTP 502."
+		)
+		frappe.set_user("Guest")
+		with self.assertRaisesRegex(frappe.ValidationError, "HTTP 502"):
+			request_publication(self.repository_url, client=self.client)
+
+	def test_missing_required_file_is_named(self):
+		del self.client.files["README.md"]
+		frappe.set_user("Guest")
+		with self.assertRaisesRegex(frappe.ValidationError, "no README.md file"):
+			request_publication(self.repository_url, client=self.client)
+
+	def test_github_failure_is_not_read_as_a_missing_required_file(self):
+		self.client.files["README.md"] = ProtocolValidationError(
+			"github_request_failed", "GitHub is unavailable (HTTP 502). Try again later."
 		)
 		frappe.set_user("Guest")
 		with self.assertRaisesRegex(frappe.ValidationError, "HTTP 502"):

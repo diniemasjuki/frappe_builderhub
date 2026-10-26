@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 from unittest.mock import patch
 
+import frappe
 from frappe.tests import UnitTestCase
 
 from builder_hub.plugins.github import GitHubClient
@@ -102,3 +103,38 @@ class GitHubClientTests(UnitTestCase):
 			client.get_repository("123")
 		self.assertEqual(raised.exception.code, "github_rate_limited")
 		self.assertTrue(response.closed)
+
+	def test_missing_repository_names_the_repository(self):
+		client = GitHubClient(token="secret", session=FakeSession(FakeResponse(status_code=404)))
+		with self.assertRaisesRegex(ProtocolValidationError, "acme/icons was not found"):
+			client.get_repository_by_name("acme", "icons")
+
+	def test_missing_release_names_the_tag(self):
+		client = GitHubClient(token="secret", session=FakeSession(FakeResponse(status_code=404)))
+		repository = {"owner": {"login": "acme"}, "name": "icons"}
+		with self.assertRaisesRegex(
+			ProtocolValidationError, "no published GitHub release with the tag 1.0.0"
+		):
+			client.get_release(repository, "1.0.0")
+
+	def test_secondary_rate_limit_without_token_explains_the_token(self):
+		with patch.dict(frappe.conf, {"developer_mode": 1}):
+			client = GitHubClient(token="", session=FakeSession(FakeResponse(status_code=429)))
+		with self.assertRaises(ProtocolValidationError) as raised:
+			client.get_repository("123")
+		self.assertEqual(raised.exception.code, "github_rate_limited")
+		self.assertIn("builder_hub_github_token", raised.exception.message)
+
+	def test_access_denied_is_not_reported_as_a_rate_limit(self):
+		client = GitHubClient(token="secret", session=FakeSession(FakeResponse(status_code=403)))
+		with self.assertRaisesRegex(ProtocolValidationError, "refused access") as raised:
+			client.get_repository("123")
+		self.assertEqual(raised.exception.code, "github_request_failed")
+
+	def test_missing_token_outside_developer_mode_is_refused(self):
+		with patch.dict(
+			frappe.conf, {"developer_mode": 0, "builder_hub_github_token": None, "github_token": None}
+		):
+			with self.assertRaises(ProtocolValidationError) as raised:
+				GitHubClient()
+		self.assertEqual(raised.exception.code, "github_token_missing")

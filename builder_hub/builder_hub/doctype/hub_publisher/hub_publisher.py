@@ -7,6 +7,8 @@ import frappe
 from frappe import _
 from frappe.model.document import Document
 
+from builder_hub.plugins.publishing import is_maintainer
+
 PUBLISHER_ID_PATTERN = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 
 
@@ -18,9 +20,9 @@ class HubPublisher(Document):
 			url = urlparse(self.website)
 			if url.scheme != "https" or not url.netloc or url.username or url.password:
 				frappe.throw(_("Publisher website must be a public HTTPS URL."))
-		self._validate_protected_changes()
+		self.validate_protected_changes()
 
-	def _validate_protected_changes(self):
+	def validate_protected_changes(self):
 		if self.is_new():
 			return
 		before = self.get_doc_before_save()
@@ -31,16 +33,9 @@ class HubPublisher(Document):
 		protected = ("github_owner", "github_account_id", "verified", "status")
 		if (
 			any(before.get(fieldname) != self.get(fieldname) for fieldname in protected)
-			and not _is_maintainer()
+			and not is_maintainer()
 		):
 			frappe.throw(_("A Builder Hub maintainer must review publisher ownership changes."))
 
 	def on_trash(self):
 		frappe.throw(_("Publisher records are permanent and cannot be deleted."))
-
-
-def _is_maintainer() -> bool:
-	roles = set(frappe.get_roles())
-	return frappe.session.user == "Administrator" or bool(
-		roles.intersection({"System Manager", "Builder Hub Maintainer"})
-	)
