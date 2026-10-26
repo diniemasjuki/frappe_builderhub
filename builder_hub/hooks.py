@@ -213,7 +213,6 @@ scheduler_events = {
 after_request = [
 	"builder_hub.api.allow_template_embedding",
 	"builder_hub.assets.set_asset_cache_headers",
-	"builder_hub.plugins.responses.set_plugin_icon_cache_headers",
 ]
 
 # Job Events

@@ -11,6 +11,7 @@ import stat
 import unicodedata
 import xml.etree.ElementTree as ET
 import zipfile
+import zlib
 from dataclasses import dataclass
 from pathlib import Path, PurePosixPath
 
@@ -60,7 +61,7 @@ def validate_package(
 			validate_package_files(entries, manifest.get("icon"))
 			validate_package_identity(manifest, expected_name, expected_version)
 			svgs = read_validated_svgs(archive, entries)
-	except zipfile.BadZipFile:
+	except zipfile.BadZipFile, zlib.error, NotImplementedError, EOFError:
 		raise ProtocolValidationError("invalid_zip", "The plugin package is not a valid ZIP file.")
 
 	return ValidatedPackage(manifest, package_sha256, package_size, svgs.get(manifest.get("icon")))

@@ -12,11 +12,7 @@ from frappe.tests import IntegrationTestCase
 
 from builder_hub.plugins import api
 from builder_hub.plugins.protocol import ProtocolValidationError, expected_package_name
-from builder_hub.plugins.submission import (
-	approve_publication_request,
-	reject_publication_request,
-	request_publication,
-)
+from builder_hub.plugins.submission import add_plugin, preview_plugin
 
 
 class PublicationClient:
@@ -66,13 +62,13 @@ class PublicationRequestTests(IntegrationTestCase):
 			archive.writestr("manifest.json", json.dumps(self.manifest))
 			archive.writestr("main.js", "export const ready = true;")
 		self.client = PublicationClient(
-			self._repository(),
+			self.github_repository(),
 			{
 				"manifest.json": json.dumps(self.manifest).encode(),
 				"README.md": b"README <script>untrusted()</script>",
 				"LICENSE": b"MIT License",
 			},
-			self._release(),
+			self.github_release(),
 			self.package,
 		)
 		api.get_catalog_items.clear_cache()
@@ -81,64 +77,31 @@ class PublicationRequestTests(IntegrationTestCase):
 		frappe.set_user("Administrator")
 		frappe.db.delete("Hub Plugin Release", {"plugin": self.plugin_name})
 		frappe.db.delete("Hub Plugin", self.plugin_name)
-		frappe.db.delete("Hub Publication Request", {"plugin_name": self.plugin_name})
 		frappe.db.delete("Hub Publisher", self.publisher_id)
 		api.get_catalog_items.clear_cache()
 		self.temporary.cleanup()
 
-	def test_guest_request_and_admin_approval_publish_the_plugin(self):
-		frappe.set_user("Guest")
-		result = request_publication(
-			self.repository_url,
-			["design"],
-			client=self.client,
+	def test_preview_checks_the_repository_without_creating_records(self):
+		summary = preview_plugin(self.repository_url, client=self.client)
+		self.assertEqual(
+			summary,
+			{"plugin_name": self.plugin_name, "version": "1.0.0", "publisher_id": self.publisher_id},
 		)
-		request = frappe.get_doc("Hub Publication Request", result["request"])
-		self.assertEqual(request.status, "Pending Review")
-		self.assertEqual(request.publisher_id, self.publisher_id)
-		self.assertEqual(request.publisher_name, self.publisher_id)
-		self.assertIn("<script>", request.readme)
 		self.assertFalse(frappe.db.exists("Hub Publisher", self.publisher_id))
 		self.assertFalse(frappe.db.exists("Hub Plugin", self.plugin_name))
 
-		frappe.set_user("Administrator")
-		approved = approve_publication_request(request.name, client=self.client)
-		self.assertEqual(approved["status"], "Published")
+	def test_add_publishes_the_plugin(self):
+		result = add_plugin(self.repository_url, client=self.client)
+		self.assertEqual(result["status"], "Published")
 		self.assertEqual(frappe.db.get_value("Hub Publisher", self.publisher_id, "status"), "Active")
 		self.assertEqual(frappe.db.get_value("Hub Plugin", self.plugin_name, "status"), "Published")
-		self.assertEqual(frappe.db.get_value("Hub Publication Request", request.name, "status"), "Approved")
 		catalog = api.get_catalog(1)
 		self.assertIn(self.plugin_name, [item["name"] for item in catalog["plugins"]])
 
-	def test_description_file_replaces_the_readme(self):
-		self.client.files["DESCRIPTION.md"] = b"Pick an icon."
-		frappe.set_user("Guest")
-		result = request_publication(self.repository_url, client=self.client)
-		self.assertEqual(
-			frappe.db.get_value("Hub Publication Request", result["request"], "readme"), "Pick an icon."
-		)
-
-	def test_resubmission_replaces_the_pending_request(self):
-		frappe.set_user("Guest")
-		first = request_publication(self.repository_url, client=self.client)
-		self.client.release = self._release()
-		second = request_publication(self.repository_url, client=self.client)
-		self.assertEqual(second["request"], first["request"])
-		self.assertEqual(
-			frappe.db.get_value("Hub Publication Request", first["request"], "github_release_id"),
-			str(self.client.release["id"]),
-		)
-		frappe.set_user("Administrator")
-		approve_publication_request(first["request"], client=self.client)
-
-	def test_approved_repository_cannot_be_submitted_again(self):
-		frappe.set_user("Guest")
-		result = request_publication(self.repository_url, client=self.client)
-		frappe.set_user("Administrator")
-		approve_publication_request(result["request"], client=self.client)
-		frappe.set_user("Guest")
+	def test_added_repository_cannot_be_added_again(self):
+		add_plugin(self.repository_url, client=self.client)
 		with self.assertRaisesRegex(frappe.ValidationError, "already"):
-			request_publication(self.repository_url, client=self.client)
+			preview_plugin(self.repository_url, client=self.client)
 
 	def test_existing_namespace_rejects_a_different_github_owner(self):
 		frappe.get_doc(
@@ -151,16 +114,13 @@ class PublicationRequestTests(IntegrationTestCase):
 				"status": "Active",
 			}
 		).insert(ignore_permissions=True)
-		frappe.set_user("Guest")
 		with self.assertRaisesRegex(frappe.ValidationError, "different GitHub account"):
-			request_publication(self.repository_url, client=self.client)
+			add_plugin(self.repository_url, client=self.client)
 
 	def test_new_publisher_must_use_repository_owner_namespace(self):
 		self.client.repository["owner"]["login"] = "actual-owner"
-		frappe.set_user("Guest")
-
 		with self.assertRaisesRegex(frappe.ValidationError, "actual-owner namespace"):
-			request_publication(self.repository_url, client=self.client)
+			add_plugin(self.repository_url, client=self.client)
 
 	def test_existing_github_account_keeps_its_publisher_namespace(self):
 		frappe.get_doc(
@@ -174,24 +134,17 @@ class PublicationRequestTests(IntegrationTestCase):
 			}
 		).insert(ignore_permissions=True)
 		self.client.repository["owner"]["login"] = "current-login"
+		summary = preview_plugin(self.repository_url, client=self.client)
+		self.assertEqual(summary["publisher_id"], self.publisher_id)
+
+	def test_only_a_maintainer_can_add_a_plugin(self):
 		frappe.set_user("Guest")
-
-		result = request_publication(self.repository_url, client=self.client)
-		request = frappe.get_doc("Hub Publication Request", result["request"])
-
-		self.assertEqual(request.publisher_id, self.publisher_id)
-		self.assertEqual(request.publisher_name, "Existing Publisher")
-
-	def test_only_a_maintainer_can_reject_a_request(self):
-		frappe.set_user("Guest")
-		result = request_publication(self.repository_url, client=self.client)
 		with self.assertRaises(frappe.PermissionError):
-			reject_publication_request(result["request"], "Not suitable.")
-		frappe.set_user("Administrator")
-		response = reject_publication_request(result["request"], "Not suitable.")
-		self.assertEqual(response["status"], "Rejected")
+			preview_plugin(self.repository_url, client=self.client)
+		with self.assertRaises(frappe.PermissionError):
+			add_plugin(self.repository_url, client=self.client)
 
-	def _repository(self) -> dict:
+	def github_repository(self) -> dict:
 		return {
 			"id": self.repository_id,
 			"name": "builder-plugin-icons",
@@ -204,7 +157,7 @@ class PublicationRequestTests(IntegrationTestCase):
 			"html_url": self.repository_url,
 		}
 
-	def _release(self) -> dict:
+	def github_release(self) -> dict:
 		package_name = expected_package_name(self.plugin_name, "1.0.0")
 		return {
 			"id": frappe.generate_hash(length=12),

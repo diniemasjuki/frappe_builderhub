@@ -146,6 +146,17 @@ class PackageTests(unittest.TestCase):
 		}
 		self.assert_code("unsafe_svg", self.package(files))
 
+	def test_rejects_an_unreadable_compression_method(self):
+		data = bytearray(self.package().read_bytes())
+		for signature, offset in ((b"PK\x03\x04", 8), (b"PK\x01\x02", 10)):
+			start = data.find(signature)
+			while start != -1:
+				data[start + offset : start + offset + 2] = (99).to_bytes(2, "little")
+				start = data.find(signature, start + 1)
+		path = Path(self.temporary.name) / "unreadable.builderplugin"
+		path.write_bytes(data)
+		self.assert_code("invalid_zip", path)
+
 	def test_rejects_traversal_absolute_windows_and_null_paths(self):
 		base = {"manifest.json": json.dumps(manifest(icon=None)), "main.js": ""}
 		for unsafe in ("../x.js", "/x.js", "C:\\x.js"):

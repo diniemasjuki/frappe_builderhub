@@ -7,7 +7,6 @@ from datetime import UTC
 
 import frappe
 from frappe import _
-from frappe.rate_limiter import rate_limit
 from frappe.utils import get_datetime, get_url
 from frappe.utils.caching import redis_cache
 
@@ -15,8 +14,6 @@ from builder_hub.plugins import publishing, submission, tasks
 from builder_hub.plugins.protocol import (
 	CATALOG_PAGE_SIZE,
 	PLUGIN_NAME_PATTERN,
-	PLUGINS_API_VERSION,
-	SCHEMA_VERSION,
 	SEMVER_PATTERN,
 	semver_key,
 )
@@ -26,21 +23,11 @@ RELEASE_SUMMARY_FIELDS = ("version", "protocol_version", "package_size", "packag
 
 
 @frappe.whitelist(allow_guest=True)
-def get_info() -> dict:
-	return {
-		"schema_version": SCHEMA_VERSION,
-		"name": "Builder Hub",
-		"plugins_api_version": PLUGINS_API_VERSION,
-	}
-
-
-@frappe.whitelist(allow_guest=True)
 def get_catalog(protocol_version: int | str = 1, page: int | str = 1) -> dict:
 	page = positive_integer(page, "page")
 	items = get_catalog_items(positive_integer(protocol_version, "protocol_version"), get_url())
 	start = (page - 1) * CATALOG_PAGE_SIZE
 	return {
-		"schema_version": SCHEMA_VERSION,
 		"plugins": items[start : start + CATALOG_PAGE_SIZE],
 		"page": page,
 		"total_count": len(items),
@@ -78,7 +65,6 @@ def get_plugin(name: str, protocol_version: int | str = 1) -> dict:
 		plugin.name, protocol_version, (*RELEASE_SUMMARY_FIELDS, "release_notes", "status")
 	)
 	return {
-		"schema_version": SCHEMA_VERSION,
 		"plugin": {**listing(plugin, publisher, get_url()), "readme": plugin.readme or ""},
 		"releases": [
 			{**release_summary(row), "release_notes": row.release_notes or "", "status": row.status}
@@ -98,7 +84,6 @@ def get_plugin_release(plugin_name: str, version: str) -> dict:
 	if release.status != "Published":
 		frappe.throw(_("This release is not available for installation."), frappe.PermissionError)
 	return {
-		"schema_version": SCHEMA_VERSION,
 		"release": {
 			"plugin_name": release.plugin,
 			"version": release.version,
@@ -122,7 +107,6 @@ def get_release_status(releases: list[dict] | str) -> dict:
 	if len(releases) > 100:
 		frappe.throw(_("At most 100 release identities can be checked at once."))
 	return {
-		"schema_version": SCHEMA_VERSION,
 		"releases": [get_release_identity_status(identity) for identity in releases],
 	}
 
@@ -150,23 +134,14 @@ def get_release_identity_status(identity) -> dict:
 	}
 
 
-@frappe.whitelist(allow_guest=True, methods=["POST"])
-@rate_limit(limit=5, seconds=60 * 60, methods="POST")
-def request_publication(
-	repository_url: str,
-	categories: list[str] | str | None = None,
-) -> dict:
-	return submission.request_publication(repository_url, categories)
+@frappe.whitelist(methods=["POST"])
+def preview_plugin(repository_url: str) -> dict:
+	return submission.preview_plugin(repository_url)
 
 
-@frappe.whitelist()
-def approve_publication_request(request_name: str, reason: str | None = None) -> dict:
-	return submission.approve_publication_request(request_name, reason)
-
-
-@frappe.whitelist()
-def reject_publication_request(request_name: str, reason: str) -> dict:
-	return submission.reject_publication_request(request_name, reason)
+@frappe.whitelist(methods=["POST"])
+def add_plugin(repository_url: str) -> dict:
+	return submission.add_plugin(repository_url)
 
 
 @frappe.whitelist()

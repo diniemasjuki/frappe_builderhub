@@ -5,8 +5,6 @@ from __future__ import annotations
 import re
 from collections.abc import Mapping
 
-PLUGINS_API_VERSION = 1
-SCHEMA_VERSION = 1
 PROTOCOL_VERSION = 1
 
 MAX_PACKAGE_SIZE = 10 * 1024 * 1024

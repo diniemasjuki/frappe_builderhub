@@ -7,7 +7,7 @@ import frappe
 from frappe.tests import IntegrationTestCase
 from frappe.utils import now_datetime
 
-from builder_hub.plugins import api
+from builder_hub.plugins import api, publishing
 
 
 class PluginAPIRecordTests(IntegrationTestCase):
@@ -43,9 +43,9 @@ class PluginAPIRecordTests(IntegrationTestCase):
 				"status": "Published",
 			}
 		).insert(ignore_permissions=True)
-		self.release_120 = self._release("1.2.0", 1)
-		self.release_1100 = self._release("1.10.0", 1)
-		self.release_protocol_2 = self._release("2.0.0", 2, manifest=None)
+		self.release_120 = self.insert_release("1.2.0", 1)
+		self.release_1100 = self.insert_release("1.10.0", 1)
+		self.release_protocol_2 = self.insert_release("2.0.0", 2, manifest=None)
 		api.get_catalog_items.clear_cache()
 
 	def tearDown(self):
@@ -55,7 +55,7 @@ class PluginAPIRecordTests(IntegrationTestCase):
 		frappe.db.delete("Hub Publisher", self.publisher_id)
 		api.get_catalog_items.clear_cache()
 
-	def _release(self, version, protocol_version, manifest="default"):
+	def insert_release(self, version, protocol_version, manifest="default"):
 		manifest_value = (
 			{
 				"v": 1,
@@ -87,11 +87,7 @@ class PluginAPIRecordTests(IntegrationTestCase):
 			}
 		).insert(ignore_permissions=True)
 
-	def test_info_and_catalog_shape_choose_latest_compatible_semver(self):
-		self.assertEqual(
-			api.get_info(),
-			{"schema_version": 1, "name": "Builder Hub", "plugins_api_version": 1},
-		)
+	def test_catalog_shape_chooses_latest_compatible_semver(self):
 		catalog = api.get_catalog(1)
 		item = next(item for item in catalog["plugins"] if item["name"] == self.plugin_name)
 		self.assertEqual(item["latest_release"]["version"], "1.10.0")
@@ -134,6 +130,13 @@ class PluginAPIRecordTests(IntegrationTestCase):
 		frappe.db.set_value("Hub Publisher", self.publisher_id, "status", "Blocked")
 		response = api.get_release_status([{"plugin_name": self.plugin_name, "version": "1.2.0"}])
 		self.assertEqual(response["releases"][0]["plugin_status"], "Blocked")
+
+	def test_block_ignores_a_stored_manifest_that_fails_current_checks(self):
+		self.release_120.db_set("manifest", frappe.as_json({"v": 1}))
+		publishing.block_plugin(self.plugin_name)
+		self.assertEqual(
+			frappe.db.get_value("Hub Plugin Release", self.release_120.name, "status"), "Blocked"
+		)
 
 	def test_published_release_metadata_is_immutable_but_status_can_change(self):
 		release = frappe.get_doc("Hub Plugin Release", self.release_120.name)

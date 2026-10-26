@@ -1,6 +1,6 @@
 # Builder Hub plugin operations
 
-The site configuration key `builder_hub_github_token` should contain a fine-grained GitHub token with read-only access to public repository metadata and releases. The token is never returned by the API or sent to redirected asset hosts. Outside developer mode, submissions and release checks fail until the token is set.
+The site configuration key `builder_hub_github_token` should contain a fine-grained GitHub token with read-only access to public repository metadata and releases. The token is never returned by the API or sent to redirected asset hosts. Outside developer mode, adding plugins and release checks fail until the token is set.
 
 ## Failed imports
 
@@ -16,8 +16,8 @@ The Redis counters under `builder_hub:plugins:metrics:*` track checks, check fai
 ## Emergency stops
 
 - Yank a release when it must not be offered for new installs or updates but existing local copies may keep running.
-- Block a release when Builder must stop that exact installed version after its next status check.
+- Block a release to stop new installs and updates of that version. Builder does not remove a copy that is already installed.
 - Block a listing when every release is unsafe.
 - Block a publisher when every owned listing is unsafe.
 
-Each action requires a Builder Hub maintainer. The record's document history shows each status change. Never delete a published release. After a stop, verify it with `get_release_status`; catalog caches are cleared by the state-change action.
+Each action requires a Builder Hub maintainer. Never delete a published release. After a stop, verify it with `get_release_status`; catalog caches are cleared by the state-change action.

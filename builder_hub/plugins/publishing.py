@@ -218,7 +218,7 @@ def yank_release(release_name: str) -> dict:
 	release = frappe.get_doc("Hub Plugin Release", release_name)
 	if release.status != "Published":
 		frappe.throw(_("Only a published release can be yanked."))
-	set_status(release, "Yanked", save=True)
+	set_status(release, "Yanked")
 	clear_public_caches()
 	return {"release": release.name, "status": release.status}
 
@@ -226,7 +226,7 @@ def yank_release(release_name: str) -> dict:
 def block_release(release_name: str) -> dict:
 	require_maintainer()
 	release = frappe.get_doc("Hub Plugin Release", release_name)
-	set_status(release, "Blocked", save=True)
+	set_status(release, "Blocked")
 	clear_public_caches()
 	return {"release": release.name, "status": release.status}
 
@@ -235,9 +235,7 @@ def block_plugin(plugin_name: str) -> dict:
 	require_maintainer()
 	plugin = frappe.get_doc("Hub Plugin", plugin_name)
 	set_status(plugin, "Blocked")
-	for release_name in frappe.get_all("Hub Plugin Release", filters={"plugin": plugin.name}, pluck="name"):
-		release = frappe.get_doc("Hub Plugin Release", release_name)
-		set_status(release, "Blocked", save=True)
+	frappe.db.set_value("Hub Plugin Release", {"plugin": plugin.name}, "status", "Blocked")
 	clear_public_caches()
 	return {"plugin": plugin.name, "status": plugin.status}
 
