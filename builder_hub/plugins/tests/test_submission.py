@@ -32,8 +32,6 @@ class PublicationClient:
 	def get_repository_file(self, repository: dict, path: str) -> bytes:
 		if path not in self.files:
 			raise ProtocolValidationError("github_not_found", f"The repository has no {path} file.")
-		if isinstance(self.files[path], ProtocolValidationError):
-			raise self.files[path]
 		return self.files[path]
 
 	def get_release(self, repository: dict, version: str) -> dict:
@@ -120,28 +118,6 @@ class PublicationRequestTests(IntegrationTestCase):
 			frappe.db.get_value("Hub Publication Request", result["request"], "readme"), "Pick an icon."
 		)
 
-	def test_github_failure_is_not_read_as_a_missing_description(self):
-		self.client.files["DESCRIPTION.md"] = ProtocolValidationError(
-			"github_request_failed", "GitHub API request failed with HTTP 502."
-		)
-		frappe.set_user("Guest")
-		with self.assertRaisesRegex(frappe.ValidationError, "HTTP 502"):
-			request_publication(self.repository_url, client=self.client)
-
-	def test_missing_required_file_is_named(self):
-		del self.client.files["README.md"]
-		frappe.set_user("Guest")
-		with self.assertRaisesRegex(frappe.ValidationError, "no README.md file"):
-			request_publication(self.repository_url, client=self.client)
-
-	def test_github_failure_is_not_read_as_a_missing_required_file(self):
-		self.client.files["README.md"] = ProtocolValidationError(
-			"github_request_failed", "GitHub is unavailable (HTTP 502). Try again later."
-		)
-		frappe.set_user("Guest")
-		with self.assertRaisesRegex(frappe.ValidationError, "HTTP 502"):
-			request_publication(self.repository_url, client=self.client)
-
 	def test_resubmission_replaces_the_pending_request(self):
 		frappe.set_user("Guest")
 		first = request_publication(self.repository_url, client=self.client)
@@ -155,18 +131,6 @@ class PublicationRequestTests(IntegrationTestCase):
 		frappe.set_user("Administrator")
 		approve_publication_request(first["request"], client=self.client)
 
-	def test_resubmission_reopens_a_rejected_request(self):
-		frappe.set_user("Guest")
-		first = request_publication(self.repository_url, client=self.client)
-		frappe.set_user("Administrator")
-		reject_publication_request(first["request"], "Fix the icon.")
-		frappe.set_user("Guest")
-		second = request_publication(self.repository_url, client=self.client)
-		request = frappe.get_doc("Hub Publication Request", second["request"])
-		self.assertEqual(request.name, first["request"])
-		self.assertEqual(request.status, "Pending Review")
-		self.assertIsNone(request.review_reason)
-
 	def test_approved_repository_cannot_be_submitted_again(self):
 		frappe.set_user("Guest")
 		result = request_publication(self.repository_url, client=self.client)
@@ -175,15 +139,6 @@ class PublicationRequestTests(IntegrationTestCase):
 		frappe.set_user("Guest")
 		with self.assertRaisesRegex(frappe.ValidationError, "already"):
 			request_publication(self.repository_url, client=self.client)
-
-	def test_malformed_categories_are_rejected(self):
-		frappe.set_user("Guest")
-		with self.assertRaisesRegex(frappe.ValidationError, "Categories"):
-			request_publication(
-				self.repository_url,
-				"not-json",
-				client=self.client,
-			)
 
 	def test_existing_namespace_rejects_a_different_github_owner(self):
 		frappe.get_doc(

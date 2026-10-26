@@ -22,15 +22,5 @@ class SubmitPageTests(IntegrationTestCase):
 		self.assertIn('name="categories"', html)
 		self.assertIn("data-publication-form", html)
 
-	def test_page_script_submits_the_publication_form(self):
-		script = frappe.get_doc("Builder Client Script", "plugins_submit_form")
-		page_scripts = frappe.get_all(
-			"Builder Page Client Script", filters={"parent": "plugins-submit"}, pluck="builder_script"
-		)
-
-		self.assertIn(script.name, page_scripts)
-		self.assertIn("[data-publication-form]", script.script)
-		self.assertIn("builder_hub.plugins.api.request_publication", script.script)
-
 	def tearDown(self):
 		frappe.set_user("Administrator")

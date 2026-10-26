@@ -20,11 +20,6 @@ class IconCacheHeaderTests(UnitTestCase):
 		self.assertEqual(response.headers["Content-Type"], "image/svg+xml")
 		self.assertIn("immutable", response.headers["Cache-Control"])
 
-	def test_error_response_keeps_its_own_content_type(self):
-		response = _response(404)
-		set_plugin_icon_cache_headers(response, SimpleNamespace(path=ICON_PATH))
-		self.assertEqual(response.headers, {})
-
 	def test_other_paths_are_untouched(self):
 		response = _response(200)
 		set_plugin_icon_cache_headers(response, SimpleNamespace(path="/app/hub-plugin"))

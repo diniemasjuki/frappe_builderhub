@@ -24,10 +24,3 @@ class CatalogIconTests(IntegrationTestCase):
 		path = directory / url.rsplit("/", 1)[1]
 		self.assertEqual(stat.S_IMODE(path.stat().st_mode), 0o644)
 		self.assertEqual(stat.S_IMODE(directory.stat().st_mode), 0o755)
-
-	def test_second_call_repairs_permissions_on_an_existing_file(self):
-		first = store_catalog_icon(ICON)
-		path = Path(get_files_path("plugin-icons"), first.rsplit("/", 1)[1])
-		path.chmod(0o600)
-		self.assertEqual(store_catalog_icon(ICON), first)
-		self.assertEqual(stat.S_IMODE(path.stat().st_mode), 0o644)

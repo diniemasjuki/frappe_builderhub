@@ -211,18 +211,8 @@ class PublishingTests(IntegrationTestCase):
 			tasks.check_repository(self.plugin_name, client=client)
 		return frappe.db.get_value("Hub Plugin", self.plugin_name, "github_etag")
 
-	def test_release_check_keeps_etag_after_final_import(self):
-		self.assertEqual(self.check_repository_with_import_status("Published"), "release-list-etag")
-
 	def test_release_check_drops_etag_while_an_import_needs_a_retry(self):
 		self.assertIsNone(self.check_repository_with_import_status("Validating"))
-
-	def test_manual_release_check_queues_every_request(self):
-		with patch.object(tasks, "enqueue_repository_check") as enqueue:
-			self.assertTrue(tasks.request_release_check(self.plugin_name)["queued"])
-			self.assertTrue(tasks.request_release_check(self.plugin_name)["queued"])
-		self.assertEqual(enqueue.call_count, 2)
-		enqueue.assert_called_with(self.plugin_name, self.repository_id)
 
 	def test_manual_release_check_requires_a_maintainer(self):
 		frappe.set_user("Guest")

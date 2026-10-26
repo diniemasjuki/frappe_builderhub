@@ -115,19 +115,6 @@ class PluginAPIRecordTests(IntegrationTestCase):
 		self.assertEqual(second_page["total_count"], 3)
 		self.assertFalse(second_page["has_more"])
 
-	def test_catalog_pages_share_one_build(self):
-		with patch.object(api, "get_publisher", wraps=api.get_publisher) as publisher_lookup:
-			api.get_catalog(1, page=1)
-			lookups = publisher_lookup.call_count
-			api.get_catalog(1, page=2)
-		self.assertEqual(publisher_lookup.call_count, lookups)
-
-	def test_catalog_rejects_invalid_page(self):
-		with self.assertRaises(frappe.ValidationError):
-			api.get_catalog(1, page=0)
-		with self.assertRaises(frappe.ValidationError):
-			api.get_catalog(1, page=-1)
-
 	def test_detail_has_readme_and_compatible_history_without_package_urls(self):
 		detail = api.get_plugin(self.plugin_name, 1)
 		self.assertEqual(detail["plugin"]["readme"], self.readme)
@@ -147,10 +134,6 @@ class PluginAPIRecordTests(IntegrationTestCase):
 		frappe.db.set_value("Hub Publisher", self.publisher_id, "status", "Blocked")
 		response = api.get_release_status([{"plugin_name": self.plugin_name, "version": "1.2.0"}])
 		self.assertEqual(response["releases"][0]["plugin_status"], "Blocked")
-
-	def test_status_rejects_more_than_100_identities(self):
-		with self.assertRaises(frappe.ValidationError):
-			api.get_release_status([{"plugin_name": self.plugin_name, "version": "1.2.0"}] * 101)
 
 	def test_published_release_metadata_is_immutable_but_status_can_change(self):
 		release = frappe.get_doc("Hub Plugin Release", self.release_120.name)

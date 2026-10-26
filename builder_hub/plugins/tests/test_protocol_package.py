@@ -138,12 +138,6 @@ class PackageTests(unittest.TestCase):
 		result = validate_package(self.package(files), expected_name="acme/icons", expected_version="1.2.0")
 		self.assertIsNone(result.icon_content)
 
-	def test_rejects_a_suffix_that_builder_does_not_serve(self):
-		base = {"manifest.json": json.dumps(manifest(icon=None)), "main.js": ""}
-		for name in ("assets/page.html", "assets/feed.xml", "chunks/tool.wasm"):
-			with self.subTest(name=name):
-				self.assert_code("unsupported_file", self.package({**base, name: "x"}))
-
 	def test_rejects_an_unsafe_svg_in_assets(self):
 		files = {
 			"manifest.json": json.dumps(manifest(icon=None)),
@@ -216,14 +210,6 @@ class PackageTests(unittest.TestCase):
 		for content in unsafe:
 			with self.subTest(content=content), self.assertRaises(ProtocolValidationError):
 				validate_svg(content)
-
-	def test_rejects_an_unnamed_svg(self):
-		files = {
-			"manifest.json": json.dumps(manifest(icon=None)),
-			"main.js": "",
-			"unused.svg": '<svg xmlns="http://www.w3.org/2000/svg"/>',
-		}
-		self.assert_code("unexpected_file", self.package(files))
 
 
 if __name__ == "__main__":

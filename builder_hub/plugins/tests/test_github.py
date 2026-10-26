@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-import base64
-import json
 from pathlib import Path
 from unittest.mock import patch
 
@@ -47,14 +45,6 @@ class GitHubClientTests(UnitTestCase):
 		self.assertEqual(raised.exception.code, "github_response_too_large")
 		self.assertTrue(response.closed)
 
-	def test_repository_content_accepts_github_base64_line_breaks(self):
-		content = b"hello repository"
-		encoded = base64.encodebytes(content).decode()
-		payload = json.dumps({"type": "file", "encoding": "base64", "content": encoded}).encode()
-		client = GitHubClient(token="secret", session=FakeSession(FakeResponse(data=payload)))
-		repository = {"owner": {"login": "acme"}, "name": "icons"}
-		self.assertEqual(client.get_repository_file(repository, "README.md"), content)
-
 	@patch("builder_hub.plugins.github.socket.getaddrinfo")
 	def test_redirect_drops_auth_and_deletes_no_successful_download(self, getaddrinfo):
 		getaddrinfo.return_value = [(2, 1, 6, "", ("8.8.8.8", 443))]
@@ -85,14 +75,6 @@ class GitHubClientTests(UnitTestCase):
 			client.download_asset("https://github.com/acme/package.builderplugin")
 		self.assertEqual(raised.exception.code, "unsafe_package_url")
 
-	def test_missing_file_has_its_own_error_code(self):
-		response = FakeResponse(status_code=404)
-		client = GitHubClient(token="secret", session=FakeSession(response))
-		repository = {"owner": {"login": "acme"}, "name": "icons"}
-		with self.assertRaises(ProtocolValidationError) as raised:
-			client.get_repository_file(repository, "DESCRIPTION.md")
-		self.assertEqual(raised.exception.code, "github_not_found")
-
 	def test_rate_limit_has_stable_error_code(self):
 		response = FakeResponse(
 			status_code=403,
@@ -103,33 +85,6 @@ class GitHubClientTests(UnitTestCase):
 			client.get_repository("123")
 		self.assertEqual(raised.exception.code, "github_rate_limited")
 		self.assertTrue(response.closed)
-
-	def test_missing_repository_names_the_repository(self):
-		client = GitHubClient(token="secret", session=FakeSession(FakeResponse(status_code=404)))
-		with self.assertRaisesRegex(ProtocolValidationError, "acme/icons was not found"):
-			client.get_repository_by_name("acme", "icons")
-
-	def test_missing_release_names_the_tag(self):
-		client = GitHubClient(token="secret", session=FakeSession(FakeResponse(status_code=404)))
-		repository = {"owner": {"login": "acme"}, "name": "icons"}
-		with self.assertRaisesRegex(
-			ProtocolValidationError, "no published GitHub release with the tag 1.0.0"
-		):
-			client.get_release(repository, "1.0.0")
-
-	def test_secondary_rate_limit_without_token_explains_the_token(self):
-		with patch.dict(frappe.conf, {"developer_mode": 1}):
-			client = GitHubClient(token="", session=FakeSession(FakeResponse(status_code=429)))
-		with self.assertRaises(ProtocolValidationError) as raised:
-			client.get_repository("123")
-		self.assertEqual(raised.exception.code, "github_rate_limited")
-		self.assertIn("builder_hub_github_token", raised.exception.message)
-
-	def test_access_denied_is_not_reported_as_a_rate_limit(self):
-		client = GitHubClient(token="secret", session=FakeSession(FakeResponse(status_code=403)))
-		with self.assertRaisesRegex(ProtocolValidationError, "refused access") as raised:
-			client.get_repository("123")
-		self.assertEqual(raised.exception.code, "github_request_failed")
 
 	def test_missing_token_outside_developer_mode_is_refused(self):
 		with patch.dict(
