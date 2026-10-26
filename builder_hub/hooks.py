@@ -166,6 +166,9 @@ after_migrate = "builder_hub.install.after_migrate"
 # 		"builder_hub.tasks.monthly"
 # 	],
 # }
+scheduler_events = {
+	"hourly": ["builder_hub.plugins.tasks.check_releases"],
+}
 
 # Testing
 # -------
@@ -262,4 +265,3 @@ require_type_annotated_api_methods = True
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
-
