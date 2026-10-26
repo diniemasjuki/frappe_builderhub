@@ -28,6 +28,8 @@ class PublicationClient:
 	def get_repository_file(self, repository: dict, path: str) -> bytes:
 		if path not in self.files:
 			raise ProtocolValidationError("github_not_found", f"The repository has no {path} file.")
+		if isinstance(self.files[path], ProtocolValidationError):
+			raise self.files[path]
 		return self.files[path]
 
 	def get_release(self, repository: dict, version: str) -> dict:
@@ -97,6 +99,18 @@ class PublicationRequestTests(IntegrationTestCase):
 		self.assertEqual(frappe.db.get_value("Hub Plugin", self.plugin_name, "status"), "Published")
 		catalog = api.get_catalog(1)
 		self.assertIn(self.plugin_name, [item["name"] for item in catalog["plugins"]])
+
+	def test_missing_required_file_is_named(self):
+		del self.client.files["README.md"]
+		with self.assertRaisesRegex(frappe.ValidationError, "no README.md file"):
+			preview_plugin(self.repository_url, client=self.client)
+
+	def test_github_failure_is_not_read_as_a_missing_required_file(self):
+		self.client.files["README.md"] = ProtocolValidationError(
+			"github_request_failed", "GitHub is unavailable (HTTP 502). Try again later."
+		)
+		with self.assertRaisesRegex(frappe.ValidationError, "HTTP 502"):
+			preview_plugin(self.repository_url, client=self.client)
 
 	def test_added_repository_cannot_be_added_again(self):
 		add_plugin(self.repository_url, client=self.client)

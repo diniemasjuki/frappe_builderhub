@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import base64
+import json
 from pathlib import Path
 from unittest.mock import patch
 
@@ -44,6 +46,14 @@ class GitHubClientTests(UnitTestCase):
 			client.get_repository("123")
 		self.assertEqual(raised.exception.code, "github_response_too_large")
 		self.assertTrue(response.closed)
+
+	def test_repository_content_accepts_github_base64_line_breaks(self):
+		content = b"hello repository"
+		encoded = base64.encodebytes(content).decode()
+		payload = json.dumps({"type": "file", "encoding": "base64", "content": encoded}).encode()
+		client = GitHubClient(token="secret", session=FakeSession(FakeResponse(data=payload)))
+		repository = {"owner": {"login": "acme"}, "name": "icons"}
+		self.assertEqual(client.get_repository_file(repository, "README.md"), content)
 
 	@patch("builder_hub.plugins.github.socket.getaddrinfo")
 	def test_redirect_drops_auth_and_deletes_no_successful_download(self, getaddrinfo):
